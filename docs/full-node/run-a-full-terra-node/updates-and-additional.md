@@ -9,8 +9,8 @@ These instructions are for full nodes running previous testnets that would like 
 Remove the outdated files and reset data:
 
 ```bash
-rm ~/.terra/config/genesis.json
-rm ~/.terra/config/addrbook.json
+rm ~/.daodiseo/config/genesis.json
+rm ~/.daodiseo/config/addrbook.json
 terrad unsafe-reset-all
 ```
 
@@ -33,7 +33,7 @@ make
 If you have issues at this step, please check that you have a compatible version of GO installed (v1.16.1-go1.17.1).
 :::
 
-The previous command uses `master` as it contains the latest stable release. See the [testnet repo](https://github.com/terra-money/testnet) for details on which version is needed for which testnet, and the [Terra Core release page](https://github.com/terra-money/core/releases) for details on each release.
+The previous command uses `master` as it contains the latest stable release. See the [testnet repo](https://github.com/daodiseomoney/testnet) for details on which version is needed for which testnet, and the [Daodiseo Core release page](https://github.com/daodiseomoney/core/releases) for details on each release.
 
 Your full node is now cleanly upgraded!
 
@@ -98,6 +98,6 @@ persistent_peers = "id100000000000000000000000000000000@1.2.3.4:26656,id20000000
 ```
 ### Rosetta
 
-Integrate Terra with Coinbase via the Rosetta API. Rosetta is an open-source API that organizes blockchain data into a standardized format, making it easy for developers to build cross-chain applications. Instead of creating specific code for each chain, Rosetta allows different blockchains to integrate into any exchange that uses Rosetta API.
+Integrate Daodiseo with Coinbase via the Rosetta API. Rosetta is an open-source API that organizes blockchain data into a standardized format, making it easy for developers to build cross-chain applications. Instead of creating specific code for each chain, Rosetta allows different blockchains to integrate into any exchange that uses Rosetta API.
 
 For more information, visit the [Rosetta docs site](https://www.rosetta-api.org/docs/welcome.html).

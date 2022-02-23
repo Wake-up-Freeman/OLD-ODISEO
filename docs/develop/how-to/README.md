@@ -1,8 +1,8 @@
 # Guides
 
-Use these guides to learn about using and installing [`terrad`](terrad/README.md), the command line interface and node daemon for the Terra network, and [LocalTerra](localterra/README.md), a local testing environment.
+Use these guides to learn about using and installing [`daodiseod`](daodiseod/README.md), the command line interface and node daemon for the Daodiseo network, and [LocalDaodiseo](localdaodiseo/README.md), a local testing environment.
 
-If this is your first time building on Terra and you want to set up your environment, use the [quickstart guide](../dapp/quick-start/README.md).
+If this is your first time building on Daodiseo and you want to set up your environment, use the [quickstart guide](../dapp/quick-start/README.md).
 
 ```{toctree}
 :hidden:
@@ -16,18 +16,18 @@ start-lcd
 :gutter: 3
 
 :::{grid-item-card}
-:link: terrad/README.html
+:link: daodiseod/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Terrad.svg
+```{image} /img/Daodiseod.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **`terrad`**  
 :::
 
 :::{grid-item-card}
-:link: localterra/README.html
+:link: localdaodiseo/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalTerra.svg
+```{image} /img/LocalDaodiseo.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **LocalTerra**  
@@ -70,18 +70,18 @@ start-lcd
 :::
 
 :::{grid-item-card}
-:link: ../sdks/terra-js/README.html
+:link: ../sdks/daodiseo-js/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_js.svg
+```{image} /img/daodiseo_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.js**  
 :::
 
 :::{grid-item-card}
-:link: https://terra-money.github.io/terra.py/
+:link: https://daodiseomoney.github.io/daodiseo.py/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_sdk.svg
+```{image} /img/daodiseo_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.py**  
@@ -89,7 +89,7 @@ start-lcd
 
 
 :::{grid-item-card}
-:link: https://faucet.terra.money/
+:link: https://faucet.daodiseo.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Faucet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

@@ -6,14 +6,14 @@ The following code example shows how to initialize the LCDClient. The rest of th
 
 ```ts
 import fetch from 'isomorphic-fetch';
-import { MsgSend, MnemonicKey, Coins, LCDClient } from '@terra-money/terra.js';
+import { MsgSend, MnemonicKey, Coins, LCDClient } from '@daodiseomoney/daodiseo.js';
 
 // Fetch gas prices and convert to `Coin` format.
-const gasPrices = await (await fetch('https://bombay-fcd.terra.dev/v1/txs/gas_prices')).json();
+const gasPrices = await (await fetch('https://bombay-fcd.daodiseo.dev/v1/txs/gas_prices')).json();
 const gasPricesCoins = new Coins(gasPrices);
 
 const lcd = new LCDClient({
-  URL: "https://bombay-lcd.terra.dev/",
+  URL: "https://bombay-lcd.daodiseo.dev/",
   chainID: "bombay-12",
   gasPrices: gasPricesCoins,
   gasAdjustment: "1.5",
@@ -26,7 +26,7 @@ const lcd = new LCDClient({
 The following code example shows how to send native tokens:
 
 ```ts
-import { LCDClient, MnemonicKey, MsgSend } from "@terra-money/terra.js";
+import { LCDClient, MnemonicKey, MsgSend } from "@daodiseomoney/daodiseo.js";
 
 // const lcd = new LCDClient(...);
 
@@ -39,7 +39,7 @@ const wallet = lcd.wallet(mk);
 // Transfer 1 Luna.
 const send = new MsgSend(
   wallet.key.accAddress,
-  "terra1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8",
+  "daodiseo1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8",
   { uluna: "1000000" }
 );
 
@@ -58,7 +58,7 @@ import {
   LCDClient,
   MnemonicKey,
   MsgExecuteContract,
-} from "@terra-money/terra.js";
+} from "@daodiseomoney/daodiseo.js";
 
 // const lcd = new LCDClient(...);
 
@@ -71,7 +71,7 @@ const wallet = lcd.wallet(mk);
 // Transfer 1 ANC.
 const cw20Send = new MsgExecuteContract(
   wallet.key.accAddress,
-  "terra14z56l0fp2lsf86zy3hty2z47ezkhnthtr9yq76", // ANC token address.
+  "daodiseo14z56l0fp2lsf86zy3hty2z47ezkhnthtr9yq76", // ANC token address.
   {
     transfer: {
       amount: "1000000",
@@ -88,7 +88,7 @@ console.log(result);
 
 ## Swaping using the market module
 
-The following code example shows how to swap native Terra assets using the market module: 
+The following code example shows how to swap native Daodiseo assets using the market module: 
 
 ```ts
 import {
@@ -96,7 +96,7 @@ import {
   MnemonicKey,
   MsgSwap,
   Coin,
-} from "@terra-money/terra.js";
+} from "@daodiseomoney/daodiseo.js";
 
 // const lcd = new LCDClient(...);
 
@@ -119,9 +119,9 @@ const result = await lcd.tx.broadcast(tx);
 console.log(result);
 ```
 
-## Swapping a native Terra asset for a CW20 token using Terraswap
+## Swapping a native Daodiseo asset for a CW20 token using Daodiseoswap
 
-The following code example shows how to swap a native asset for CW20 using Terraswap.
+The following code example shows how to swap a native asset for CW20 using Daodiseoswap.
 
 Run this example on mainnet.
 
@@ -131,7 +131,7 @@ import {
   MnemonicKey,
   Coins,
   LCDClient,
-} from "@terra-money/terra.js";
+} from "@daodiseomoney/daodiseo.js";
 
 // const lcd = new LCDClient(...);
 
@@ -142,7 +142,7 @@ const mk = new MnemonicKey({
 const wallet = lcd.wallet(mk);
 
 // UST <> SCRT
-const pool = "terra1tq4mammgkqrxrmcfhwdz59mwvwf4qgy6rdrt46";
+const pool = "daodiseo1tq4mammgkqrxrmcfhwdz59mwvwf4qgy6rdrt46";
 
 // Fetch the number of each asset in the pool.
 const { assets } = await lcd.wasm.contractQuery(pool, { pool: {} });
@@ -151,7 +151,7 @@ const { assets } = await lcd.wasm.contractQuery(pool, { pool: {} });
 const beliefPrice = (assets[0].amount / assets[1].amount).toFixed(18);
 
 // Swap 1 UST to SCRT with 1% slippage tolerance.
-const terraSwap = new MsgExecuteContract(
+const daodiseoSwap = new MsgExecuteContract(
   wallet.key.accAddress,
   pool, 
   {
@@ -171,7 +171,7 @@ const terraSwap = new MsgExecuteContract(
   new Coins({ uusd: '1000000' }),
 );
 
-const tx = await wallet.createAndSignTx({ msgs: [terraSwap] });
+const tx = await wallet.createAndSignTx({ msgs: [daodiseoSwap] });
 const result = await lcd.tx.broadcast(tx);
 
 console.log(result);
@@ -185,7 +185,7 @@ The following code example shows how to decode messages that have been encoded u
 import {
   LCDClient,
   Tx,
-} from '@terra-money/terra.js';
+} from '@daodiseomoney/daodiseo.js';
 
 // const lcd = new LCDClient(...);
 
@@ -205,19 +205,19 @@ const initMessages = txInfos.map((tx) => tx.body.messages)
 console.log(initMessages);
 ```
 
-## Validate a Terra address
+## Validate a Daodiseo address
 
-The following code example shows how to do a basic verification on a Terra address.
+The following code example shows how to do a basic verification on a Daodiseo address.
 
 This is a basic version of the verification, it does not require external libraries as it performs a simple comparison with a regex string. It could give false positives since it doesn't verify the checksum of the address.
 ```ts
 // basic address validation (no library required)
 function isValid(address) {
   // check the string format:
-  // - starts with "terra1"
-  // - length == 44 ("terra1" + 38)
+  // - starts with "daodiseo1"
+  // - length == 44 ("daodiseo1" + 38)
   // - contains only numbers and lower case letters
-  return /(terra1[a-z0-9]{38})/g.test(address);
+  return /(daodiseo1[a-z0-9]{38})/g.test(address);
 }
 
 console.log(isValid('terra1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8')); // true
@@ -236,7 +236,7 @@ function isValid(address) {
   try {
     const { prefix: decodedPrefix } = bech32.decode(address); // throw error if checksum is invalid
     // verify address prefix
-    return decodedPrefix === 'terra';
+    return decodedPrefix === 'daodiseo';
   } catch {
     // invalid checksum
     return false; 
@@ -252,7 +252,7 @@ console.log(isValid('random string')); // false
 
 ## Avoid Status 500: timed out waiting for tx to be included in a block
 
-Occasionally the broadcast function of terra.js and terra.py throws the error `Status 500: timed out waiting for tx to be included in a block`, even if transaction will confirmed onchain after a few seconds.
+Occasionally the broadcast function of daodiseo.js and daodiseo.py throws the error `Status 500: timed out waiting for tx to be included in a block`, even if transaction will confirmed onchain after a few seconds.
 
 This happens because the libraries use by default the `broadcast-mode = block`, with this mode the LCD to which you are broadcasting the transaction sends an http response to your request only when the transaction has been included in a block, but if the chain is overloaded the confirmation may take too long and trigger a timeout in the LCD.
 
@@ -264,12 +264,12 @@ This is an example to do it in JavaScript:
 // sign the tx
 wallet.createAndSignTx(YOUR_TX_HERE)
   // use broadcastSync() instead of broadcast()
-  .then(tx => terra.tx.broadcastSync(tx))
+  .then(tx => daodiseo.tx.broadcastSync(tx))
   .then(async result => {
     // TODO: use a for or add a timeout to prevent infinite loops 
     while(true){
       // query txhash
-      const data = await terra.tx.txInfo(result.txhash)
+      const data = await daodiseo.tx.txInfo(result.txhash)
         .catch(() => {})
       // if hash is onchain return data
       if(data) return data

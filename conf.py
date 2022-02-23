@@ -17,10 +17,10 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Terra Docs'
-copyright = '2021, Terraform Labs'
+project = 'Daodiseo Docs'
+copyright = '2021, Daodiseoform Labs'
 html_show_copyright = False
-#author = Terraform Labs
+#author = Daodiseoform Labs
 
 root_doc = "index"
 
@@ -98,7 +98,7 @@ nitpicky = True
 # Theme options
 html_theme_options = {
     "path_to_docs": "docs",
-    "repository_url": "https://github.com/terra-money/docs",
+    "repository_url": "https://github.com/daodiseomoney/docs",
     "use_repository_button": True,
     "use_edit_page_button": False,
     "use_issues_button": True,

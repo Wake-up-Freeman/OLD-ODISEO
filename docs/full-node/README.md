@@ -1,6 +1,6 @@
 # Full node
 
-Use this section to learn all about running a full node on the Terra network. 
+Use this section to learn all about running a full node on the Daodiseo network. 
 
 
 ```{toctree}
@@ -14,7 +14,7 @@ reference/README
 :gutter: 3
 
 :::{grid-item-card}
-:link: run-a-full-terra-node/README.html
+:link: run-a-full-daodiseo-node/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -23,28 +23,28 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: run-a-full-terra-node/build-terra-core.html
+:link: run-a-full-daodiseo-node/build-daodiseo-core.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_terra.svg
+```{image} /img/icon_daodiseo.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Build Terra Core**  
+**Build Daodiseo Core**  
 
 :::
 
 :::{grid-item-card}
-:link: ../develop/how-to/terrad/README.html
+:link: ../develop/how-to/daodiseod/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Terrad.svg
+```{image} /img/Daodiseod.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **`terrad`**  
 :::
 
 :::{grid-item-card}
-:link: ../develop/how-to/localterra/README.html
+:link: ../develop/how-to/localdaodiseo/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalTerra.svg
+```{image} /img/LocalDaodiseo.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **LocalTerra**  
@@ -60,7 +60,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: run-a-full-terra-node/join-a-network.html
+:link: run-a-full-daodiseo-node/join-a-network.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_cubes.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -69,7 +69,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: manage-a-terra-validator/faq.html
+:link: manage-a-daodiseo-validator/faq.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_troubleshooting.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -78,7 +78,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: manage-a-terra-validator/set-up-oracle-feeder.html
+:link: manage-a-daodiseo-validator/set-up-oracle-feeder.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Oracle.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -87,7 +87,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: manage-a-terra-validator/README.html
+:link: manage-a-daodiseo-validator/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Build_a_validator.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

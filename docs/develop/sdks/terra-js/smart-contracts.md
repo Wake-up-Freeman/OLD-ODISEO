@@ -1,27 +1,27 @@
 # Smart contracts
 
-This document explains how to perform tasks related to working with smart contracts with Terra.js.
+This document explains how to perform tasks related to working with smart contracts with Daodiseo.js.
 
 ## Upload code
 
 You will first need a compiled WASM smart contract's binary to upload.
 
 ```ts
-import { LCDClient, MsgStoreCode, MnemonicKey, isTxError } from '@terra-money/terra.js';
+import { LCDClient, MsgStoreCode, MnemonicKey, isTxError } from '@daodiseomoney/daodiseo.js';
 import * as fs from 'fs';
 
-// test1 key from localterra accounts
+// test1 key from localdaodiseo accounts
 const mk = new MnemonicKey({
   mnemonic: 'notice oak worry limit wrap speak medal online prefer cluster roof addict wrist behave treat actual wasp year salad speed social layer crew genius'
 })
 
-// connect to localterra
-const terra = new LCDClient({
+// connect to localdaodiseo
+const daodiseo = new LCDClient({
   URL: 'http://localhost:1317',
-  chainID: 'localterra'
+  chainID: 'localdaodiseo'
 });
 
-const wallet = terra.wallet(mk);
+const wallet = daodiseo.wallet(mk);
 
 const storeCode = new MsgStoreCode(
   wallet.key.accAddress,
@@ -30,7 +30,7 @@ const storeCode = new MsgStoreCode(
 const storeCodeTx = await wallet.createAndSignTx({
   msgs: [storeCode],
 });
-const storeCodeTxResult = await terra.tx.broadcast(storeCodeTx);
+const storeCodeTxResult = await daodiseo.tx.broadcast(storeCodeTx);
 
 console.log(storeCodeTxResult);
 
@@ -47,12 +47,12 @@ const {
 
 ## Create a contract
 
-For Terra smart contracts, there is a distinction between uploading contract code and creating a contract. This allows multiple contracts to share the same code if there are only minor variations in their logic which can be configured at contract creation. This configuration is passed in an **InitMsg**, and provides the initial state for the contract.
+For Daodiseo smart contracts, there is a distinction between uploading contract code and creating a contract. This allows multiple contracts to share the same code if there are only minor variations in their logic which can be configured at contract creation. This configuration is passed in an **InitMsg**, and provides the initial state for the contract.
 
 To create (instantiate) a smart contract, you must first know the code ID of an uploaded code. You will reference it in a `MsgInstantiateContract` alongside the InitMsg to create the contract. Upon successful creation, your contract will be located at an address that you specify.
 
 ```ts
-import { MsgInstantiateContract } from '@terra-money/terra.js';
+import { MsgInstantiateContract } from '@daodiseomoney/daodiseo.js';
 
 
 const instantiate = new MsgInstantiateContract(
@@ -68,7 +68,7 @@ const instantiate = new MsgInstantiateContract(
 const instantiateTx = await wallet.createAndSignTx({
   msgs: [instantiate],
 });
-const instantiateTxResult = await terra.tx.broadcast(instantiateTx);
+const instantiateTxResult = await daodiseo.tx.broadcast(instantiateTx);
 
 console.log(instantiateTxResult);
 
@@ -88,7 +88,7 @@ const {
 Smart contracts respond to JSON messages called **HandleMsg** which can exist as different types. The smart contract writer should provide any end-users of the smart contract with the expected format of all the varieties of HandleMsg the contract is supposed to understand, in the form of a JSON schema. The schema thus provides an analog to Ethereum contracts' ABI.
 
 ```ts
-import { MsgExecuteContract } from '@terra-money/terra.js';
+import { MsgExecuteContract } from '@daodiseomoney/daodiseo.js';
 
 const execute = new MsgExecuteContract(
   wallet.key.accAddress, // sender
@@ -101,7 +101,7 @@ const executeTx = await wallet.createAndSignTx({
   msgs: [execute]
 });
 
-const executeTxResult = await terra.tx.broadcast(executeTx);
+const executeTxResult = await daodiseo.tx.broadcast(executeTx);
 ```
 
 ## Query data from a contract
@@ -109,7 +109,7 @@ const executeTxResult = await terra.tx.broadcast(executeTx);
 A contract can define a query handler, which understands requests for data specified in a JSON message called a QueryMsg. Unlike the message handler, the query handler cannot modify the contract's or blockchain's state -- it is a readonly operation. Therefore, a querying data from a contract does not use a message and transaction, but works directly through the `LCDClient` API.
 
 ```ts
-const result = await terra.wasm.contractQuery(
+const result = await daodiseo.wasm.contractQuery(
   contract_address[0],
   { query: { queryMsgArguments } } // query msg
 );

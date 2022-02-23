@@ -5,15 +5,15 @@
 Use `LCDClient.wallet()` to create a `Wallet` from a `Key`.
 
 ```ts
-import { LCDClient, MnemonicKey } from '@terra-money/terra.js';
+import { LCDClient, MnemonicKey } from '@daodiseomoney/daodiseo.js';
 
-const terra = new LCDClient({
-  URL: 'https://lcd.terra.dev',
+const daodiseo = new LCDClient({
+  URL: 'https://lcd.daodiseo.dev',
   chainId: 'columbus-5'
 });
 
 const mk = new MnemonicKey();
-const wallet = terra.wallet(mk);
+const wallet = daodiseo.wallet(mk);
 ```
 
 In the above example, a `MnemonicKey` was specified for the wallet, but any type of `Key` implementation can be used instead.
@@ -22,7 +22,7 @@ In the above example, a `MnemonicKey` was specified for the wallet, but any type
 
 ### Getting account number and sequence
 
-A wallet is connected to the Terra blockchain and can poll the values of an account's account number and sequence directly:
+A wallet is connected to the Daodiseo blockchain and can poll the values of an account's account number and sequence directly:
 
 ```ts
 console.log(await wallet.accountNumber());
@@ -31,7 +31,7 @@ console.log(await wallet.sequence());
 
 ### Creating transactions
 
-A wallet makes it easy to create a transaction by automatically fetching the account number and sequence from the blockchain. The fee parameter is optional -- if you don't include it, Terra.js will automatically use your LCD's fee estimation settings to simulate the transaction within the node and include the resultant fee in your transaction.
+A wallet makes it easy to create a transaction by automatically fetching the account number and sequence from the blockchain. The fee parameter is optional -- if you don't include it, Daodiseo.js will automatically use your LCD's fee estimation settings to simulate the transaction within the node and include the resultant fee in your transaction.
 
 ```ts
 const msgs = [ ... ]; // list of messages

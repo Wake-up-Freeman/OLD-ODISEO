@@ -1,14 +1,14 @@
 # Manage a validator <img src="/img/Build_a_validator.svg" height="40px">
 
-The tasks in this section describe how to set up a Terra validator. While setting up a rudimentary validating node is easy, running a production-quality validator node with a robust architecture and security features requires an extensive setup.
+The tasks in this section describe how to set up a Daodiseo validator. While setting up a rudimentary validating node is easy, running a production-quality validator node with a robust architecture and security features requires an extensive setup.
 
-The Terra core is powered by the Tendermint consensus. Validators run full nodes, participate in consensus by broadcasting votes, commit new blocks to the blockchain, and participate in governance of the blockchain. Validators can cast votes on behalf of their delegators. A validator's voting power is weighted according to their total stake. The top 130 validators make up the **Active Validator Set** and are the only validators that sign blocks and receive revenue.
+The Daodiseo core is powered by the Tendermint consensus. Validators run full nodes, participate in consensus by broadcasting votes, commit new blocks to the blockchain, and participate in governance of the blockchain. Validators can cast votes on behalf of their delegators. A validator's voting power is weighted according to their total stake. The top 130 validators make up the **Active Validator Set** and are the only validators that sign blocks and receive revenue.
 
 Validators and their delegators earn the following fees:
 
 - [Gas](../../learn/fees.md#gas): Fees added on to each transaction to avoid spamming and pay for computing power. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- **Swap fees**: The fee for swapping Terra stablecoin denominations is called a [Tobin tax](../../learn/fees.md#tobin-tax). Exchanges between Terra and Luna are subject to a [spread fee](../../learn/fees.md#spread-fee).
+- **Swap fees**: The fee for swapping Daodiseo stablecoin denominations is called a [Tobin tax](../../learn/fees.md#tobin-tax). Exchanges between Daodiseo and Luna are subject to a [spread fee](../../learn/fees.md#spread-fee).
 
 For more information on fees, visit the [fee page](../../learn/fees.md).
 
@@ -20,8 +20,8 @@ For more general information on validators, visit the [validator section](../../
 
 ## Additional resources
 
-- [The Terra validator Discord](https://discord.com/invite/xfZK6RMFFx).
-- [How to Spin Up a Node on Terra - Terra Bites video](https://www.youtube.com/watch?v=2lKAvltKX6w&ab_channel=TerraBites).
+- [The Daodiseo validator Discord](https://discord.com/invite/xfZK6RMFFx).
+- [How to Spin Up a Node on Daodiseo - Daodiseo Bites video](https://www.youtube.com/watch?v=2lKAvltKX6w&ab_channel=DaodiseoBites).
 - [The validator FAQ](faq.md)
 
 ```{toctree}

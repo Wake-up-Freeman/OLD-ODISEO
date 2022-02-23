@@ -1,4 +1,4 @@
-# Install LocalTerra
+# Install LocalDaodiseo
 
 ## Prerequisites
 
@@ -11,13 +11,13 @@
 1. Run the following commands:
 
     ```sh
-    $ git clone --depth 1 https://www.github.com/terra-money/LocalTerra
-    $ cd LocalTerra
+    $ git clone --depth 1 https://www.github.com/daodiseomoney/LocalDaodiseo
+    $ cd LocalDaodiseo
     ```
 
 2. Make sure your Docker daemon is running in the background and [`docker-compose`](https://github.com/docker/compose) is installed.
 
-## Using LocalTerra
+## Using LocalDaodiseo
 
 ### Start
 
@@ -27,9 +27,9 @@ $ docker-compose up
 
 Your environment now contains:
 
-- [terrad](http://github.com/terra-money/core) RPC node running on `tcp://localhost:26657`
+- [daodiseod](http://github.com/daodiseomoney/core) RPC node running on `tcp://localhost:26657`
 - LCD running on http://localhost:1317
-- [FCD](http://www.github.com/terra-money/fcd) running on http://localhost:3060
+- [FCD](http://www.github.com/daodiseomoney/fcd) running on http://localhost:3060
 - An oracle feeder feeding live prices from mainnet, trailing by one vote period
 
 ### Stop

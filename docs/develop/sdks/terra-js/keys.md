@@ -1,6 +1,6 @@
 # Keys
 
-To perform actions using an account with Terra.js, you need a **Key**, which provides an abstraction around signing functions of an account.
+To perform actions using an account with Daodiseo.js, you need a **Key**, which provides an abstraction around signing functions of an account.
 
 ## Key interface
 
@@ -29,7 +29,7 @@ Terra.js provides several standard `Key` implementations that provide a variety 
 The most basic implementation of `Key` is `RawKey`, which is created with a plain private key.
 
 ```ts
-import { RawKey } from '@terra-money/terra.js';
+import { RawKey } from '@daodiseomoney/daodiseo.js';
 
 const rk = new RawKey("<private key>");
 ```
@@ -43,7 +43,7 @@ console.log(rk.privateKey);
 ### `MnemonicKey`
 
 ```ts
-import { MnemonicKey } from '@terra-money/terra.js';
+import { MnemonicKey } from '@daodiseomoney/daodiseo.js';
 
 const mk = new MnemonicKey({
   mnemonic: "<24-word mnemonic>",
@@ -72,7 +72,7 @@ const mk = new MnemonicKey({
 });
 ```
 
-For example, to recover a mnemonic with the old Terra wallet HD path using coin type for ATOM (118):
+For example, to recover a mnemonic with the old Daodiseo wallet HD path using coin type for ATOM (118):
 
 ```ts
 const mk = new MnemonicKey({
@@ -83,19 +83,19 @@ const mk = new MnemonicKey({
 
 ### `CLIKey`
 
-> NOTE: This requires you to have `terrad` installed.
+> NOTE: This requires you to have `daodiseod` installed.
 
-If you want to use keys stored in your `terrad` installation's keyring to sign transactions, you can use `CLIKey`. This also will work for keys that have been registered in your keyring with `--ledger`, using a Ledger hardware device.
+If you want to use keys stored in your `daodiseod` installation's keyring to sign transactions, you can use `CLIKey`. This also will work for keys that have been registered in your keyring with `--ledger`, using a Ledger hardware device.
 
 ```ts
-import { StdFee, MsgSend } from '@terra-money/terra.js';
-import { LocalTerra } from '@terra-money/terra.js';
-import { CLIKey } from '@terra-money/terra.js';
+import { StdFee, MsgSend } from '@daodiseomoney/daodiseo.js';
+import { LocalDaodiseo } from '@daodiseomoney/daodiseo.js';
+import { CLIKey } from '@daodiseomoney/daodiseo.js';
 
-const terra = new LocalTerra();
-const { test1 } = terra.wallets;
+const daodiseo = new LocalDaodiseo();
+const { test1 } = daodiseo.wallets;
 const cliKey = new CLIKey('test111');
-const cliWallet = terra.wallet(cliKey);
+const cliWallet = daodiseo.wallet(cliKey);
 
 const send = new MsgSend(cliWallet.key.accAddress, test1.key.accAddress, {
   uluna: 100000,
@@ -107,7 +107,7 @@ async function main() {
     fee: new StdFee(100000, { uluna: 100000 }),
   });
 
-  console.log(await terra.tx.broadcast(tx));
+  console.log(await daodiseo.tx.broadcast(tx));
 }
 
 main().catch(console.error);
@@ -122,7 +122,7 @@ The following code listing is the implementation of `RawKey`, which illustrates 
 ```ts
 import SHA256 from 'crypto-js/sha256';
 import * as secp256k1 from 'secp256k1';
-import { Key } from '@terra-money/terra.js';
+import { Key } from '@daodiseomoney/daodiseo.js';
 
 /**
  * An implementation of the Key interfaces that uses a raw private key.

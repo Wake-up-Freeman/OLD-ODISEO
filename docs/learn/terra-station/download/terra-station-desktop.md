@@ -1,16 +1,16 @@
-# Terra Station desktop
+# Daodiseo Station desktop
 
 ::::{grid} auto
 
 :::{grid-item}
-```{button-link} terra-station-desktop.html
+```{button-link} daodiseo-station-desktop.html
 :color: primary
 Desktop
 ```
 :::
 
 :::{grid-item}
-```{button-link} terra-station-extension.html
+```{button-link} daodiseo-station-extension.html
 :color: primary
 :outline:
 Chrome extension
@@ -18,7 +18,7 @@ Chrome extension
 :::
 
 :::{grid-item}
-```{button-link} terra-station-mobile.html
+```{button-link} daodiseo-station-mobile.html
 :color: primary
 :outline:
 Mobile
@@ -27,28 +27,28 @@ Mobile
 
 ::::
 
-This tutorial walks you through the process of using Terra Station, the official desktop wallet for Terra.
+This tutorial walks you through the process of using Daodiseo Station, the official desktop wallet for Daodiseo.
 
 For more guides on how to use Station's advanced features, visit the [Station guides](../README.md).
 
-## Install Terra Station
+## Install Daodiseo Station
 
-1. Click the Terra Station download link for your operating system:
+1. Click the Daodiseo Station download link for your operating system:
 
-   - [MacOS](https://github.com/terra-money/station-desktop/releases/download/v1.2.0/Terra.Station-1.2.0.dmg)
+   - [MacOS](https://github.com/daodiseomoney/station-desktop/releases/download/v1.2.0/Daodiseo.Station-1.2.0.dmg)
 
-   - [MacOS M1 ](https://github.com/terra-money/station-desktop/releases/download/v1.2.0/Terra.Station-1.2.0-arm64.dmg)
+   - [MacOS M1 ](https://github.com/daodiseomoney/station-desktop/releases/download/v1.2.0/Daodiseo.Station-1.2.0-arm64.dmg)
 
-   - [Windows](https://github.com/terra-money/station-desktop/releases/download/v1.2.0/Terra.Station.Setup.1.2.0.exe)
+   - [Windows](https://github.com/daodiseomoney/station-desktop/releases/download/v1.2.0/Daodiseo.Station.Setup.1.2.0.exe)
 
-   - [Linux(.deb)](https://github.com/terra-money/station-desktop/releases/download/v1.2.0/Terra.Station_1.2.0_amd64.deb)
-   - [Linux(.rpm)](https://github.com/terra-money/station-desktop/releases/download/v1.2.0/Terra.Station-1.2.0.x86_64.rpm)
+   - [Linux(.deb)](https://github.com/daodiseomoney/station-desktop/releases/download/v1.2.0/Daodiseo.Station_1.2.0_amd64.deb)
+   - [Linux(.rpm)](https://github.com/daodiseomoney/station-desktop/releases/download/v1.2.0/Daodiseo.Station-1.2.0.x86_64.rpm)
 
 2. Open the downloaded file and follow the instructions.
 
 ## Create a wallet
 
-1. Open the Terra Station desktop app and click **Connect**.
+1. Open the Daodiseo Station desktop app and click **Connect**.
 
 2. Click **New Wallet**. 
 
@@ -93,30 +93,30 @@ For more guides on how to use Station's advanced features, visit the [Station gu
    ```
 
 
-Congratulations! You have just created a Terra Station wallet.
+Congratulations! You have just created a Daodiseo Station wallet.
 
 ## Receive tokens from an exchange
 
-1. Purchase your tokens using any exchange that supports Terra. To view a list of current exchanges, visit the [Integrations page](../../../ecosystem/integrations.md)
+1. Purchase your tokens using any exchange that supports Daodiseo. To view a list of current exchanges, visit the [Integrations page](../../../ecosystem/integrations.md)
 
-2. Withdraw any token supported by the Terra network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
+2. Withdraw any token supported by the Daodiseo network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
 
-    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Terra station Desktop app near your wallet name. Your wallet address will look like this: `terra<random-numbers-and-letters>`
+    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Daodiseo station Desktop app near your wallet name. Your wallet address will look like this: `daodiseo<random-numbers-and-letters>`
 
     2. Double-check your wallet address is correct before sending.
 
-    3. Send the tokens from the exchange to your Terra Station wallet address.
+    3. Send the tokens from the exchange to your Daodiseo Station wallet address.
 
    :::{admonition} Waiting times for transfers
    :class: caution
-   When you transfer tokens from an exchange to Terra, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
+   When you transfer tokens from an exchange to Daodiseo, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
    :::
 
-Now you have tokens on Terra!
+Now you have tokens on Daodiseo!
 
 ## Swap coins
 
-1. Open Terra Station and connect your wallet. Click **Swap** in the sidebar.
+1. Open Daodiseo Station and connect your wallet. Click **Swap** in the sidebar.
 
    ```{image} /img/screens/desktop/swap.png
    :class: sd-p-3
@@ -147,7 +147,7 @@ Congratulations, you've just swapped coins!
 
 Stake your Luna to a validator to start earning rewards. Before you stake, make sure you have Luna in your wallet. You can transfer Luna from an [exchange](#receive-tokens-from-an-exchange) or [swap coins](#swap-coins) you have for Luna.
 
-1. Open Terra Station and click **Stake**.
+1. Open Daodiseo Station and click **Stake**.
 
    ```{image} /img/screens/desktop/stake.png
    :class: sd-p-3
@@ -188,9 +188,9 @@ Congratulations, you've just delegated Luna!
 
 ## Withdraw staking rewards
 
-Rewards start accruing the moment you stake Luna. Monitor your rewards in the staking section of Terra Station. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake Luna. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
 
-1. Open Terra Station and click **Stake**.
+1. Open Daodiseo Station and click **Stake**.
 
    ```{image} /img/screens/desktop/stake.png
    :class: sd-p-3
@@ -219,7 +219,7 @@ send-wallet.png
 send-luna.png
 send-submit.png
 
-1. Open the Terra Station desktop app and connect to your wallet.
+1. Open the Daodiseo Station desktop app and connect to your wallet.
 
 2. Click **Wallet** in the navigation bar.
 
@@ -250,6 +250,6 @@ After a few moments, the tokens will appear in the receiver's wallet.
 
 ## Next steps
 
-To start using any of the many dApps the Terra ecosystem has to offer, check out the [Terra Station Chrome browser extension](terra-station-extension.md). For on-the-go transactions, check out the [Terra Station mobile app](terra-station-mobile.md).
+To start using any of the many dApps the Daodiseo ecosystem has to offer, check out the [Daodiseo Station Chrome browser extension](daodiseo-station-extension.md). For on-the-go transactions, check out the [Daodiseo Station mobile app](daodiseo-station-mobile.md).
 
 For more guides on how to use other Station features, visit the [Station guides](../README.md).

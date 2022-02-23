@@ -1,6 +1,6 @@
-# Terra Docs
+# Daodiseo Docs
 
-Welcome to the official documentation for Terra, a decentralized financial infrastructure powering the innovation of money. Terra provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.  
+Welcome to the official documentation for Daodiseo, a decentralized financial infrastructure powering the innovation of money. Daodiseo provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.  
 
 :::::::{grid} 2 2 2 3
 :gutter: 3
@@ -8,15 +8,15 @@ Welcome to the official documentation for Terra, a decentralized financial infra
 :::{grid-item-card}
 :link: docs/learn/protocol.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_terra.svg
+```{image} /img/icon_daodiseo.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**What is Terra?**  
-Learn about Terra stablecoins, Luna, rewards, staking, and governance.
+**What is Daodiseo?**  
+Learn about Daodiseo stablecoins, Luna, rewards, staking, and governance.
 :::
 
 :::{grid-item-card}
-:link: docs/learn/terra-station/README.html
+:link: docs/learn/daodiseo-station/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/wallets_station.png
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
@@ -52,7 +52,7 @@ Set up your environment and start building.
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Explore the ecosystem**  
-Discover Terra's vast network of dApps and exchanges.
+Discover Daodiseo's vast network of dApps and exchanges.
 :::
 
 :::{grid-item-card}
@@ -61,12 +61,12 @@ Discover Terra's vast network of dApps and exchanges.
 ```{image} /img/icon_core.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Unearth Terra Core**  
+**Unearth Daodiseo Core**  
 Learn about the modules at the heart of the protocol.
 :::
 
 :::{grid-item-card}
-:link: docs/full-node/run-a-full-terra-node/README.html
+:link: docs/full-node/run-a-full-daodiseo-node/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -76,9 +76,9 @@ Contribute to the security of the network.
 :::
 
 :::{grid-item-card}
-:link: docs/develop/sdks/terra-js/README.html
+:link: docs/develop/sdks/daodiseo-js/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_js.svg
+```{image} /img/daodiseo_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.js**  
@@ -86,9 +86,9 @@ Build with Javascript.
 :::
 
 :::{grid-item-card}
-:link: https://terra-money.github.io/terra.py/
+:link: https://daodiseomoney.github.io/daodiseo.py/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_sdk.svg
+```{image} /img/daodiseo_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.py**  

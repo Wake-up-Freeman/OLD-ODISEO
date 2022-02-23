@@ -1,6 +1,6 @@
 # MsgAuthorization
 
-The following code snippet requires LocalTerra.
+The following code snippet requires LocalDaodiseo.
 
 1. `test1` creates MsgGrantAuthorization message to grant MsgSend authorization to grantee `test2`.
 2. `test2` creates MsgExecAuthorized message to send `2000000000000ukrw` from the `test1` account to the `test3` account.
@@ -16,7 +16,7 @@ import {
   Int,
   MsgExecAuthorized,
   Coins,
-} from "@terra-money/terra.js";
+} from "@daodiseomoney/daodiseo.js";
 
 function grant(
   granter: Wallet,
@@ -58,11 +58,11 @@ function sendAuthorized(
 async function main() {
   const client = new LCDClient({
     URL: "http://localhost:1317/",
-    chainID: "localterra",
+    chainID: "localdaodiseo",
     gasPrices: "169.77ukrw",
   });
 
-  // Granter (terra1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v)
+  // Granter (daodiseo1x46rqay4d3cssq8gxxvqz8xt6nwlz4td20k38v)
   const granter = client.wallet(
     new MnemonicKey({
       mnemonic:
@@ -70,7 +70,7 @@ async function main() {
     })
   );
 
-  // Grantee (terra17lmam6zguazs5q5u6z5mmx76uj63gldnse2pdp)
+  // Grantee (daodiseo17lmam6zguazs5q5u6z5mmx76uj63gldnse2pdp)
   const grantee = client.wallet(
     new MnemonicKey({
       mnemonic:
@@ -102,7 +102,7 @@ async function main() {
     granter,
     grantee,
     // Test3
-    "terra1757tkx08n0cqrw7p86ny9lnxsqeth0wgp0em95",
+    "daodiseo1757tkx08n0cqrw7p86ny9lnxsqeth0wgp0em95",
     "2000000000000ukrw"
   )
     .then((tx) => client.tx.broadcast(tx))

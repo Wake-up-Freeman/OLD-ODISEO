@@ -1,6 +1,6 @@
 # Sign with a multisig account
 
-A **multisig account** is a Terra account with a special key that can require more than one signatures to sign transactions. This can be useful for increasing the security of the account or for requiring the consent of multiple parties to make transactions. Multisig accounts can be created by specifying:
+A **multisig account** is a Daodiseo account with a special key that can require more than one signatures to sign transactions. This can be useful for increasing the security of the account or for requiring the consent of multiple parties to make transactions. Multisig accounts can be created by specifying:
 
 - threshold number of signatures required
 - the public keys involved in signing
@@ -33,7 +33,7 @@ terrad keys show --multisig-threshold=K name1 name2 name3 [...]
 ## Signing a transaction
 
 ::: {Important}
-This example uses `test1`, `test2`, `test3` keys from [LocalTerra](https://github.com/terra-money/LocalTerra). Import them into your `terrad` keystore to follow along.
+This example uses `test1`, `test2`, `test3` keys from [LocalDaodiseo](https://github.com/daodiseomoney/LocalDaodiseo). Import them into your `daodiseod` keystore to follow along.
 :::
 
 ### Step 1: Create the multisig key
@@ -45,7 +45,7 @@ First, import the public keys of `test3` into your keyring:
 ```sh
 terrad keys add \
     test3 \
-    --pubkey=terrapub1addwnpepqgcxazmq6wgt2j4rdfumsfwla0zfk8e5sws3p3zg5dkm9007hmfysxas0u2
+    --pubkey=daodiseopub1addwnpepqgcxazmq6wgt2j4rdfumsfwla0zfk8e5sws3p3zg5dkm9007hmfysxas0u2
 ```
 
 Generate the multisig key with 2/3 threshold:
@@ -64,8 +64,8 @@ terrad keys show multi
 
 - name: multi
   type: multi
-  address: terra1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m
-  pubkey: terrapub1ytql0csgqgfzd666axrjzq3mxw59ys6yqcd3ydjvhgs0uzs6kdk5fp4t73gmkl8t6y02yfq7tvfzd666axrjzq3sd69kp5usk492x6nehqjal67ynv0nfqapzrzy3gmdk27la0kjfqfzd666axrjzq6utqt639ka2j3xkncgk65dup06t297ccljmxhvhu3rmk92u3afjuyz9dg9
+  address: daodiseo1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m
+  pubkey: daodiseopub1ytql0csgqgfzd666axrjzq3mxw59ys6yqcd3ydjvhgs0uzs6kdk5fp4t73gmkl8t6y02yfq7tvfzd666axrjzq3sd69kp5usk492x6nehqjal67ynv0nfqapzrzy3gmdk27la0kjfqfzd666axrjzq6utqt639ka2j3xkncgk65dup06t297ccljmxhvhu3rmk92u3afjuyz9dg9
   mnemonic: ""
   threshold: 0
   pubkeys: []
@@ -76,9 +76,9 @@ Then, add 10 LUNA to the multisig wallet:
 ```bash
 terrad tx send \
     test1 \
-    terra1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
+    daodiseo1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     10000000uluna \
-    --chain-id=localterra \
+    --chain-id=localdaodiseo \
     --gas=auto \
     --fees=100000uluna \
     --broadcast-mode=block
@@ -86,16 +86,16 @@ terrad tx send \
 
 ### Step 2: Create the multisig transaction
 
-Send 5 LUNA from your multisig account to `terra1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n`.
+Send 5 LUNA from your multisig account to `daodiseo1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n`.
 
 ```bash
 terrad tx bank send \
-    terra1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
-    terra1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n \
+    daodiseo1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
+    daodiseo1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n \
     5000000uluna \
     --gas=200000 \
     --fees=100000uluna \
-    --chain-id=localterra \
+    --chain-id=localdaodiseo \
     --generate-only > unsignedTx.json
 ```
 
@@ -109,8 +109,8 @@ The file `unsignedTx.json` contains the unsigned transaction encoded in JSON.
       {
         "type": "bank/MsgSend",
         "value": {
-          "from_address": "terra1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m",
-          "to_address": "terra1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n",
+          "from_address": "daodiseo1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m",
+          "to_address": "daodiseo1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n",
           "amount": [{ "denom": "uluna", "amount": "5000000" }]
         }
       }
@@ -132,19 +132,19 @@ Sign with `test1` and `test2` and create individual signatures.
 ```sh
 terrad tx sign \
     unsignedTx.json \
-    --multisig=terra1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
+    --multisig=daodiseo1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test1 \
     --output-document=test1sig.json \
-    --chain-id=localterra
+    --chain-id=localdaodiseo
 ```
 
 ```sh
 terrad tx sign \
     unsignedTx.json \
-    --multisig=terra1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
+    --multisig=daodiseo1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test2 \
     --output-document=test2sig.json \
-    --chain-id=localterra
+    --chain-id=localdaodiseo
 ```
 
 ### Step 4: Create multisignature
@@ -156,7 +156,7 @@ terrad tx multisign \
     unsignedTx.json \
     multi \
     test1sig.json test2sig.json \
-    --chain-id=localterra > signedTx.json
+    --chain-id=localdaodiseo > signedTx.json
 ```
 
 The TX is now signed:
@@ -169,8 +169,8 @@ The TX is now signed:
       {
         "type": "bank/MsgSend",
         "value": {
-          "from_address": "terra1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m",
-          "to_address": "terra1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n",
+          "from_address": "daodiseo1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m",
+          "to_address": "daodiseo1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n",
           "amount": [{ "denom": "uluna", "amount": "5000000" }]
         }
       }
@@ -213,6 +213,6 @@ The TX is now signed:
 
 ```sh
 terrad tx broadcast signedTx.json \
-    --chain-id=localterra \
+    --chain-id=localdaodiseo \
     --broadcast-mode=block
 ```

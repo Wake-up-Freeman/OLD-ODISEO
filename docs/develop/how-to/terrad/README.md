@@ -1,8 +1,8 @@
-# `terrad` <img src="/img/Terrad.svg" height="40px">
+# `daodiseod` <img src="/img/Daodiseod.svg" height="40px">
 
-`terrad` is the command-line interface and daemon that connects to Terra and enables you to interact with the Terra blockchain. Terra core is the official Golang reference implementation of the Terra node software.
+`daodiseod` is the command-line interface and daemon that connects to Daodiseo and enables you to interact with the Daodiseo blockchain. Daodiseo core is the official Golang reference implementation of the Daodiseo node software.
 
-This guide is for developers who want to install `terrad` and interact with Terra core without running a full node. If you want to run a full node or join a network, visit [](../../../full-node/run-a-full-terra-node/README.md).
+This guide is for developers who want to install `daodiseod` and interact with Daodiseo core without running a full node. If you want to run a full node or join a network, visit [](../../../full-node/run-a-full-daodiseo-node/README.md).
 
 ## Contents <img src="/img/Glossary.svg" height="30px"> 
 ```{toctree}
@@ -11,5 +11,5 @@ install-terrad
 using-terrad
 commands
 subcommands
-:orphan: terrad-m1
+:orphan: daodiseod-m1
 ```

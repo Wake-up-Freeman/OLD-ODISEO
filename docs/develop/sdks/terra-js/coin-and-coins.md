@@ -3,7 +3,7 @@
 A `Coin` represents a single coin, which is a pair consisting of a denomination and amount. `Coins` represents a collection of `Coin` objects, that many operators
 
 ```ts
-import { Coin, Coins } from '@terra-money/terra.js';
+import { Coin, Coins } from '@daodiseomoney/daodiseo.js';
 
 const c = new Coin('uluna', 1500000); // 1.5 LUNA
 const c2 = new Coin('uluna', 3000000); // 3 LUNA

@@ -3,7 +3,7 @@
 Terra.js includes `Dec` and `Int`, which represent decimal numbers and integer numbers, in a Cosmos-SDK compatible way.
 
 ```ts
-import { Dec, Int } from '@terra-money/terra.js';
+import { Dec, Int } from '@daodiseomoney/daodiseo.js';
 
 // conversion into dec
 const d = new Dec(123.11);

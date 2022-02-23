@@ -2,21 +2,21 @@
 
 As a smart contract developer, you will need to write, compile, upload, and test your contracts before deploying them on the Columbus mainnet. The first step is to set up a specialized environment to streamline development.
 
-## Install Terra Core locally
+## Install Daodiseo Core locally
 
-Visit [build Terra core](../../../full-node/run-a-full-terra-node/build-terra-core.md) to install the latest version of Terra Core to obtain a working version of `terrad`. You will need this to connect to your local Terra test network to work with smart contracts.
+Visit [build Daodiseo core](../../../full-node/run-a-full-daodiseo-node/build-daodiseo-core.md) to install the latest version of Daodiseo Core to obtain a working version of `daodiseod`. You will need this to connect to your local Daodiseo test network to work with smart contracts.
 
-## Download LocalTerra
+## Download LocalDaodiseo
 
-In order to work with Terra Smart Contracts, you should have access to a Terra network that includes the WASM integration.
+In order to work with Daodiseo Smart Contracts, you should have access to a Daodiseo network that includes the WASM integration.
 
-In this tutorial, you will be using [LocalTerra](https://github.com/terra-money/localterra), a package that enables you to easily spin up a local, WASM-enabled private testnet. This reduces the friction of development by giving you complete control of a private Terra blockchain with the possibility to easily reset the world state.
+In this tutorial, you will be using [LocalDaodiseo](https://github.com/daodiseomoney/localdaodiseo), a package that enables you to easily spin up a local, WASM-enabled private testnet. This reduces the friction of development by giving you complete control of a private Daodiseo blockchain with the possibility to easily reset the world state.
 
-To use **LocalTerra**, you should first make sure Docker is installed on your computer by following the [Docker get-started tutorial](https://www.docker.com/get-started). You will also need to set up and configure [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
+To use **LocalDaodiseo**, you should first make sure Docker is installed on your computer by following the [Docker get-started tutorial](https://www.docker.com/get-started). You will also need to set up and configure [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
 
 ```sh
-git clone --depth 1 https://github.com/terra-money/localterra
-cd localterra
+git clone --depth 1 https://github.com/daodiseomoney/localdaodiseo
+cd localdaodiseo
 docker-compose up
 ```
 

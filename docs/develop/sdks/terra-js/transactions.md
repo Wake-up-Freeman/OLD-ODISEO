@@ -18,24 +18,24 @@ The messages included in a transaction contain the information that will be rout
 You will first want to create a wallet which you can use to sign transactions.
 
 ```ts
-import { MnemonicKey, LCDClient } from '@terra-money/terra.js';
+import { MnemonicKey, LCDClient } from '@daodiseomoney/daodiseo.js';
 
 const mk = new MnemonicKey();
-const terra = new LCDClient({
-  URL: 'https://soju-lcd.terra.dev',
+const daodiseo = new LCDClient({
+  URL: 'https://soju-lcd.daodiseo.dev',
   chainId: 'soju-0014'
 });
-const wallet = terra.wallet(mk);
+const wallet = daodiseo.wallet(mk);
 ```
 
 ### Create messages
 
 ```ts
-import { MsgSend } from '@terra-money/terra.js';
+import { MsgSend } from '@daodiseomoney/daodiseo.js';
 
 const send = new MsgSend(
   wallet.key.accAddress,
-  "<random-terra-address>",
+  "<random-daodiseo-address>",
   { uluna: 1000 }
 );
 ```
@@ -52,15 +52,15 @@ const tx = await wallet.createAndSignTx({
 ### Broadcast transaction
 
 ```ts
-const txResult = await terra.tx.broadcast(tx);
+const txResult = await daodiseo.tx.broadcast(tx);
 ```
 The default broadcast mode is `block`, which waits until the transaction has been included in a block. This will give you the most information about the transaction, including events and errors while processing.
 
 You can also use `sync` or `async` broadcast modes.
 
 ```ts
-// const syncTxResult = await terra.tx.broadcastSync(tx);
-// const asyncTxResult = await terra.tx.broadcastAsync(tx);
+// const syncTxResult = await daodiseo.tx.broadcastSync(tx);
+// const asyncTxResult = await daodiseo.tx.broadcastAsync(tx);
 ```
 
 ### Check events
@@ -68,9 +68,9 @@ You can also use `sync` or `async` broadcast modes.
 If you broadcasted the transaction with `block`, you can get the events emitted by your transaction.
 
 ```ts
-import { isTxError } from "@terra-money/terra.js";
+import { isTxError } from "@daodiseomoney/daodiseo.js";
 
-const txResult = terra.tx.broadcast(tx);
+const txResult = daodiseo.tx.broadcast(tx);
 
 if (isTxError(txResult)) {
   throw new Error(`encountered an error while running the transaction: ${txResult.code} ${txResult.codespace}`);

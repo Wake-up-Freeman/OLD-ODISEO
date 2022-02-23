@@ -1,10 +1,10 @@
 # 5-minute quickstart guide
 
-Use this quickstart guide to get started building your dApp. Terrain is a Terra development environment for better smart contract development experience
+Use this quickstart guide to get started building your dApp. Daodiseoin is a Daodiseo development environment for better smart contract development experience
 
-This guide will walk you through setting up your environment, installing Terrain, and using the testnet or LocalTerra to interact with a network.
+This guide will walk you through setting up your environment, installing Daodiseoin, and using the testnet or LocalDaodiseo to interact with a network.
 
-For more information on Terrain, visit [Terrain's readme](https://github.com/iboss-ptk/terrain#readme).
+For more information on Daodiseoin, visit [Daodiseoin's readme](https://github.com/iboss-ptk/daodiseoin#readme).
 
 :::::::{grid}
 :gutter: 3
@@ -12,25 +12,25 @@ For more information on Terrain, visit [Terrain's readme](https://github.com/ibo
 :::{grid-item-card}
 :link: initial-setup.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terrain.png
+```{image} /img/daodiseoin.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain setup**  
-Use this tutorial to set up Terrain in 5 minutes.
+Use this tutorial to set up Daodiseoin in 5 minutes.
 :::
 
 :::{grid-item-card}
-:link: using-terrain-localterra.html
+:link: using-daodiseoin-localdaodiseo.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalTerra.svg
+```{image} /img/LocalDaodiseo.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Terrain and LocalTerra**  
+**Daodiseoin and LocalDaodiseo**  
 16+ GB of RAM recommended.
 :::
 
 :::{grid-item-card}
-:link: using-terrain-testnet.html
+:link: using-daodiseoin-testnet.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

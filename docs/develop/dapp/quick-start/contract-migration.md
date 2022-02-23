@@ -1,10 +1,10 @@
-# Migrating CosmWasm contracts on Terra
+# Migrating CosmWasm contracts on Daodiseo
 
-Contracts on Terra can be initialized as [migratable](../../module-specifications/spec-wasm.mdl#migration), which allows the administrator to upload a new version of the contract and then send a migrate message to move to the new code.
+Contracts on Daodiseo can be initialized as [migratable](../../module-specifications/spec-wasm.mdl#migration), which allows the administrator to upload a new version of the contract and then send a migrate message to move to the new code.
 
-This tutorial uses [Terrain](README.md), a Terra development suite designed to simplify the scaffolding, deployment, and migration of your contracts. 
+This tutorial uses [Daodiseoin](README.md), a Daodiseo development suite designed to simplify the scaffolding, deployment, and migration of your contracts. 
 
-If this is your first time using Terrain, visit the [Initial setup guide](initial-setup.md). 
+If this is your first time using Daodiseoin, visit the [Initial setup guide](initial-setup.md). 
 
 ## Overview
 
@@ -45,18 +45,18 @@ Now that `MigrateMsg` is defined, you will need to update `contract.rs`:
 
 ## 3. Call migrate
 
-In previous [Terrain tutorials](README.md), you learned how to deploy the contract. Now you will be able to initialize it as migratable. 
+In previous [Daodiseoin tutorials](README.md), you learned how to deploy the contract. Now you will be able to initialize it as migratable. 
 
 After adding MigrateMsg to the smart contract, redeploy and add the `--set-signer-as-admin` flag. 
-This flag tells Terra that the transaction signer is allowed to migrate the contract in the future:
+This flag tells Daodiseo that the transaction signer is allowed to migrate the contract in the future:
 
 
    ```
-   terrain deploy counter --signer validator --set-signer-as-admin
+   daodiseoin deploy counter --signer validator --set-signer-as-admin
    ```
 
 With the new contract deployed you can make some changes then migrate to the new code with the following command: 
 
    ```
-   terrain contract:migrate counter --signer validator
+   daodiseoin contract:migrate counter --signer validator
    ```

@@ -1,6 +1,6 @@
 # Contract <img src="/img/icon_smartcontract.svg" height="40px">
 
-Smart contracts are an advanced feature of Terra Station. If you’re using Terra Station for the first time, follow the [Terra Station tutorial](download/terra-station-desktop.md).
+Smart contracts are an advanced feature of Daodiseo Station. If you’re using Daodiseo Station for the first time, follow the [Daodiseo Station tutorial](download/daodiseo-station-desktop.md).
 
 ## Prerequisites
 
@@ -8,9 +8,9 @@ Compile a contract locally and create a `.wasm` file.
 
 ## Upload
 
-Deploy a contract by uploading your `.wasm` file to Terra Station.
+Deploy a contract by uploading your `.wasm` file to Daodiseo Station.
 
-1. Open Terra Station and connect your wallet. Click **Contracts**.
+1. Open Daodiseo Station and connect your wallet. Click **Contracts**.
 
 2. Click **Upload**.
 

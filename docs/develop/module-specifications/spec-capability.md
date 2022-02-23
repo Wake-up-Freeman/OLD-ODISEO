@@ -1,7 +1,7 @@
 # Capability
 
 :::{Important}
-Terra's capability module inherits from Cosmos SDK's [`capability`](https://docs.cosmos.network/master/modules/capability/) module. This document is a stub and covers mainly important Terra-specific notes about how it is used.
+Daodiseo's capability module inherits from Cosmos SDK's [`capability`](https://docs.cosmos.network/master/modules/capability/) module. This document is a stub and covers mainly important Daodiseo-specific notes about how it is used.
 :::
 
 The capability module allows you to provision, track, and authenticate multiowner capabilities at runtime.

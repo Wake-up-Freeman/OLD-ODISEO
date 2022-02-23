@@ -1,12 +1,12 @@
-# Install `terrad` for M1 mac
+# Install `daodiseod` for M1 mac
 
-1. Navigate to [https://github.com/terra-money/core/tags](https://github.com/terra-money/core/tags) and click on the latest release. 
+1. Navigate to [https://github.com/daodiseomoney/core/tags](https://github.com/daodiseomoney/core/tags) and click on the latest release. 
 2. Download the correct `.tar.gz` file for your computer's OS.
 3. Open terminal and navigate to the downloaded file: 
     
     
    ```bash
-   cd Downloads/terra_0.5.1_Darwin_x86_64/
+   cd Downloads/daodiseo_0.5.1_Darwin_x86_64/
    ```
     
 4. Add `.dylib` to /lib:
@@ -40,10 +40,10 @@
 
     
 
-5. Run `./terrad`
+5. Run `./daodiseod`
 
    ```sh
-   ./terrad
+   ./daodiseod
    ```
     
    :::{admonition} If a security warning occurs:
@@ -51,18 +51,18 @@
     
    1. Navigate to system preferences→security & privacy. 
    2. Under the "General" tab, click "Allow anyway." 
-   3. Run `./terrad` again. 
+   3. Run `./daodiseod` again. 
    4. When prompted, click "open." Repeat for other security errors. 
 
 
-6. Add `terrad` to your path:
+6. Add `daodiseod` to your path:
 
    :::::{tab-set}
    
    ::::{tab-item} Intel-based
    
    ```sh
-   cp terrad /usr/local/bin
+   cp daodiseod /usr/local/bin
    ```
    
    ::::
@@ -73,7 +73,7 @@
     
    mkdir bin
     
-   cp terrad /usr/local/bin
+   cp daodiseod /usr/local/bin
    ```
    :::{Note}
    If you receive a `permission denied` message, add `sudo` before each command. 
@@ -83,8 +83,8 @@
    :::::
     
 
-7. Start `terrad`
+7. Start `daodiseod`
 
    ```sh
-   terrad
+   daodiseod
    ```

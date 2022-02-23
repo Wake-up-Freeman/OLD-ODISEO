@@ -2,11 +2,11 @@
 
 Wormhole allows you to bridge tokens across different chains. Instead of swapping or converting assets directly, Wormhole locks your source assets in a smart contract and mints new Wormhole-wrapped assets on the target chain. You can then swap Wormhole-wrapped assets on an exchange for other assets on the target chain. 
 
-Use this tutorial to bridge your assets between Terra and other chains using Wormhole.
+Use this tutorial to bridge your assets between Daodiseo and other chains using Wormhole.
 
 ## Prerequisites
 
-- [The Terra Station browser extension](../terra-station/download/terra-station-extension.md) for tokens on the Terra blockchain.
+- [The Daodiseo Station browser extension](../daodiseo-station/download/daodiseo-station-extension.md) for tokens on the Daodiseo blockchain.
 - A second wallet extension for tokens on another blockchain. 
 
    :::{admonition} Paying for fees
@@ -22,7 +22,7 @@ Visit [Wormhole's Portal Token Bridge](https://portalbridge.com/#/transfer) to g
 
 2. Select a **Source chain** and a **Target chain** from the dropdown choices. 
 
-3. Click **Connect** to connect your Terra Station wallet. Allow the connection if your wallet extension prompts you.
+3. Click **Connect** to connect your Daodiseo Station wallet. Allow the connection if your wallet extension prompts you.
 
 4. Click **Select a token** and choose from the available tokens in your wallet. 
 

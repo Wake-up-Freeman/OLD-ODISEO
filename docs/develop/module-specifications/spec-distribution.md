@@ -1,7 +1,7 @@
 # Distribution
 
 ::: {important}
-Terra's distribution module inherits from Cosmos SDK's [`distribution`](https://docs.cosmos.network/master/modules/distribution/) module. This document is a stub and covers mainly important Terra-specific notes about how it is used.
+Daodiseo's distribution module inherits from Cosmos SDK's [`distribution`](https://docs.cosmos.network/master/modules/distribution/) module. This document is a stub and covers mainly important Daodiseo-specific notes about how it is used.
 :::
 
 The distribution module describes a mechanism that tracks collected fees and passively distributes them to validators and delegators. Additionally, the distribution module defines the [community pool](#community-pool), which are funds under the control of on-chain governance.
@@ -11,14 +11,14 @@ The distribution module describes a mechanism that tracks collected fees and pas
 ### Validator and delegator rewards
 
 :::{important}
-Passive distribution means that validators and delegators need to manually collect their fee rewards by [submitting withdrawal transactions](../how-to/terrad/subcommands.md#tx-distribution-withdraw-rewards).
+Passive distribution means that validators and delegators need to manually collect their fee rewards by [submitting withdrawal transactions](../how-to/daodiseod/subcommands.md#tx-distribution-withdraw-rewards).
 :::
 
 Collected rewards are pooled globally and distrubuted to validators and delegators. Each validator has the opportunity to charge delegators commission on the rewards collected on behalf of the delegators. Fees are collected directly into a global reward pool and a validator proposer-reward pool. Due to the nature of passive accounting, whenever changes to parameters which affect the rate of reward distribution occur, withdrawal of rewards must also occur.
 
 ### Community pool
 
-The community pool is a reserve of tokens designated for funding projects that promote further adoption and stimulate growth for the Terra economy. The comminuty pool used to be funded by seigniorage. As of Columbus-5, all seigniorage is burned, and the community pool no longer receives funding.
+The community pool is a reserve of tokens designated for funding projects that promote further adoption and stimulate growth for the Daodiseo economy. The comminuty pool used to be funded by seigniorage. As of Columbus-5, all seigniorage is burned, and the community pool no longer receives funding.
 
 ## State
 

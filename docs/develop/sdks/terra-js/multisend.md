@@ -7,11 +7,11 @@ import {
   MsgMultiSend,
   StdTx,
   Account,
-} from "@terra-money/terra.js";
+} from "@daodiseomoney/daodiseo.js";
 
 const {
   TESTNET_LCD_URL = "http://localhost:1317",
-  TESTNET_CHAIN_ID = "localterra",
+  TESTNET_CHAIN_ID = "localdaodiseo",
 } = process.env;
 
 async function main() {
@@ -39,7 +39,7 @@ async function main() {
 
   const wallet = client.wallet(keys.test1);
   const output = new MsgMultiSend.Output(
-    "terra199vw7724lzkwz6lf2hsx04lrxfkz09tg8dlp6r",
+    "daodiseo199vw7724lzkwz6lf2hsx04lrxfkz09tg8dlp6r",
     "1000000uluna"
   );
 

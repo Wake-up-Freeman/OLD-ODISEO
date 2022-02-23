@@ -1,14 +1,14 @@
-# Use Terrain with the testnet
+# Use Daodiseoin with the testnet
 
-The Bombay testnet is used for testing transactions on the Terra network.
+The Bombay testnet is used for testing transactions on the Daodiseo network.
 
 ## Prerequisites
 
-- [Install the Terra Station browser extension](../../../learn/terra-station/download/terra-station-extension.md)
+- [Install the Daodiseo Station browser extension](../../../learn/daodiseo-station/download/daodiseo-station-extension.md)
 
 ## 1. Create a Bombay wallet
 
-[Create a new wallet](../../../learn/terra-station/download/terra-station-extension.md#create-a-wallet) using the Terra Station extension. It's recommended to name this wallet "Bombay" or "testnet" so it's easy to remember that it's only used for Bombay.
+[Create a new wallet](../../../learn/daodiseo-station/download/daodiseo-station-extension.md#create-a-wallet) using the Daodiseo Station extension. It's recommended to name this wallet "Bombay" or "testnet" so it's easy to remember that it's only used for Bombay.
 
 After creating a Bombay wallet and storing the seed phrase, request funds from the testnet faucet:
 
@@ -23,8 +23,8 @@ Make sure you have your seed phrase stored somewhere since you will need it to c
 Scaffold your new application:
 
 ```sh
-terrain new my-terra-dapp
-cd my-terra-dapp
+daodiseoin new my-daodiseo-dapp
+cd my-daodiseo-dapp
 npm install
 ```
 
@@ -40,14 +40,14 @@ The following structure shows your scaffolded project:
 ├── frontend               # The front-end application.
 ├── lib                    # Predefined functions for task and console.
 ├── tasks                  # Predefined tasks.
-├── keys.terrain.js        # Keys for signing transactions.
-├── config.terrain.json    # Config for connections and contract deployments.
-└── refs.terrain.json      # Deployed code and contract references.
+├── keys.daodiseoin.js        # Keys for signing transactions.
+├── config.daodiseoin.json    # Config for connections and contract deployments.
+└── refs.daodiseoin.json      # Deployed code and contract references.
 ```
 
 ## 3. Configure the testnet
 
-Before deploying, Terrain needs to learn how to access your Bombay wallet. To do this you'll need to modify `keys.terrain.js` in the generated project.
+Before deploying, Daodiseoin needs to learn how to access your Bombay wallet. To do this you'll need to modify `keys.daodiseoin.js` in the generated project.
 
 Modify the configuration and input your seed phrase to look like this:
 
@@ -72,7 +72,7 @@ The deploy command performs the following steps automatically:
 
 * Builds the counter smart contract.
 * Optimizes the counter smart contract.
-* Uploads counter smart contract to LocalTerra.
+* Uploads counter smart contract to LocalDaodiseo.
 * Instantiates the deployed smart contract.
 
 :::{warning}
@@ -85,21 +85,21 @@ If you get the following error:
 Wait a few seconds then try the deploy command again.
 :::
 
-### Deploying with Terra Station
+### Deploying with Daodiseo Station
 
-Besides the CLI approach above, there is also the option of deploying and interacting with your contracts on testnet through the [Terra Station UI](https://station.terra.money/).
+Besides the CLI approach above, there is also the option of deploying and interacting with your contracts on testnet through the [Daodiseo Station UI](https://station.daodiseo.money/).
 
-1. Compile your project with `terrain`. If you have localterra running, this can be done with `terrain deploy <project> --signer validator`. This will build the wasm bytecode and output a **.wasm** file such as **artifacts/counter.wasm**
+1. Compile your project with `daodiseoin`. If you have localdaodiseo running, this can be done with `daodiseoin deploy <project> --signer validator`. This will build the wasm bytecode and output a **.wasm** file such as **artifacts/counter.wasm**
 
-2. You can now upload this contract to the testnet via Station. Go to [https://station.terra.money/contract](https://station.terra.money/contract) and click on "Upload"
+2. You can now upload this contract to the testnet via Station. Go to [https://station.daodiseo.money/contract](https://station.daodiseo.money/contract) and click on "Upload"
 
 3. Upload the .wasm bytecode. This step will generate a `codeId` which will be used for initializing the contract.
 
-4. Go back to the Contract page on [Station](https://station.terra.money/contract) and instantiate your contract by passing in the `codeId` and empty brackets (`{}`) for "Init msg".
+4. Go back to the Contract page on [Station](https://station.daodiseo.money/contract) and instantiate your contract by passing in the `codeId` and empty brackets (`{}`) for "Init msg".
 
-5. Now, the contract is deployed as a **MsgInstantiateContract** transaction type. You will be able to see the address of the newly initialized contract in the logs at the bottom of the transaction details. ([example](https://finder.terra.money/testnet/tx/FF669A3E0CECDC6278A0E390FAF93E9531F43599B77A45BD18ECC6023E15ACB3))
+5. Now, the contract is deployed as a **MsgInstantiateContract** transaction type. You will be able to see the address of the newly initialized contract in the logs at the bottom of the transaction details. ([example](https://finder.daodiseo.money/testnet/tx/FF669A3E0CECDC6278A0E390FAF93E9531F43599B77A45BD18ECC6023E15ACB3))
 
-6. Search for your contract address on the **Contract** page of Terra Station. You can now execute a query or command against your contract. The payloads must be in JSON format. A command execution (with Execute) might look like:
+6. Search for your contract address on the **Contract** page of Daodiseo Station. You can now execute a query or command against your contract. The payloads must be in JSON format. A command execution (with Execute) might look like:
 
    ```sh
    {
@@ -109,14 +109,14 @@ Besides the CLI approach above, there is also the option of deploying and intera
 
    :::{admonition} Optional
    :class: note
-   If you have a frontend, update your client-side `refs.terrain.json` to reflect the latest codeId and deployed contract address.
+   If you have a frontend, update your client-side `refs.daodiseoin.json` to reflect the latest codeId and deployed contract address.
    :::
 
 ## 5. Interact with the deployed contract
 
-The Terrain template comes with several predefined helpers in `lib/index.js`. Use them to start interacting with your smart contract:
+The Daodiseoin template comes with several predefined helpers in `lib/index.js`. Use them to start interacting with your smart contract:
 
-1. Run `terrain console --network testnet`.
+1. Run `daodiseoin console --network testnet`.
 
 2. With the console open, increment the counter by running the following:
 
@@ -124,7 +124,7 @@ The Terrain template comes with several predefined helpers in `lib/index.js`. Us
    await lib.increment(wallets.bombay);
    ```
 
-   Make sure to pass your Bombay wallet to the increment command. `terrain console` makes wallets specified in `keys.terrain.js` available in the `wallets` object.
+   Make sure to pass your Bombay wallet to the increment command. `daodiseoin console` makes wallets specified in `keys.daodiseoin.js` available in the `wallets` object.
 
    You can get the current count by using:
 
@@ -142,9 +142,9 @@ The Terrain template comes with several predefined helpers in `lib/index.js`. Us
 
 Terrain also scaffolds a very simple front-end.
 
-1. In the Terra Station Chrome extension, [switch the network to `testnet`](../../../learn/terra-station/testnet.md).
+1. In the Daodiseo Station Chrome extension, [switch the network to `testnet`](../../../learn/daodiseo-station/testnet.md).
 
-2. To use the front end, run the following commands in order. The terrain sync-refs command copies your deployed contract addresses to the front-end part of the codebase.
+2. To use the front end, run the following commands in order. The daodiseoin sync-refs command copies your deployed contract addresses to the front-end part of the codebase.
 
    ```
    cd frontend
@@ -152,7 +152,7 @@ Terrain also scaffolds a very simple front-end.
    npm start
    ```
 
-3. With `testnet` selected in Terra Station you can now increment and reset the counter from the front end.
+3. With `testnet` selected in Daodiseo Station you can now increment and reset the counter from the front end.
 
 ## Demo
 
@@ -160,5 +160,5 @@ Terrain also scaffolds a very simple front-end.
 
 ## Advanced usage
 
-For more advanced use cases such as deploying to the testnet or mainnet, see [Terrain's readme](https://github.com/iboss-ptk/terrain#readme).
+For more advanced use cases such as deploying to the testnet or mainnet, see [Daodiseoin's readme](https://github.com/iboss-ptk/daodiseoin#readme).
 

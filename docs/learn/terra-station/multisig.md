@@ -1,16 +1,16 @@
 # Multisig wallets
 
-Multisig wallets are an advanced feature of Terra Station. If you’re using Terra Station for the first time, follow the [Terra Station tutorial](download/terra-station-desktop.md).
+Multisig wallets are an advanced feature of Daodiseo Station. If you’re using Daodiseo Station for the first time, follow the [Daodiseo Station tutorial](download/daodiseo-station-desktop.md).
 
 Multisig wallets enable a wallet to be controlled by multiple parties. A wallet manager creates a transaction and sends an encoded transaction message to the wallet signers. The signers sign the transaction and send back their signatures. The wallet manager then inputs the encoded transaction message along with the received signatures to complete the transaction.
 
 ## Prerequisites
 
-- Download the [Terra Station browser extension](download/terra-station-extension.md)
+- Download the [Daodiseo Station browser extension](download/daodiseo-station-extension.md)
 
 ## Create a multisig wallet
 
-1. Open the Terra Station browser extension and click **New multisig wallet**.
+1. Open the Daodiseo Station browser extension and click **New multisig wallet**.
 
 2. Enter the wallet addresses of each multisig user in the correct order.
 
@@ -29,7 +29,7 @@ Multisig wallets enable a wallet to be controlled by multiple parties. A wallet 
 
 Multisig wallet managers initiate transactions and send coded strings for multisig participants to sign.
 
-1. Open the Terra Station browser extension and connect to your multisig wallet.
+1. Open the Daodiseo Station browser extension and connect to your multisig wallet.
 
 2. Make a transaction using your multisig wallet.
 
@@ -51,7 +51,7 @@ Multisig wallet managers initiate transactions and send coded strings for multis
 
 Upon receiving an encoded transaction string, multisig signers can use the following steps to sign:
 
-1. Open the Terra Station browser extension and connect to the wallet you provided to create the multisig wallet.
+1. Open the Daodiseo Station browser extension and connect to the wallet you provided to create the multisig wallet.
 
 2. Click the three vertical dots located to the right of your wallet name.
 
@@ -67,7 +67,7 @@ Upon receiving an encoded transaction string, multisig signers can use the follo
 
 The final step in a multisig transaction is for the wallet manager to input the signatures:
 
-1. Open the Terra Station browser extension and connect to the multisig wallet you created.
+1. Open the Daodiseo Station browser extension and connect to the multisig wallet you created.
 
 2. Click the three vertical dots located to the right of your wallet name.
 

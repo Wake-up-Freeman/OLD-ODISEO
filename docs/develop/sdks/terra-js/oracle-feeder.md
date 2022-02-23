@@ -1,10 +1,10 @@
 # Oracle feeder
 
-The following code segment demonstrates how to create a simple price oracle feeder with Terra.js by using a [LocalTerra](https://github.com/terra-money/LocalTerra) network. The prices aren't live in this example. It just tracks the public LCD node's current registered oracle price and submits them to the local testnet.
+The following code segment demonstrates how to create a simple price oracle feeder with Daodiseo.js by using a [LocalDaodiseo](https://github.com/daodiseomoney/LocalDaodiseo) network. The prices aren't live in this example. It just tracks the public LCD node's current registered oracle price and submits them to the local testnet.
 
 Note the following:
 
-1. Prevotes are automatically generated using [`MsgAggregateExchangeRateVote.getPrevote()`](https://terra-money.github.io/terra.js/classes/msgexchangeratevote.html#getprevote)
+1. Prevotes are automatically generated using [`MsgAggregateExchangeRateVote.getPrevote()`](https://daodiseomoney.github.io/daodiseo.js/classes/msgexchangeratevote.html#getprevote)
 
 2. `MsgAggregateExchangeRateVote` messages must precede `MsgAggregateExchangeRatePrevote` messages in sequence inside a transaction otherwise the `MsgAggregateExchangeRatePrevote` would override the current registered outstanding prevote for the validator.
 
@@ -16,13 +16,13 @@ import {
   LCDClient,
   MnemonicKey,
   MsgAggregateExchangeRateVote,
-} from "@terra-money/terra.js";
+} from "@daodiseomoney/daodiseo.js";
 
 const {
-  MAINNET_LCD_URL = "https://lcd.terra.dev",
+  MAINNET_LCD_URL = "https://lcd.daodiseo.dev",
   MAINNET_CHAIN_ID = "columbus-5",
   TESTNET_LCD_URL = "http://localhost:1317",
-  TESTNET_CHAIN_ID = "localterra",
+  TESTNET_CHAIN_ID = "localdaodiseo",
   MNEMONIC = "satisfy adjust timber high purchase tuition stool faith fine install that you unaware feed domain license impose boss human eager hat rent enjoy dawn",
 } = process.env;
 

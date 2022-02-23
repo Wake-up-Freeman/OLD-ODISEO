@@ -1,10 +1,10 @@
-# Terra Station
+# Daodiseo Station
 
-Terra station is the official wallet of the Terra blockchain. If this is your first time using Station, visit the [download tutorial](download/README.md) to create a wallet.
+Daodiseo station is the official wallet of the Daodiseo blockchain. If this is your first time using Station, visit the [download tutorial](download/README.md) to create a wallet.
 
 ```{toctree}
 :hidden:
-:caption: Terra Station
+:caption: Daodiseo Station
 download/README
 wallet
 send
@@ -58,9 +58,9 @@ testnet
 :::
 
 :::{grid-item-card}
-:link: https://station.terra.money
+:link: https://station.daodiseo.money
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Terrad.svg
+```{image} /img/Daodiseod.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Station WebApp**  
@@ -95,7 +95,7 @@ testnet
 :::
 
 :::{grid-item-card}
-:link: https://faucet.terra.money/
+:link: https://faucet.daodiseo.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Faucet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

@@ -3,12 +3,12 @@
 The light client daemon (LCD) provides a REST-based adapter for the RPC endpoints, which also helps for decoding the Amino-encoded blockchain data into parseable JSON. This enables apps to communicate with a node through simple HTTP.
 
 ::: {important}
-The Terra SDKs currently rely on an active connection to a running LCD server. If you need a dedicated connection for the SDKs, set up an LCD.
+The Daodiseo SDKs currently rely on an active connection to a running LCD server. If you need a dedicated connection for the SDKs, set up an LCD.
 :::
 
 To enable the REST API and Swagger, and to start the LCD, complete the following steps:
 
-1. Open `~/.terra/config/app.toml`.
+1. Open `~/.daodiseo/config/app.toml`.
 
 2. Locate the `API Configuration` section (`[api]`).
 
@@ -28,6 +28,6 @@ To enable the REST API and Swagger, and to start the LCD, complete the following
 
 Once restarted, the LCD will be available.
 
-For more information about the Terra REST API endpoints, see the [Swagger documentation](https://lcd.terra.dev/swagger/).
+For more information about the Daodiseo REST API endpoints, see the [Swagger documentation](https://lcd.daodiseo.dev/swagger/).
 
-For more information on configuring `App.toml`, see [Configure general settings](../../full-node/run-a-full-terra-node/configure-general-settings.md#start-the-light-client-daemon-lcd).
+For more information on configuring `App.toml`, see [Configure general settings](../../full-node/run-a-full-daodiseo-node/configure-general-settings.md#start-the-light-client-daemon-lcd).

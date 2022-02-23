@@ -1,6 +1,6 @@
 # Learn
 
-Discover [how the Terra protocol works](protocol.md) and learn about [validators](protocol.md#validators), [staking](protocol.md#staking), and [governance](protocol.md#governance). Use [Terra Station](terra-station/README.md) to [create a wallet](terra-station/download/README.md), [stake Luna](terra-station/staking.md), [send tokens](terra-station/wallet.md#send-tokens), and [participate in governance](terra-station/governance.md). Browse the [glossary](glossary.md) to look up helpful terms.
+Discover [how the Daodiseo protocol works](protocol.md) and learn about [validators](protocol.md#validators), [staking](protocol.md#staking), and [governance](protocol.md#governance). Use [Daodiseo Station](daodiseo-station/README.md) to [create a wallet](daodiseo-station/download/README.md), [stake Luna](daodiseo-station/staking.md), [send tokens](daodiseo-station/wallet.md#send-tokens), and [participate in governance](daodiseo-station/governance.md). Browse the [glossary](glossary.md) to look up helpful terms.
 
 ```{toctree}
 :hidden:
@@ -17,15 +17,15 @@ community-trust
 :::{grid-item-card}
 :link: protocol.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_terra.svg
+```{image} /img/icon_daodiseo.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**What is Terra?**  
-Learn how the Terra Protocol works.
+**What is Daodiseo?**  
+Learn how the Daodiseo Protocol works.
 :::
 
 :::{grid-item-card}
-:link: terra-station/README.html
+:link: daodiseo-station/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/wallets_station.png
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
@@ -41,7 +41,7 @@ Create a wallet and stake Luna for rewards.
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **What is Luna?**  
-Learn how Luna helps stabilize the price of Terra.
+Learn how Luna helps stabilize the price of Daodiseo.
 :::
 
 :::{grid-item-card}
@@ -71,7 +71,7 @@ Learn how fees become staking rewards.
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Glossary**  
-Look up terms specific to Terra.
+Look up terms specific to Daodiseo.
 :::
 
 :::::::

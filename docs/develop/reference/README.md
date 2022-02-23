@@ -4,8 +4,8 @@
 
 ```{toctree}
 :maxdepth: 1
-Terra REST API <https://lcd.terra.dev/swagger/>
-Terra Core GoDoc <https://pkg.go.dev/github.com/terra-money/core>
+Daodiseo REST API <https://lcd.daodiseo.dev/swagger/>
+Daodiseo Core GoDoc <https://pkg.go.dev/github.com/daodiseomoney/core>
 Block explorers <../../ecosystem/integrations>
 ../how-to/terrad/README
 ../how-to/endpoints

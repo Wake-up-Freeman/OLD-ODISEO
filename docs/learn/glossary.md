@@ -1,6 +1,6 @@
 # Glossary
 
-Use this glossary to learn about terms specific to the Terra Protocol.
+Use this glossary to learn about terms specific to the Daodiseo Protocol.
 
 ## Active set
 
@@ -8,13 +8,13 @@ The top 130 [validators](#validator) that participate in consensus and receive r
 
 ## Air drops
 
-Additional rewards given to [delegators](#delegator) through certain [validators](#validator), separate from [staking rewards](#rewards). Airdrops come from protocols in the Terra ecosystem to increase visibility. To claim an airdrop, visit the webpage of the protocol giving out the airdrop.
+Additional rewards given to [delegators](#delegator) through certain [validators](#validator), separate from [staking rewards](#rewards). Airdrops come from protocols in the Daodiseo ecosystem to increase visibility. To claim an airdrop, visit the webpage of the protocol giving out the airdrop.
 
 ## Algorithmic stablecoin
 
 A cryptocurrency that tracks the price of any asset, usually currency. Algorithmic stablecoins maintain their price peg through a set of rules or software instead of an underlying asset.
 
-For more information on stablecoins created by the Terra protocol, see [Terra stablecoins](#terra-stablecoins)
+For more information on stablecoins created by the Daodiseo protocol, see [Daodiseo stablecoins](#daodiseo-stablecoins)
 
 ## Arbitrage
 
@@ -30,7 +30,7 @@ Groups of information stored on a [blockchain](#blockchain). Each block contains
 
 ## bLuna
 
-A token representing bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/). Bonded Luna takes 21 days to become unbonded.
+A token representing bonded Luna that can be traded freely or used as collateral on other protocols in the Daodiseo network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/). Bonded Luna takes 21 days to become unbonded.
 
 ## Bonded validator
 
@@ -42,15 +42,15 @@ When a user [delegates](#delegate) or bonds Luna to a [validator](#validator) to
 
 ## Burn
 
-The destruction of coins. The Terra protocol burns [Luna](#luna) to mint [Terra stablecoins](#terra-stablecoins) and vice versa. Burned coins are destroyed.
+The destruction of coins. The Daodiseo protocol burns [Luna](#luna) to mint [Daodiseo stablecoins](#daodiseo-stablecoins) and vice versa. Burned coins are destroyed.
 
 ## CHAI
 
-A mobile payments app powered by Terra's blockchain network.
+A mobile payments app powered by Daodiseo's blockchain network.
 
 ## Columbus-5
 
-The current version of the [Terra mainnet](#terra-mainnet).
+The current version of the [Daodiseo mainnet](#daodiseo-mainnet).
 
 ## Commission
 
@@ -62,11 +62,11 @@ A special fund designated for funding community projects. Any community member c
 
 ## Consensus
 
-A system used by [validators](#validator) or miners to agree that each [block](#blocks) of transactions in a [blockchain](#blockchain) is correct. The Terra blockchain uses the Tendermint consensus. Validators earn [rewards](#rewards) for participating in consensus. Visit the [Tendermint official documentation site](https://docs.tendermint.com/) for more information.
+A system used by [validators](#validator) or miners to agree that each [block](#blocks) of transactions in a [blockchain](#blockchain) is correct. The Daodiseo blockchain uses the Tendermint consensus. Validators earn [rewards](#rewards) for participating in consensus. Visit the [Tendermint official documentation site](https://docs.tendermint.com/) for more information.
 
 ## Cosmos-SDK
 
-The open-source framework the Terra blockchain is built on. For more information, check out the [Cosmos SDK Documentation](https://docs.cosmos.network/).
+The open-source framework the Daodiseo blockchain is built on. For more information, check out the [Cosmos SDK Documentation](https://docs.cosmos.network/).
 
 ## dApp
 
@@ -97,11 +97,11 @@ A length of time measured in [blocks](#blocks). An epoch for the governance modu
 
 - **Gas**: Compute fees added on to all transactions to avoid spamming. [Validators](#validator) set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- **Spread fee**: A variable fee on any transaction between [Terra](#terra-stablecoins) and [Luna](#luna).
+- **Spread fee**: A variable fee on any transaction between [Daodiseo](#daodiseo-stablecoins) and [Luna](#luna).
 
-- **Tobin tax**: A fee on any transaction between Terra stablecoin denominations.
+- **Tobin tax**: A fee on any transaction between Daodiseo stablecoin denominations.
 
-For more information on fees, visit [Fees on Terra](fees.md).
+For more information on fees, visit [Fees on Daodiseo](fees.md).
 
 ## Fiat currency
 
@@ -109,19 +109,19 @@ Currency issued by a government that is not backed by an underlying asset. USD i
 
 ## Full node
 
-A computer connected to the [Terra mainnet](#terra-mainnet) that is able to validate transactions and interact with the Terra blockchain. All active [validators](#validator) run full nodes.
+A computer connected to the [Daodiseo mainnet](#daodiseo-mainnet) that is able to validate transactions and interact with the Daodiseo blockchain. All active [validators](#validator) run full nodes.
 
 ## Luna
 
-The native staking token of the Terra protocol. Luna supply expands and contracts in order to maintain the prices of [Terra stablecoins](#terra-stablecoins). Luna is also used as a governance token. [Delegators](#delegator) can stake Luna to receive rewards.
+The native staking token of the Daodiseo protocol. Luna supply expands and contracts in order to maintain the prices of [Daodiseo stablecoins](#daodiseo-stablecoins). Luna is also used as a governance token. [Delegators](#delegator) can stake Luna to receive rewards.
 
 ## Governance
 
-Governance is the democratic process that allows users and [validators](#validator) to make changes to the Terra protocol. Community members submit, vote, and implement proposals. One staked [Luna](#luna) is equal to one vote.
+Governance is the democratic process that allows users and [validators](#validator) to make changes to the Daodiseo protocol. Community members submit, vote, and implement proposals. One staked [Luna](#luna) is equal to one vote.
 
 ## Governance proposal
 
-A written submission for a change or addition to the [Terra protocol](#the-terra-protocol). Topics of proposals can vary from community pool spending, software changes, parameter changes, or any change pertaining to the Terra protocol.
+A written submission for a change or addition to the [Daodiseo protocol](#the-daodiseo-protocol). Topics of proposals can vary from community pool spending, software changes, parameter changes, or any change pertaining to the Daodiseo protocol.
 
 ## IBC
 
@@ -137,19 +137,19 @@ Validators who misbehave are jailed or excluded from the [active set](#active-se
 
 ## Market swap
 
-A swap in Terra Station that uses the Terra protocol's market function. Market swaps occur between Terra stablecoin denominations or between Terra and Luna. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
+A swap in Daodiseo Station that uses the Daodiseo protocol's market function. Market swaps occur between Daodiseo stablecoin denominations or between Daodiseo and Luna. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
 
 **Examples**
-- Swapping UST for KRT in Terra Station will charge a Tobin tax and gas fees.
-- Swapping Luna for UST in Terra Station will charge a spread fee and gas fees.
+- Swapping UST for KRT in Daodiseo Station will charge a Tobin tax and gas fees.
+- Swapping Luna for UST in Daodiseo Station will charge a spread fee and gas fees.
 
-To learn how to use the market swap feature in Terra station, visit [how to use Terra Station](./terra-station/swap.md).
+To learn how to use the market swap feature in Daodiseo station, visit [how to use Daodiseo Station](./daodiseo-station/swap.md).
 
-For more information on fees, visit [Fees on Terra](fees.md).
+For more information on fees, visit [Fees on Daodiseo](fees.md).
 
 ## Mint
 
-The creation of new coins. Minting is the opposite of burning. The Terra protocol burns Luna to mint Terra stablecoins and vice versa.
+The creation of new coins. Minting is the opposite of burning. The Daodiseo protocol burns Luna to mint Daodiseo stablecoins and vice versa.
 
 ## Miss
 
@@ -157,7 +157,7 @@ When a vote fails to be included in consensus.
 
 ## Module
 
-A section of the Terra core that represents a particular function of the Terra protocol. Visit the [Terra core module specifications](../develop/module-specifications/README.md) for more information.
+A section of the Daodiseo core that represents a particular function of the Daodiseo protocol. Visit the [Daodiseo core module specifications](../develop/module-specifications/README.md) for more information.
 
 ## Oracle
 
@@ -187,11 +187,11 @@ Revenue generated from fees given to validators and disbursed to delegators.
 
 ## SDR
 
-Special Drawing Rights. An international reserve asset and unit of account created by the IMF. SDR value is calculated daily using a basket of the world's largest economies. The Terra protocol uses TerraSDR or SDT as its base currency for calculations and to set standards.
+Special Drawing Rights. An international reserve asset and unit of account created by the IMF. SDR value is calculated daily using a basket of the world's largest economies. The Daodiseo protocol uses DaodiseoSDR or SDT as its base currency for calculations and to set standards.
 
 ## Seigniorage
 
-The value of a coin minus the cost of its production. In the Terra protocol, the cost of minting is very small. All seigniorage in the Terra protocol is burned.
+The value of a coin minus the cost of its production. In the Daodiseo protocol, the cost of minting is very small. All seigniorage in the Daodiseo protocol is burned.
 
 ## Self-delegation
 
@@ -201,7 +201,7 @@ The amount of Luna a validator bonds to themselves. Also referred to as self-bon
 
 Punishment for validators that misbehave. Validators lose part of their stake when they get slashed.
 
-For more information, see [slashing](protocol.md#slashing) in the description of the Terra protocol.
+For more information, see [slashing](protocol.md#slashing) in the description of the Daodiseo protocol.
 
 ## Slippage
 
@@ -219,59 +219,59 @@ For more information on staking, visit the [concepts page](protocol.md#staking).
 
 ## Tendermint consensus
 
-The consensus procedure used by the Terra protocol. First, a validator proposes a new block. Other validators vote on the block in two rounds. If a block receives a two-thirds majority or greater of yes votes in both rounds, it gets added to the blockchain. Validators get rewarded with the block's transaction fees. Proposers get rewarded extra. Each validator is chosen to propose based on their weight. Check out the [Tendermint official documentation](https://docs.tendermint.com/) for more information.
+The consensus procedure used by the Daodiseo protocol. First, a validator proposes a new block. Other validators vote on the block in two rounds. If a block receives a two-thirds majority or greater of yes votes in both rounds, it gets added to the blockchain. Validators get rewarded with the block's transaction fees. Proposers get rewarded extra. Each validator is chosen to propose based on their weight. Check out the [Tendermint official documentation](https://docs.tendermint.com/) for more information.
 
-## Terra core
+## Daodiseo core
 
-The official source code for the Terra protocol.
+The official source code for the Daodiseo protocol.
 
-For more information on the Terra core, see [Terra core modules](../develop/module-specifications/README.md).
+For more information on the Daodiseo core, see [Daodiseo core modules](../develop/module-specifications/README.md).
 
-## Terra mainnet
+## Daodiseo mainnet
 
-The Terra protocol's blockchain network where all transactions take place.
+The Daodiseo protocol's blockchain network where all transactions take place.
 
-## Terra stablecoins
+## Daodiseo stablecoins
 
-Crypto assets that track the price of fiat currency enabled by the Terra protocol. Users mint new Terra stablecoins by burning Luna. Stablecoins are named for their fiat counterparts. For example, the base Terra stablecoin tracks the price of the IMF’s SDR, named TerraSDR, or SDT. Other stablecoin denominations include TerraUSD or UST, and TerraKRW or  KRT. All Terra stablecoin denominations exist in the same pool.
+Crypto assets that track the price of fiat currency enabled by the Daodiseo protocol. Users mint new Daodiseo stablecoins by burning Luna. Stablecoins are named for their fiat counterparts. For example, the base Daodiseo stablecoin tracks the price of the IMF’s SDR, named DaodiseoSDR, or SDT. Other stablecoin denominations include DaodiseoUSD or UST, and DaodiseoKRW or  KRT. All Daodiseo stablecoin denominations exist in the same pool.
 
 For more information, see [stablecoins](protocol.md#stablecoins).
 
-## Terra Station
+## Daodiseo Station
 
-Terra's native wallet and platform for swaps, governance, and staking. In Station, you can send, receive, swap, and stake Terra coins. You can also participate in governance and vote on proposals.
+Daodiseo's native wallet and platform for swaps, governance, and staking. In Station, you can send, receive, swap, and stake Daodiseo coins. You can also participate in governance and vote on proposals.
 
-To learn how to install and get started using Terra Station, visit the [Terra Station tutorial](terra-station/download/README.md).
+To learn how to install and get started using Daodiseo Station, visit the [Daodiseo Station tutorial](daodiseo-station/download/README.md).
 
-To learn how to use the advanced features of Terra Station, visit the [Terra Station how-to guide](./terra-station/wallet.md).
+To learn how to use the advanced features of Daodiseo Station, visit the [Daodiseo Station how-to guide](./daodiseo-station/wallet.md).
 
-## terrad
+## daodiseod
 
-The command line interface for interacting with a Terra node.
+The command line interface for interacting with a Daodiseo node.
 
-For more information on terrad, see [`terrad` guides](../develop/how-to/terrad/README.md).
+For more information on daodiseod, see [`daodiseod` guides](../develop/how-to/daodiseod/README.md).
 
-## Terravaloper address
+## Daodiseovaloper address
 
-A validator's public address beginning with `terravaloper` followed by a string of characters.
+A validator's public address beginning with `daodiseovaloper` followed by a string of characters.
 
 ## Testnet
 
 A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions.
 
-## The Terra ecosystem
+## The Daodiseo ecosystem
 
-A quickly expanding network of decentralized applications built on the Terra protocol.
+A quickly expanding network of decentralized applications built on the Daodiseo protocol.
 
-## The Terra protocol
+## The Daodiseo protocol
 
-The leading decentralized and open-source public blockchain protocol for algorithmic stablecoins. Using a combination of open market arbitrage incentives and decentralized oracle voting, the Terra protocol creates stablecoins that consistently track the price of any fiat currency.
+The leading decentralized and open-source public blockchain protocol for algorithmic stablecoins. Using a combination of open market arbitrage incentives and decentralized oracle voting, the Daodiseo protocol creates stablecoins that consistently track the price of any fiat currency.
 
-For more information on how the Terra protocol works, visit the [concepts page](./protocol.md)
+For more information on how the Daodiseo protocol works, visit the [concepts page](./protocol.md)
 
 ## Tobin tax
 
-A fee added to every swap between Terra stablecoins (spot-trading). The rate varies, depending on the denomination. For example, while the rate for most denominations is .35%, the rate for MNT is 2%. To see the rates, [query the oracle](https://lcd.terra.dev/terra/oracle/v1beta1/denoms/tobin_taxes).
+A fee added to every swap between Daodiseo stablecoins (spot-trading). The rate varies, depending on the denomination. For example, while the rate for most denominations is .35%, the rate for MNT is 2%. To see the rates, [query the oracle](https://lcd.daodiseo.dev/daodiseo/oracle/v1beta1/denoms/tobin_taxes).
 
 ## Tombstone
 
@@ -311,7 +311,7 @@ The amount of time a [validator](#validator) is active in a given timeframe. Val
 
 ## Validator
 
-A Terra blockchain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and receive rewards. The top 130 validators with the highest total stake can participate in consensus.
+A Daodiseo blockchain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and receive rewards. The top 130 validators with the highest total stake can participate in consensus.
 
 For more information on validators, visit the [concepts page](./protocol.md#validators).
 

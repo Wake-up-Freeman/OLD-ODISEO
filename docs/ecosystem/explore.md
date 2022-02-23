@@ -1,26 +1,26 @@
 # Explore the ecosystem
 
-## Terra Website and Socials
+## Daodiseo Website and Socials
 
-[Website](http://www.terra.money/): the official Terraform Labs website<br>
-[Docs](https://docs.terra.money): the official documentation for the Terra blockchain<br>
-[White Paper](https://www.terra.money/Terra_White_paper.pdf): the official Terra White Paper<br>
-[Github](https://github.com/terra-money): the official Terraform Labs GitHub hosting all Terra public repos<br>
-[Discord](https://discord.gg/e29HWwC2Mz): the official Terra Discord for developers and enthusiasts to engage in focused discussions<br>
-[Telegram](https://t.me/TerraLunaChat): the official Terra Telegram for enthusiasts to engage in discussions<br>
-[Telegram Announcements](https://t.me/terra_announcements): the official Telegram announcement channel for all major Terra & Mirror updates<br>
-[Twitter](https://twitter.com/terra_money): the official Terra Twitter for all major news and updates regarding Terra and its ecosystem<br>
-[Forum](https://agora.terra.money/): the official Terra Forum for technical discussions related to Terra and its community<br>
-[Medium](https://medium.com/terra-money): the official Terra Medium for all major partnership announcements and monthly ecosystem updates<br>
-[Youtube](https://www.youtube.com/c/Terra_Money): the official Terra Youtube for Terra panel discussions and monthly AMAs<br>
-[Blockfolio Signals](https://blockfolio.com/coin/LUNA_2): Terra announcement channel on Blockfolio<br>
-[Reddit](https://www.reddit.com/r/terraluna/): the community-run Terra Reddit<br>
-[LunaLoot](https://lunaloot.com/): the official Terra merch shop<br>
+[Website](http://www.daodiseo.money/): the official Daodiseoform Labs website<br>
+[Docs](https://docs.daodiseo.money): the official documentation for the Daodiseo blockchain<br>
+[White Paper](https://www.daodiseo.money/Daodiseo_White_paper.pdf): the official Daodiseo White Paper<br>
+[Github](https://github.com/daodiseomoney): the official Daodiseoform Labs GitHub hosting all Daodiseo public repos<br>
+[Discord](https://discord.gg/e29HWwC2Mz): the official Daodiseo Discord for developers and enthusiasts to engage in focused discussions<br>
+[Telegram](https://t.me/DaodiseoLunaChat): the official Daodiseo Telegram for enthusiasts to engage in discussions<br>
+[Telegram Announcements](https://t.me/daodiseo_announcements): the official Telegram announcement channel for all major Daodiseo & Mirror updates<br>
+[Twitter](https://twitter.com/daodiseo_money): the official Daodiseo Twitter for all major news and updates regarding Daodiseo and its ecosystem<br>
+[Forum](https://agora.daodiseo.money/): the official Daodiseo Forum for technical discussions related to Daodiseo and its community<br>
+[Medium](https://medium.com/daodiseomoney): the official Daodiseo Medium for all major partnership announcements and monthly ecosystem updates<br>
+[Youtube](https://www.youtube.com/c/Daodiseo_Money): the official Daodiseo Youtube for Daodiseo panel discussions and monthly AMAs<br>
+[Blockfolio Signals](https://blockfolio.com/coin/LUNA_2): Daodiseo announcement channel on Blockfolio<br>
+[Reddit](https://www.reddit.com/r/daodiseoluna/): the community-run Daodiseo Reddit<br>
+[LunaLoot](https://lunaloot.com/): the official Daodiseo merch shop<br>
 
 ## Mirror Website and Socials
 
 [Website](https://mirror.finance/): the official Mirror Protocol landing page<br>
-[Terra-side](https://terra.mirror.finance/): the official Mirror Protocol on Terra<br>
+[Daodiseo-side](https://daodiseo.mirror.finance/): the official Mirror Protocol on Daodiseo<br>
 [Eth-side](https://eth.mirror.finance/): the official Mirror Protocol UI bridge to Ethereum<br>
 [Docs](https://docs.mirror.finance): the official documentation for Mirror Protocol<br>
 [White Paper](https://mirror.finance/MirrorWP.pdf): the official Mirror Protocol White Paper<br>
@@ -48,20 +48,20 @@
 ## Analytics
 
 [Chaiscan](https://www.chaiscan.com/): provides CHAI daily & monthly users and transaction numbers (by DSRV)<br>
-[Flipside Crypto](http://terra.flipsidecrypto.com/): provides insights into Terra’s ecosystem, including ecosystem usage, stakeholder behaviors, staking patterns, and economics<br>
+[Flipside Crypto](http://daodiseo.flipsidecrypto.com/): provides insights into Daodiseo’s ecosystem, including ecosystem usage, stakeholder behaviors, staking patterns, and economics<br>
 [Smartstake](http://terra.smartstake.io/): provides data on staking APR and MIR airdrops<br>
 [Megastake](http://lunarichlist.com/): provides a list of the top LUNA wallets<br>
-[Dapp.com](https://www.dapp.com/dapps/terra-chai): provides data on Terra dapps and rankings<br>
-[Blocktivity](http://blocktivity.info/): provides Terra price history, ecosystem and activity data<br>
-[Messari](https://messari.io/asset/terra): provides Terra project overview, news & research, historical data, and metrics<br>
-[Token Terminal](https://terminal.tokenterminal.com/dashboard/Terra): provides data on Terra P/S, VOL/MC, GMV & rankings with other blockchains<br>
+[Dapp.com](https://www.dapp.com/dapps/daodiseo-chai): provides data on Daodiseo dapps and rankings<br>
+[Blocktivity](http://blocktivity.info/): provides Daodiseo price history, ecosystem and activity data<br>
+[Messari](https://messari.io/asset/daodiseo): provides Daodiseo project overview, news & research, historical data, and metrics<br>
+[Token Terminal](https://terminal.tokenterminal.com/dashboard/Daodiseo): provides data on Daodiseo P/S, VOL/MC, GMV & rankings with other blockchains<br>
 [Token Terminal Mirror](https://terminal.tokenterminal.com/dashboard/MirrorProtocol): provides data on Mirror P/S, VOL/MC, GMV & rankings with other dapps<br>
 [AssetDash](https://assetdash.com/?q=luna): ranks LUNA with other assets<br>
 [Luna Whale](https://www.lunawhale.com/): provides insights into LUNA whale activity (by DSRV)<br>
-[TerraSwap Dashboard](https://alpac4.com/TerraSwapDashboard): provides insights on volume and liquidity on TerraSwap, Terra’s AMM DEX<br>
+[DaodiseoSwap Dashboard](https://alpac4.com/DaodiseoSwapDashboard): provides insights on volume and liquidity on DaodiseoSwap, Daodiseo’s AMM DEX<br>
 [Mirror Market](https://mirrormarket.finance/): provides tracking and data insights on the Mirror ecosystem<br>
 [Anchor Simulator](https://anchor-simulator.com/): enables users to estimate earnings on Anchor using different strategies<br>
-[Ape Board](https://apeboard.finance/dashboard): enables users to track portfolio across the entire Terra ecosystem on one dashboard<br>
+[Ape Board](https://apeboard.finance/dashboard): enables users to track portfolio across the entire Daodiseo ecosystem on one dashboard<br>
 
 ## Applications
 
@@ -72,51 +72,51 @@
 [MemePay](https://www.meme.mn/nav/home): a payments product used by 3% of the population in Mongolia<br>
 [Pylon Protocol](https://www.pylon.money): A suite of savings and payments products powered by yield redirection<br>
 
-## Applications Powered By Terra
+## Applications Powered By Daodiseo
 
-[PayWithTerra](https://paywithterra.com/): an API gateway enabling merchants to accept Terra stablecoins<br>
+[PayWithDaodiseo](https://paywithdaodiseo.com/): an API gateway enabling merchants to accept Daodiseo stablecoins<br>
 [Kash](https://app.kash.io/): Intellabridge’s decentralized mobile banking app (Alpha release) providing a user-friendly interface to access Mirror and Anchor<br>
 [LoTerra](https://loterra.io/): decentralized lottery<br>
-[Alice Finance](https://www.alice.co/): front-end interface for the Terra product suite<br>
+[Alice Finance](https://www.alice.co/): front-end interface for the Daodiseo product suite<br>
 [Spar Protocol](https://spar.finance/): decentralized on-chain asset management protocol<br>
 
 ## Block Explorers
 
-[Terra Finder](https://finder.terra.money/): the official Terra block explorer<br>
-[Stake ID](https://terra.stake.id/#/): Terra block explorer with additional data on the latest proposals and validators<br>
-[Figment Hubble](https://hubble.figment.io/terra/chains/columbus-4): Terra block explorer with advanced validator data and income report functionality<br>
-[Extraterrestria Finder](https://finder.extraterrestrial.money/): Terra block explorer with community driven features<br>
-[ATOMScan](https://atomscan.com/terra): Terra block explorer by ATOMScan<br>
+[Daodiseo Finder](https://finder.daodiseo.money/): the official Daodiseo block explorer<br>
+[Stake ID](https://daodiseo.stake.id/#/): Daodiseo block explorer with additional data on the latest proposals and validators<br>
+[Figment Hubble](https://hubble.figment.io/daodiseo/chains/columbus-4): Daodiseo block explorer with advanced validator data and income report functionality<br>
+[Extraterrestria Finder](https://finder.extraterrestrial.money/): Daodiseo block explorer with community driven features<br>
+[ATOMScan](https://atomscan.com/daodiseo): Daodiseo block explorer by ATOMScan<br>
 
 ## Contribute
 
-[Bug Bounty](https://www.terra.money/bugcrowd): the official Terra Bug Bounty program<br>
-[Project Surge](https://medium.com/terra-money/introducing-project-surge-49cfe8141284): program involving community in Terra’s BD pipeline<br>
-[Terraform Capital](https://capital.terra.money/): launch capital program funding audits for projects that incorporate LUNA/Terra stablecoins<br>
+[Bug Bounty](https://www.daodiseo.money/bugcrowd): the official Daodiseo Bug Bounty program<br>
+[Project Surge](https://medium.com/daodiseomoney/introducing-project-surge-49cfe8141284): program involving community in Daodiseo’s BD pipeline<br>
+[Daodiseoform Capital](https://capital.daodiseo.money/): launch capital program funding audits for projects that incorporate LUNA/Daodiseo stablecoins<br>
 
 ## Ecosystem Partnerships
 
-[Terra Bridge](https://bridge.terra.money/): Terra bridge web frontend to easily send Terra assets to and from Ethereum and Binance Smart Chain<br>
-[Shuttle](https://github.com/terra-money/shuttle): Terra bridge to Ethereum and Binance Smart Chain<br>
-[Wormhole](https://github.com/certusone/wormhole): a bridge between Terra, Ethereum, and Solana being developed by Certus One<br>
-[Axelar](https://axelar.network/): a bridge between Terra and other supported Layer 1 blockchains<br>
+[Daodiseo Bridge](https://bridge.daodiseo.money/): Daodiseo bridge web frontend to easily send Daodiseo assets to and from Ethereum and Binance Smart Chain<br>
+[Shuttle](https://github.com/daodiseomoney/shuttle): Daodiseo bridge to Ethereum and Binance Smart Chain<br>
+[Wormhole](https://github.com/certusone/wormhole): a bridge between Daodiseo, Ethereum, and Solana being developed by Certus One<br>
+[Axelar](https://axelar.network/): a bridge between Daodiseo and other supported Layer 1 blockchains<br>
 [Injective Protocol](https://injectiveprotocol.com/): decentralized derivatives trading using mirror assets<br>
 [Intellabridge](https://www.intellabridge.com/): decentralized mobile banking app “Kash” bringing Mirror and Anchor to mainstream audiences<br>
-[Loop Finance](https://loop.markets): AMM DEX on Terra listing native Terra assets, ERC-20 tokens, and SPL tokens<br>
+[Loop Finance](https://loop.markets): AMM DEX on Daodiseo listing native Daodiseo assets, ERC-20 tokens, and SPL tokens<br>
 
 #### Ethereum
 
-- [Uniswap](https://eth.mirror.finance/): DEX for Terra assets and MIR-incentivized liquidity pools<br>
-- [Sushiswap](https://sushiswap.fi/): DEX for Terra assets and SUSHI-incentivized UST Onsen pool<br>
+- [Uniswap](https://eth.mirror.finance/): DEX for Daodiseo assets and MIR-incentivized liquidity pools<br>
+- [Sushiswap](https://sushiswap.fi/): DEX for Daodiseo assets and SUSHI-incentivized UST Onsen pool<br>
 - [Curve](https://www.curve.fi/ust): Deep liquidity stablecoin pool for UST<br>
 - [Balancer](https://balancer.exchange/#/swap): UST/USDC pool<br>
-- [1inch](https://1inch.exchange/): DEX aggregator for Terra assets<br>
-- [Matcha.xyz](http://matcha.xyz/): DEX aggregator for Terra assets<br>
+- [1inch](https://1inch.exchange/): DEX aggregator for Daodiseo assets<br>
+- [Matcha.xyz](http://matcha.xyz/): DEX aggregator for Daodiseo assets<br>
 - [Yearn Finance](https://yearn.finance/vaults): crvUST vault<br>
 - [Harvest Finance](https://harvest.finance/): automated yield-farming for mAsset and UST pools<br>
 - [Zapper.fi](http://zapper.fi/): DeFi dashboard for managing UST<br>
 - [Lido](https://lido.fi/) - liquid staking derivatives<br>
-- [Persistence](https://persistence.one/): Terra stablecoin-powered institutional DeFi<br>
+- [Persistence](https://persistence.one/): Daodiseo stablecoin-powered institutional DeFi<br>
 - [Unilend](https://unilend.finance/) - lending and borrowing using mirror assets<br>
 - [CREAM Finance](https://cream.finance/) - lending and borrowing for UST<br>
 - [Stabilize Protocol](https://www.stabilize.finance/): STBZ-incentivized UST stablecoin pool<br>
@@ -126,7 +126,7 @@
 
 #### Binance Smart Chain
 
-- [PancakeSwap](https://pancakeswap.finance/): DEX for Terra assets and CAKE-incentivized liquidity pools<br>
+- [PancakeSwap](https://pancakeswap.finance/): DEX for Daodiseo assets and CAKE-incentivized liquidity pools<br>
 - [StableXSwap](https://www.stablex.finance/#/swap): stablecoin pool for UST<br>
 - [Beefy Finance](https://beefy.finance/): yield farming optimizer for UST and mAsset pools<br>
 - [Smoothy Finance](https://smoothy.finance/#/swap): stablecoin AMM for UST<br>
@@ -134,12 +134,12 @@
 
 ## Educational
 
-[Terra Academy](https://www.youtube.com/watch?v=BXHU5kLVlY8&list=PLZJKUFMj9K6MLhq6Ffo3bkrOLh9oIha-q): comprehensive introduction to Terra App development<br>
-[CoinMarketCap Earn](https://coinmarketcap.com/earn/project/terra): video series explaining Terra stablecoins and LUNA<br>
-[Staking Guide](https://www.terra.money/docs/Luna_Staking_eng.pdf): guide to staking LUNA on Terra Station<br>
-[Developer Docs](https://docs.terra.money/): official documentation for Terra<br>
-[Figment Learn](https://learn.datahub.figment.io/network-documentation/terra/tutorials): tutorials onboarding developers on Terra<br>
-[Terra Bites](https://anchor.fm/terrabites): podcast dedicated to the Terra ecosystem<br>
+[Daodiseo Academy](https://www.youtube.com/watch?v=BXHU5kLVlY8&list=PLZJKUFMj9K6MLhq6Ffo3bkrOLh9oIha-q): comprehensive introduction to Daodiseo App development<br>
+[CoinMarketCap Earn](https://coinmarketcap.com/earn/project/daodiseo): video series explaining Daodiseo stablecoins and LUNA<br>
+[Staking Guide](https://www.daodiseo.money/docs/Luna_Staking_eng.pdf): guide to staking LUNA on Daodiseo Station<br>
+[Developer Docs](https://docs.daodiseo.money/): official documentation for Daodiseo<br>
+[Figment Learn](https://learn.datahub.figment.io/network-documentation/daodiseo/tutorials): tutorials onboarding developers on Daodiseo<br>
+[Daodiseo Bites](https://anchor.fm/daodiseobites): podcast dedicated to the Daodiseo ecosystem<br>
 
 ## Exchanges
 
@@ -158,37 +158,37 @@
 
 ## Infrastructure
 
-[HexTrust](https://hextrust.com/): Custody support for Terra assets<br>
-[PrimeTrust](https://www.primetrust.com/): Financial infrastructure for Terra applications<br>
-[Fireblocks](https://www.fireblocks.com/): MPC wallet for Terra assets<br>
+[HexTrust](https://hextrust.com/): Custody support for Daodiseo assets<br>
+[PrimeTrust](https://www.primetrust.com/): Financial infrastructure for Daodiseo applications<br>
+[Fireblocks](https://www.fireblocks.com/): MPC wallet for Daodiseo assets<br>
 [MoonPay](https://www.moonpay.com/): fiat to crypto on and offramps<br>
 [Simplex](https://www.simplex.com/): fiat to crypto onramps<br>
 [Transak](https://transak.com/): fiat to crypto on and offramps<br>
 [Switchain](https://www.switchain.com/): crypto to crypto on and offramps<br>
 [Mask Network](https://mask.io/): send and receive cryptocurrencies on social networks<br>
 [Band Protocol](https://bandprotocol.com/): cross-chain data oracle for mirror assets<br>
-[Hummingbot](https://hummingbot.io/): automated crypto arbitrage and trading bots for Terra assets<br>
+[Hummingbot](https://hummingbot.io/): automated crypto arbitrage and trading bots for Daodiseo assets<br>
 [Velo Protocol](https://velo.org/): stablecoin swaps using Velo’s federated credit exchange network<br>
-[Datahub](https://figment.io/datahub/terra/): full node infrastructure for Terra developers<br>
-[Quicksync](https://terra.quicksync.io/): data backup solution for anyone running a node on Terra<br>
-[Bison Trails](https://bisontrails.co/): platform to optimize running a node on Terra<br>
+[Datahub](https://figment.io/datahub/daodiseo/): full node infrastructure for Daodiseo developers<br>
+[Quicksync](https://daodiseo.quicksync.io/): data backup solution for anyone running a node on Daodiseo<br>
+[Bison Trails](https://bisontrails.co/): platform to optimize running a node on Daodiseo<br>
 
 #### Support
 
-[Terra public FCD](https://fcd.terra.dev/swagger): the full client daemon for Terra<br>
-[Terra public LCD](https://lcd.terra.dev/swagger/): the light client daemon for Terra<br>
-[Easy2stake public LCD](https://terra-lcd.easy2stake.com/82F438G9UNMwD5bwmycR/): the easy2stake light client daemon for Terra<br>
+[Daodiseo public FCD](https://fcd.daodiseo.dev/swagger): the full client daemon for Daodiseo<br>
+[Daodiseo public LCD](https://lcd.daodiseo.dev/swagger/): the light client daemon for Daodiseo<br>
+[Easy2stake public LCD](https://daodiseo-lcd.easy2stake.com/82F438G9UNMwD5bwmycR/): the easy2stake light client daemon for Daodiseo<br>
 [RPC endpoints](../develop/endpoints.md): a list of recommended RPC endpoints<br>
 
 ## Wallets
 
-[Terra Station](https://station.terra.money/): Terra’s native wallet<br>
-Terra Station Extension: [Chrome](https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp)<br>
-Terra Station Desktop: [MacOS](https://github.com/terra-money/station-legacy/releases/download/v3.5.0/Terra.Station-1.1.0.dmg) | [Windows](https://github.com/terra-money/station-legacy/releases/download/v3.5.0/Terra.Station.Setup.1.1.0.exe) | [Linux (deb)](https://github.com/terra-money/station-legacy/releases/download/v3.5.0/station-electron_1.1.1_amd64.deb) | [Linux (rpm)](https://github.com/terra-money/station-legacy/releases/download/v3.5.0/station-electron-1.1.1.x86_64.rpm)<br>
-Terra Station Mobile: [iOS](https://apps.apple.com/app/id1548434735) | [Android](https://play.google.com/store/apps/details?id=money.terra.station)<br>
+[Daodiseo Station](https://station.daodiseo.money/): Daodiseo’s native wallet<br>
+Daodiseo Station Extension: [Chrome](https://chrome.google.com/webstore/detail/daodiseo-station/aiifbnbfobpmeekipheeijimdpnlpgpp)<br>
+Daodiseo Station Desktop: [MacOS](https://github.com/daodiseomoney/station-legacy/releases/download/v3.5.0/Daodiseo.Station-1.1.0.dmg) | [Windows](https://github.com/daodiseomoney/station-legacy/releases/download/v3.5.0/Daodiseo.Station.Setup.1.1.0.exe) | [Linux (deb)](https://github.com/daodiseomoney/station-legacy/releases/download/v3.5.0/station-electron_1.1.1_amd64.deb) | [Linux (rpm)](https://github.com/daodiseomoney/station-legacy/releases/download/v3.5.0/station-electron-1.1.1.x86_64.rpm)<br>
+Daodiseo Station Mobile: [iOS](https://apps.apple.com/app/id1548434735) | [Android](https://play.google.com/store/apps/details?id=money.daodiseo.station)<br>
 [Mirror Wallet](https://mirrorwallet.com/): Invest and trade cryptocurrencies and mirror assets<br>
-[MathWallet](https://mathwallet.org/en-us/): multi-platform crypto wallet for Terra assets<br>
-[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Terra-LUNA-): hardware wallet by the Ledger team<br>
+[MathWallet](https://mathwallet.org/en-us/): multi-platform crypto wallet for Daodiseo assets<br>
+[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Daodiseo-LUNA-): hardware wallet by the Ledger team<br>
 [Oxis](https://www.oxis.com/): non-custodial wallet with fiat to crypto on and offramps & trading functionality<br>
 [ZenGo](https://www.zengo.com/): multi-asset wallet, optimized for mobile<br>
-[XDEFI](https://www.xdefi.io/): cross-chain wallet (Chrome) extension. Handle Ethereum, Thorchain, Poligon, Bitcoin, BSC, Terra...
+[XDEFI](https://www.xdefi.io/): cross-chain wallet (Chrome) extension. Handle Ethereum, Thorchain, Poligon, Bitcoin, BSC, Daodiseo...

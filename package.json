@@ -1,13 +1,13 @@
 {
-  "name": "terra-docs",
+  "name": "daodiseo-docs",
   "version": "0.0.1",
-  "description": "Official Terra Documentation website",
+  "description": "Official Daodiseo Documentation website",
   "main": "index.js",
   "authors": {
-    "name": "Terraform Labs, PTE.",
-    "email": "ecosystem@terra.money"
+    "name": "Daodiseoform Labs, PTE.",
+    "email": "ecosystem@daodiseo.money"
   },
-  "repository": "/terra-docs",
+  "repository": "/daodiseo-docs",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"

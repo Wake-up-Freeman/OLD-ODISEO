@@ -5,7 +5,7 @@
 quick-start/README
 smart-contracts/README
 ```
-Use these guides to setup your environment and build a dApp. If this is your first time building on Terra, use the [quickstart guide](quick-start/README.md) to set up your environment.
+Use these guides to setup your environment and build a dApp. If this is your first time building on Daodiseo, use the [quickstart guide](quick-start/README.md) to set up your environment.
 
 :::::::{grid}
 :gutter: 3
@@ -13,11 +13,11 @@ Use these guides to setup your environment and build a dApp. If this is your fir
 :::{grid-item-card}
 :link: quick-start/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terrain.png
+```{image} /img/daodiseoin.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain quickstart guide**  
-Set up Terrain and start building in 5 minutes.
+Set up Daodiseoin and start building in 5 minutes.
 :::
 
 :::{grid-item-card}

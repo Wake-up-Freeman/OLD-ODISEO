@@ -1,4 +1,4 @@
-# Terra Spacecamp Resources <img src="/img/spacecamp_icon-01.svg" class="sd-pb-2" height="100px">
+# Daodiseo Spacecamp Resources <img src="/img/spacecamp_icon-01.svg" class="sd-pb-2" height="100px">
 
 
 ```{toctree}
@@ -12,8 +12,8 @@ Terrain Quickstart<../develop/dapp/quick-start/README>
 ../develop/endpoints.md
 ../develop/module-specifications/README
 ../develop/sdks/terra-js/README
-Terra.py <https://terra-money.github.io/terra.py/>
-Faucet <https://faucet.terra.money/>
+Daodiseo.py <https://daodiseomoney.github.io/daodiseo.py/>
+Faucet <https://faucet.daodiseo.money/>
 Block explorers <../ecosystem/integrations>
 ```
 
@@ -26,23 +26,23 @@ Block explorers <../ecosystem/integrations>
 :::{grid-item-card}
 :link: ../develop/dapp/quick-start/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terrain.png
+```{image} /img/daodiseoin.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain quickstart**  
 :::
 
 :::{grid-item-card}
-:link: ../develop/dapp/quick-start/using-terrain-localterra.html
+:link: ../develop/dapp/quick-start/using-daodiseoin-localdaodiseo.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalTerra.svg
+```{image} /img/LocalDaodiseo.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
-**Terrain and LocalTerra**  
+**Daodiseoin and LocalDaodiseo**  
 :::
 
 :::{grid-item-card}
-:link: ../develop/dapp/quick-start/using-terrain-testnet.html
+:link: ../develop/dapp/quick-start/using-daodiseoin-testnet.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -60,18 +60,18 @@ Block explorers <../ecosystem/integrations>
 :::
 
 :::{grid-item-card}
-:link: ../develop/sdks/terra-js/README.html
+:link: ../develop/sdks/daodiseo-js/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_js.svg
+```{image} /img/daodiseo_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.js**  
 :::
 
 :::{grid-item-card}
-:link: https://terra-money.github.io/terra.py/
+:link: https://daodiseomoney.github.io/daodiseo.py/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/terra_sdk.svg
+```{image} /img/daodiseo_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.py**  
@@ -87,7 +87,7 @@ Block explorers <../ecosystem/integrations>
 :::
 
 :::{grid-item-card}
-:link: https://faucet.terra.money/
+:link: https://faucet.daodiseo.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Faucet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -105,7 +105,7 @@ Block explorers <../ecosystem/integrations>
 :::
 
 :::{grid-item-card}
-:link: https://station.terra.money/
+:link: https://station.daodiseo.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/wallets_station.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

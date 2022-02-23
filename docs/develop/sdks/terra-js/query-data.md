@@ -4,8 +4,8 @@ After you're connected to the blockchain via an `LCDClient` instance, you can qu
 
 ```ts
 async main() {
-  const marketParams = await terra.market.parameters();
-  const exchangeRates = await terra.oracle.exchangeRates();
+  const marketParams = await daodiseo.market.parameters();
+  const exchangeRates = await daodiseo.oracle.exchangeRates();
   console.log(marketParams.base_pool);
   console.log(exchangeRates.get('uusd'));
 }
@@ -15,18 +15,18 @@ main();
 
 Each module has its own set of querying functions. To get a comprehensive list, explore the module documentation:
 
-- [`auth`](https://terra-money.github.io/terra.js/classes/AuthAPI.html)
-- [`bank`](https://terra-money.github.io/terra.js/classes/BankAPI.html)
-- [`distribution`](https://terra-money.github.io/terra.js/classes/DistributionAPI.html)
-- [`gov`](https://terra-money.github.io/terra.js/classes/GovAPI.html)
-- [`market`](https://terra-money.github.io/terra.js/classes/MarketAPI.html)
-- [`mint`](https://terra-money.github.io/terra.js/classes/MintAPI.html)
-- [`msgauth`](https://terra-money.github.io/terra.js/classes/MsgAuthAPI.html)
-- [`oracle`](https://terra-money.github.io/terra.js/classes/OracleAPI.html)
-- [`slashing`](https://terra-money.github.io/terra.js/classes/SlashingAPI.html)
-- [`staking`](https://terra-money.github.io/terra.js/classes/StakingAPI.html)
-- [`supply`](https://terra-money.github.io/terra.js/classes/SupplyAPI.html)
-- [`tendermint`](https://terra-money.github.io/terra.js/classes/TendermintAPI.html)
-- [`treasury`](https://terra-money.github.io/terra.js/classes/TreasuryAPI.html)
-- [`tx`](https://terra-money.github.io/terra.js/classes/TxAPI.html)
-- [`wasm`](https://terra-money.github.io/terra.js/classes/WasmAPI.html)
+- [`auth`](https://daodiseomoney.github.io/daodiseo.js/classes/AuthAPI.html)
+- [`bank`](https://daodiseomoney.github.io/daodiseo.js/classes/BankAPI.html)
+- [`distribution`](https://daodiseomoney.github.io/daodiseo.js/classes/DistributionAPI.html)
+- [`gov`](https://daodiseomoney.github.io/daodiseo.js/classes/GovAPI.html)
+- [`market`](https://daodiseomoney.github.io/daodiseo.js/classes/MarketAPI.html)
+- [`mint`](https://daodiseomoney.github.io/daodiseo.js/classes/MintAPI.html)
+- [`msgauth`](https://daodiseomoney.github.io/daodiseo.js/classes/MsgAuthAPI.html)
+- [`oracle`](https://daodiseomoney.github.io/daodiseo.js/classes/OracleAPI.html)
+- [`slashing`](https://daodiseomoney.github.io/daodiseo.js/classes/SlashingAPI.html)
+- [`staking`](https://daodiseomoney.github.io/daodiseo.js/classes/StakingAPI.html)
+- [`supply`](https://daodiseomoney.github.io/daodiseo.js/classes/SupplyAPI.html)
+- [`tendermint`](https://daodiseomoney.github.io/daodiseo.js/classes/TendermintAPI.html)
+- [`treasury`](https://daodiseomoney.github.io/daodiseo.js/classes/TreasuryAPI.html)
+- [`tx`](https://daodiseomoney.github.io/daodiseo.js/classes/TxAPI.html)
+- [`wasm`](https://daodiseomoney.github.io/daodiseo.js/classes/WasmAPI.html)

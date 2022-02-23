@@ -1,14 +1,14 @@
 # Configure general settings
 
-The following information describes the most important node configuration settings found in the `~/.terra/config/` directory. It is recommended that you update these settings with your own information.  
+The following information describes the most important node configuration settings found in the `~/.daodiseo/config/` directory. It is recommended that you update these settings with your own information.  
 
-:::{dropdown} Structure of .terra/config
+:::{dropdown} Structure of .daodiseo/config
 
 ```bash
 ~/.terra/config
 │-- addrbook.json                       # a registry of peers to connect to
-│-- app.toml                            # terrad configuration file
-│-- client.toml                         # configurations for the cli wallet (ex terracli)
+│-- app.toml                            # daodiseod configuration file
+│-- client.toml                         # configurations for the cli wallet (ex daodiseocli)
 │-- config.toml                         # Tendermint configuration  file
 │-- genesis.json                        # gensesis transactions
 │-- node_key.json                       # private key used for node authentication in the p2p protocol (its corresponding public key is the nodeid)
@@ -22,22 +22,22 @@ The following information describes the most important node configuration settin
 Initialize the node with a human-readable name:
 
 ```bash
-terrad init <your_custom_moniker> # ex., terrad init validator-joes-node
+daodiseod init <your_custom_moniker> # ex., daodiseod init validator-joes-node
 ```
 ::: {admonition} Moniker characters
 :class: caution
 Monikers can only contain ASCII characters; using Unicode characters will render your node unreachable by other peers in the network.
 :::
 
-You can update your node's moniker by editing the `moniker` field in  `~/.terra/config/config.toml`
+You can update your node's moniker by editing the `moniker` field in  `~/.daodiseo/config/config.toml`
 
 ## Update minimum gas prices
 
-1. Open `~/.terra/config/app.toml`.
+1. Open `~/.daodiseo/config/app.toml`.
 
 2. Modify `minimum-gas-prices` and set the minimum price of gas a validator will accept to validate a transaction and to prevent spam.
 
-- You can [query FCD](https://fcd.terra.dev/v1/txs/gas_prices) to view the current gas prices.
+- You can [query FCD](https://fcd.daodiseo.dev/v1/txs/gas_prices) to view the current gas prices.
 
 **Example**:
 
@@ -50,9 +50,9 @@ minimum-gas-prices = "0.01133uluna,0.15uusd,0.104938usdr,169.77ukrw,428.571umnt,
 
 ## Start the light client daemon (LCD)
 
-For information about the available Terra REST API endpoints, see the [Swagger documentation](https://lcd.terra.dev/swagger/). To enable the REST API and Swagger, and to start the LCD, complete the following steps:
+For information about the available Daodiseo REST API endpoints, see the [Swagger documentation](https://lcd.daodiseo.dev/swagger/). To enable the REST API and Swagger, and to start the LCD, complete the following steps:
 
-1. Open `~/.terra/config/app.toml`.
+1. Open `~/.daodiseo/config/app.toml`.
 
 2. Locate the `API Configuration` section (`[api]`).
 
@@ -69,4 +69,4 @@ For information about the available Terra REST API endpoints, see the [Swagger d
    swagger = true
    ```
 
-5. Restart the service via `systemctl restart terrad`. Once restarted, the LCD will be available (by default on port `127.0.0.1:26657`)
+5. Restart the service via `systemctl restart daodiseod`. Once restarted, the LCD will be available (by default on port `127.0.0.1:26657`)

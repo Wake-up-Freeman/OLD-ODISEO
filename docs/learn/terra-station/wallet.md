@@ -1,12 +1,12 @@
 # Wallet <img src="/img/StationWallet.svg" height="40px">
 
-This guide is for advanced features of the Terra Station wallet. If this is your first time using Terra Station, follow the [Terra Station tutorial](download/terra-station-desktop.md).
+This guide is for advanced features of the Daodiseo Station wallet. If this is your first time using Daodiseo Station, follow the [Daodiseo Station tutorial](download/daodiseo-station-desktop.md).
 
-For information on using multisig wallets in Terra Station, see [](multisig.md)
+For information on using multisig wallets in Daodiseo Station, see [](multisig.md)
 
 ## Create a wallet
 
-1. Open the Terra Station desktop app and click **New wallet**.
+1. Open the Daodiseo Station desktop app and click **New wallet**.
 
 2. Type in a secure wallet name and password.
 
@@ -32,13 +32,13 @@ For information on using multisig wallets in Terra Station, see [](multisig.md)
 
 7. Click **Create a wallet**.
 
-Congratulations! You have just created a Terra Station wallet.
+Congratulations! You have just created a Daodiseo Station wallet.
 
 ## Select a wallet
 
 Follow these steps to connect to a wallet previously accessed on your device.
 
-1. Open Terra Station and click **Connect**.
+1. Open Daodiseo Station and click **Connect**.
 
 2. Click **Select wallet** and select the wallet you want to connect to.
 
@@ -52,9 +52,9 @@ Use a private key to access your wallet from other devices. Unlike recovering yo
 
 ### Export your private key
 
-1. Open Terra Station and connect to your wallet.
+1. Open Daodiseo Station and connect to your wallet.
 
-2. Locate your wallet address on Terra Station. Click the gear icon next to your wallet address.
+2. Locate your wallet address on Daodiseo Station. Click the gear icon next to your wallet address.
 
 3. Click **Export private key**.
 
@@ -64,7 +64,7 @@ You can now access your private key. Do not share your private key with anyone. 
 
 ### Import your private key
 
-1. Open Terra Station and click **Connect**.
+1. Open Daodiseo Station and click **Connect**.
 
 2. Click **Import private key**.
 
@@ -80,9 +80,9 @@ Use a QR code to access your wallet on a mobile device. Unlike recovering your w
 
 ### Export your QR code using desktop
 
-1. Open Terra Station and connect to your wallet.
+1. Open Daodiseo Station and connect to your wallet.
 
-2. Locate your wallet address on Terra Station. Click the gear icon next to your wallet address.
+2. Locate your wallet address on Daodiseo Station. Click the gear icon next to your wallet address.
 
 3. Click **Export with QR code**.
 
@@ -90,7 +90,7 @@ Use a QR code to access your wallet on a mobile device. Unlike recovering your w
 
 ### Export your QR code using the mobile app
 
-1. Open the Terra Station app and connect to your wallet.
+1. Open the Daodiseo Station app and connect to your wallet.
 
 2. Tap the gear icon in the upper right corner of the app.
 
@@ -102,7 +102,7 @@ You can now access your private key QR code. Do not share your private key with 
 
 ### Import your QR code
 
-1. Open the Terra Station app and tap **Recover wallet**.
+1. Open the Daodiseo Station app and tap **Recover wallet**.
 
 2. Tap **Scan QR code**.
 
@@ -116,7 +116,7 @@ Your private key has been imported to the device you are using. You can now use 
 
 If you forgot or deleted your login info, you can recover a wallet using your seed phrase. You can also use this method to change your wallet name.
 
-1. Open Terra Station and click **Connect**.
+1. Open Daodiseo Station and click **Connect**.
 
 2. Click **Recover existing wallet**.
 
@@ -128,7 +128,7 @@ You can now access your wallet with your login and password.
 
 ## Disconnect a wallet
 
-1. Locate your wallet address on Terra Station. Click the gear icon next to your wallet address.
+1. Locate your wallet address on Daodiseo Station. Click the gear icon next to your wallet address.
 
 2. Select **disconnect** from the options.
 
@@ -143,9 +143,9 @@ Deleting a wallet deletes the wallet name, password, and private key from your d
 Before you delete your wallet, always make sure you have your seed phrase and private key. Never store your seed phrase on a digital device. Without a seed phrase or private key and password, your wallet and funds will be permanently inaccessible. Always store your seed phrase in a secure location.
 :::
 
-1. Open Terra Station and connect to your wallet.
+1. Open Daodiseo Station and connect to your wallet.
 
-2. Locate your wallet address on Terra Station. Click the gear icon next to your wallet address.
+2. Locate your wallet address on Daodiseo Station. Click the gear icon next to your wallet address.
 
 3. Select **Delete wallet**.
 
@@ -157,9 +157,9 @@ Your wallet is now deleted. You can only access it again by entering your [seed 
 
 Follow these steps to change your password. Changing your password only changes your wallet password on a single device. Repeat these steps to change your wallet password on other devices.
 
-1. Open Terra Station and connect to your wallet.
+1. Open Daodiseo Station and connect to your wallet.
 
-2. Locate your wallet address on Terra Station. Click the gear icon next to your wallet address.
+2. Locate your wallet address on Daodiseo Station. Click the gear icon next to your wallet address.
 
 3. Select **Change password** from the options.
 

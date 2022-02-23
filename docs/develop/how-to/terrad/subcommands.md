@@ -1,6 +1,6 @@
 # Subcommands
 
-This section describes the subcommands available from `terrad`.
+This section describes the subcommands available from `daodiseod`.
 
 ## `debug addr`
 
@@ -13,7 +13,7 @@ terrad debug addr <address>
 
 **Example**
 ```bash
-terrad debug addr terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
+daodiseod debug addr daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
 ```
 
 ## `debug pubkey`
@@ -104,7 +104,7 @@ For information about generating multisignature accounts and signing transaction
 
 ## `keys show`
 
-Retrieves an address for a specified account. The address is prefixed by `terra-`, for example `terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc`. To receive funds, you must give an account address to the sender.
+Retrieves an address for a specified account. The address is prefixed by `daodiseo-`, for example `daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc`. To receive funds, you must give an account address to the sender.
 
 **Syntax**
 ```bash
@@ -122,7 +122,7 @@ To show a validator's address, append the `--bech=val` flag to the end of the co
 terrad keys show accountExample --bech=val
 ```
 
-To show the validator consensus address that is generated when the node is created by `terrad init` and the Tendermint signing key for the node, use the `tendermint` command, as shown in the following example:
+To show the validator consensus address that is generated when the node is created by `daodiseod init` and the Tendermint signing key for the node, use the `tendermint` command, as shown in the following example:
 
 ```bash
 terrad tendermint show-address
@@ -148,13 +148,13 @@ terrad query authz grants <granter-address> <grantee-address>
 
 **Example**
 ```bash
-terrad query authz grants terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
+daodiseod query authz grants daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
 ```
 
 Additionally, the `grants` command can retrieve the specific grant between a granter and a grantee for a message type by appending the message type URL to the end of the command statement, as shown in the following example:
 
 ```bash
-terrad query authz grants terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm /cosmos.bank.v1beta1.MsgSend
+daodiseod query authz grants daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm /cosmos.bank.v1beta1.MsgSend
 ```
 ## `query bank balances`
 
@@ -167,7 +167,7 @@ terrad query bank balances <account-address>
 
 **Example**
 ```bash
-terrad query bank balances terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod query bank balances daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 ::: {note}
@@ -196,13 +196,13 @@ terrad query distribution rewards
 Check the current rewards earned by a specific delegator by appending the `<delegator-address>` at the end of the command statement, as shown in the following example:
 
 ```bash
-terrad query distribution rewards terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
+daodiseod query distribution rewards daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
 ```
 
 Check the current rewards earned by a delegator and restricted to one validator by appending the `<delegator-address>` followed by the  `<validator-address>` at the end of the command statement, as shown in the following example:
 
 ```bash
-terrad query distribution rewards terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm terra19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy
+daodiseod query distribution rewards daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm daodiseo19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy
 ```
 
 ## `query distribution commission`
@@ -216,7 +216,7 @@ terrad query distribution commission <validator_address>
 
 **Example**
 ```bash
-terrad query distribution commission terra19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy
+daodiseod query distribution commission daodiseo19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy
 ```
 
 ## `query distribution slashes`
@@ -230,7 +230,7 @@ terrad query distribution slashes <validator-address> <start-block-height> <end-
 
 **Example**
 ```bash
-terrad query distribution slashes terra19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy 25 300
+daodiseod query distribution slashes daodiseo19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy 25 300
 ```
 
 ## `query distribution community-pool`
@@ -271,7 +271,7 @@ terrad query gov deposit <proposal-id> <depositor-address>
 
 **Example**
 ```bash
-terrad query gov deposit 4 terra1skjwj5whet0lpe65qaq4rpq03hjxlwd9nf39lk
+daodiseod query gov deposit 4 daodiseo1skjwj5whet0lpe65qaq4rpq03hjxlwd9nf39lk
 ```
 
 ## `query gov deposits`
@@ -316,7 +316,7 @@ terrad query gov proposals
 Additionally, you can query proposals filtered by details, such as `voter` or `depositor`, by appending the corresponding flag and address at the end of the command statement, as shown in the following example:
 
 ```bash
-terrad query gov proposals --voter terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb
+daodiseod query gov proposals --voter daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb
 ```
 
 ## `query gov vote`
@@ -330,7 +330,7 @@ terrad query gov vote <proposal-id> <voter-address>
 
 **Example**
 ```bash
-terrad query gov vote 7 terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb
+daodiseod query gov vote 7 daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb
 ```
 
 ## `query gov votes`
@@ -416,13 +416,13 @@ where `offer-coin` is the coin to be traded and `ask-denom` is the denomination 
 terrad query market swap 100000uluna usdr
 ```
 
-## `query market terra-pool-delta`
+## `query market daodiseo-pool-delta`
 
-Retrieves the current value of the Terra pool delta.
+Retrieves the current value of the Daodiseo pool delta.
 
 **Syntax**
 ```sh
-terrad query market terra-pool-delta
+daodiseod query market daodiseo-pool-delta
 ```
 
 ## `query market params`
@@ -474,7 +474,7 @@ blocks_per_year: 6311520
 
 ## `query oracle actives`
 
-Retrieves the active list of Terra assets recognized by type.
+Retrieves the active list of Daodiseo assets recognized by type.
 
 **Syntax**
 ```bash
@@ -519,7 +519,7 @@ terrad query oracle feeder <validator-address>
 
 **Example**
 ```sh
-terrad query oracle feeder terravaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod query oracle feeder daodiseovaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 ## `query oracle miss`
@@ -533,7 +533,7 @@ terrad query oracle miss <validator-address>
 
 **Example**
 ```sh
-terrad query oracle miss terravaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod query oracle miss daodiseovaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 ## `query oracle params`
@@ -595,7 +595,7 @@ terrad query slashing signing-info <validator-consensus-public-key>
 
 **Example**
 ```bash
-terrad query slashing signing-info terravalconspub1atjdueldlxwft8d4729pqhdhm3nlss0u4wx7wpeqb1zhjf8yr1tn7cgw2b4q4yv9na
+daodiseod query slashing signing-info daodiseovalconspub1atjdueldlxwft8d4729pqhdhm3nlss0u4wx7wpeqb1zhjf8yr1tn7cgw2b4q4yv9na
 ```
 
 ## `query slashing signing-infos`
@@ -637,7 +637,7 @@ terrad query staking delegation <delegator-address> <validator-address>
 
 **Example**
 ```bash
-terrad query staking delegation terra1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p terravaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod query staking delegation daodiseo1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p daodiseovaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 ## `query staking delegations`
@@ -651,7 +651,7 @@ terrad query staking delegations <delegator-address>
 
 **Example**
 ```bash
-terrad query staking delegations terra1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
+daodiseod query staking delegations daodiseo1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
 ```
 
 ## `query staking delegations-to`
@@ -665,7 +665,7 @@ terrad query staking delegations-to <validator-address>
 
 **Example**
 ```bash
-terrad query staking delegations-to terravaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod query staking delegations-to daodiseovaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 ## `query staking historical-info`
@@ -728,7 +728,7 @@ terrad query staking redelegation <delegator-address> <src-val-addr> <dst-val-ad
 
 **Example**
 ```bash
-terrad query staking redelegation terra1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p terravaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm terravaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
+daodiseod query staking redelegation daodiseo1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p daodiseovaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm daodiseovaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
 ```
 
 ## `query staking redelegations`
@@ -742,7 +742,7 @@ terrad query staking redelegations <delegator-address>
 
 **Example**
 ```bash
-terrad query staking redelegations terra1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
+daodiseod query staking redelegations daodiseo1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
 ```
 
 ## `query staking redelegations-from`
@@ -756,7 +756,7 @@ terrad query staking redelegations-from <validator-address>
 
 **Example**
 ```bash
-terrad query staking redelegations-from terravaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
+daodiseod query staking redelegations-from daodiseovaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj
 ```
 
 ## `query staking unbonding-delegation`
@@ -770,7 +770,7 @@ terrad query staking unbonding-delegation <delegator-address> <validator-address
 
 **Example**
 ```bash
-terrad query staking unbonding-delegation terra1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p terravaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm
+daodiseod query staking unbonding-delegation daodiseo1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p daodiseovaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm
 ```
 
 ## `query staking unbonding-delegations`
@@ -784,7 +784,7 @@ terrad query staking unbonding-delegations <delegator-address>
 
 **Example**
 ```bash
-terrad query staking unbonding-delegations terra1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
+daodiseod query staking unbonding-delegations daodiseo1gghjut3ccd8ay0zduzj64hwre2fxs9ld75ru9p
 ```
 
 ## `query staking unbonding-delegations-from`
@@ -798,7 +798,7 @@ terrad query staking unbonding-delegations-from <validator-address>
 
 **Example**
 ```bash
-terrad query staking unbonding-delegations-from terravaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm
+daodiseod query staking unbonding-delegations-from daodiseovaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm
 ```
 
 ## `query staking validators`
@@ -813,14 +813,14 @@ terrad query staking validators
 To retrieve the information of a single validator, append the validator address to the end of the command statement, as shown in the following example:
 
 ```bash
-terrad query staking validator terravaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod query staking validator daodiseovaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 ## `query treasury indicators`
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Retrieves treasury indicators.
@@ -834,7 +834,7 @@ terrad query treasury indicators
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Retrieves the high-level settings for the treasury. For more information, see [treasury parameters](../../module-specifications/spec-treasury.md#parameters).
@@ -872,7 +872,7 @@ window_probation: 12
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Retrieves the reward weight of the current epoch. The reward weight is the portion of seigniorage that is designated as ballot rewards for the winners of exchange-rate oracle.
@@ -886,7 +886,7 @@ terrad query treasury reward-weight
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Retrieves the amount of seigniorage denominated in uluna in the current epoch.
@@ -900,7 +900,7 @@ terrad query treasury seigniorage-proceeds
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero. This command is here for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero. This command is here for reference.
 :::
 
 Retrieves the current stability tax cap of the specified denomination. Stability fees are capped at some fixed amount of SDT to avoid penalizing large transactions.
@@ -920,7 +920,7 @@ terrad query treasury tax-cap ukrw
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Retrieves the current stability tax cap of all assets.
@@ -934,7 +934,7 @@ terrad query treasury tax-caps
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Retrieves the cumulative tax proceeds.
@@ -948,7 +948,7 @@ terrad query treasury tax-proceeds
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Retrieves the stability tax rate of the current epoch.
@@ -959,7 +959,7 @@ terrad query treasury tax-rate
 ```
 
 ::: {note}
-As of proposal [172](https://station.terra.money/proposal/172), the stability fee tax rate is zero.   
+As of proposal [172](https://station.daodiseo.money/proposal/172), the stability fee tax rate is zero.   
 :::
 
 ## `query tx`
@@ -1034,7 +1034,7 @@ where `<query-msg>` is a JSON string that encodes the QueryMsg.
 
 **Example**
 ```sh
-terrad query wasm contract-store terra1plju286nnfj3z54wgcggd4enwaa9fgf5kgrgzl '{"config":{}}'
+daodiseod query wasm contract-store daodiseo1plju286nnfj3z54wgcggd4enwaa9fgf5kgrgzl '{"config":{}}'
 ```
 
 ## `query wasm params`
@@ -1076,7 +1076,7 @@ terrad tx authz exec <msg-tx-json-filename> --from=<grantee-address>
 
 **Example**
 ```bash
-terrad tx authz exec tx.json --from=<terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
+daodiseod tx authz exec tx.json --from=<daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm
 ```
 
 ## `tx authz grant`
@@ -1090,13 +1090,13 @@ terrad tx authz grant <grantee-address> <authorization-type> --from=<your-addres
 
 **Example**
 ```bash
-terrad tx authz grant terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm send /cosmos.bank.v1beta1.MsgSend --from=terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod tx authz grant daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm send /cosmos.bank.v1beta1.MsgSend --from=daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 Additionally, you can restrict this authorization to a specified allowance by including the `--spend-limit` flag, as shown in the following example:
 
 ```bash
-terrad tx authz grant terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm send /cosmos.bank.v1beta1.MsgSend --spend-limit=15000uluna --from=terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod tx authz grant daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm send /cosmos.bank.v1beta1.MsgSend --spend-limit=15000uluna --from=daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 ```
 
 ## `tx authz revoke`
@@ -1109,7 +1109,7 @@ terrad tx authz revoke <grantee-address> <authorization-type> --from=<granter-ad
 ```
 
 **Example**
-terrad tx authz revoke terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm /cosmos.bank.v1beta1.MsgSend --from=terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
+daodiseod tx authz revoke daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm /cosmos.bank.v1beta1.MsgSend --from=daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc
 
 ## `tx bank send`
 
@@ -1133,8 +1133,8 @@ where
 **Example**
 ```bash
 terrad tx bank send \
-    terra15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc \
-    terra14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm \
+    daodiseo15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc \
+    daodiseo14h2od5f3vahd28uywwvt8sqbi52upnzagshtrm \
     8600usdr \
     --chain-id=testnet \
 ```
@@ -1162,7 +1162,7 @@ terrad tx distribution set-withdraw-addr <withdrawal-address>
 
 **Example**
 ```bash
-terrad tx distribution set-withdraw-addr terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb
+daodiseod tx distribution set-withdraw-addr daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb
 ```
 
 ## `tx distribution withdraw-all-rewards`
@@ -1185,7 +1185,7 @@ terrad tx distribution withdraw-rewards <validator-address>
 
 **Example**
 ```bash
-terrad tx distribution withdraw-rewards terra19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy
+daodiseod tx distribution withdraw-rewards daodiseo19t4gde4f8ndwx67qhbnur9yqdc31xznpksajbcy
 ```
 
 ## `tx gov deposit`
@@ -1202,7 +1202,7 @@ terrad tx gov deposit <proposal-id> "<deposit-amount>" \
 **Example**
 ```bash
 terrad tx gov deposit 15 "10000000luluna" \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
@@ -1234,7 +1234,7 @@ terrad tx gov submit-proposal \
     --description=Information about the NFT platform \
     --type="Text" \
     --deposit="100000uluna" \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
@@ -1254,7 +1254,7 @@ terrad tx gov submit-proposal \
 ```bash
 terrad tx gov submit-proposal \
     param-change /proposals/proposal.json \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
@@ -1300,7 +1300,7 @@ terrad tx gov submit-proposal \
 ```bash
 terrad tx gov submit-proposal \
     community-pool-spend /proposals/proposal.json \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
@@ -1310,7 +1310,7 @@ where `proposal.json` contains the following information:
 {
   "title": "Community Pool Spend",
   "description": "Pay me some Lunas!",
-  "recipient": "terra1s5afhd6gxevu37mkqcvvsj8qeylhn0rzn7cdaq",
+  "recipient": "daodiseo1s5afhd6gxevu37mkqcvvsj8qeylhn0rzn7cdaq",
   "amount": [
     {
       "denom": "uluna",
@@ -1330,7 +1330,7 @@ where `proposal.json` contains the following information:
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.terra.money/proposal/43) and [172](https://station.terra.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
+As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is fixed at zero.Although the Treasury module is no longer effectively used, the commands are kept for reference.
 :::
 
 Tax rate and reward weight are important monetary policy levers handled by the [`Treasury`](../../module-specifications/spec-treasury.md) module to modulate miner incentives toward stable demand and steady growth. Usually, they are automatically calibrated once per epoch by the protocol. However, they can be changed at any time, if an update proposal gets passed with enough supporters.
@@ -1351,7 +1351,7 @@ terrad tx gov submit-proposal \
 ```bash
 terrad tx gov submit-proposal \
     tax-rate-update /proposals/proposal.json \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
@@ -1385,7 +1385,7 @@ terrad tx gov submit-proposal \
 ```bash
 terrad tx gov submit-proposal \
     reward-weight-update /proposals/proposal.json \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
@@ -1430,10 +1430,10 @@ terrad tx gov submit-proposal software-upgrade v0.5.0-beta3 \
     --title="Upgrade to v0.6.0-beta3" \
     --description="let's upgrade to v0.6.0-beta3" \
     --upgrade-height=20 \
-    --upgrade-info='{"binaries":{"darwin/amd64":"/Workspace/terra/core/build/terrad?checksum=sha256:2032356fe0899dec0cdd559f1c649bc81e53a9b4063b333059135e3a2aae8728"}}' \
+    --upgrade-info='{"binaries":{"darwin/amd64":"/Workspace/daodiseo/core/build/daodiseod?checksum=sha256:2032356fe0899dec0cdd559f1c649bc81e53a9b4063b333059135e3a2aae8728"}}' \
     --type="Text" \
     --deposit="50000000uluna" \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
@@ -1465,13 +1465,13 @@ terrad tx gov vote \
 ```bash
 terrad tx gov vote \
     7 yes \
-    --from=terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
+    --from=daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb \
     --chain-id=columbus-5
 ```
 
 ## `tx market swap`
 
-Swaps any currency in the Terra ecosystem for another currency at the effective oracle exchange rate.
+Swaps any currency in the Daodiseo ecosystem for another currency at the effective oracle exchange rate.
 
 **Syntax**
 ```bash
@@ -1488,10 +1488,10 @@ where `<offer-coin>` is the coin to be traded, and `<ask-denom>` is the denomina
 terrad tx market swap \
     "1000ukrw" \
     "usdr" \
-    --from "terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb" \
+    --from "daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb" \
 ```
 
-For Terra<>Luna swaps, the constant-product spread pricing model is enforced to limit consensus-related attack vectors. Terra<>Terra swaps have a constant Tobin tax.
+For Daodiseo<>Luna swaps, the constant-product spread pricing model is enforced to limit consensus-related attack vectors. Daodiseo<>Daodiseo swaps have a constant Tobin tax.
 
 Optionally, you can specify a recipient in the command statement to both swap and send in one transaction.
 
@@ -1509,8 +1509,8 @@ terrad tx market swap \
 terrad tx market swap \
     "1000ukrw" \
     "usdr"  \
-    "terra1s5afhd6gxevu37mkqcvvsj8qeylhn0rzn7cdaq"
-    --from "terra13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb" \
+    "daodiseo1s5afhd6gxevu37mkqcvvsj8qeylhn0rzn7cdaq"
+    --from "daodiseo13a8ddv3h7kbcn73akcbpe7ueks22vaolewpaxmb" \
 ```
 
 ## `tx oracle aggregate-prevote`
@@ -1530,7 +1530,7 @@ terrad tx oracle aggregate-prevote \
 terrad tx oracle aggregate-prevote \
     "1234" \
     "8888.0ukrw,1.243uusd,0.99usdr" \
-    "terravaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc" \
+    "daodiseovaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc" \
 ```
 
 ## `tx oracle aggregate-vote`
@@ -1550,7 +1550,7 @@ terrad tx oracle aggregate-vote \
 terrad tx oracle aggregate-vote \
     "1234" \
     "8888.0ukrw,1.243uusd,0.99usdr" \
-    "terravaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc" \
+    "daodiseovaloper15h6vd5f0wqps26zjlwrc6chah08ryu4hzzdwhc" \
 ```
 
 Given that oracle votes must be submitted in a feed over short time intervals (30 seconds), prevotes and votes must be submitted via some persistent server daemon, not manually. For more information, see the [Oracle Module Specification](../../module-specifications/spec-oracle.md).
@@ -1567,7 +1567,7 @@ where `feeder-address` is the address to which you will delegate your voting rig
 
 **Example**
 ```bash
-terrad tx oracle set-feeder terra14q7bu6p0aclm58dgirpo9mewh19nti5oxyamep
+daodiseod tx oracle set-feeder daodiseo14q7bu6p0aclm58dgirpo9mewh19nti5oxyamep
 ```
 
 ## `tx slashing unjail`
@@ -1592,7 +1592,7 @@ Creates a new validator that is initialized with a self-delegation.
 ```bash
 terrad tx staking create-validator \
     --amount=<uluna-amount> \
-    --pubkey=$(terrad tendermint show-validator) \
+    --pubkey=$(daodiseod tendermint show-validator) \
     --moniker="<moniker>" \
     --website="<validator-website>" \
     --identity="<keybase-identity>" \
@@ -1616,7 +1616,7 @@ terrad tx staking delegate <validator-address> <amount>
 
 **Example**
 ```bash
-terrad tx staking delegate terravaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm 2500stake
+daodiseod tx staking delegate daodiseovaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm 2500stake
 ```
 
 ## `tx staking edit-validator`
@@ -1643,7 +1643,7 @@ terrad tx staking redelegate <from-validator-address> <to-validator-address> <am
 
 **Example**
 ```bash
-terrad tx staking redelegate terravaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj terravaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm 350stake
+daodiseod tx staking redelegate daodiseovaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj daodiseovaloper1l2rsakp388kuv9k8qzq6lrm9taddae7fpx59wm 350stake
 ```
 
 ## `tx staking unbond`
@@ -1657,7 +1657,7 @@ terrad tx staking unbond <validator-address> <stake-amount>
 
 **Example**
 ```bash
-terrad tx staking unbond terravaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj 600stake
+daodiseod tx staking unbond daodiseovaloper1gghjut3ccd8ay0zduzj64hwre2fxs9ldmqhffj 600stake
 ```
 
 ## `tx wasm clear-admin`
@@ -1693,7 +1693,7 @@ where `<init-msg>` is a JSON string containing the `InitMsg` to initialize your 
 
 **Example**
 ```sh
-terrad tx wasm instantiate 1 '{"arbiter": "terra~~"}' "1000000uluna"
+daodiseod tx wasm instantiate 1 '{"arbiter": "daodiseo~~"}' "1000000uluna"
 ```
 
 ## `tx wasm migrate`
@@ -1707,7 +1707,7 @@ terrad tx wasm migrate <contract-address> <new-code-id> <migrate-msg>
 
 **Example**
 ```sh
-terrad tx wasm migrate terra... 10 '{"verifier": "terra..."}'
+daodiseod tx wasm migrate daodiseo... 10 '{"verifier": "daodiseo..."}'
 ```
 
 ## `tx wasm store`

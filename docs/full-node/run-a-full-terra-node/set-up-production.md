@@ -1,19 +1,19 @@
 # Set up a production environment
 
-Use the following information to set up and manage your production-level full Terra node.  
+Use the following information to set up and manage your production-level full Daodiseo node.  
 
-For information about running a validator node, visit the [validator guide](../manage-a-terra-validator/README.md).
+For information about running a validator node, visit the [validator guide](../manage-a-daodiseo-validator/README.md).
 
 
 ## Create a dedicated user
 
-Although `terrad` does not require a super user account, during the setup process you'll need super user permission to create and modify some files. It is strongly recommended to use a normal user when running `terrad`.  
+Although `daodiseod` does not require a super user account, during the setup process you'll need super user permission to create and modify some files. It is strongly recommended to use a normal user when running `daodiseod`.  
 
-## Increase the maximum files `terrad` can open
+## Increase the maximum files `daodiseod` can open
 
 `terrad` is set to open 1024 files by default. It is recommended that you increase this amount.
 
-Modify `/etc/security/limits.conf`[*](https://linux.die.net/man/5/limits.conf) to increase the amount, where `nofile` is the number of files `terrad` can open.
+Modify `/etc/security/limits.conf`[*](https://linux.die.net/man/5/limits.conf) to increase the amount, where `nofile` is the number of files `daodiseod` can open.
 
 ```bash
 # If you have never changed this system config or your system is fresh, most of this file will be commented
@@ -25,23 +25,23 @@ Modify `/etc/security/limits.conf`[*](https://linux.die.net/man/5/limits.conf) t
 
 # Run the server as a daemon
 
-`terrad` must be running at all times. It is recommended that you register `terrad` as a `systemd` service so that it will be started automatically when the system reboots.
+`daodiseod` must be running at all times. It is recommended that you register `daodiseod` as a `systemd` service so that it will be started automatically when the system reboots.
 
-## Register `terrad` as a service
+## Register `daodiseod` as a service
 
-1. Create a service definition file in `/etc/systemd/system/terrad.service`.
+1. Create a service definition file in `/etc/systemd/system/daodiseod.service`.
 
      **Example**:
 
      ```bash
      [Unit]
-     Description=Terra Daemon
+     Description=Daodiseo Daemon
      After=network.target
 
      [Service]
      Type=simple
-     User=<TERRA_USER>
-     ExecStart=<PATH_TO_TERRAD>/terrad start  
+     User=<DAODISEO_USER>
+     ExecStart=<PATH_TO_DAODISEOD>/daodiseod start  
      Restart=on-abort
 
      [Install]
@@ -53,14 +53,14 @@ Modify `/etc/security/limits.conf`[*](https://linux.die.net/man/5/limits.conf) t
 
 2. Modify the `Service` section according to your environment:
 
-   - Enter the user (likely your username, unless you created a user specifically for `terrad`)
-   - Enter the path to the `terrad` executable. `<PATH_TO_TERRAD>` is likely `/home/<YOUR_USER>/go/bin/terrad` or `/usr/go/bin`. Confirm this with `whereis terrad`
+   - Enter the user (likely your username, unless you created a user specifically for `daodiseod`)
+   - Enter the path to the `daodiseod` executable. `<PATH_TO_DAODISEOD>` is likely `/home/<YOUR_USER>/go/bin/daodiseod` or `/usr/go/bin`. Confirm this with `whereis daodiseod`
    - Make sure you made the correct edits to /etc/security/limits.conf
 
 
-3. Run `systemctl daemon-reload` followed by `systemctl enable terrad`. This will register `terrad` as a system service and turn it on upon startup.
+3. Run `systemctl daemon-reload` followed by `systemctl enable daodiseod`. This will register `daodiseod` as a system service and turn it on upon startup.
 
-4. Now start the serivce with `systemctl start terrad`.
+4. Now start the serivce with `systemctl start daodiseod`.
 
 ### Controlling the service
 
@@ -68,13 +68,13 @@ Use `systemctl` to start, stop, and restart the service:
 
 ```bash
 # Check health
-systemctl status terrad
+systemctl status daodiseod
 # Start
-systemctl start terrad
+systemctl start daodiseod
 # Stop
-systemctl stop terrad
+systemctl stop daodiseod
 # Restart
-systemctl restart terrad
+systemctl restart daodiseod
 ```
 
 ### Access logs
@@ -83,9 +83,9 @@ Use `journalctl -t` to access entire logs, entire logs in reverse, and the lates
 
 ```bash
 # Entire log reversed
-journalctl -t terrad -r
+journalctl -t daodiseod -r
 # Entire log
-journalctl -t terrad
+journalctl -t daodiseod
 # Latest and continuous
-journalctl -t terrad -f
+journalctl -t daodiseod -f
 ```

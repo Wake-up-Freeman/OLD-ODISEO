@@ -1,9 +1,9 @@
-# Terra Station mobile
+# Daodiseo Station mobile
 
 ::::{grid} auto
 
 ::: {grid-item}
-```{button-link} terra-station-desktop.html
+```{button-link} daodiseo-station-desktop.html
 :color: primary
 :outline:
 Desktop
@@ -11,7 +11,7 @@ Desktop
 :::
 
 ::: {grid-item}
-```{button-link} terra-station-extension.html
+```{button-link} daodiseo-station-extension.html
 :color: primary
 :outline:
 Chrome extension
@@ -19,7 +19,7 @@ Chrome extension
 :::
 
 ::: {grid-item}
-```{button-link} terra-station-mobile.html
+```{button-link} daodiseo-station-mobile.html
 :color: primary
 Mobile
 ```
@@ -27,20 +27,20 @@ Mobile
 
 ::::
 
-Complete this tutorial to get started with the Terra Station mobile app.
+Complete this tutorial to get started with the Daodiseo Station mobile app.
 
-## Download the Terra Station app
+## Download the Daodiseo Station app
 
 1. Tap the download link for your operating system. Your device’s app store will open.
 
-   - [Terra Station for iOS](https://apps.apple.com/app/id1548434735)
-   - [Terra Station for Android](https://play.google.com/store/apps/details?id=money.terra.station)
+   - [Daodiseo Station for iOS](https://apps.apple.com/app/id1548434735)
+   - [Daodiseo Station for Android](https://play.google.com/store/apps/details?id=money.daodiseo.station)
 
-2. Install the Terra Station app on your phone.
+2. Install the Daodiseo Station app on your phone.
 
 ## Create a new wallet
 
-1. Launch the Terra Station app and select **New wallet**
+1. Launch the Daodiseo Station app and select **New wallet**
 
    ```{image} /img/screens/mobile/new-wallet.PNG
    :class: sd-p-3
@@ -88,26 +88,26 @@ Congratulations, you have just created a wallet!
 
 ## Receive tokens from an exchange
 
-1. Purchase your tokens using any exchange that supports Terra. To view a list of current exchanges, visit the [Integrations page](../../../ecosystem/integrations.md#exchanges)
+1. Purchase your tokens using any exchange that supports Daodiseo. To view a list of current exchanges, visit the [Integrations page](../../../ecosystem/integrations.md#exchanges)
 
-1. Withdraw any token supported by the Terra network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
+1. Withdraw any token supported by the Daodiseo network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
 
-    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Terra station Desktop app near your wallet name. Your wallet address will look like this: `terra<random-numbers-and-letters>`
+    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Daodiseo station Desktop app near your wallet name. Your wallet address will look like this: `daodiseo<random-numbers-and-letters>`
 
     1. Double-check your wallet address is correct before sending.
 
-    1. Send the tokens from the exchange to your Terra Station wallet address.
+    1. Send the tokens from the exchange to your Daodiseo Station wallet address.
 
     :::{admonition} Waiting times for transfers
     :class: caution
-    When you transfer tokens from an exchange to Terra, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
+    When you transfer tokens from an exchange to Daodiseo, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
     :::
 
-Now you have tokens on Terra!
+Now you have tokens on Daodiseo!
 
 ## Swap coins
 
-1. Open the Terra Station app extension and connect to your wallet. Tap **Swap**.
+1. Open the Daodiseo Station app extension and connect to your wallet. Tap **Swap**.
 
    ```{image} /img/screens/mobile/swap-blank.PNG
    :class: sd-p-3
@@ -143,7 +143,7 @@ Congratulations, you've just swapped coins!
 
 ## Send tokens
 
-1. Open the Terra Station app extension and connect to your wallet.
+1. Open the Daodiseo Station app extension and connect to your wallet.
 
    ```{image} /img/screens/mobile/wallet-full.PNG
    :class: sd-p-3
@@ -180,7 +180,7 @@ Congratulations, you've just swapped coins!
 
 ## Stake Luna
 
-1. Open the Terra Station app extension and connect to your wallet. Make sure you have Luna in your wallet to stake.
+1. Open the Daodiseo Station app extension and connect to your wallet. Make sure you have Luna in your wallet to stake.
 
 2. Tap **Staking**.
 
@@ -203,9 +203,9 @@ Your Luna is now staked to a validator.
 
 ## Withdraw staking rewards
 
-Rewards start accruing the moment you stake Luna. Monitor your rewards in the staking section of Terra Station. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake Luna. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
 
-1. Open the Terra Station app. Connect to a wallet and tap **Staking**.
+1. Open the Daodiseo Station app. Connect to a wallet and tap **Staking**.
 
 2. To claim all rewards, tap **Withdraw all rewards** at the top of the staking page.
 
@@ -217,7 +217,7 @@ Congratulations, you've just withdrawn your staking rewards!
 
 ## Connect to a dApp
 
-1. Open the Terra Station app and connect to your wallet.
+1. Open the Daodiseo Station app and connect to your wallet.
 
 2. In your browser, navigate to the dApp of your choice. This tutorial will use the [Anchor protocol WebApp](https://app.anchorprotocol.com/). Most dApps use a similar process, though others may vary.
 
@@ -228,7 +228,7 @@ Congratulations, you've just withdrawn your staking rewards!
 
 3. Tap the wallet icon at the top of the page.
 
-4. Wallet connect will open your Terra Station app.
+4. Wallet connect will open your Daodiseo Station app.
 
    ```{image} /img/screens/mobile/connect.PNG
    :class: sd-p-3
@@ -243,8 +243,8 @@ Congratulations, you've just withdrawn your staking rewards!
    :width: 300 px
    ```
 
-You can now make transactions on different dApps in the Terra ecosystem from your mobile device. 
+You can now make transactions on different dApps in the Daodiseo ecosystem from your mobile device. 
 
 ## Next steps
 
-To use Terra Station on your computer, visit the [Terra Station desktop tutorial](terra-station-desktop.md). To learn how to use other Station features, visit the [Station guides](../README.md).
+To use Daodiseo Station on your computer, visit the [Daodiseo Station desktop tutorial](daodiseo-station-desktop.md). To learn how to use other Station features, visit the [Station guides](../README.md).

@@ -8,11 +8,11 @@ Read this document thoroughly before becoming a validator.
 
 ### What is a validator?
 
-The Terra Core is powered by the Tendermint consensus. Validators run full nodes, participate in consensus by broadcasting votes, commit new blocks to the blockchain, and participate in governance of the blockchain. Validators are able to cast votes on behalf of their delegators. A validator's voting power is weighted according to their total stake.
+The Daodiseo Core is powered by the Tendermint consensus. Validators run full nodes, participate in consensus by broadcasting votes, commit new blocks to the blockchain, and participate in governance of the blockchain. Validators are able to cast votes on behalf of their delegators. A validator's voting power is weighted according to their total stake.
 
 ### What is a full node?
 
-A full node is a program that validates the transactions and blocks of a blockchain. Validators must run full nodes. Full nodes require more resources than light nodes,  which only processes block headers and a small subset of transactions. Running a full node means you are running a non-compromised and up-to-date version of the Terra Core software with low network latency and no downtime.
+A full node is a program that validates the transactions and blocks of a blockchain. Validators must run full nodes. Full nodes require more resources than light nodes,  which only processes block headers and a small subset of transactions. Running a full node means you are running a non-compromised and up-to-date version of the Daodiseo Core software with low network latency and no downtime.
 
 It is possible and encouraged for any user to run full nodes even if they do not plan to be validators.
 
@@ -26,7 +26,7 @@ The active validator set is made up of 130 validators, who hold the most Luna. T
 
 ### What is a delegator?
 
-Delegators are Luna holders who want to receive staking rewards without the responsibility of running a validator. Through Terra Station, a user can delegate Luna to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
+Delegators are Luna holders who want to receive staking rewards without the responsibility of running a validator. Through Daodiseo Station, a user can delegate Luna to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
 
 Delegators share the benefits and rewards of staking with their Validator. If a Validator is successful, its delegators will consistently share in the rewards structure. If a Validator is slashed, the delegator’s stake will also be slashed. This is why delegators should perform due-diligence on validators before delegating. Delegators can also diversify by spreading their stake over multiple validators.
 
@@ -40,7 +40,7 @@ Any participant in the network can signal their intent to become a validator by 
 
 - **PubKey:** Validator operators can have different accounts for validating and holding liquid funds. The PubKey submitted must be associated with the private key the validator will use to sign _prevotes_ and _precommits_.
 
-- **Address:** A `terravaloper-` address. This is the address used to identify your validator publicly. The private key associated with this address is used to bond, unbond, and claim rewards.
+- **Address:** A `daodiseovaloper-` address. This is the address used to identify your validator publicly. The private key associated with this address is used to bond, unbond, and claim rewards.
 
 - **Name** (also known as the **moniker**)
 
@@ -62,7 +62,7 @@ Any participant in the network can signal their intent to become a validator by 
 
 ```bash
 terrad tx staking create-validator
-    --pubkey terravalconspub1zcjduepqs5s0vddx5m65h5ntjzwd0x8g3245rgrytpds4ds7vdtlwx06mcesmnkzly
+    --pubkey daodiseovalconspub1zcjduepqs5s0vddx5m65h5ntjzwd0x8g3245rgrytpds4ds7vdtlwx06mcesmnkzly
     --amount "2uluna"
     --from tmp
     --commission-rate="0.20"
@@ -85,17 +85,17 @@ Once a validator is created and registered, Luna holders can delegate Luna to th
 
 There are two types of keys:
 
-- **Tendermint Key:** A unique key used to sign block hashes associated with a public key `terravalconspub`.
+- **Tendermint Key:** A unique key used to sign block hashes associated with a public key `daodiseovalconspub`.
 
-  - This Key is generated when a node is created with `terrad init`.
-  - Use `terrad tendermint show-validator` to see a key  
+  - This Key is generated when a node is created with `daodiseod init`.
+  - Use `daodiseod tendermint show-validator` to see a key  
 
-    **Example:** `terravalconspub1zcjduc3qcyj09qc03elte23zwshdx92jm6ce88fgc90rtqhjx8v0608qh5ssp0w94c`
+    **Example:** `daodiseovalconspub1zcjduc3qcyj09qc03elte23zwshdx92jm6ce88fgc90rtqhjx8v0608qh5ssp0w94c`
 
-- **Application Keys:** These keys are created from an application and are used to sign transactions. As a validator, you will probably use one key to sign staking-related transactions and another key to sign oracle-related transactions. Application keys are associated with a public key `terrapub-` and an address `terra-`. Both are derived from account keys generated by `terrad keys add`.
+- **Application Keys:** These keys are created from an application and are used to sign transactions. As a validator, you will probably use one key to sign staking-related transactions and another key to sign oracle-related transactions. Application keys are associated with a public key `daodiseopub-` and an address `daodiseo-`. Both are derived from account keys generated by `daodiseod keys add`.
 
 ::: {warning}
-A validator's operator key is directly tied to an application key, but uses reserved prefixes solely for this purpose: `terravaloper` and `terravaloperpub`
+A validator's operator key is directly tied to an application key, but uses reserved prefixes solely for this purpose: `daodiseovaloper` and `daodiseovaloperpub`
 :::
 
 ### What are the different states a validator can be in?
@@ -119,17 +119,17 @@ A validator operator's "self-bond" refers to the amount of Luna delegated to its
 
 ### Can I delegate to a validator outside of the active set?
 
-You can still delegate to a validator even if they do not appear on Terra Station. Simply add the terravaloper address of your desired validator to the end of the following URL:
+You can still delegate to a validator even if they do not appear on Daodiseo Station. Simply add the daodiseovaloper address of your desired validator to the end of the following URL:
 
 `https://station.terra.money/validator/<terravaloper-address>`
 
-Ask your validator for their terravaloper address.
+Ask your validator for their daodiseovaloper address.
 
 Be careful when delegating to validators outside of the active set. Some inactive validators may be jailed or are no longer supported. Station only displays active or recently active validators who are able to participate in consensus.
 
 ### Is there a faucet?
 
-Use the [Terra faucet](https://faucet.terra.money/) to obtain coins for the testnet.
+Use the [Daodiseo faucet](https://faucet.daodiseo.money/) to obtain coins for the testnet.
 
 ### Is there a minimum amount of Luna that must be staked to be an active (bonded) validator?
 
@@ -147,7 +147,7 @@ Delegators are free to choose validators according to their own criteria. This m
 
 - **Track record:** Delegators can look at the track record of a validator they plan to delegate to. This includes seniority, past votes on proposals, historical average uptime, and how often the node was compromised.
 
-Validators can also provide a website address to complete their resume. Validators need to build a good reputation to attract delegators. It's good practice for validators to have their setup audited by third parties. Please note that the Terra team will not approve or conduct any audits.
+Validators can also provide a website address to complete their resume. Validators need to build a good reputation to attract delegators. It's good practice for validators to have their setup audited by third parties. Please note that the Daodiseo team will not approve or conduct any audits.
 
 ## Responsibilities
 
@@ -161,9 +161,9 @@ A validator must:
 
 - **Run the correct software versions:** Validators need to make sure that their servers are always online, and that their private keys are not compromised.
 
-- **Actively participate in price discovery and stabilization:** Validators are highly incentivized to submit honest and correct votes of the real market prices of Luna. Validators are also encouraged to engage in arbitrage swaps that stabilize the prices of Terra stablecoins.
+- **Actively participate in price discovery and stabilization:** Validators are highly incentivized to submit honest and correct votes of the real market prices of Luna. Validators are also encouraged to engage in arbitrage swaps that stabilize the prices of Daodiseo stablecoins.
 
-- **Provide oversight and feedback on the correct deployment of community pool funds:** The Terra protocol includes a governance system for proposals to facilitate the adoption of its currencies. Validators are expected to hold budget executors to provide transparency and to use funds efficiently.
+- **Provide oversight and feedback on the correct deployment of community pool funds:** The Daodiseo protocol includes a governance system for proposals to facilitate the adoption of its currencies. Validators are expected to hold budget executors to provide transparency and to use funds efficiently.
 
 - **Be active members of the community:** Validators should always be up-to-date with the current state of the ecosystem so that they can easily adapt to any change.
 
@@ -197,9 +197,9 @@ Each member of a validator's staking pool earns different types of revenue:
 
 - **Compute fees (gas)**: To prevent spamming, validators can set minimum gas fees for transactions to be included in their mempool. At the end of every block, compute fees are disbursed to the participating validators proportional to their stake.
 
-- **Stability fees**: To stabilize the value of Luna, the protocol charges a small fee ranging from 0.1% to 1% on every Terra transaction, capped at 1 TerraSDR. This is paid in any Terra currency, and is disbursed proportional to each validators' stake at the end of every block in TerraSDR.
+- **Stability fees**: To stabilize the value of Luna, the protocol charges a small fee ranging from 0.1% to 1% on every Daodiseo transaction, capped at 1 DaodiseoSDR. This is paid in any Daodiseo currency, and is disbursed proportional to each validators' stake at the end of every block in DaodiseoSDR.
 
-- **Swap fees**: A small spread is charged on market swap transactions between Luna and any Terra currency, which is then used to reward validators that faithfully report oracle exchange rates. The fee for swaps between different Terra stablecoins is called the Tobin tax.
+- **Swap fees**: A small spread is charged on market swap transactions between Luna and any Daodiseo currency, which is then used to reward validators that faithfully report oracle exchange rates. The fee for swaps between different Daodiseo stablecoins is called the Tobin tax.
 
 This total revenue is divided among a validator's staking pool according to each validator's weight. The revenue is then divided among delegators in proportion to each delegator's stake. Note that a commission on delegators' revenue is applied by the validator before it is distributed.
 
@@ -213,7 +213,7 @@ The revenue received by a validator's pool is split between a validator and thei
 
 ### How are block provisions distributed?
 
-Block provisions are distributed proportionally to each validator relative to their total stake. This means that even though each validator gains TerraSDR \(SDT\) with each provision, all validators will still maintain equal weight.
+Block provisions are distributed proportionally to each validator relative to their total stake. This means that even though each validator gains DaodiseoSDR \(SDT\) with each provision, all validators will still maintain equal weight.
 
  **Example:** Take 10 validators with equal staking power and a commission rate of 1%. The block provision is 1000 SDT and each validator has 20% self-bonded Luna. These tokens do not go directly to the proposer. Instead, they are evenly spread among validators. So now each validator's pool has 100 SDT, which is distributed according to each participant's stake:
 
@@ -253,7 +253,7 @@ $$9R ~ + ~ R ~ + ~ 5\%(R) ~ = ~ 1005 ~ \Leftrightarrow ~ R ~ = ~ 1005 ~/ ~10.05 
 
 ### How does Luna supply behave over time?
 
-Luna is the native staking token for the Terra Proof of Stake chain. Luna represents mining power and serves as collateral for Terra stablecoins. When a Terra stablecoin's price is low, the relevant Terra stablecoin is burned, and Luna is minted. This increases the price of the Terra stablecoin. In order to constrain Luna inflation, the protocol burns all seigniorage and dividends swap fees to the exchange rate oracle ballot winners, which then returns Luna supply towards a target. The Terra Protocol is deflationary in nature.
+Luna is the native staking token for the Daodiseo Proof of Stake chain. Luna represents mining power and serves as collateral for Daodiseo stablecoins. When a Daodiseo stablecoin's price is low, the relevant Daodiseo stablecoin is burned, and Luna is minted. This increases the price of the Daodiseo stablecoin. In order to constrain Luna inflation, the protocol burns all seigniorage and dividends swap fees to the exchange rate oracle ballot winners, which then returns Luna supply towards a target. The Daodiseo Protocol is deflationary in nature.
 
 ### What are the slashing conditions?
 
@@ -282,7 +282,7 @@ In order for delegators to have some guarantee about how much `skin-in-the-game`
 
 ### What are the hardware requirements?
 
-The following requirements are recommended for running Terra Core:
+The following requirements are recommended for running Daodiseo Core:
 
 At least 300 mbps of network bandwidth
 - 4 core or higher CPU
@@ -292,7 +292,7 @@ At least 300 mbps of network bandwidth
 
 ### What are the software requirements?
 
-In addition to running a Terra Core node, validators should develop monitoring, alerting and management solutions.
+In addition to running a Daodiseo Core node, validators should develop monitoring, alerting and management solutions.
 
 Validators should expect to perform regular software updates to accommodate upgrades and bug fixes. There will inevitably be issues with the network, and this requires vigilance.
 

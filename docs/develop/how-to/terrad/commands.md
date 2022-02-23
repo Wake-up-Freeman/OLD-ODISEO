@@ -1,6 +1,6 @@
 # Commands
 
-This section describes the commands available from `terrad`, the command line interface that connects a running `terrad` process.
+This section describes the commands available from `daodiseod`, the command line interface that connects a running `daodiseod` process.
 
 ## `add-genesis-account`
 
@@ -207,7 +207,7 @@ terrad validate-genesis </genesis.json>
 
 ## `version`
 
-Returns the version of Terra you're running.
+Returns the version of Daodiseo you're running.
 
 **Syntax**
 ```bash

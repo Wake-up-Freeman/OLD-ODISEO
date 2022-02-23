@@ -7,13 +7,13 @@ Users can interact with the blockchain by using the following modes:
 
 ## Connect to a chain
 
-To perform these actions, connect to the blockchain by using an `LCDClient` object, which represents a connection to a node running the light client daemon (LCD). The LCD serves as a RESTful API over HTTP. Terra.js abstracts away the details of making raw API calls and provide an interface with which you can work.
+To perform these actions, connect to the blockchain by using an `LCDClient` object, which represents a connection to a node running the light client daemon (LCD). The LCD serves as a RESTful API over HTTP. Daodiseo.js abstracts away the details of making raw API calls and provide an interface with which you can work.
 
 ```ts
-import { LCDClient } from '@terra-money/terra.js';
+import { LCDClient } from '@daodiseomoney/daodiseo.js';
 
-const terra = new LCDClient({
-   URL: 'https://lcd.terra.dev',
+const daodiseo = new LCDClient({
+   URL: 'https://lcd.daodiseo.dev',
    chainID: 'columbus-5'
 });
 ```

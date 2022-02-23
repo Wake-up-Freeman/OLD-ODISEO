@@ -1,8 +1,8 @@
 # Send
 
-You can send tokens to other Terra wallets using the **Send** feature of Terra Station. If this is your first time using Terra Station, follow the [Terra Station tutorial](download/terra-station-desktop.md).
+You can send tokens to other Daodiseo wallets using the **Send** feature of Daodiseo Station. If this is your first time using Daodiseo Station, follow the [Daodiseo Station tutorial](download/daodiseo-station-desktop.md).
 
-1. Open Terra Station and connect to your wallet.
+1. Open Daodiseo Station and connect to your wallet.
 
 2. Click **Wallet** in the navigation bar.
 

@@ -1,7 +1,7 @@
 # Fees
 
 ```ts
-import { Fee } from '@terra-money/terra.js';
+import { Fee } from '@daodiseomoney/daodiseo.js';
 
 const msgs = [ new MsgSend( ... ), new MsgSwap( ... ), ]; // messages
 const fee = new Fee(50000, { uluna: 4500000 });
@@ -20,8 +20,8 @@ const tx = await wallet.createAndSignTx({ msgs });
 You can define the fee estimation parameters when you create your `LCDClient` instance. The defaults are:
 
 ```ts
-const terra = new LCDClient({
-  URL: 'https://lcd.terra.dev',
+const daodiseo = new LCDClient({
+  URL: 'https://lcd.daodiseo.dev',
   chainID: 'columbus-5',
   gasPrices: { uluna: 0.015 },
   gasAdjustment: 1.4

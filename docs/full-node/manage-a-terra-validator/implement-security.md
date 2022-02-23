@@ -43,14 +43,14 @@ Learn more about [sentry-node architecture](https://forum.cosmos.network/t/sentr
    ```
 
 ::: {tip}
-A node address has the following format: `nodeid@ip:port`, you can get the nodeid by running `terrad tendermint show-node-id`, the default port is 26656.
+A node address has the following format: `nodeid@ip:port`, you can get the nodeid by running `daodiseod tendermint show-node-id`, the default port is 26656.
 :::
 
 ## Environment Variables
 
 By default, uppercase environment variables with the following prefixes will replace lowercase command-line flags:
 
-- `TE` \(for Terra flags\)
+- `TE` \(for Daodiseo flags\)
 - `TM` \(for Tendermint flags\)
 - `BC` \(for democli or basecli flags\)
 

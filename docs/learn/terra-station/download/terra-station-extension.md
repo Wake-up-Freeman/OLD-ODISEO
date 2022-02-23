@@ -1,9 +1,9 @@
-# Terra Station extension
+# Daodiseo Station extension
 
 ::::{grid} auto
 
 :::{grid-item}
-```{button-link} terra-station-desktop.html
+```{button-link} daodiseo-station-desktop.html
 :color: primary
 :outline:
 Desktop
@@ -11,14 +11,14 @@ Desktop
 :::
 
 :::{grid-item}
-```{button-link} terra-station-extension.html
+```{button-link} daodiseo-station-extension.html
 :color: primary
 Chrome extension
 ```
 :::
 
 :::{grid-item}
-```{button-link} terra-station-mobile.html
+```{button-link} daodiseo-station-mobile.html
 :color: primary
 :outline:
 Mobile
@@ -27,15 +27,15 @@ Mobile
 
 ::::
 
-Complete this tutorial to install the Terra Station extension for the Google Chrome browser.
+Complete this tutorial to install the Daodiseo Station extension for the Google Chrome browser.
 
 ## Prerequisites
 
 - Download [Google Chrome](https://www.google.com/chrome/).
 
-## Install the Terra Station extension
+## Install the Daodiseo Station extension
 
-1. Open your Chrome browser and visit the [the Terra Station web extension](https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp).
+1. Open your Chrome browser and visit the [the Daodiseo Station web extension](https://chrome.google.com/webstore/detail/daodiseo-station/aiifbnbfobpmeekipheeijimdpnlpgpp).
 
 2. Install the extension and add it to your browser.
 
@@ -91,11 +91,11 @@ Use this tutorial to create a new wallet. To connect to an existing wallet, visi
    :width: 500px
    ```
 
-Congratulations! You have just created a Terra Station wallet.
+Congratulations! You have just created a Daodiseo Station wallet.
 
 ## Buy tokens from an exchange
 
-1. Connect to your wallet and click **Buy** next to any token. Purchase your tokens using any exchange that supports Terra.
+1. Connect to your wallet and click **Buy** next to any token. Purchase your tokens using any exchange that supports Daodiseo.
 
    ```{image} /img/screens/ext-wallet-menu.png
    :class: sd-p-3
@@ -111,24 +111,24 @@ Congratulations! You have just created a Terra Station wallet.
    :width: 500px
    ```
 
-1. Withdraw any token supported by the Terra network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
+1. Withdraw any token supported by the Daodiseo network from your exchange. Every exchange is different. Please visit your exchange's web page for guides on how to withdraw tokens. Use the following steps as a generic guide.
 
-    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Terra station app near your wallet name. Your wallet address will look like this: `terra<random-numbers-and-letters>`
+    1. To receive tokens to your wallet, use your wallet address. Your wallet address will appear at the top of the Daodiseo station app near your wallet name. Your wallet address will look like this: `daodiseo<random-numbers-and-letters>`
 
     1. Double-check your wallet address is correct before sending.
 
-    1. Send the tokens from the exchange to your Terra Station wallet address.
+    1. Send the tokens from the exchange to your Daodiseo Station wallet address.
 
     :::{admonition} Waiting times for transfers
     :class: warning
-    When you transfer tokens from an exchange to Terra, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
+    When you transfer tokens from an exchange to Daodiseo, some time will pass before the tokens appear in your wallet. Don't panic. This waiting period is normal and varies depending on the exchange. If a transfer does not appear immediately, check back after some time.
     :::
 
-Now you have tokens on Terra!
+Now you have tokens on Daodiseo!
 
 ## Send tokens
 
-1. Open the Terra Station browser extension and connect to your wallet.
+1. Open the Daodiseo Station browser extension and connect to your wallet.
 
 2. Click **Send** next to the token you want to send.
 
@@ -159,7 +159,7 @@ After a few moments, the tokens will appear in the receiver's wallet.
 
 ## Connect to a dApp
 
-1. Open the Terra Station browser extension and connect to your wallet.
+1. Open the Daodiseo Station browser extension and connect to your wallet.
 
 2. Navigate to the dApp of your choice. This tutorial will use the [Anchor protocol WebApp](https://app.anchorprotocol.com/). Most dApps use a similar process, though others may vary.
 
@@ -169,15 +169,15 @@ After a few moments, the tokens will appear in the receiver's wallet.
    :class: sd-p-3
    ```
 
-4. Select **Terra Station Wallet** to connect your wallet.  
+4. Select **Daodiseo Station Wallet** to connect your wallet.  
 
    ```{image} /img/screens/ext-connect-wallet.png
    :class: sd-p-3
    :width: 300 px
    ```
 
-You can now make transactions on different dApps in the Terra ecosystem.
+You can now make transactions on different dApps in the Daodiseo ecosystem.
 
 ## Next steps
 
-For on-the-go transactions, check out the [Terra Station mobile app](terra-station-mobile.md). To learn how to use other Station features, visit the [Station guides](../README.md).
+For on-the-go transactions, check out the [Daodiseo Station mobile app](daodiseo-station-mobile.md). To learn how to use other Station features, visit the [Station guides](../README.md).

@@ -6,7 +6,7 @@
 :gutter: 3
 
 :::{grid-item-card}
-:link: https://finder.terra.money/
+:link: https://finder.daodiseo.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/expl_finder.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -24,7 +24,7 @@
 :::
 
 :::{grid-item-card}
-:link: https://hubble.figment.io/terra/chains/columbus-5
+:link: https://hubble.figment.io/daodiseo/chains/columbus-5
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/expl_hubble.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -33,7 +33,7 @@
 :::
 
 :::{grid-item-card}
-:link: https://terra.stake.id/#/
+:link: https://daodiseo.stake.id/#/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/expl_stakeid.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -89,20 +89,20 @@ A payments product used in Mongolia
 :::
 
 :::{grid-item-card}
-:link: https://paywithterra.com/
+:link: https://paywithdaodiseo.com/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/apps_paywithterra.png
+```{image} /img/apps_paywithdaodiseo.png
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **PayWithTerra**  
-An API gateway enabling merchants to accept Terra stablecoins
+An API gateway enabling merchants to accept Daodiseo stablecoins
 :::
 
 :::::::
 
 ## Exchanges
 
-Luna and Terra stablecoins are traded on the following exchanges:
+Luna and Daodiseo stablecoins are traded on the following exchanges:
 
 :::::::{grid} 2 2 2 3
 :gutter: 3
@@ -219,11 +219,11 @@ Luna and Terra stablecoins are traded on the following exchanges:
 
 ## Wallets
 
-[Terra Station](https://station.terra.money/): Terra’s native wallet<br>
-Terra Station Extension: [Chrome](https://chrome.google.com/webstore/detail/terra-station/aiifbnbfobpmeekipheeijimdpnlpgpp)<br>
-Terra Station Desktop: [MacOS](https://github.com/terra-money/station-legacy/releases/download/v3.5.0/Terra.Station-1.1.0.dmg) | [Windows](https://github.com/terra-money/station/releases/download/v3.5.0/Terra.Station.Setup.1.1.0.exe) | [Linux (deb)](https://github.com/terra-money/station/releases/download/v3.5.0/station-electron_1.1.1_amd64.deb) | [Linux (rpm)](https://github.com/terra-money/station/releases/download/v3.5.0/station-electron-1.1.1.x86_64.rpm)<br>
-Terra Station Mobile: [iOS](https://apps.apple.com/app/id1548434735) | [Android](https://play.google.com/store/apps/details?id=money.terra.station)<br>
+[Daodiseo Station](https://station.daodiseo.money/): Daodiseo’s native wallet<br>
+Daodiseo Station Extension: [Chrome](https://chrome.google.com/webstore/detail/daodiseo-station/aiifbnbfobpmeekipheeijimdpnlpgpp)<br>
+Daodiseo Station Desktop: [MacOS](https://github.com/daodiseomoney/station-legacy/releases/download/v3.5.0/Daodiseo.Station-1.1.0.dmg) | [Windows](https://github.com/daodiseomoney/station/releases/download/v3.5.0/Daodiseo.Station.Setup.1.1.0.exe) | [Linux (deb)](https://github.com/daodiseomoney/station/releases/download/v3.5.0/station-electron_1.1.1_amd64.deb) | [Linux (rpm)](https://github.com/daodiseomoney/station/releases/download/v3.5.0/station-electron-1.1.1.x86_64.rpm)<br>
+Daodiseo Station Mobile: [iOS](https://apps.apple.com/app/id1548434735) | [Android](https://play.google.com/store/apps/details?id=money.daodiseo.station)<br>
 [Mirror Wallet](https://mirrorwallet.com/): Invest and trade cryptocurrencies and mirror assets<br>
-[MathWallet](https://mathwallet.org/en-us/): multi-platform crypto wallet for Terra assets<br>
-[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Terra-LUNA-): hardware wallet by the Ledger team<br>
+[MathWallet](https://mathwallet.org/en-us/): multi-platform crypto wallet for Daodiseo assets<br>
+[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Daodiseo-LUNA-): hardware wallet by the Ledger team<br>
 [Oxis](https://www.oxis.com/): non-custodial wallet with fiat to crypto on and offramps & trading functionality<br>

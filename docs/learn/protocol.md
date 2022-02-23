@@ -1,68 +1,68 @@
-# About the Terra Protocol
+# About the Daodiseo Protocol
 
-The Terra protocol is the leading decentralized and open-source public blockchain protocol for [algorithmic stablecoins](./glossary.md#algorithmic-stablecoin). Using a combination of open market [arbitrage](./glossary.md#arbitrage) incentives and decentralized Oracle voting, the Terra protocol creates stablecoins that consistently track the price of any fiat currency. Users can spend, save, trade, or exchange Terra stablecoins instantly, all on the Terra blockchain. Luna provides its holders with staking rewards and governance power. The Terra ecosystem is a quickly expanding network of decentralized applications, creating a stable demand for Terra and increasing the price of Luna.
+The Daodiseo protocol is the leading decentralized and open-source public blockchain protocol for [algorithmic stablecoins](./glossary.md#algorithmic-stablecoin). Using a combination of open market [arbitrage](./glossary.md#arbitrage) incentives and decentralized Oracle voting, the Daodiseo protocol creates stablecoins that consistently track the price of any fiat currency. Users can spend, save, trade, or exchange Daodiseo stablecoins instantly, all on the Daodiseo blockchain. Luna provides its holders with staking rewards and governance power. The Daodiseo ecosystem is a quickly expanding network of decentralized applications, creating a stable demand for Daodiseo and increasing the price of Luna.
 
-## Terra and Luna
+## Daodiseo and Luna
 
-The protocol consists of two main tokens, Terra and Luna.
+The protocol consists of two main tokens, Daodiseo and Luna.
 
-- **Terra**: Stablecoins that track the price of [fiat currencies](glossary.md#fiat-currency). Users mint new Terra by [burning](glossary.md#burn) Luna. Stablecoins are named for their fiat counterparts. For example, the base Terra stablecoin tracks the price of the [IMF’s SDR](glossary.md#sdr), named TerraSDR, or SDT. Other stablecoin denominations include TerraUSD or UST, and TerraKRW or  KRT. All Terra denominations exist in the same pool.
+- **Daodiseo**: Stablecoins that track the price of [fiat currencies](glossary.md#fiat-currency). Users mint new Daodiseo by [burning](glossary.md#burn) Luna. Stablecoins are named for their fiat counterparts. For example, the base Daodiseo stablecoin tracks the price of the [IMF’s SDR](glossary.md#sdr), named DaodiseoSDR, or SDT. Other stablecoin denominations include DaodiseoUSD or UST, and DaodiseoKRW or  KRT. All Daodiseo denominations exist in the same pool.
 
-- **Luna**: The Terra protocol’s native [staking](glossary.md#staking) token that absorbs the price volatility of Terra. Luna is used for [governance](#governance) and in mining. Users stake Luna to validators who record and verify transactions on the [blockchain](glossary.md#blockchain) in exchange for rewards from transaction fees. The more Terra is used, the more Luna is worth.
+- **Luna**: The Daodiseo protocol’s native [staking](glossary.md#staking) token that absorbs the price volatility of Daodiseo. Luna is used for [governance](#governance) and in mining. Users stake Luna to validators who record and verify transactions on the [blockchain](glossary.md#blockchain) in exchange for rewards from transaction fees. The more Daodiseo is used, the more Luna is worth.
 
-## How the Terra protocol works
+## How the Daodiseo protocol works
 
 ### Stablecoins
 
-Stablecoins are the main feature of the Terra protocol: crypto assets that track the price of an underlying currency. As a digital form of currency, Terra stablecoins can be used just like [fiat currency](glossary.md#fiat-currency)  with [blockchain's](glossary.md#blockchain) added benefits: an unchangeable public ledger, instant transactions, faster settlement times, and fewer fees.
+Stablecoins are the main feature of the Daodiseo protocol: crypto assets that track the price of an underlying currency. As a digital form of currency, Daodiseo stablecoins can be used just like [fiat currency](glossary.md#fiat-currency)  with [blockchain's](glossary.md#blockchain) added benefits: an unchangeable public ledger, instant transactions, faster settlement times, and fewer fees.
 
-Stablecoins are only valuable to users if they maintain their [price peg](glossary.md#peg). The Terra protocol uses the basic market forces of supply and demand to maintain the price of Terra. When the demand for Terra is high and the supply is limited, the price of Terra increases. When the demand for Terra is low and the supply is too large, the price of Terra decreases. The protocol ensures the supply and demand of Terra is always balanced, leading to a stable price.
+Stablecoins are only valuable to users if they maintain their [price peg](glossary.md#peg). The Daodiseo protocol uses the basic market forces of supply and demand to maintain the price of Daodiseo. When the demand for Daodiseo is high and the supply is limited, the price of Daodiseo increases. When the demand for Daodiseo is low and the supply is too large, the price of Daodiseo decreases. The protocol ensures the supply and demand of Daodiseo is always balanced, leading to a stable price.
 
 ### Expansion and contraction
 
-Imagine the whole Terra economy as two pools: one for Terra and one for Luna. To maintain the price of Terra, the Luna supply pool adds to or subtracts from Terra’s supply. Users burn Luna to mint Terra and burn Terra to mint Luna, all incentivized by the protocol's algorithmic [market module](../develop/module-specifications/spec-market.md).
+Imagine the whole Daodiseo economy as two pools: one for Daodiseo and one for Luna. To maintain the price of Daodiseo, the Luna supply pool adds to or subtracts from Daodiseo’s supply. Users burn Luna to mint Daodiseo and burn Daodiseo to mint Luna, all incentivized by the protocol's algorithmic [market module](../develop/module-specifications/spec-market.md).
 
-- **Expansion**: When the price of Terra is high relative to its [peg](glossary.md#peg), supply is too small and demand is too high. The protocol incentivizes users to burn Luna and mint Terra. The new supply of Terra makes its pool larger, balancing supply with demand. Users mint more Terra from burned Luna until Terra reaches its target price. The Luna pool gets smaller in this process, increasing the price of Luna.
+- **Expansion**: When the price of Daodiseo is high relative to its [peg](glossary.md#peg), supply is too small and demand is too high. The protocol incentivizes users to burn Luna and mint Daodiseo. The new supply of Daodiseo makes its pool larger, balancing supply with demand. Users mint more Daodiseo from burned Luna until Daodiseo reaches its target price. The Luna pool gets smaller in this process, increasing the price of Luna.
 
-- **Contraction**: When the price of Terra is too low relative to its peg, supply is too large and demand is too low. The protocol incentives users to burn Terra and mint Luna. The decrease in Terra’s supply causes scarcity, and the price of Terra increases. More Luna is minted from burned Terra until Terra reaches its target price. The Luna pool increases and lowers in price.
+- **Contraction**: When the price of Daodiseo is too low relative to its peg, supply is too large and demand is too low. The protocol incentives users to burn Daodiseo and mint Luna. The decrease in Daodiseo’s supply causes scarcity, and the price of Daodiseo increases. More Luna is minted from burned Daodiseo until Daodiseo reaches its target price. The Luna pool increases and lowers in price.
 
-Luna is the variable counterpart to the stable asset Terra. By modulating supply, Luna's price increases as the demand for stablecoins increases.
+Luna is the variable counterpart to the stable asset Daodiseo. By modulating supply, Luna's price increases as the demand for stablecoins increases.
 
 ### The market module and arbitrage
 
-The price stability of Terra is achieved by the protocol's algorithmic [market module](../develop/module-specifications/spec-market.md), which incentivizes the minting or burning of Terra through arbitrage opportunities. [Arbitrage](glossary.md#arbitrage) occurs when a user profits from price differences between markets.
+The price stability of Daodiseo is achieved by the protocol's algorithmic [market module](../develop/module-specifications/spec-market.md), which incentivizes the minting or burning of Daodiseo through arbitrage opportunities. [Arbitrage](glossary.md#arbitrage) occurs when a user profits from price differences between markets.
 
-The Terra protocol's market module enables users to always trade 1 USD worth of Luna for 1 UST, and vice versa, incentivizing users to maintain the price of Terra. This same principle is true for all Terra stablecoin denominations.
+The Daodiseo protocol's market module enables users to always trade 1 USD worth of Luna for 1 UST, and vice versa, incentivizing users to maintain the price of Daodiseo. This same principle is true for all Daodiseo stablecoin denominations.
 
-Users can access the mint and burn function of the market module by performing [market swaps](./glossary.md#market-swap) in [Terra Station](./glossary.md#terra-station).
-To learn how to use the market swap feature of Terra Station, visit the [Terra Station market swap guide](./terra-station/swap.md#market-swap).
+Users can access the mint and burn function of the market module by performing [market swaps](./glossary.md#market-swap) in [Daodiseo Station](./glossary.md#daodiseo-station).
+To learn how to use the market swap feature of Daodiseo Station, visit the [Daodiseo Station market swap guide](./daodiseo-station/swap.md#market-swap).
 
 - **Example**  
-  If 1 UST is trading at 1.01 USD, users can use the market swap feature of Terra Station to trade 1 USD of Luna for 1 UST. The market burns 1 USD of Luna and mints 1 UST. Users can then sell their 1 UST for 1.01 USD, profiting .01 USD through arbitrage, adding to the UST pool. This arbitrage continues until UST price falls back to match the price of USD, maintaining Terra's [peg](glossary.md#peg).
+  If 1 UST is trading at 1.01 USD, users can use the market swap feature of Daodiseo Station to trade 1 USD of Luna for 1 UST. The market burns 1 USD of Luna and mints 1 UST. Users can then sell their 1 UST for 1.01 USD, profiting .01 USD through arbitrage, adding to the UST pool. This arbitrage continues until UST price falls back to match the price of USD, maintaining Daodiseo's [peg](glossary.md#peg).
 
 The same arbitrage mechanism works in reverse for contraction.
 
 - **Example**  
-  If 1 UST is trading at .99 USD, users can buy 1 UST for .99 USD. Users then utilize Terra Station's [market swap](./glossary.md#market-swap) function to trade 1 UST for 1 USD of Luna. The swap burns 1 UST and mints 1 USD of Luna. Users profit .01 UST from the swap. This arbitrage continues, and UST is burned to mint Luna until the price of UST rises back to 1 USD.
+  If 1 UST is trading at .99 USD, users can buy 1 UST for .99 USD. Users then utilize Daodiseo Station's [market swap](./glossary.md#market-swap) function to trade 1 UST for 1 USD of Luna. The swap burns 1 UST and mints 1 USD of Luna. Users profit .01 UST from the swap. This arbitrage continues, and UST is burned to mint Luna until the price of UST rises back to 1 USD.
 
 ### Scalability
 
-The Terra protocol is scalable: it is designed to maintain Terra's price stability regardless of market size, volatility, or demand. The monetary policies encoded into the protocol ensure its durability and resilience in all market fluctuations.
+The Daodiseo protocol is scalable: it is designed to maintain Daodiseo's price stability regardless of market size, volatility, or demand. The monetary policies encoded into the protocol ensure its durability and resilience in all market fluctuations.
 
 ### Seigniorage and deflation
 
-[Seigniorage](glossary.md#seigniorage) is the value of a coin minus the cost of its production. In early versions of the Terra protocol, seigniorage was diverted to fund various community projects. While seigniorage can create enormous value, it also creates inflation in the system.
-All seigniorage in the Terra protocol is [burned](glossary.md#burn), making Luna deflationary in nature.
+[Seigniorage](glossary.md#seigniorage) is the value of a coin minus the cost of its production. In early versions of the Daodiseo protocol, seigniorage was diverted to fund various community projects. While seigniorage can create enormous value, it also creates inflation in the system.
+All seigniorage in the Daodiseo protocol is [burned](glossary.md#burn), making Luna deflationary in nature.
 
 ## Validators
 
-Validators are the miners of the Terra [blockchain](./glossary.md#blockchain). They are responsible for securing the Terra blockchain and ensuring its accuracy. Validators run programs called full nodes which allow them to verify each transaction made on the Terra network. Validators propose blocks, vote on their validity, and add each new block to the chain in exchange for staking rewards from transaction fees. Users can stake their Luna to validators in exchange for staking rewards. Validators also play an important role in the governance of the Terra protocol.
+Validators are the miners of the Daodiseo [blockchain](./glossary.md#blockchain). They are responsible for securing the Daodiseo blockchain and ensuring its accuracy. Validators run programs called full nodes which allow them to verify each transaction made on the Daodiseo network. Validators propose blocks, vote on their validity, and add each new block to the chain in exchange for staking rewards from transaction fees. Users can stake their Luna to validators in exchange for staking rewards. Validators also play an important role in the governance of the Daodiseo protocol.
 
-For more information on validators, visit the [Validator FAQ](../full-node/manage-a-terra-validator/faq.md).
+For more information on validators, visit the [Validator FAQ](../full-node/manage-a-daodiseo-validator/faq.md).
 
 ### Consensus
 
-The Terra blockchain is a proof-of-stake blockchain, powered by the [Cosmos SDK](https://cosmos.network/) and secured by a system of verification called the Tendermint consensus.
+The Daodiseo blockchain is a proof-of-stake blockchain, powered by the [Cosmos SDK](https://cosmos.network/) and secured by a system of verification called the Tendermint consensus.
 
 The following process explains how Tendermint consensus works. For more information on the Tendermint consensus, visit the [official Tendermint documentation](https://docs.tendermint.com/).
 
@@ -71,15 +71,15 @@ The following process explains how Tendermint consensus works. For more informat
 3. If accepted, the block is signed and added to the chain.
 4. The transaction fees from the block are distributed as staking rewards to validators and delegators. Proposers get rewarded extra for their participation.
 
-This process repeats, adding new blocks of transactions to the chain. Each validator has a copy of all transactions made on the network, which they compare against the proposed block of transactions before voting. Because multiple independent validators take place in consensus voting, it is infeasible for any false block to be accepted. In this way, validators protect the integrity of the Terra blockchain and ensure the validity of each transaction.
+This process repeats, adding new blocks of transactions to the chain. Each validator has a copy of all transactions made on the network, which they compare against the proposed block of transactions before voting. Because multiple independent validators take place in consensus voting, it is infeasible for any false block to be accepted. In this way, validators protect the integrity of the Daodiseo blockchain and ensure the validity of each transaction.
 
 ### Staking
 
 Staking is the process of bonding Luna to a validator in exchange for staking rewards.
 
-The Terra protocol only allows the top 130 validators to participate in consensus. A validator's rank is determined by their stake or the total amount of Luna bonded to them. Although validators can bond Luna to themselves, they mainly amass larger stakes from delegators. Validators with larger stakes get chosen more often to propose new blocks and earn proportionally more rewards.
+The Daodiseo protocol only allows the top 130 validators to participate in consensus. A validator's rank is determined by their stake or the total amount of Luna bonded to them. Although validators can bond Luna to themselves, they mainly amass larger stakes from delegators. Validators with larger stakes get chosen more often to propose new blocks and earn proportionally more rewards.
 
-To learn how to stake your Luna and earn staking rewards, visit the [Terra Station staking guide](terra-station/staking.md)
+To learn how to stake your Luna and earn staking rewards, visit the [Daodiseo Station staking guide](daodiseo-station/staking.md)
 
 ### Delegators
 Delegators are users who want to receive rewards from consensus without running a full node. Any user that stakes Luna is a delegator. Delegators stake their Luna to a validator, adding to a validator’s weight, or total stake. In return, delegators receive a portion of transaction fees as staking rewards.
@@ -87,7 +87,7 @@ Delegators are users who want to receive rewards from consensus without running 
 :::{admonition} Who owns staked Luna?
 :class: warning
 
-Staked Luna never leaves the possession of the delegator. Even though it can’t be traded freely, staked Luna is never owned by a validator. For more information, visit the [Validator FAQ](../full-node/manage-a-terra-validator/faq.md#can-a-validator-run-away-with-a-delegators-luna)
+Staked Luna never leaves the possession of the delegator. Even though it can’t be traded freely, staked Luna is never owned by a validator. For more information, visit the [Validator FAQ](../full-node/manage-a-daodiseo-validator/faq.md#can-a-validator-run-away-with-a-delegators-luna)
 :::
 
 ### Phases of Luna
@@ -97,29 +97,29 @@ To start receiving rewards, delegators bond their Luna to a validator. The bondi
 Luna exists in the following three phrases:
 
 - **Unbonded**: Luna that can be freely traded and is not staked to a validator.
-- **Bonded**: Luna that is staked to a validator. Bonded Luna accrues staking rewards. Although Luna bonded to validators in Terra Station can’t be traded freely, bLuna is a token that represents bonded Luna that can be traded freely or used as collateral on other protocols in the Terra network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/).
+- **Bonded**: Luna that is staked to a validator. Bonded Luna accrues staking rewards. Although Luna bonded to validators in Daodiseo Station can’t be traded freely, bLuna is a token that represents bonded Luna that can be traded freely or used as collateral on other protocols in the Daodiseo network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/).
 - **Unbonding**: Luna that is in the process of becoming unbonded from a validator and does not accrue rewards. This process takes 21 days to complete.
 
 ### Bonding, staking, and delegating
 
 Generally, the terms bonding, staking, and delegating can be used interchangeably, as they happen in the same step. A delegator delegates Luna to a validator, the Luna gets bonded to the validator, and the bonded Luna gets added to the validator's stake.
 
-Delegators can bond Luna to any validator in the [active set](./glossary.md#active-set) using the delegate function in Terra Station. Delegators start earning staking rewards the moment they bond or stake to a validator.
+Delegators can bond Luna to any validator in the [active set](./glossary.md#active-set) using the delegate function in Daodiseo Station. Delegators start earning staking rewards the moment they bond or stake to a validator.
 
 ### Unbonding
 
-Delegators can unbond or unstake their Luna using the undelegate function in Terra Station. The unbonding process takes 21 days to complete. During this period, the unbonding Luna can't be traded, and no staking rewards accrue.
+Delegators can unbond or unstake their Luna using the undelegate function in Daodiseo Station. The unbonding process takes 21 days to complete. During this period, the unbonding Luna can't be traded, and no staking rewards accrue.
 
 :::{Caution}
 Once started, the delegating or undelegating processes can't be stopped.
 Undelegating takes 21 days to complete. The only way to undo a delegating or undelegating transaction is to wait for the unbonding process to pass. Alternatively, you can redelegate staked Luna to a different validator without waiting 21 days.
 :::
 
-The 21-day unbonding process helps the long-term stability of the Terra protocol. The unbonding period discourages volatility by locking staked Luna in the system for at least 21 days. In exchange, delegators receive staking rewards, further incentivizing network stability.
+The 21-day unbonding process helps the long-term stability of the Daodiseo protocol. The unbonding period discourages volatility by locking staked Luna in the system for at least 21 days. In exchange, delegators receive staking rewards, further incentivizing network stability.
 
 ### Redelegation
 
-Redelegating instantly sends staked Luna from one validator to another. Instead of waiting for the 21-day unstaking period, a user can redelegate their staked Luna at any time using Terra Station's redelegate function. Validators receiving redelegations are barred from further redelegating any amount of Luna to any validator for 21 days.
+Redelegating instantly sends staked Luna from one validator to another. Instead of waiting for the 21-day unstaking period, a user can redelegate their staked Luna at any time using Daodiseo Station's redelegate function. Validators receiving redelegations are barred from further redelegating any amount of Luna to any validator for 21 days.
 
 ::: {caution}
 When a user redelegates staked Luna from one validator to another, the validator receiving the staked Luna is barred from making further redelegation transactions for 21 days. This requirement only applies to the wallet that made the redelegation transaction.
@@ -127,11 +127,11 @@ When a user redelegates staked Luna from one validator to another, the validator
 
 ### Rewards
 
-The Terra protocol incentivizes validators and delegators with staking rewards. Staking rewards come from two sources: gas and swap fees.
+The Daodiseo protocol incentivizes validators and delegators with staking rewards. Staking rewards come from two sources: gas and swap fees.
 
 - [Gas](./fees.md#gas): Compute fees added on to each transaction to avoid spamming. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- **Swap fees**: The fee for swapping Terra stablecoin denominations is called a [Tobin tax](fees.md#tobin-tax). Exchanges between Terra and Luna are subject to a [spread fee](fees.md#spread-fee). Swap fees are directed to the Oracle reward pool, where they are distributed over a period of two years to validators who faithfully report correct Oracle prices.
+- **Swap fees**: The fee for swapping Daodiseo stablecoin denominations is called a [Tobin tax](fees.md#tobin-tax). Exchanges between Daodiseo and Luna are subject to a [spread fee](fees.md#spread-fee). Swap fees are directed to the Oracle reward pool, where they are distributed over a period of two years to validators who faithfully report correct Oracle prices.
 
 For more information on fees, visit the [fee page](fees.md).
 
@@ -158,9 +158,9 @@ For more information on slashing, visit the [slashing module](../develop/module-
 
 ## Governance
 
-The Terra protocol is a decentralized public [blockchain](glossary.md#blockchain) governed by community members. Governance is the democratic process that allows users and validators to make changes to the Terra protocol. Community members submit, vote, and implement proposals.
+The Daodiseo protocol is a decentralized public [blockchain](glossary.md#blockchain) governed by community members. Governance is the democratic process that allows users and validators to make changes to the Daodiseo protocol. Community members submit, vote, and implement proposals.
 
-To learn how to vote with your staked Luna or submit proposals, visit the [Terra Station governance guide](terra-station/governance.md).
+To learn how to vote with your staked Luna or submit proposals, visit the [Daodiseo Station governance guide](daodiseo-station/governance.md).
 
 ### Proposals
 
@@ -195,7 +195,7 @@ The following is a basic outline of the governance process. Visit the [governanc
 5. Accepted proposals get put into effect.
 6. Deposits get refunded or burned.
 
-Once accepted, the changes described in a governance proposal are automatically put into effect by the proposal handler. Generic proposals, such as a passed `TextProposal`, must be reviewed by the Terra team and community, and they must be manually implemented.
+Once accepted, the changes described in a governance proposal are automatically put into effect by the proposal handler. Generic proposals, such as a passed `TextProposal`, must be reviewed by the Daodiseo team and community, and they must be manually implemented.
 
 ### Deposits
 
