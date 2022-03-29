@@ -1,6 +1,6 @@
 # Build a simple Daodiseo dApp
 
-This tutorial is designed to acquaint you with everything you need to know to launch your own smart-contract powered applications on Daodiseo.
+This tutorial is designed to acquaint you with everything you need to know to launch your own smart-contract powered applications on Daodiseo..
 
 Using CosmWasm's default template contract as an example, this tutorial walks through the necessary steps to go from an idea to execution.
 
