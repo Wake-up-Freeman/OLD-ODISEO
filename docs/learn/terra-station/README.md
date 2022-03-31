@@ -23,7 +23,7 @@ testnet
 :::{grid-item-card}
 :link: download/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/wallets_station.png
+```{image} /img/wallets_station.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Download Station**  

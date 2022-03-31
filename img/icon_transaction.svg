@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:#2043B5;}
-</style>
-<path class="st0" d="M0,0h24v24H0V0z"/>
-<path class="st1" d="M8.4,14.4H1.3c-0.7,0-1.2,0.5-1.2,1.2s0.5,1.2,1.2,1.2h7.2v2.1c0,0.5,0.6,0.8,1,0.4l3.3-3.3
-	c0.2-0.2,0.2-0.6,0-0.8l-3.3-3.3c-0.4-0.4-1-0.1-1,0.4V14.4z M15.6,11.8V9.6h7.2c0.7,0,1.2-0.5,1.2-1.2s-0.5-1.2-1.2-1.2h-7.2V5.1
-	c0-0.5-0.6-0.8-1-0.4L11.2,8c-0.2,0.2-0.2,0.6,0,0.8l3.3,3.3C14.9,12.5,15.6,12.3,15.6,11.8z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.5 93.5"><defs><style>.cls-1{fill:#a04e9e;stroke:#a04e9e;stroke-miterlimit:10;}</style></defs><g id="transaction"><path class="cls-1" d="M6,58.78H49.27L39.9,69.63a.74.74,0,0,0,0,1l.36.42a.53.53,0,0,0,.82,0L51.4,59.06a.75.75,0,0,0,0-1L40.62,45.62a.54.54,0,0,0-.83,0l-.27.32a.75.75,0,0,0,0,1L48.26,57H6a.64.64,0,0,0-.59.68v.41A.64.64,0,0,0,6,58.78Z"/><path class="cls-1" d="M88.16,33H44.84l9.38-10.85a.75.75,0,0,0,0-1l-.36-.41a.53.53,0,0,0-.83,0L42.71,32.74a.74.74,0,0,0,0,.95L53.5,46.17a.52.52,0,0,0,.82,0l.28-.32a.74.74,0,0,0,0-1L45.86,34.78h42.3a.63.63,0,0,0,.58-.67V33.7A.63.63,0,0,0,88.16,33Z"/></g></svg>

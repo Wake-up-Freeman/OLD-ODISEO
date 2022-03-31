@@ -107,7 +107,7 @@ Block explorers <../ecosystem/integrations>
 :::{grid-item-card}
 :link: https://station.daodiseo.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/wallets_station.png
+```{image} /img/wallets_station.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra Station**  
