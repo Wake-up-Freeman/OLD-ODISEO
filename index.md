@@ -18,7 +18,7 @@ Learn about Daodiseo stablecoins, Luna, rewards, staking, and governance.
 :::{grid-item-card}
 :link: docs/learn/daodiseo-station/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/wallets_station.png
+```{image} /img/wallets_station.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **Get started with Station**  

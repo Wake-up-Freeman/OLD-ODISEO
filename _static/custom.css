@@ -98,12 +98,12 @@ ul.search li {
 
 /* Color arrow and hamburger icon at the top of the page */
 #navbar-toggler {
-	color: #2646ae;
+	color: #a04e9e;
 }
 
 /* Color arrows in sidebar */
 label>i.fas {
-	color: #2646ae;
+	color: #a04e9e;
 }
 
 /* Make sure horizontal scrollbars don't appear for the sidebar */
@@ -209,7 +209,7 @@ div.navbar-brand-box a.navbar-brand img {
 #site-navigation nav ul.nav a:hover,
 #site-navigation nav ul.nav li.active>a,
 #site-navigation nav ul.nav li.active>a:hover {
-	color: #2043b5 !important;
+	color: #a04e9e !important;
 }
 
 /* Sidebar font size */
@@ -242,7 +242,7 @@ div.navbar-brand-box a.navbar-brand img {
 }
 
 .sd-card-hover:hover {
-	border-color: #5493f7 !important;
+	border-color: #a04e9e !important;
 	transform: scale(1) !important;
 }
 
@@ -261,16 +261,16 @@ main.bd-content #main-content a,
 main.bd-content #main-content a:visited,
 main.bd-content #print-main-content a,
 main.bd-content #print-main-content a:visited {
-	color: #5493f7;
+	color: #a04e9e;
 }
 
 .bd-toc nav li.active>a.active {
-	border-left: 2px solid #2043b5;
+	border-left: 2px solid #a04e9e;
 }
 
 .bd-toc nav a:hover,
 .bd-toc nav li.active>a.active {
-	color: #2043b5;
+	color: #a04e9e;
 }
 
 /* Contents bar */
@@ -308,7 +308,7 @@ main.bd-content #print-main-content a:visited {
 }
 
 .prev-next-area a p.prev-next-title {
-	color: #5493f7 !important;
+	color: #a04e9e !important;
 	font-size: 0.938rem;
 }
 
