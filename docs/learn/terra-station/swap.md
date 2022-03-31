@@ -20,7 +20,7 @@ Congratulations, you've just swapped coins!
 
 ## Market swap
 
-The [market swap](../glossary.md#market-swap) feature of Daodiseo Station allows users to access the mint/burn function of the Daodiseo protocol. Users can mint Luna from burned Daodiseo or vice versa. The market swap is also used for swaps between different Daodiseo stablecoin denominations.
+The [market swap](../glossary.md#market-swap) feature of Daodiseo Station allows users to access the mint/burn function of the Daodiseo protocol. Users can mint Odis from burned Daodiseo or vice versa. The market swap is also used for swaps between different Daodiseo stablecoin denominations.
 
 1. Open Daodiseo Station and connect your wallet. Click **Swap** in the menu.
 

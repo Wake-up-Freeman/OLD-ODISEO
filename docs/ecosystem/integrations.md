@@ -102,7 +102,7 @@ An API gateway enabling merchants to accept Daodiseo stablecoins
 
 ## Exchanges
 
-Luna and Daodiseo stablecoins are traded on the following exchanges:
+Odis and Daodiseo stablecoins are traded on the following exchanges:
 
 :::::::{grid} 2 2 2 3
 :gutter: 3
@@ -225,5 +225,5 @@ Daodiseo Station Desktop: [MacOS](https://github.com/daodiseomoney/station-legac
 Daodiseo Station Mobile: [iOS](https://apps.apple.com/app/id1548434735) | [Android](https://play.google.com/store/apps/details?id=money.daodiseo.station)<br>
 [Mirror Wallet](https://mirrorwallet.com/): Invest and trade cryptocurrencies and mirror assets<br>
 [MathWallet](https://mathwallet.org/en-us/): multi-platform crypto wallet for Daodiseo assets<br>
-[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Daodiseo-LUNA-): hardware wallet by the Ledger team<br>
+[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Daodiseo-Odis-): hardware wallet by the Ledger team<br>
 [Oxis](https://www.oxis.com/): non-custodial wallet with fiat to crypto on and offramps & trading functionality<br>

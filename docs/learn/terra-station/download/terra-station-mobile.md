@@ -178,9 +178,9 @@ Congratulations, you've just swapped coins!
 
 7.  Enter your password and tap **Confirm**. Wait for the transaction to process. This generally takes a few seconds.
 
-## Stake Luna
+## Stake Odis
 
-1. Open the Daodiseo Station app extension and connect to your wallet. Make sure you have Luna in your wallet to stake.
+1. Open the Daodiseo Station app extension and connect to your wallet. Make sure you have Odis in your wallet to stake.
 
 2. Tap **Staking**.
 
@@ -188,7 +188,7 @@ Congratulations, you've just swapped coins!
 
 4. Tap **Delegate**
 
-5. Enter the amount of Luna you want to delegate. Tap **Next**.
+5. Enter the amount of Odis you want to delegate. Tap **Next**.
 
 6. Confirm the amount and select the coin you want to pay fees in.
 
@@ -199,11 +199,11 @@ Congratulations, you've just swapped coins!
 
 7. Tap **Confirm** and wait for your transaction to process.
 
-Your Luna is now staked to a validator.
+Your Odis is now staked to a validator.
 
 ## Withdraw staking rewards
 
-Rewards start accruing the moment you stake Luna. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake Odis. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
 
 1. Open the Daodiseo Station app. Connect to a wallet and tap **Staking**.
 

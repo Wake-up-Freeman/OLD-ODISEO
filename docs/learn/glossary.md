@@ -28,9 +28,9 @@ An unchangeable ledger of transactions copied among a network of independent com
 
 Groups of information stored on a [blockchain](#blockchain). Each block contains transactions that are grouped, verified, and signed by validators.
 
-## bLuna
+## bOdis
 
-A token representing bonded Luna that can be traded freely or used as collateral on other protocols in the Daodiseo network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/). Bonded Luna takes 21 days to become unbonded.
+A token representing bonded Odis that can be traded freely or used as collateral on other protocols in the Daodiseo network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/). Bonded Odis takes 21 days to become unbonded.
 
 ## Bonded validator
 
@@ -38,11 +38,11 @@ A [validator](#validator) in the [active set](#active-set) participating in cons
 
 ## Bonding
 
-When a user [delegates](#delegate) or bonds Luna to a [validator](#validator) to receive [staking rewards](#rewards). Validators never have ownership of a delegator's [Luna](#luna), even when bonded. Delegating, bonding, and staking generally refer to the same process.
+When a user [delegates](#delegate) or bonds Odis to a [validator](#validator) to receive [staking rewards](#rewards). Validators never have ownership of a delegator's [Odis](#Odis), even when bonded. Delegating, bonding, and staking generally refer to the same process.
 
 ## Burn
 
-The destruction of coins. The Daodiseo protocol burns [Luna](#luna) to mint [Daodiseo stablecoins](#daodiseo-stablecoins) and vice versa. Burned coins are destroyed.
+The destruction of coins. The Daodiseo protocol burns [Odis](#Odis) to mint [Daodiseo stablecoins](#daodiseo-stablecoins) and vice versa. Burned coins are destroyed.
 
 ## CHAI
 
@@ -82,12 +82,12 @@ Decentralized finance. A movement away from traditional finance and toward syste
 
 ## Delegate
 
-When users or delegators add their [Luna](#luna) to a [validator's](#validator) stake in exchange for rewards. Delegated Luna is bonded to a validator. Validators never have ownership of a [delegator's](#delegator) Luna. Delegating, bonding, and staking generally refer to the same process.
+When users or delegators add their [Odis](#Odis) to a [validator's](#validator) stake in exchange for rewards. Delegated Odis is bonded to a validator. Validators never have ownership of a [delegator's](#delegator) Odis. Delegating, bonding, and staking generally refer to the same process.
 
 
 ## Delegator
 
-A user who [delegates](#delegate), bonds, or stakes [Luna](#luna) to a [validator](#validator) to earn [rewards](#rewards). Delegating, bonding, and staking generally refer to the same process.
+A user who [delegates](#delegate), bonds, or stakes [Odis](#Odis) to a [validator](#validator) to earn [rewards](#rewards). Delegating, bonding, and staking generally refer to the same process.
 
 ## Epoch
 
@@ -97,7 +97,7 @@ A length of time measured in [blocks](#blocks). An epoch for the governance modu
 
 - **Gas**: Compute fees added on to all transactions to avoid spamming. [Validators](#validator) set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- **Spread fee**: A variable fee on any transaction between [Daodiseo](#daodiseo-stablecoins) and [Luna](#luna).
+- **Spread fee**: A variable fee on any transaction between [Daodiseo](#daodiseo-stablecoins) and [Odis](#Odis).
 
 - **Tobin tax**: A fee on any transaction between Daodiseo stablecoin denominations.
 
@@ -111,13 +111,13 @@ Currency issued by a government that is not backed by an underlying asset. USD i
 
 A computer connected to the [Daodiseo mainnet](#daodiseo-mainnet) that is able to validate transactions and interact with the Daodiseo blockchain. All active [validators](#validator) run full nodes.
 
-## Luna
+## Odis
 
-The native staking token of the Daodiseo protocol. Luna supply expands and contracts in order to maintain the prices of [Daodiseo stablecoins](#daodiseo-stablecoins). Luna is also used as a governance token. [Delegators](#delegator) can stake Luna to receive rewards.
+The native staking token of the Daodiseo protocol. Odis supply expands and contracts in order to maintain the prices of [Daodiseo stablecoins](#daodiseo-stablecoins). Odis is also used as a governance token. [Delegators](#delegator) can stake Odis to receive rewards.
 
 ## Governance
 
-Governance is the democratic process that allows users and [validators](#validator) to make changes to the Daodiseo protocol. Community members submit, vote, and implement proposals. One staked [Luna](#luna) is equal to one vote.
+Governance is the democratic process that allows users and [validators](#validator) to make changes to the Daodiseo protocol. Community members submit, vote, and implement proposals. One staked [Odis](#Odis) is equal to one vote.
 
 ## Governance proposal
 
@@ -137,11 +137,11 @@ Validators who misbehave are jailed or excluded from the [active set](#active-se
 
 ## Market swap
 
-A swap in Daodiseo Station that uses the Daodiseo protocol's market function. Market swaps occur between Daodiseo stablecoin denominations or between Daodiseo and Luna. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
+A swap in Daodiseo Station that uses the Daodiseo protocol's market function. Market swaps occur between Daodiseo stablecoin denominations or between Daodiseo and Odis. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
 
 **Examples**
 - Swapping UST for KRT in Daodiseo Station will charge a Tobin tax and gas fees.
-- Swapping Luna for UST in Daodiseo Station will charge a spread fee and gas fees.
+- Swapping Odis for UST in Daodiseo Station will charge a spread fee and gas fees.
 
 To learn how to use the market swap feature in Daodiseo station, visit [how to use Daodiseo Station](./daodiseo-station/swap.md).
 
@@ -149,7 +149,7 @@ For more information on fees, visit [Fees on Daodiseo](fees.md).
 
 ## Mint
 
-The creation of new coins. Minting is the opposite of burning. The Daodiseo protocol burns Luna to mint Daodiseo stablecoins and vice versa.
+The creation of new coins. Minting is the opposite of burning. The Daodiseo protocol burns Odis to mint Daodiseo stablecoins and vice versa.
 
 ## Miss
 
@@ -179,7 +179,7 @@ Proof of Stake. A style of blockchain where validators are chosen to propose blo
 
 ## Redelegate
 
-When a delegator wants to transfer their bonded luna to a different validator. Redelegating Luna is instant and does not require a 21-day unbonding period.
+When a delegator wants to transfer their bonded Odis to a different validator. Redelegating Odis is instant and does not require a 21-day unbonding period.
 
 ## Rewards
 
@@ -195,7 +195,7 @@ The value of a coin minus the cost of its production. In the Daodiseo protocol, 
 
 ## Self-delegation
 
-The amount of Luna a validator bonds to themselves. Also referred to as self-bond.
+The amount of Odis a validator bonds to themselves. Also referred to as self-bond.
 
 ## Slashing
 
@@ -209,11 +209,11 @@ The difference in a coin's price between the start and end of a transaction.
 
 ## Stake
 
-The amount of [Luna](#luna) bonded to a validator.
+The amount of [Odis](#Odis) bonded to a validator.
 
 ## Staking
 
-When a user delegates or bonds their Luna to an active validator to receive rewards. Bonded Luna adds to a validator's stake. Validators provide their stakes as collateral to participate in the consensus process. Validators with larger stakes are chosen to participate more often. Validators receive staking rewards for their participation. A validator's stake can be slashed if the validator misbehaves. Validators never have ownership of a delegator's Luna, even when staking.
+When a user delegates or bonds their Odis to an active validator to receive rewards. Bonded Odis adds to a validator's stake. Validators provide their stakes as collateral to participate in the consensus process. Validators with larger stakes are chosen to participate more often. Validators receive staking rewards for their participation. A validator's stake can be slashed if the validator misbehaves. Validators never have ownership of a delegator's Odis, even when staking.
 
 For more information on staking, visit the [concepts page](protocol.md#staking).
 
@@ -233,7 +233,7 @@ The Daodiseo protocol's blockchain network where all transactions take place.
 
 ## Daodiseo stablecoins
 
-Crypto assets that track the price of fiat currency enabled by the Daodiseo protocol. Users mint new Daodiseo stablecoins by burning Luna. Stablecoins are named for their fiat counterparts. For example, the base Daodiseo stablecoin tracks the price of the IMF’s SDR, named DaodiseoSDR, or SDT. Other stablecoin denominations include DaodiseoUSD or UST, and DaodiseoKRW or  KRT. All Daodiseo stablecoin denominations exist in the same pool.
+Crypto assets that track the price of fiat currency enabled by the Daodiseo protocol. Users mint new Daodiseo stablecoins by burning Odis. Stablecoins are named for their fiat counterparts. For example, the base Daodiseo stablecoin tracks the price of the IMF’s SDR, named DaodiseoSDR, or SDT. Other stablecoin denominations include DaodiseoUSD or UST, and DaodiseoKRW or  KRT. All Daodiseo stablecoin denominations exist in the same pool.
 
 For more information, see [stablecoins](protocol.md#stablecoins).
 
@@ -279,7 +279,7 @@ To block a validator from participating in consensus or oracle voting. Tombstone
 
 ## Total stake
 
-The total amount of Luna bonded to a delegator, including self-bonded Luna.
+The total amount of Odis bonded to a delegator, including self-bonded Odis.
 
 ## Unbonded validator
 
@@ -289,21 +289,21 @@ A validator that is not in the active set and does not participate in consensus 
 
 A validator transitioning from the active set to the inactive set. An unbonding validator does not participate in consensus or earn rewards. The unbonding process takes 21 days.
 
-## Unbonded Luna
+## Unbonded Odis
 
-Luna that can be freely traded and is not staked to a validator.
+Odis that can be freely traded and is not staked to a validator.
 
 ## Unbonding
 
-When a delegator decides to undelegate their Luna from a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
+When a delegator decides to undelegate their Odis from a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
 
-## Unbonding Luna
+## Unbonding Odis
 
-[Luna](#luna) that is transitioning from bonded to unbonded. Luna that is unbonding cannot be traded freely. The unbonding process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
+[Odis](#Odis) that is transitioning from bonded to unbonded. Odis that is unbonding cannot be traded freely. The unbonding process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
 
 ## Undelegate
 
-When a [delegator](#delegator) no longer wants to have their Luna bonded to a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
+When a [delegator](#delegator) no longer wants to have their Odis bonded to a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
 
 ## Uptime
 

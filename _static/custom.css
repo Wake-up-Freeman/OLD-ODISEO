@@ -360,3 +360,10 @@ main.bd-content #print-main-content a:visited {
     font-size: 0.875rem !important;
     font-weight: 500;
 }
+
+
+/* Links */
+
+a {
+	color: #a04e9e!important;
+}

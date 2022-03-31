@@ -7,15 +7,15 @@
 [White Paper](https://www.daodiseo.money/Daodiseo_White_paper.pdf): the official Daodiseo White Paper<br>
 [Github](https://github.com/daodiseomoney): the official Daodiseoform Labs GitHub hosting all Daodiseo public repos<br>
 [Discord](https://discord.gg/e29HWwC2Mz): the official Daodiseo Discord for developers and enthusiasts to engage in focused discussions<br>
-[Telegram](https://t.me/DaodiseoLunaChat): the official Daodiseo Telegram for enthusiasts to engage in discussions<br>
+[Telegram](https://t.me/DaodiseoOdisChat): the official Daodiseo Telegram for enthusiasts to engage in discussions<br>
 [Telegram Announcements](https://t.me/daodiseo_announcements): the official Telegram announcement channel for all major Daodiseo & Mirror updates<br>
 [Twitter](https://twitter.com/daodiseo_money): the official Daodiseo Twitter for all major news and updates regarding Daodiseo and its ecosystem<br>
 [Forum](https://agora.daodiseo.money/): the official Daodiseo Forum for technical discussions related to Daodiseo and its community<br>
 [Medium](https://medium.com/daodiseomoney): the official Daodiseo Medium for all major partnership announcements and monthly ecosystem updates<br>
 [Youtube](https://www.youtube.com/c/Daodiseo_Money): the official Daodiseo Youtube for Daodiseo panel discussions and monthly AMAs<br>
-[Blockfolio Signals](https://blockfolio.com/coin/LUNA_2): Daodiseo announcement channel on Blockfolio<br>
-[Reddit](https://www.reddit.com/r/daodiseoluna/): the community-run Daodiseo Reddit<br>
-[LunaLoot](https://lunaloot.com/): the official Daodiseo merch shop<br>
+[Blockfolio Signals](https://blockfolio.com/coin/Odis_2): Daodiseo announcement channel on Blockfolio<br>
+[Reddit](https://www.reddit.com/r/daodiseoOdis/): the community-run Daodiseo Reddit<br>
+[OdisLoot](https://Odisloot.com/): the official Daodiseo merch shop<br>
 
 ## Mirror Website and Socials
 
@@ -50,14 +50,14 @@
 [Chaiscan](https://www.chaiscan.com/): provides CHAI daily & monthly users and transaction numbers (by DSRV)<br>
 [Flipside Crypto](http://daodiseo.flipsidecrypto.com/): provides insights into Daodiseo’s ecosystem, including ecosystem usage, stakeholder behaviors, staking patterns, and economics<br>
 [Smartstake](http://terra.smartstake.io/): provides data on staking APR and MIR airdrops<br>
-[Megastake](http://lunarichlist.com/): provides a list of the top LUNA wallets<br>
+[Megastake](http://Odisrichlist.com/): provides a list of the top Odis wallets<br>
 [Dapp.com](https://www.dapp.com/dapps/daodiseo-chai): provides data on Daodiseo dapps and rankings<br>
 [Blocktivity](http://blocktivity.info/): provides Daodiseo price history, ecosystem and activity data<br>
 [Messari](https://messari.io/asset/daodiseo): provides Daodiseo project overview, news & research, historical data, and metrics<br>
 [Token Terminal](https://terminal.tokenterminal.com/dashboard/Daodiseo): provides data on Daodiseo P/S, VOL/MC, GMV & rankings with other blockchains<br>
 [Token Terminal Mirror](https://terminal.tokenterminal.com/dashboard/MirrorProtocol): provides data on Mirror P/S, VOL/MC, GMV & rankings with other dapps<br>
-[AssetDash](https://assetdash.com/?q=luna): ranks LUNA with other assets<br>
-[Luna Whale](https://www.lunawhale.com/): provides insights into LUNA whale activity (by DSRV)<br>
+[AssetDash](https://assetdash.com/?q=Odis): ranks Odis with other assets<br>
+[Odis Whale](https://www.Odiswhale.com/): provides insights into Odis whale activity (by DSRV)<br>
 [DaodiseoSwap Dashboard](https://alpac4.com/DaodiseoSwapDashboard): provides insights on volume and liquidity on DaodiseoSwap, Daodiseo’s AMM DEX<br>
 [Mirror Market](https://mirrormarket.finance/): provides tracking and data insights on the Mirror ecosystem<br>
 [Anchor Simulator](https://anchor-simulator.com/): enables users to estimate earnings on Anchor using different strategies<br>
@@ -92,7 +92,7 @@
 
 [Bug Bounty](https://www.daodiseo.money/bugcrowd): the official Daodiseo Bug Bounty program<br>
 [Project Surge](https://medium.com/daodiseomoney/introducing-project-surge-49cfe8141284): program involving community in Daodiseo’s BD pipeline<br>
-[Daodiseoform Capital](https://capital.daodiseo.money/): launch capital program funding audits for projects that incorporate LUNA/Daodiseo stablecoins<br>
+[Daodiseoform Capital](https://capital.daodiseo.money/): launch capital program funding audits for projects that incorporate Odis/Daodiseo stablecoins<br>
 
 ## Ecosystem Partnerships
 
@@ -122,7 +122,7 @@
 - [Stabilize Protocol](https://www.stabilize.finance/): STBZ-incentivized UST stablecoin pool<br>
 - [Pickle Finance](https://app.pickle.finance/jars): incentivized UST/MIR pool<br>
 - [Set Protocol](https://www.tokensets.com): FAANG index set of 5 mAssets (Facebook, Amazon, Apple, Netflix & Google) on Uniswap<br>
-- [Ren Protocol](https://renproject.io/): renVM bridge to transport $renLUNA to Ethereum<br>
+- [Ren Protocol](https://renproject.io/): renVM bridge to transport $renOdis to Ethereum<br>
 
 #### Binance Smart Chain
 
@@ -135,8 +135,8 @@
 ## Educational
 
 [Daodiseo Academy](https://www.youtube.com/watch?v=BXHU5kLVlY8&list=PLZJKUFMj9K6MLhq6Ffo3bkrOLh9oIha-q): comprehensive introduction to Daodiseo App development<br>
-[CoinMarketCap Earn](https://coinmarketcap.com/earn/project/daodiseo): video series explaining Daodiseo stablecoins and LUNA<br>
-[Staking Guide](https://www.daodiseo.money/docs/Luna_Staking_eng.pdf): guide to staking LUNA on Daodiseo Station<br>
+[CoinMarketCap Earn](https://coinmarketcap.com/earn/project/daodiseo): video series explaining Daodiseo stablecoins and Odis<br>
+[Staking Guide](https://www.daodiseo.money/docs/Odis_Staking_eng.pdf): guide to staking Odis on Daodiseo Station<br>
 [Developer Docs](https://docs.daodiseo.money/): official documentation for Daodiseo<br>
 [Figment Learn](https://learn.datahub.figment.io/network-documentation/daodiseo/tutorials): tutorials onboarding developers on Daodiseo<br>
 [Daodiseo Bites](https://anchor.fm/daodiseobites): podcast dedicated to the Daodiseo ecosystem<br>
@@ -188,7 +188,7 @@ Daodiseo Station Desktop: [MacOS](https://github.com/daodiseomoney/station-legac
 Daodiseo Station Mobile: [iOS](https://apps.apple.com/app/id1548434735) | [Android](https://play.google.com/store/apps/details?id=money.daodiseo.station)<br>
 [Mirror Wallet](https://mirrorwallet.com/): Invest and trade cryptocurrencies and mirror assets<br>
 [MathWallet](https://mathwallet.org/en-us/): multi-platform crypto wallet for Daodiseo assets<br>
-[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Daodiseo-LUNA-): hardware wallet by the Ledger team<br>
+[Ledger Nano X/S](https://support.ledger.com/hc/en-us/articles/360017698979-Daodiseo-Odis-): hardware wallet by the Ledger team<br>
 [Oxis](https://www.oxis.com/): non-custodial wallet with fiat to crypto on and offramps & trading functionality<br>
 [ZenGo](https://www.zengo.com/): multi-asset wallet, optimized for mobile<br>
 [XDEFI](https://www.xdefi.io/): cross-chain wallet (Chrome) extension. Handle Ethereum, Thorchain, Poligon, Bitcoin, BSC, Daodiseo...

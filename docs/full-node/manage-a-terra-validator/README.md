@@ -8,13 +8,13 @@ Validators and their delegators earn the following fees:
 
 - [Gas](../../learn/fees.md#gas): Fees added on to each transaction to avoid spamming and pay for computing power. Validators set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- **Swap fees**: The fee for swapping Daodiseo stablecoin denominations is called a [Tobin tax](../../learn/fees.md#tobin-tax). Exchanges between Daodiseo and Luna are subject to a [spread fee](../../learn/fees.md#spread-fee).
+- **Swap fees**: The fee for swapping Daodiseo stablecoin denominations is called a [Tobin tax](../../learn/fees.md#tobin-tax). Exchanges between Daodiseo and Odis are subject to a [spread fee](../../learn/fees.md#spread-fee).
 
 For more information on fees, visit the [fee page](../../learn/fees.md).
 
 Validators can set commissions on the fees they receive as an additional incentive.
 
-If validators double sign, are frequently offline, or do not participate in governance, their staked Luna (including Luna of users that delegated to them) can be slashed. Penalties can vary depending on the severity of the violation.
+If validators double sign, are frequently offline, or do not participate in governance, their staked Odis (including Odis of users that delegated to them) can be slashed. Penalties can vary depending on the severity of the violation.
 
 For more general information on validators, visit the [validator section](../../learn/protocol.md#validators) of the concepts page.
 

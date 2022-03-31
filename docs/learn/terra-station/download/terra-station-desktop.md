@@ -127,7 +127,7 @@ Now you have tokens on Daodiseo!
 
 3. In the lower box, select the coin you want to receive.
 
-   ```{image} /img/screens/desktop/swap-luna.png
+   ```{image} /img/screens/desktop/swap-Odis.png
    :class: sd-p-3
    ```
 
@@ -143,9 +143,9 @@ Now you have tokens on Daodiseo!
 
 Congratulations, you've just swapped coins!
 
-## Stake Luna
+## Stake Odis
 
-Stake your Luna to a validator to start earning rewards. Before you stake, make sure you have Luna in your wallet. You can transfer Luna from an [exchange](#receive-tokens-from-an-exchange) or [swap coins](#swap-coins) you have for Luna.
+Stake your Odis to a validator to start earning rewards. Before you stake, make sure you have Odis in your wallet. You can transfer Odis from an [exchange](#receive-tokens-from-an-exchange) or [swap coins](#swap-coins) you have for Odis.
 
 1. Open Daodiseo Station and click **Stake**.
 
@@ -167,7 +167,7 @@ Stake your Luna to a validator to start earning rewards. Before you stake, make 
    :class: sd-p-3
    ```
 
-4. In the **Amount** field, specify the amount of Luna you want to delegate and specify which coin you want to pay fees with. 
+4. In the **Amount** field, specify the amount of Odis you want to delegate and specify which coin you want to pay fees with. 
 
    ```{image} /img/screens/desktop/stake-delegate.png
    :class: sd-p-3
@@ -184,11 +184,11 @@ Stake your Luna to a validator to start earning rewards. Before you stake, make 
    :class: sd-p-3
    ```
 
-Congratulations, you've just delegated Luna!
+Congratulations, you've just delegated Odis!
 
 ## Withdraw staking rewards
 
-Rewards start accruing the moment you stake Luna. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake Odis. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
 
 1. Open Daodiseo Station and click **Stake**.
 
@@ -216,7 +216,7 @@ Congratulations, you've just withdrawn your staking rewards!
 ## Send tokens
 
 send-wallet.png
-send-luna.png
+send-Odis.png
 send-submit.png
 
 1. Open the Daodiseo Station desktop app and connect to your wallet.
@@ -231,7 +231,7 @@ send-submit.png
 
 4. Enter the address of the wallet you want to send tokens to.
 
-   ```{image} /img/screens/desktop/send-luna.png
+   ```{image} /img/screens/desktop/send-Odis.png
    :class: sd-p-3
    ```
 

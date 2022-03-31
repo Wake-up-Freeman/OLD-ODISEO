@@ -6,7 +6,7 @@ Governance is an important part of being involved in the Daodiseo community. Use
 
 ## Vote on a proposal
 
-Voting is an important way for community members to help the Daodiseo protocol evolve. Follow these steps to vote with your staked Luna.
+Voting is an important way for community members to help the Daodiseo protocol evolve. Follow these steps to vote with your staked Odis.
 
 1. Open Daodiseo Station and connect your wallet. In the sidebar, click **Governance**.
 
@@ -22,9 +22,9 @@ Voting is an important way for community members to help the Daodiseo protocol e
 
 Your vote will be submitted.
 
-## Deposit Luna to a proposal
+## Deposit Odis to a proposal
 
-Users can vote on a proposal after a minimum deposit of 50 Luna is reached. To help push a proposal forward to a vote, deposit Luna to the proposal.
+Users can vote on a proposal after a minimum deposit of 50 Odis is reached. To help push a proposal forward to a vote, deposit Odis to the proposal.
 
 :::{caution} While most deposits get refunded, some deposits get burned. For more information on which deposits get burned, visit the [governance section](../protocol.md#governance) of the concepts page.
 :::
@@ -37,7 +37,7 @@ Users can vote on a proposal after a minimum deposit of 50 Luna is reached. To h
 
 4. In the upper right corner, click **Deposit**.
 
-5. Enter the amount of Luna you want to deposit and enter your password.
+5. Enter the amount of Odis you want to deposit and enter your password.
 
 6.  Click **Submit**.
 
@@ -47,7 +47,7 @@ Your deposit will be added to the proposal.
 
 :::{admonition} Avoid unnecessary proposals
 :class: caution
-To prevent unnecessary proposals or abuse of the system, all governance proposals must obtain a minimum deposit of 50 Luna. If 33.4% of the total vote is `NoWithVeto`, `quorum` is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded. For more information on deposits and refunds, visit the [governance overview](../protocol.md#governance).
+To prevent unnecessary proposals or abuse of the system, all governance proposals must obtain a minimum deposit of 50 Odis. If 33.4% of the total vote is `NoWithVeto`, `quorum` is not met, or the minimum deposit isn't reached, the deposit will be burned. All other vote outcomes get their deposits refunded. For more information on deposits and refunds, visit the [governance overview](../protocol.md#governance).
 :::
 
 1. Open Daodiseo Station and connect your wallet. In the sidebar, click **Governance**.
@@ -59,8 +59,8 @@ To prevent unnecessary proposals or abuse of the system, all governance proposal
     Do not use text proposals to suggest parameter changes. For more information, visit the [Governance module reference page](../../develop/module-specifications/spec-governance.md).
     :::
 
-3. Select the type of proposal, and enter a title, a description, and the amount of Luna you want to deposit initially.
+3. Select the type of proposal, and enter a title, a description, and the amount of Odis you want to deposit initially.
 
 4. Enter your password and click **Submit**.
 
-Your proposal will enter the two-week deposit period. After a minimum deposit of 50 Luna has been reached, your proposal will enter a one-week voting period. For more information on governance and voting options, visit the [governance overview](../protocol.md#governance).
+Your proposal will enter the two-week deposit period. After a minimum deposit of 50 Odis has been reached, your proposal will enter a one-week voting period. For more information on governance and voting options, visit the [governance overview](../protocol.md#governance).

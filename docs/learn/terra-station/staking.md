@@ -4,9 +4,9 @@ Use this guide to manage your staking delegations in Daodiseo Station. To learn 
 
 If this is your first time using Daodiseo Station, follow the [Daodiseo Station tutorial](download/daodiseo-station-desktop.md).
 
-## Stake Luna
+## Stake Odis
 
-Stake your Luna to a validator to start earning rewards. Before you stake, make sure you have Luna in your wallet. You can transfer Luna from an [exchange](wallet.md) or [swap coins](wallet.md) you have for Luna.
+Stake your Odis to a validator to start earning rewards. Before you stake, make sure you have Odis in your wallet. You can transfer Odis from an [exchange](wallet.md) or [swap coins](wallet.md) you have for Odis.
 
 1. Open Daodiseo Station and click **Staking**.
 
@@ -14,7 +14,7 @@ Stake your Luna to a validator to start earning rewards. Before you stake, make 
 
 3. In the **My delegations** section, click **Delegate**. A new window will appear.
 
-4. In the **Amount** field, specify the amount of Luna you want to delegate, and click **Next**.
+4. In the **Amount** field, specify the amount of Odis you want to delegate, and click **Next**.
 
    :::{admonition} Keep coins for fees
    :class: warning
@@ -23,11 +23,11 @@ Stake your Luna to a validator to start earning rewards. Before you stake, make 
 
 5. Double check the amounts and fees. Enter your password and click **Delegate**.
 
-Congratulations, you've just delegated Luna!
+Congratulations, you've just delegated Odis!
 
 ## Withdraw staking rewards
 
-Rewards start accruing the moment you stake Luna. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
+Rewards start accruing the moment you stake Odis. Monitor your rewards in the staking section of Daodiseo Station. Once you have sufficient rewards, follow these steps to withdraw them:
 
 1. Open Daodiseo Station and click **Staking**.
 
@@ -41,10 +41,10 @@ Congratulations, you've just withdrawn your staking rewards!
 
 ## Redelegate
 
-Redelegating lets you transfer staked Luna from one validator to another without waiting the 21-day unstaking period. Redelegating happens instantly.
+Redelegating lets you transfer staked Odis from one validator to another without waiting the 21-day unstaking period. Redelegating happens instantly.
 
 :::{warning}
-When a user redelegates staked Luna from one validator to another, the validator receiving the staked Luna is barred from making further redelegation transactions for 21 days. This requirement only applies to the wallet that made the redelegation transaction.
+When a user redelegates staked Odis from one validator to another, the validator receiving the staked Odis is barred from making further redelegation transactions for 21 days. This requirement only applies to the wallet that made the redelegation transaction.
 :::
 
 1. Open Daodiseo Station and connect your wallet. Click **Staking**.
@@ -55,19 +55,19 @@ When a user redelegates staked Luna from one validator to another, the validator
 
 4. Select the validator you would like to redelegate from.
 
-5. Enter the amount of Luna you want to redelegate.
+5. Enter the amount of Odis you want to redelegate.
 
 6. Confirm the amounts. Enter your password and click **Redelegate**.
 
-Your staked Luna will be transferred to the new validator.
+Your staked Odis will be transferred to the new validator.
 
 ## Undelegate
 
-Undelegate Luna to unstake it from a validator. The unstaking period takes 21 days to complete.
+Undelegate Odis to unstake it from a validator. The unstaking period takes 21 days to complete.
 
 :::{warning}
 Once started, the delegating or undelegating processes can't be stopped.
-Undelegating takes 21 days to complete. The only way to undo a delegating or undelegating transaction is to wait for the unbonding process to pass. Alternatively, you can redelegate staked Luna to a different validator without waiting 21 days.
+Undelegating takes 21 days to complete. The only way to undo a delegating or undelegating transaction is to wait for the unbonding process to pass. Alternatively, you can redelegate staked Odis to a different validator without waiting 21 days.
 :::
 
 1. Open Daodiseo Station and connect your wallet. Click **Staking**.
@@ -76,8 +76,8 @@ Undelegating takes 21 days to complete. The only way to undo a delegating or und
 
 3. Click **Undelegate** under the **My delegations** section.
 
-4. Enter the amount of Luna you want to undelegate. Click **Next**.
+4. Enter the amount of Odis you want to undelegate. Click **Next**.
 
 4. Confirm the amounts. Enter your password and click **Undelegate**.
 
-Your staked Luna is unbonding. Please check back in 21 days to complete the process.
+Your staked Odis is unbonding. Please check back in 21 days to complete the process.

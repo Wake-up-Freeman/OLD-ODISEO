@@ -12,7 +12,7 @@ For more information on Daodiseoin, visit [Daodiseoin's readme](https://github.c
 :::{grid-item-card}
 :link: initial-setup.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseoin.png
+```{image} /img/daodiseoin.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain setup**  

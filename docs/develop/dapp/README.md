@@ -13,7 +13,7 @@ Use these guides to setup your environment and build a dApp. If this is your fir
 :::{grid-item-card}
 :link: quick-start/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseoin.png
+```{image} /img/daodiseoin.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain quickstart guide**  

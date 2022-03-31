@@ -30,7 +30,7 @@ The simplest Daodiseo network you can set up is a local testnet with just a sing
 
 :::{admonition} Get tokens
 :class: tip
-In order for Daodiseod to recognize a wallet address, it must contain tokens. For the testnet, use [the faucet](https://faucet.daodiseo.money/) to send Luna to your wallet. If you are on mainnet, send funds from an existing wallet. 1-3 Luna are sufficient for most setup processes.
+In order for Daodiseod to recognize a wallet address, it must contain tokens. For the testnet, use [the faucet](https://faucet.daodiseo.money/) to send Odis to your wallet. If you are on mainnet, send funds from an existing wallet. 1-3 Odis are sufficient for most setup processes.
 :::
 
 ### Add your account to the genesis
@@ -38,8 +38,8 @@ In order for Daodiseod to recognize a wallet address, it must contain tokens. Fo
 Run the following commands to add your account and set the initial balance:
 
 ```bash
-daodiseod add-genesis-account $(daodiseod keys show <account-name> -a) 100000000uluna,1000usd
-terrad gentx <my-account> 10000000uluna --chain-id=<testnet-name>
+daodiseod add-genesis-account $(daodiseod keys show <account-name> -a) 100000000uOdis,1000usd
+terrad gentx <my-account> 10000000uOdis --chain-id=<testnet-name>
 terrad collect-gentxs
 ```
 

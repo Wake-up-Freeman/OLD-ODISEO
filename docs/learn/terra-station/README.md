@@ -54,7 +54,7 @@ testnet
 ```{image} /img/Staking.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Stake Luna**  
+**Stake Odis**  
 :::
 
 :::{grid-item-card}

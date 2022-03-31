@@ -18,15 +18,15 @@ It is possible and encouraged for any user to run full nodes even if they do not
 
 ### What is staking?
 
-When Luna holders delegate their Luna to a validator, they are ***staking.*** Staking increases a validator's weight, which helps them, and in return delegators get rewarded.
+When Odis holders delegate their Odis to a validator, they are ***staking.*** Staking increases a validator's weight, which helps them, and in return delegators get rewarded.
 
-The Columbus-5 Mainnet is a public Proof of Stake (PoS) blockchain. This means a validator's weight (total stake) is determined by the amount of staking tokens (Luna) they delegate to themselves plus the Luna bonded to them by external delegators. The weight of a validator determines whether or not they are an active validator and how frequently they can propose a block. Validators with a higher weight will propose more blocks, and in turn make more revenue.
+The Columbus-5 Mainnet is a public Proof of Stake (PoS) blockchain. This means a validator's weight (total stake) is determined by the amount of staking tokens (Odis) they delegate to themselves plus the Odis bonded to them by external delegators. The weight of a validator determines whether or not they are an active validator and how frequently they can propose a block. Validators with a higher weight will propose more blocks, and in turn make more revenue.
 
-The active validator set is made up of 130 validators, who hold the most Luna. The bottom validator’s stake always forms the barrier for entry into the network. Creating a validator with more stake than the bottom validator is the only way to enter the active set. If validators double-sign, or are frequently offline, they risk their staked Luna, including Luna delegated by users, being slashed by the protocol to penalize negligence and misbehavior.
+The active validator set is made up of 130 validators, who hold the most Odis. The bottom validator’s stake always forms the barrier for entry into the network. Creating a validator with more stake than the bottom validator is the only way to enter the active set. If validators double-sign, or are frequently offline, they risk their staked Odis, including Odis delegated by users, being slashed by the protocol to penalize negligence and misbehavior.
 
 ### What is a delegator?
 
-Delegators are Luna holders who want to receive staking rewards without the responsibility of running a validator. Through Daodiseo Station, a user can delegate Luna to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
+Delegators are Odis holders who want to receive staking rewards without the responsibility of running a validator. Through Daodiseo Station, a user can delegate Odis to a validator and in exchange receive a part of a validator's revenue. For more detail on how revenue is distributed, see [What are the incentives to stake?](#what-are-the-incentives-to-stake) and [What is a validator's commission?](#what-is-a-validators-commission)
 
 Delegators share the benefits and rewards of staking with their Validator. If a Validator is successful, its delegators will consistently share in the rewards structure. If a Validator is slashed, the delegator’s stake will also be slashed. This is why delegators should perform due-diligence on validators before delegating. Delegators can also diversify by spreading their stake over multiple validators.
 
@@ -54,16 +54,16 @@ Any participant in the network can signal their intent to become a validator by 
 
 - **Commission change rate**: The maximum daily increase of the validator's commission.(This cannot be changed)
 
-- **Minimum self-bond amount**: The minimum amount of bonded Luna the validator needs at all times. If the validator's self-bonded stake falls below this limit, its entire staking pool will be unbonded.
+- **Minimum self-bond amount**: The minimum amount of bonded Odis the validator needs at all times. If the validator's self-bonded stake falls below this limit, its entire staking pool will be unbonded.
 
-- **Initial self-bond amount**: The initial amount of Luna the validator self-bonds.
+- **Initial self-bond amount**: The initial amount of Odis the validator self-bonds.
 
 **Example:**
 
 ```bash
 terrad tx staking create-validator
     --pubkey daodiseovalconspub1zcjduepqs5s0vddx5m65h5ntjzwd0x8g3245rgrytpds4ds7vdtlwx06mcesmnkzly
-    --amount "2uluna"
+    --amount "2uOdis"
     --from tmp
     --commission-rate="0.20"
     --commission-max-rate="1.00"
@@ -75,7 +75,7 @@ terrad tx staking create-validator
     --node tcp://127.0.0.1:26647
 ```
 
-Once a validator is created and registered, Luna holders can delegate Luna to them, effectively adding stake to its pool. The total stake of a validator is the total of their self-bonded Luna plus the Luna bonded by external delegators.
+Once a validator is created and registered, Odis holders can delegate Odis to them, effectively adding stake to its pool. The total stake of a validator is the total of their self-bonded Odis plus the Odis bonded by external delegators.
 
 **Only the top 130 validators are considered active or *bonded validators***. If a validator's total stake dips below the top 130, the validator loses its validator privileges and no longer serves as part of the active set, entering into **unbonding mode** and eventually becoming **unbonded**, or inactive.
 
@@ -106,16 +106,16 @@ After a validator is created with the `create-validator` transaction, it can be 
 
 - `unbonding`: A validator that is not in the active set and can't not participate in consensus. This validator is not earning rewards but can still be slashed for misbehaviour. This is a transition state from `bonded` to `unbonded`. If a validator does not send a `rebond` transaction while in `unbonding` mode, it will take three weeks for the state transition to complete.
 
-- `unbonded`: A validator that is not in the active set and not signing blocks. Unbonded validators can't be slashed and can't earn any rewards from their operation. It is still possible to delegate Luna to unbonded validators. Un-delegating from an `unbonded` validator is immediate.
+- `unbonded`: A validator that is not in the active set and not signing blocks. Unbonded validators can't be slashed and can't earn any rewards from their operation. It is still possible to delegate Odis to unbonded validators. Un-delegating from an `unbonded` validator is immediate.
 
 All Delegators have the same state as their validator.
 
-Delegations are not necessarily bonded. Luna can be delegated and bonded, delegated and unbonding, delegated and unbonded, or liquid.
+Delegations are not necessarily bonded. Odis can be delegated and bonded, delegated and unbonding, delegated and unbonded, or liquid.
 
 
 ### What is "self-bonding"? How can I increase my "self-bond"?
 
-A validator operator's "self-bond" refers to the amount of Luna delegated to itself. You can increase your self-bond by delegating more Luna to your validator account.
+A validator operator's "self-bond" refers to the amount of Odis delegated to itself. You can increase your self-bond by delegating more Odis to your validator account.
 
 ### Can I delegate to a validator outside of the active set?
 
@@ -131,7 +131,7 @@ Be careful when delegating to validators outside of the active set. Some inactiv
 
 Use the [Daodiseo faucet](https://faucet.daodiseo.money/) to obtain coins for the testnet.
 
-### Is there a minimum amount of Luna that must be staked to be an active (bonded) validator?
+### Is there a minimum amount of Odis that must be staked to be an active (bonded) validator?
 
 There is no set minimum. The top 130 validators with the highest total stake (where total stake = self-bonded stake + delegated stake) make up the active validator set. The bottom 130th validator sets the barrier to entry for the active set.
 
@@ -139,9 +139,9 @@ There is no set minimum. The top 130 validators with the highest total stake (wh
 
 Delegators are free to choose validators according to their own criteria. This may include:
 
-- **Amount of self-bonded Luna:** The amount of Luna a validator self-bonds to its staking pool. A validator with a higher amount of self-bonded Luna has more skin in the game, making it more liable for its actions.
+- **Amount of self-bonded Odis:** The amount of Odis a validator self-bonds to its staking pool. A validator with a higher amount of self-bonded Odis has more skin in the game, making it more liable for its actions.
 
-- **Amount of delegated Luna:** The total amount of Luna delegated to a validator. A high stake shows that the community trusts this validator; however, this also means that a validator is a bigger target for hackers. Large stakes provide large voting power. This weakens the network. At any given time, if 33% or more of staked luna becomes inaccessible, the network will halt. Through incentives and education, this weakness can be prevented by delegating away from validators that have too much voting power. Validators sometimes become less attractive as their amount of delegated Luna grows.
+- **Amount of delegated Odis:** The total amount of Odis delegated to a validator. A high stake shows that the community trusts this validator; however, this also means that a validator is a bigger target for hackers. Large stakes provide large voting power. This weakens the network. At any given time, if 33% or more of staked Odis becomes inaccessible, the network will halt. Through incentives and education, this weakness can be prevented by delegating away from validators that have too much voting power. Validators sometimes become less attractive as their amount of delegated Odis grows.
 
 - **Commission rate:** The commission applied to rewards by a validator before being distributed to its delegators.
 
@@ -161,7 +161,7 @@ A validator must:
 
 - **Run the correct software versions:** Validators need to make sure that their servers are always online, and that their private keys are not compromised.
 
-- **Actively participate in price discovery and stabilization:** Validators are highly incentivized to submit honest and correct votes of the real market prices of Luna. Validators are also encouraged to engage in arbitrage swaps that stabilize the prices of Daodiseo stablecoins.
+- **Actively participate in price discovery and stabilization:** Validators are highly incentivized to submit honest and correct votes of the real market prices of Odis. Validators are also encouraged to engage in arbitrage swaps that stabilize the prices of Daodiseo stablecoins.
 
 - **Provide oversight and feedback on the correct deployment of community pool funds:** The Daodiseo protocol includes a governance system for proposals to facilitate the adoption of its currencies. Validators are expected to hold budget executors to provide transparency and to use funds efficiently.
 
@@ -169,13 +169,13 @@ A validator must:
 
 ### What does staking imply?
 
-Think of staked Luna as a safety deposit on a validator's activities. When a validator or a delegator wants to retrieve part or all of their deposit, they send an unbonding transaction. The staked Luna then undergoes a _three weeks unbonding period,_ during which it is vulnerable to slashing risks for potential misbehavior committed by the validator before the start of the unbonding process.
+Think of staked Odis as a safety deposit on a validator's activities. When a validator or a delegator wants to retrieve part or all of their deposit, they send an unbonding transaction. The staked Odis then undergoes a _three weeks unbonding period,_ during which it is vulnerable to slashing risks for potential misbehavior committed by the validator before the start of the unbonding process.
 
-Validators receive block provisions, block rewards, and fee rewards and share these with their delegators. If a validator misbehaves, a certain portion of their total stake is slashed (the severity of the penalty depends on the type of misbehavior). This means that every user that bonds Luna to a slashed validator gets penalized in proportion to their stake. Delegators are incentivized to delegate to validators that function safely.
+Validators receive block provisions, block rewards, and fee rewards and share these with their delegators. If a validator misbehaves, a certain portion of their total stake is slashed (the severity of the penalty depends on the type of misbehavior). This means that every user that bonds Odis to a slashed validator gets penalized in proportion to their stake. Delegators are incentivized to delegate to validators that function safely.
 
-### Can a validator run away with a delegators' Luna?
+### Can a validator run away with a delegators' Odis?
 
-**No.** By delegating to a validator, users delegate staking power. The more staking power a validator has, the more weight it has in the consensus and processes. This does not mean that the validator has custody of its delegators' Luna.
+**No.** By delegating to a validator, users delegate staking power. The more staking power a validator has, the more weight it has in the consensus and processes. This does not mean that the validator has custody of its delegators' Odis.
 
 ::: {important}
 It is impossible for a validator to run away with a delegator's funds.
@@ -183,9 +183,9 @@ It is impossible for a validator to run away with a delegator's funds.
 
 Although delegated funds cannot be stolen by validators, delegators are still liable if a validator misbehaves. When this happens, a delegator's stake will be partially slashed in proportion to their relative stake.
 
-### How often will a validator be chosen to propose the next block? Does it go up with the quantity of Luna staked?
+### How often will a validator be chosen to propose the next block? Does it go up with the quantity of Odis staked?
 
-The validator that is selected to mine the next block is called the **proposer**, or the "leader" in the consensus for the round. Each proposer is selected deterministically, and the frequency of being chosen is equal to the relative total stake of the validator (Total stake = self-bonded stake + delegators stake). For example, if the total bonded stake across all validators is 100 Luna, and a validator's total stake is 10 Luna, then this validator will be chosen 10% of the time as the proposer.
+The validator that is selected to mine the next block is called the **proposer**, or the "leader" in the consensus for the round. Each proposer is selected deterministically, and the frequency of being chosen is equal to the relative total stake of the validator (Total stake = self-bonded stake + delegators stake). For example, if the total bonded stake across all validators is 100 Odis, and a validator's total stake is 10 Odis, then this validator will be chosen 10% of the time as the proposer.
 
 To understand more about the proposer selection process in Tendermint BFT consensus, read more [in their official docs](https://docs.tendermint.com/master/spec/consensus/proposer-selection.html).
 
@@ -197,9 +197,9 @@ Each member of a validator's staking pool earns different types of revenue:
 
 - **Compute fees (gas)**: To prevent spamming, validators can set minimum gas fees for transactions to be included in their mempool. At the end of every block, compute fees are disbursed to the participating validators proportional to their stake.
 
-- **Stability fees**: To stabilize the value of Luna, the protocol charges a small fee ranging from 0.1% to 1% on every Daodiseo transaction, capped at 1 DaodiseoSDR. This is paid in any Daodiseo currency, and is disbursed proportional to each validators' stake at the end of every block in DaodiseoSDR.
+- **Stability fees**: To stabilize the value of Odis, the protocol charges a small fee ranging from 0.1% to 1% on every Daodiseo transaction, capped at 1 DaodiseoSDR. This is paid in any Daodiseo currency, and is disbursed proportional to each validators' stake at the end of every block in DaodiseoSDR.
 
-- **Swap fees**: A small spread is charged on market swap transactions between Luna and any Daodiseo currency, which is then used to reward validators that faithfully report oracle exchange rates. The fee for swaps between different Daodiseo stablecoins is called the Tobin tax.
+- **Swap fees**: A small spread is charged on market swap transactions between Odis and any Daodiseo currency, which is then used to reward validators that faithfully report oracle exchange rates. The fee for swaps between different Daodiseo stablecoins is called the Tobin tax.
 
 This total revenue is divided among a validator's staking pool according to each validator's weight. The revenue is then divided among delegators in proportion to each delegator's stake. Note that a commission on delegators' revenue is applied by the validator before it is distributed.
 
@@ -215,7 +215,7 @@ The revenue received by a validator's pool is split between a validator and thei
 
 Block provisions are distributed proportionally to each validator relative to their total stake. This means that even though each validator gains DaodiseoSDR \(SDT\) with each provision, all validators will still maintain equal weight.
 
- **Example:** Take 10 validators with equal staking power and a commission rate of 1%. The block provision is 1000 SDT and each validator has 20% self-bonded Luna. These tokens do not go directly to the proposer. Instead, they are evenly spread among validators. So now each validator's pool has 100 SDT, which is distributed according to each participant's stake:
+ **Example:** Take 10 validators with equal staking power and a commission rate of 1%. The block provision is 1000 SDT and each validator has 20% self-bonded Odis. These tokens do not go directly to the proposer. Instead, they are evenly spread among validators. So now each validator's pool has 100 SDT, which is distributed according to each participant's stake:
 
 - Commission: 100 SDT ~ * ~ 80\% ~ * ~ 1\%$ = 0.8 SDT
 
@@ -233,7 +233,7 @@ Fees are distributed to validators in the same way as commission: proportionally
 
 When a validator is selected to propose the next block, they must include at least two thirds of the precommits for the previous block in the form of validator signatures. Proposers who include more than two thirds receive a bonus proportional to the amount of additional precomits. This reward ranges from 1% if the proposer includes two thirds of the precommits to 5% if the proposer includes 100% of the precommits. If a proposer waits too long however, other validators may timeout and move on to the next proposer. This is why validators have to find a balance between wait time to get the most signatures and the risk of losing out on proposing the next block. This feature aims to incentivize non-empty block proposals, better networking between validators, and to mitigate censorship.
 
-**Example:** There are 10 validators with equal stake. Each has a 1% commission and 20% self-bonded Luna. If a successful block collects 1005 SDT in fees, and the proposer includes 100% of the signatures in their block, they will receive the full 5% bonus.
+**Example:** There are 10 validators with equal stake. Each has a 1% commission and 20% self-bonded Odis. If a successful block collects 1005 SDT in fees, and the proposer includes 100% of the signatures in their block, they will receive the full 5% bonus.
 
 Use this simple equation to find the reward $R$ for each validator:
 
@@ -251,9 +251,9 @@ $$9R ~ + ~ R ~ + ~ 5\%(R) ~ = ~ 1005 ~ \Leftrightarrow ~ R ~ = ~ 1005 ~/ ~10.05 
   - Validator's reward: 100 SDT ~ * ~ 20\% ~ + ~ Commission$ = 20.8 SDT
   - Delegators' rewards: 100 SDT ~ * ~ 80\% ~ - ~ Commission$ = 79.2 SDT \(each delegator will be able to claim its portion of these rewards in proportion to their stake\)
 
-### How does Luna supply behave over time?
+### How does Odis supply behave over time?
 
-Luna is the native staking token for the Daodiseo Proof of Stake chain. Luna represents mining power and serves as collateral for Daodiseo stablecoins. When a Daodiseo stablecoin's price is low, the relevant Daodiseo stablecoin is burned, and Luna is minted. This increases the price of the Daodiseo stablecoin. In order to constrain Luna inflation, the protocol burns all seigniorage and dividends swap fees to the exchange rate oracle ballot winners, which then returns Luna supply towards a target. The Daodiseo Protocol is deflationary in nature.
+Odis is the native staking token for the Daodiseo Proof of Stake chain. Odis represents mining power and serves as collateral for Daodiseo stablecoins. When a Daodiseo stablecoin's price is low, the relevant Daodiseo stablecoin is burned, and Odis is minted. This increases the price of the Daodiseo stablecoin. In order to constrain Odis inflation, the protocol burns all seigniorage and dividends swap fees to the exchange rate oracle ballot winners, which then returns Odis supply towards a target. The Daodiseo Protocol is deflationary in nature.
 
 ### What are the slashing conditions?
 
@@ -269,13 +269,13 @@ If a validator misbehaves, their bonded stake along with their delegators' stake
  Even if a validator does not intentionally misbehave, it can still be slashed if its node crashes, loses connectivity, gets DDoSed, or if its private key is compromised.
 :::
 
-### Are validators required to self-bond Luna?
+### Are validators required to self-bond Odis?
 
-No, but self-bonding has benefits. A validator's total stake is made up of their self-bonded stake plus their delegated stake. This means that a validator can compensate for low amounts of self-bonded Luna by attracting more delegators. This is why reputation is very important for validators.
+No, but self-bonding has benefits. A validator's total stake is made up of their self-bonded stake plus their delegated stake. This means that a validator can compensate for low amounts of self-bonded Odis by attracting more delegators. This is why reputation is very important for validators.
 
-Although validators are not required to self-bond Luna, all validators should have `skin-in-the-game`. This can help make a validator more trustworthy.
+Although validators are not required to self-bond Odis, all validators should have `skin-in-the-game`. This can help make a validator more trustworthy.
 
-In order for delegators to have some guarantee about how much `skin-in-the-game` their validator has, validators can signal a minimum amount of self-bonded Luna. If a validator's self-bond goes below the limit that it has predefined, this validator and all of its delegators will unbond.
+In order for delegators to have some guarantee about how much `skin-in-the-game` their validator has, validators can signal a minimum amount of self-bonded Odis. If a validator's self-bond goes below the limit that it has predefined, this validator and all of its delegators will unbond.
 
 
 ## Technical Requirements

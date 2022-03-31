@@ -1,6 +1,6 @@
 # Learn
 
-Discover [how the Daodiseo protocol works](protocol.md) and learn about [validators](protocol.md#validators), [staking](protocol.md#staking), and [governance](protocol.md#governance). Use [Daodiseo Station](daodiseo-station/README.md) to [create a wallet](daodiseo-station/download/README.md), [stake Luna](daodiseo-station/staking.md), [send tokens](daodiseo-station/wallet.md#send-tokens), and [participate in governance](daodiseo-station/governance.md). Browse the [glossary](glossary.md) to look up helpful terms.
+Discover [how the Daodiseo protocol works](protocol.md) and learn about [validators](protocol.md#validators), [staking](protocol.md#staking), and [governance](protocol.md#governance). Use [Daodiseo Station](daodiseo-station/README.md) to [create a wallet](daodiseo-station/download/README.md), [stake Odis](daodiseo-station/staking.md), [send tokens](daodiseo-station/wallet.md#send-tokens), and [participate in governance](daodiseo-station/governance.md). Browse the [glossary](glossary.md) to look up helpful terms.
 
 ```{toctree}
 :hidden:
@@ -31,17 +31,17 @@ Learn how the Daodiseo Protocol works.
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **Get started with Station**  
-Create a wallet and stake Luna for rewards.
+Create a wallet and stake Odis for rewards.
 :::
 
 :::{grid-item-card}
 :link: protocol.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_luna.svg
+```{image} /img/icon_daodiseo.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**What is Luna?**  
-Learn how Luna helps stabilize the price of Daodiseo.
+**What is Odis?**  
+Learn how Odis helps stabilize the price of Daodiseo.
 :::
 
 :::{grid-item-card}

@@ -1,6 +1,6 @@
 # Set up an oracle feeder
 
-Every Daodiseo validator must participate in the oracle process and periodically submit a vote for the exchange rate of Luna in all whitelisted denominations. Because this process occurs every 30 seconds, validators must set up an automated process to avoid getting slashed and jailed.
+Every Daodiseo validator must participate in the oracle process and periodically submit a vote for the exchange rate of Odis in all whitelisted denominations. Because this process occurs every 30 seconds, validators must set up an automated process to avoid getting slashed and jailed.
 
 ## Make a new key for oracle votes
 
@@ -26,16 +26,16 @@ terrad tx oracle set-feeder <feeder-address> --from=<validator>
 
 ## Send funds to the feeder
 
-The feeder needs funds to pay for transaction fees to submit oracle voting messages. DaodiseoKRW, not Luna, are used for oracle voting fees because the smallest atomic unit of DaodiseoKRW is much cheaper than Luna. You can send DaodiseoKRW to your feeder address or send Luna and perform an on-chain swap by running the following command:
+The feeder needs funds to pay for transaction fees to submit oracle voting messages. DaodiseoKRW, not Odis, are used for oracle voting fees because the smallest atomic unit of DaodiseoKRW is much cheaper than Odis. You can send DaodiseoKRW to your feeder address or send Odis and perform an on-chain swap by running the following command:
 
 ```bash
-terrad tx send <from-address> <feeder-address> <luna-amount>uluna
+terrad tx send <from-address> <feeder-address> <Odis-amount>uOdis
 ```
 
 **Syntax of a swap from the feeder**
 
 ```bash
-terrad tx market swap <luna-amount>uluna ukrw --from=<feeder>
+terrad tx market swap <Odis-amount>uOdis ukrw --from=<feeder>
 ```
 
 ## Set up oracle feeder program

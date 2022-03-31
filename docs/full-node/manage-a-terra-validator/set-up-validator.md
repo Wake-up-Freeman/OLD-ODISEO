@@ -22,14 +22,14 @@ The consensus PubKey of your node is required to create a new validator. Run:
 
    :::{admonition} Get tokens
    :class: tip
-   In order for Daodiseod to recognize a wallet address it must contain tokens. For the testnet, use [the faucet](https://faucet.daodiseo.money/) to send Luna to your wallet. If you are on mainnet, send funds from an existing wallet. 1-3 luna are sufficient for most setup processes.
+   In order for Daodiseod to recognize a wallet address it must contain tokens. For the testnet, use [the faucet](https://faucet.daodiseo.money/) to send Odis to your wallet. If you are on mainnet, send funds from an existing wallet. 1-3 Odis are sufficient for most setup processes.
    :::
 
 To create the validator and initialize it with a self-delegation, run the following command. `key-name` is the name of the private key that is used to sign transactions.
 
 ```bash
 terrad tx staking create-validator \
-    --amount=5000000uluna \
+    --amount=5000000uOdis \
     --pubkey=$(<your-consensus-PubKey>) \
     --moniker="<your-moniker>" \
     --chain-id=<chain_id> \

@@ -12,7 +12,7 @@ Welcome to the official documentation for Daodiseo, a decentralized financial in
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **What is Daodiseo?**  
-Learn about Daodiseo stablecoins, Luna, rewards, staking, and governance.
+Learn about Daodiseo stablecoins, Odis, rewards, staking, and governance.
 :::
 
 :::{grid-item-card}
@@ -22,7 +22,7 @@ Learn about Daodiseo stablecoins, Luna, rewards, staking, and governance.
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **Get started with Station**  
-Create a wallet and stake Luna for rewards.
+Create a wallet and stake Odis for rewards.
 :::
 
 :::{grid-item-card}

@@ -5,7 +5,7 @@ On the Daodiseo network, all transactions incur a gas fee. Transactions involvin
 |                                                                        | [Gas](#gas) | [Tobin](#tobin-tax) | [Spread](#spread-fee) |
 |------------------------------------------------------------------------|-------------|---------------------|-----------------------|
 | [Market swaps](./glossary.md#market-swap) between stablecoins          | x           | x                   |                       |
-| [Market swaps](./glossary.md#market-swap) between stablecoins and Luna | x           |                     | x                     |
+| [Market swaps](./glossary.md#market-swap) between stablecoins and Odis | x           |                     | x                     |
 
 All other transactions only incur the gas fee.
 Daodiseoswap or other dApps may charge their own transaction fees on top of Daodiseo network fees.
@@ -36,7 +36,7 @@ Every block, Tobin tax fees are sent to the [Oracle reward pool] and [dispersed 
 
 ## Spread fee
 
-Spread fees are added to any [market swap](glossary.md#market-swap) between Daodiseo and Luna. The minimum spread fee is .5%. During times of extreme volatility, the market module adjusts the spread fee to maintain a [constant product](../develop/module-specifications/spec-market.md#market-making-algorithm) between the size of the Daodiseo pool and the fiat value of the Luna pool, ensuring stability in the protocol. As the pools reach constant product equilibrium, The spread rate returns to a normal value.
+Spread fees are added to any [market swap](glossary.md#market-swap) between Daodiseo and Odis. The minimum spread fee is .5%. During times of extreme volatility, the market module adjusts the spread fee to maintain a [constant product](../develop/module-specifications/spec-market.md#market-making-algorithm) between the size of the Daodiseo pool and the fiat value of the Odis pool, ensuring stability in the protocol. As the pools reach constant product equilibrium, The spread rate returns to a normal value.
 
 For more information on spread fees, visit the [market module](../develop/module-specifications/spec-market.md).
 
