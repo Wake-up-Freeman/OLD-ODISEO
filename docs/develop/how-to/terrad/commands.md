@@ -1,6 +1,6 @@
 # Commands
 
-This section describes the commands available from `daodiseod`, the command line interface that connects a running `daodiseod` process.
+This section describes the commands available from `ODISEOd`, the command line interface that connects a running `ODISEOd` process.
 
 ## `add-genesis-account`
 
@@ -207,7 +207,7 @@ terrad validate-genesis </genesis.json>
 
 ## `version`
 
-Returns the version of Daodiseo you're running.
+Returns the version of ODISEO you're running.
 
 **Syntax**
 ```bash

@@ -4,8 +4,8 @@
 
 ```{toctree}
 :maxdepth: 1
-Daodiseo REST API <https://lcd.daodiseo.dev/swagger/>
-Daodiseo Core GoDoc <https://pkg.go.dev/github.com/daodiseomoney/core>
+ODISEO REST API <https://lcd.ODISEO.dev/swagger/>
+ODISEO Core GoDoc <https://pkg.go.dev/github.com/ODISEOmoney/core>
 Block explorers <../../ecosystem/integrations>
 ../../develop/how-to/terrad/README
 ../../develop/how-to/endpoints

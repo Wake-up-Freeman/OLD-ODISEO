@@ -1,8 +1,8 @@
-# Configure LocalDaodiseo
+# Configure LocalODISEO
 
-The majority of LocalDaodiseo is implemented through a `docker-compose.yml` file, making it easily customizable. You can use LocalDaodiseo as a starting point for setting up your own local Daodiseo testnet with Docker containers.
+The majority of LocalODISEO is implemented through a `docker-compose.yml` file, making it easily customizable. You can use LocalODISEO as a starting point for setting up your own local ODISEO testnet with Docker containers.
 
-Out of the box, LocalDaodiseo comes preconfigured with opinionated settings such as:
+Out of the box, LocalODISEO comes preconfigured with opinionated settings such as:
 
 - ports defined for RPC (26657), LCD (1317) and FCD (3060)
 - standard [accounts](accounts.md)
@@ -13,7 +13,7 @@ You can modify the node configuration of your validator in the `config/config.to
 
 ## Speed up block time
 
-LocalDaodiseo is often used alongside a script written with the Daodiseo.js SDK or Daodiseo Python SDK as a convenient way to do integration tests. You can greatly improve the experience by speeding up the block time.
+LocalODISEO is often used alongside a script written with the ODISEO.js SDK or ODISEO Python SDK as a convenient way to do integration tests. You can greatly improve the experience by speeding up the block time.
 
 To increase block time, edit the `[consensus]` parameters in the `config/config.toml` file, and specify your own values.
 
@@ -46,4 +46,4 @@ sed -E -i '/timeout_(propose|prevote|precommit|commit)/s/[0-9]+m?s/200ms/' confi
 
 ## Modifying genesis
 
-You can change the `genesis.json` file by altering `config/genesis.json`. To load your changes, restart your LocalDaodiseo.
+You can change the `genesis.json` file by altering `config/genesis.json`. To load your changes, restart your LocalODISEO.

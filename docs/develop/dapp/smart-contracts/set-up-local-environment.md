@@ -2,21 +2,21 @@
 
 As a smart contract developer, you will need to write, compile, upload, and test your contracts before deploying them on the Columbus mainnet. The first step is to set up a specialized environment to streamline development.
 
-## Install Daodiseo Core locally
+## Install ODISEO Core locally
 
-Visit [build Daodiseo core](../../../full-node/run-a-full-daodiseo-node/build-daodiseo-core.md) to install the latest version of Daodiseo Core to obtain a working version of `daodiseod`. You will need this to connect to your local Daodiseo test network to work with smart contracts.
+Visit [build ODISEO core](../../../full-node/run-a-full-ODISEO-node/build-ODISEO-core.md) to install the latest version of ODISEO Core to obtain a working version of `ODISEOd`. You will need this to connect to your local ODISEO test network to work with smart contracts.
 
-## Download LocalDaodiseo
+## Download LocalODISEO
 
-In order to work with Daodiseo Smart Contracts, you should have access to a Daodiseo network that includes the WASM integration.
+In order to work with ODISEO Smart Contracts, you should have access to a ODISEO network that includes the WASM integration.
 
-In this tutorial, you will be using [LocalDaodiseo](https://github.com/daodiseomoney/localdaodiseo), a package that enables you to easily spin up a local, WASM-enabled private testnet. This reduces the friction of development by giving you complete control of a private Daodiseo blockchain with the possibility to easily reset the world state.
+In this tutorial, you will be using [LocalODISEO](https://github.com/ODISEOmoney/localODISEO), a package that enables you to easily spin up a local, WASM-enabled private testnet. This reduces the friction of development by giving you complete control of a private ODISEO blockchain with the possibility to easily reset the world state.
 
-To use **LocalDaodiseo**, you should first make sure Docker is installed on your computer by following the [Docker get-started tutorial](https://www.docker.com/get-started). You will also need to set up and configure [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
+To use **LocalODISEO**, you should first make sure Docker is installed on your computer by following the [Docker get-started tutorial](https://www.docker.com/get-started). You will also need to set up and configure [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
 
 ```sh
-git clone --depth 1 https://github.com/daodiseomoney/localdaodiseo
-cd localdaodiseo
+git clone --depth 1 https://github.com/ODISEOmoney/localODISEO
+cd localODISEO
 docker-compose up
 ```
 

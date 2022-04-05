@@ -1,52 +1,52 @@
 # Integrations
 
-You can integrate LocalDaodiseo in Daodiseo Station, `daodiseod`, and JavaScript and Python SDKs.
+You can integrate LocalODISEO in ODISEO Station, `ODISEOd`, and JavaScript and Python SDKs.
 
-## Daodiseo Station
+## ODISEO Station
 
-Daodiseo Station has built-in support for LocalDaodiseo for quick and easy interaction. [Open Station](https://station.daodiseo.money/) and switch to the `Localdaodiseo` network.
+ODISEO Station has built-in support for LocalODISEO for quick and easy interaction. [Open Station](https://station.ODISEO.money/) and switch to the `LocalODISEO` network.
 
-## daodiseod
+## ODISEOd
 
-1. Ensure the same version of `daodiseod` and LocalDaodiseo are installed.
+1. Ensure the same version of `ODISEOd` and LocalODISEO are installed.
 
-2. Use `daodiseod` to talk to your LocalDaodiseo `daodiseod` node:
+2. Use `ODISEOd` to talk to your LocalODISEO `ODISEOd` node:
 
     ```sh
-    $ daodiseod status
+    $ ODISEOd status
     ```
 
-    This command automatically works because `daodiseod` connects to `localhost:26657` by default.
+    This command automatically works because `ODISEOd` connects to `localhost:26657` by default.
 
     The following command is the explicit form:
     ```sh
-    $ daodiseod status --node=tcp://localhost:26657
+    $ ODISEOd status --node=tcp://localhost:26657
     ```
 
-3. Run any `daodiseod` commands against your LocalDaodiseo network:
+3. Run any `ODISEOd` commands against your LocalODISEO network:
 
    ```sh
-   $ daodiseod query account daodiseo1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8
+   $ ODISEOd query account ODISEO1dcegyrekltswvyy0xy69ydgxn9x8x32zdtapd8
    ```
 
-## Daodiseo Python SDK
+## ODISEO Python SDK
 
-Connect to the chain through LocalDaodiseo's LCD server:
+Connect to the chain through LocalODISEO's LCD server:
 
 ```python
-from daodiseo_sdk.client.lcd import LCDClient
-daodiseo = LCDClient("localdaodiseo", "http://localhost:1317")
+from ODISEO_sdk.client.lcd import LCDClient
+ODISEO = LCDClient("localODISEO", "http://localhost:1317")
 ```
 
-## Daodiseo JavaScript SDK
+## ODISEO JavaScript SDK
 
-Connect to the chain through LocalDaodiseo's LCD server:
+Connect to the chain through LocalODISEO's LCD server:
 
 ```ts
-import { LCDClient } from "@daodiseomoney/daodiseo.js";
+import { LCDClient } from "@ODISEOmoney/ODISEO.js";
 
-const daodiseo = new LCDClient({
+const ODISEO = new LCDClient({
   URL: "http://localhost:1317",
-  chainID: "localdaodiseo",
+  chainID: "localODISEO",
 });
 ```

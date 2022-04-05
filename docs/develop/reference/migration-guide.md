@@ -1,32 +1,32 @@
 # Columbus-5 upgrade
 
-Columbus-5 is the newest iteration of the Daodiseo Mainnet. Use these guides to upgrade to Columbus-5.
+Columbus-5 is the newest iteration of the ODISEO Mainnet. Use these guides to upgrade to Columbus-5.
 
 ## Migration Guides
 
-- [Columbus-5 Upgrade Guide](https://github.com/daodiseomoney/mainnet/wiki/Columbus-5-Upgrade-Instructions)
+- [Columbus-5 Upgrade Guide](https://github.com/ODISEOmoney/mainnet/wiki/Columbus-5-Upgrade-Instructions)
 - [Cosmwasm Migration Guide](https://github.com/CosmWasm/cosmwasm/blob/main/MIGRATING.md)
-- [Wallet Migration Guide](https://github.com/daodiseomoney/mainnet/wiki/Columbus-5-Wallet-Migration-Guide)
-- [Contract Migration Guide](https://github.com/daodiseomoney/mainnet/wiki/Columbus-5-Contract-Migration-Guide)
-- [Bombay-12 Testnet](https://github.com/daodiseomoney/testnet/tree/master/bombay-12)
+- [Wallet Migration Guide](https://github.com/ODISEOmoney/mainnet/wiki/Columbus-5-Wallet-Migration-Guide)
+- [Contract Migration Guide](https://github.com/ODISEOmoney/mainnet/wiki/Columbus-5-Contract-Migration-Guide)
+- [Bombay-12 Testnet](https://github.com/ODISEOmoney/testnet/tree/master/bombay-12)
 
 ## Columbus-5
 
-Columbus-5 will use Daodiseo Core v0.5.5 which integrates Cosmos SDK v0.43.0 and CosmWasm v0.16.0.
+Columbus-5 will use ODISEO Core v0.5.5 which integrates Cosmos SDK v0.43.0 and CosmWasm v0.16.0.
 
-- [Release Binary](https://github.com/daodiseomoney/core/releases/tag/v0.5.5)
+- [Release Binary](https://github.com/ODISEOmoney/core/releases/tag/v0.5.5)
 
 ```
-$ daodiseod version
-name: daodiseo
-server_name: daodiseod
+$ ODISEOd version
+name: ODISEO
+server_name: ODISEOd
 version: 0.5.5
 commit: d8e277626e74f9d6417dcd598574686882f0274c
 build_tags: netgo,ledger
 go: go version go1.16.5 darwin/amd64
 ```
 
-- **Note:** For JavaScript developers: `npm i -S @daodiseomoney/daodiseo.js@^2`
+- **Note:** For JavaScript developers: `npm i -S @ODISEOmoney/ODISEO.js@^2`
 
 ### Schedule
 **Columbus-5:** Columbus-4 will be halted at block height `#4,724,000`.  
@@ -39,11 +39,11 @@ Thu Sep 30 2021 16:00:00 GMT+0900 (KST)
 ### Bombay-12 Testnet
 
 The genesis event for Bombay-12 testnet will occur 2021-09-28T09:00:00Z (UTC).
-For detailed instructions, see the [Bombay-12 testnet release guide](https://github.com/daodiseomoney/testnet/tree/master/bombay-12).
+For detailed instructions, see the [Bombay-12 testnet release guide](https://github.com/ODISEOmoney/testnet/tree/master/bombay-12).
 
 ### Major Updates
 
-- [Daodiseo Mainnet Changelog](https://github.com/daodiseomoney/core/blob/main/CHANGELOG.md)
+- [ODISEO Mainnet Changelog](https://github.com/ODISEOmoney/core/blob/main/CHANGELOG.md)
 - [Cosmos SDK breaking changes](https://docs.cosmos.network/master/migrations/rest.html)
 - [Cosmos SDK v0.43.0 (Stargate)](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.43.0)
 - [CosmWasm v0.16.0](https://github.com/CosmWasm/cosmwasm/releases/tag/v0.16.0)
@@ -56,14 +56,14 @@ For detailed instructions, see the [Bombay-12 testnet release guide](https://git
 
 ### Release Notes
 
-- [Daodiseo Core v0.5.5](https://github.com/daodiseomoney/core/releases/tag/v0.5.5)  
+- [ODISEO Core v0.5.5](https://github.com/ODISEOmoney/core/releases/tag/v0.5.5)  
 - [Cosmos SDK v0.43.0 (Stargate)](https://github.com/cosmos/cosmos-sdk/releases/tag/v0.43.0)  
 - [CosmWasm v0.16.0](https://github.com/CosmWasm/cosmwasm/releases/tag/v0.16.0)  
 
 ### Reference
 
-- [Daodiseo Core priorities for Q1/Q2 2021 (Agora)](https://agora.daodiseo.money/t/daodiseo-core-priorities-for-q1-q2-2021/388)
-- [Columbus-5 & Bombay-09 Update (Medium)](https://medium.com/daodiseomoney/columbus-5-bombay-09-update-4fdf94da0fe6)
-- [Governance Proposal 119](https://station.daodiseo.money/proposal/119)
-- [Daodiseo Mainnet Wiki](https://github.com/daodiseomoney/mainnet/wiki)
-- [Columbus-5 official announcements](https://github.com/daodiseomoney/mainnet/wiki/Columbus-5-Official-Announcements)
+- [ODISEO Core priorities for Q1/Q2 2021 (Agora)](https://agora.ODISEO.money/t/ODISEO-core-priorities-for-q1-q2-2021/388)
+- [Columbus-5 & Bombay-09 Update (Medium)](https://medium.com/ODISEOmoney/columbus-5-bombay-09-update-4fdf94da0fe6)
+- [Governance Proposal 119](https://station.ODISEO.money/proposal/119)
+- [ODISEO Mainnet Wiki](https://github.com/ODISEOmoney/mainnet/wiki)
+- [Columbus-5 official announcements](https://github.com/ODISEOmoney/mainnet/wiki/Columbus-5-Official-Announcements)

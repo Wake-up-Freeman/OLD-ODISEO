@@ -1,6 +1,6 @@
 # Staking
 
-The staking module enables Daodiseo's proof-of-stake functionality by requiring validators to bond Luna, the native staking asset.
+The staking module enables ODISEO's proof-of-stake functionality by requiring validators to bond Luna, the native staking asset.
 
 ## Message types
 

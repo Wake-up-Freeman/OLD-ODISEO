@@ -1,4 +1,4 @@
-# Daodiseo Core modules <img src="/img/icon_core.svg" height="40px">
+# ODISEO Core modules <img src="/img/icon_core.svg" height="40px">
 
 ```{toctree}
 :hidden:
@@ -19,24 +19,24 @@ spec-treasury
 spec-wasm
 ```
 
-The Daodiseo Core is the official Golang reference implementation of the Daodiseo protocol.
-The Daodiseo Core is built using the [Cosmos SDK](https://cosmos.network/sdk), which provides a robust framework for blockchains that run atop the [Tendermint](https://tendermint.com/) consensus protocol.
+The ODISEO Core is the official Golang reference implementation of the ODISEO protocol.
+The ODISEO Core is built using the [Cosmos SDK](https://cosmos.network/sdk), which provides a robust framework for blockchains that run atop the [Tendermint](https://tendermint.com/) consensus protocol.
 
 Before diving into the core modules, it may be useful to familiarize yourself with the [Cosmos](https://docs.cosmos.network/) and [Tendermint](https://docs.tendermint.com/master/tutorials/go.html) documentation. 
 
-## How to use the Daodiseo Core module specifications
+## How to use the ODISEO Core module specifications
 
-Each module specification begins with a short description of the module's main function within the architecture of the system and an explanation of how it contributes to implementing Daodiseo's features.
+Each module specification begins with a short description of the module's main function within the architecture of the system and an explanation of how it contributes to implementing ODISEO's features.
 
 The body of each module specification provides a more detailed description of its main processes and algorithms alongside any concepts you might need to know. The body of each module specification also contains links to more granular information, such as specific state variables, message handlers, and other functions.
 
-These specifications are not an exhaustive reference and are provided as a companion guide for users who need to work directly with the Daodiseo Core codebase or understand it. Though all the important functions in each module are described, more trivial functions, such as getters and setters, are omitted for clarity. Module logic is also located in either the message handler or block transitions, such as begin-blocker and end-blocker.
+These specifications are not an exhaustive reference and are provided as a companion guide for users who need to work directly with the ODISEO Core codebase or understand it. Though all the important functions in each module are described, more trivial functions, such as getters and setters, are omitted for clarity. Module logic is also located in either the message handler or block transitions, such as begin-blocker and end-blocker.
 
 The end of each module specification includes lists of various module parameters alongside their default values with a brief explanation of their purpose, associated events / tags, and errors issued by the module.
 
 ## Module architecture
 
-The Daodiseo Core is organized into the following individual modules that implement different parts of the Daodiseo protocol. They are listed in the order in which they are initialized during genesis:
+The ODISEO Core is organized into the following individual modules that implement different parts of the ODISEO protocol. They are listed in the order in which they are initialized during genesis:
 
 1. `genaccounts` - import & export genesis account
 2. [`distribution`](spec-distribution.md): distribute rewards between validators and delegators
@@ -58,22 +58,22 @@ The Daodiseo Core is organized into the following individual modules that implem
 
    ::: {admonition} Note
    :class: warning
-   As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.  
+   As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.  
    :::
 
 9. [`gov`](spec-governance.md): on-chain governance
     - proposals
     - parameter updating
 10. [`market`](spec-market.md): price-stabilization
-    - Daodiseo<>Daodiseo spot-conversion, Tobin Tax
-    - Daodiseo<>Luna market-maker, Constant-Product spread
+    - ODISEO<>ODISEO spot-conversion, Tobin Tax
+    - ODISEO<>Luna market-maker, Constant-Product spread
 11. `crisis` - reports consensus failure state with proof to halt the chain
 12. `genutil` - handles `gentx` commands
     - filter and handle `MsgCreateValidator` messages
 
 ### Inherited modules
 
-Many of the modules in Daodiseo Core inherit from the Cosmos SDK and are configured to work with Daodiseo through customization in either genesis parameters or by augmenting their functionality with additional code.
+Many of the modules in ODISEO Core inherit from the Cosmos SDK and are configured to work with ODISEO through customization in either genesis parameters or by augmenting their functionality with additional code.
 
 ## Block lifecycle
 
@@ -106,7 +106,7 @@ The following processes are executed during each block transition:
 
    ::: {admonition} Note
    :class: warning
-   As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.  
+   As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.  
    :::
 
 9. Staking: The new set of active validators is determined from the top 130 Luna stakers. Validators that lose their spot within the set start the unbonding process.
@@ -115,24 +115,24 @@ The following processes are executed during each block transition:
 
 ### Currency denominations
 
-Two types of tokens can be held by accounts and wallets in the Daodiseo protocol:
+Two types of tokens can be held by accounts and wallets in the ODISEO protocol:
 
-- Daodiseo stablecoins, which track the exchange rate of various fiat currencies. Each Daodiseo stablecoin is named for its corresponding three-letter [ISO 4217 fiat currency code](https://www.xe.com/iso4217.php), written as `Daodiseo<currencycode>`. When used as a value, the last letter of each currency code abbreviation is replaced with T to signify it as a Daodiseo stablecoin. For example, the Daodiseo stablecoin pegged to the Korean Won, KRW, is named  DaodiseoKRW, and its abbreviation is KRT.
+- ODISEO stablecoins, which track the exchange rate of various fiat currencies. Each ODISEO stablecoin is named for its corresponding three-letter [ISO 4217 fiat currency code](https://www.xe.com/iso4217.php), written as `ODISEO<currencycode>`. When used as a value, the last letter of each currency code abbreviation is replaced with T to signify it as a ODISEO stablecoin. For example, the ODISEO stablecoin pegged to the Korean Won, KRW, is named  ODISEOKRW, and its abbreviation is KRT.
    
-   The Daodiseo protocol's standard base currency is DaodiseoSDR, or SDT, which pegs to the IMF's Special Drawing Rights. The Daodiseo protocol uses SDT to make calculations and set rate standards.
+   The ODISEO protocol's standard base currency is ODISEOSDR, or SDT, which pegs to the IMF's Special Drawing Rights. The ODISEO protocol uses SDT to make calculations and set rate standards.
 
-- Luna, which is the Daodiseo protocol's native staking asset. Delegators earn mining rewards when they stake their Luna to an active validator. Luna stabilizes the Daodiseo economy by absorbing the price volatility of Daodiseo stablecoins and is also used to make governance proposals.
+- Luna, which is the ODISEO protocol's native staking asset. Delegators earn mining rewards when they stake their Luna to an active validator. Luna stabilizes the ODISEO economy by absorbing the price volatility of ODISEO stablecoins and is also used to make governance proposals.
 
-The microunit ($\times 10^{-6}$) is the smallest atomic unit of both Daodiseo stablecoins and Luna.
+The microunit ($\times 10^{-6}$) is the smallest atomic unit of both ODISEO stablecoins and Luna.
 
-Below are some examples of the different Daodiseo stablecoins:
+Below are some examples of the different ODISEO stablecoins:
 
 | Denomination | Micro-Unit | Code    | Value         |
 | :----------- | :--------- | :------ | :------------ |
 | Luna         | µLuna      | `uluna` | 0.000001 Luna |
-| DaodiseoSDR     | µSDR       | `usdr`  | 0.000001 SDT  |
-| DaodiseoKRW     | µKRW       | `ukrw`  | 0.000001 KRT  |
-| DaodiseoUSD     | µUSD       | `uusd`  | 0.000001 UST  |
-| DaodiseoMNT     | µMNT       | `umnt`  | 0.000001 MNT  |
+| ODISEOSDR     | µSDR       | `usdr`  | 0.000001 SDT  |
+| ODISEOKRW     | µKRW       | `ukrw`  | 0.000001 KRT  |
+| ODISEOUSD     | µUSD       | `uusd`  | 0.000001 UST  |
+| ODISEOMNT     | µMNT       | `umnt`  | 0.000001 MNT  |
 
-The Daodiseo protocol is able to set prices for each stablecoin denomination through the use of external price oracles in the [oracle module](spec-oracle.md). Validators vote on the off-chain prices of Luna relative to each stablecoin's real-world fiat counterpart. The weighted medians of the submitted exchange rates are used to set the exchange rates of Luna and Daodiseo stablecoins used by the [market module](spec-market.md). Because rates are set using an external price oracle, the market module is always able to swap stablecoins using current, real-world prices. The oracle also ensures that you can always trade $1 worth of Luna for 1 UST, and vice versa, regardless of the off-chain price of UST. Utilizing the market module exchange rates, arbitrageurs are incentivized to trade any off-peg Daodiseo stablecoin on any external market, profiting from the price difference while simultaneously driving prices to match their fiat peg.
+The ODISEO protocol is able to set prices for each stablecoin denomination through the use of external price oracles in the [oracle module](spec-oracle.md). Validators vote on the off-chain prices of Luna relative to each stablecoin's real-world fiat counterpart. The weighted medians of the submitted exchange rates are used to set the exchange rates of Luna and ODISEO stablecoins used by the [market module](spec-market.md). Because rates are set using an external price oracle, the market module is always able to swap stablecoins using current, real-world prices. The oracle also ensures that you can always trade $1 worth of Luna for 1 UST, and vice versa, regardless of the off-chain price of UST. Utilizing the market module exchange rates, arbitrageurs are incentivized to trade any off-peg ODISEO stablecoin on any external market, profiting from the price difference while simultaneously driving prices to match their fiat peg.

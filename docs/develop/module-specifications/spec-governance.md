@@ -1,14 +1,14 @@
 # Governance <img src="/img/Governance.svg" height="40px">
 
 :::{Important}
-Daodiseo's Governance module inherits from Cosmos SDK's [`gov`](https://docs.cosmos.network/master/modules/gov/) module. This document is a stub, and covers mainly important Daodiseo-specific notes about how it is used.
+ODISEO's Governance module inherits from Cosmos SDK's [`gov`](https://docs.cosmos.network/master/modules/gov/) module. This document is a stub, and covers mainly important ODISEO-specific notes about how it is used.
 :::
 
-Governance is the process through which members of the Daodiseo community can effect change on the protocol by submitting petitions known as "proposals" and arriving at a popular consensus when a threshold amount of support has been reached. The proposal structure is versatile and allows for holders of staked Luna (those who have an interest in the long-term viability of the network) to voice their opinion on both blockchain parameter updates as well as the future development of the Daodiseo protocol.
+Governance is the process through which members of the DAODISEO community can effect change on the protocol by submitting petitions known as "proposals" and arriving at a popular consensus when a threshold amount of support has been reached. The proposal structure is versatile and allows for holders of staked Luna (those who have an interest in the long-term viability of the network) to voice their opinion on both blockchain parameter updates as well as the future development of the ODISEO protocol.
 
-Check the [Governance section of the `daodiseod` Reference](../how-to/daodiseod/subcommands.md#tx-gov-submit-proposal) to see examples of how to participate in the Governance process.
+Check the [Governance section of the `ODISEOd` Reference](../how-to/ODISEOd/subcommands.md#tx-gov-submit-proposal) to see examples of how to participate in the Governance process.
 
-To learn how to vote with your staked Luna or submit proposals, visit the [Daodiseo Station governance guide](../../learn/daodiseo-station/governance.md).
+To learn how to vote with your staked Luna or submit proposals, visit the [ODISEO Station governance guide](../../learn/ODISEO-station/governance.md).
 
 ## Concepts
 
@@ -66,7 +66,7 @@ Deposits will not be refunded for proposals that are rejected with veto, do not 
 
 ### Proposal Implementation
 
-Once a governance proposal passes, the changes described are put into effect by the proposal handler. Generic proposals such as a `TextProposal` must be reviewed by Daodiseo protocol developers and the community for decisions on how to manually implement.
+Once a governance proposal passes, the changes described are put into effect by the proposal handler. Generic proposals such as a `TextProposal` must be reviewed by ODISEO protocol developers and the community for decisions on how to manually implement.
 
 Although parameter changes get updated immediately, they generally are not put into effect until the next epoch operation. Epochs occur every 100800 blocks or roughly every 7.7 days, given a 6.6-second block time.
 
@@ -93,7 +93,7 @@ type Proposal struct {
 
 ```
 
-A `Proposal` is a data structure representing a petition for a change that is submitted to the blockchain alongside a deposit. Once its deposit reaches a certain [`MinDeposit`](#mindeposit), the proposal is confirmed and voting opens. Bonded Luna holders can then send `TxGovVote` transactions to vote on the proposal. Daodiseo currently follows a simple voting scheme of 1 Bonded Luna = 1 Vote.
+A `Proposal` is a data structure representing a petition for a change that is submitted to the blockchain alongside a deposit. Once its deposit reaches a certain [`MinDeposit`](#mindeposit), the proposal is confirmed and voting opens. Bonded Luna holders can then send `TxGovVote` transactions to vote on the proposal. ODISEO currently follows a simple voting scheme of 1 Bonded Luna = 1 Vote.
 
 The `Content` of a proposal is the interface that contains the information about the `Proposal`, such as the `title`, `description`, and any notable changes. A `Content` type can be implemented by any module. The `ProposalRoute` of the `Content` returns a string which must be used to route the handler of the `Content` in the Governance keeper. This process allows the governance keeper to execute proposal logic implemented by any module. If a proposal passes, the handler is executed. Only if the handler is successful does the state get persisted and the proposal finally passes. Otherwise, the proposal is rejected.
 

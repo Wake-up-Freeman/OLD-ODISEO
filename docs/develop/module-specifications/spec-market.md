@@ -1,44 +1,44 @@
 # Market <img src="/img/Market.svg" height="40px">
 
-The Market module enables atomic swaps between different Daodiseo stablecoin denominations, and between Daodiseo and Luna. This module ensures an available, liquid market, stable prices, and fair exchange rates between the protocol's assets.
+The Market module enables atomic swaps between different ODISEO stablecoin denominations, and between ODISEO and Luna. This module ensures an available, liquid market, stable prices, and fair exchange rates between the protocol's assets.
 
-The price stability of DaodiseoSDR is achieved through Daodiseo<>Luna arbitrage activity against the protocol's algorithmic market-maker, which expands and contracts Daodiseo's supply to maintain its peg.
+The price stability of ODISEOSDR is achieved through ODISEO<>Luna arbitrage activity against the protocol's algorithmic market-maker, which expands and contracts ODISEO's supply to maintain its peg.
 
 ## Concepts
 
 ### Swap Fees
 
-Because Daodiseo's price feed is derived from validator oracles, a delay exists between the price reported on-chain and the real-time price.
+Because ODISEO's price feed is derived from validator oracles, a delay exists between the price reported on-chain and the real-time price.
 
 The delay lasts around one minute (our oracle `VotePeriod` is 30 seconds), which is negligible for nearly all practical transactions. However, front-running attackers could take advantage of this delay and extract value from the network.
 
 To defend against this type of attack, the Market module enforces the following swap fees:
 
-- [**Tobin tax**](#tobintax) for spot-converting Daodiseo<>Daodiseo swaps
+- [**Tobin tax**](#tobintax) for spot-converting ODISEO<>ODISEO swaps
 
   For example, assume that the current Tobin tax for KRT is 0.35%, the oracle reports that the Luna<>SDT exchange rate is 10 and the Luna<>KRT exchange rate is 10,000. Swapping 1 SDT would return 0.1 Luna, which is 1,000 KRT. After the Tobin tax is applied, you will have 996.5 KRT (0.35% of 1,000 is 3.5), a better rate than any retail currency exchange and remittance[^1].
 
-[^1]: Initially, the Daodiseo blockchain maintained a policy for zero-fee swaps. However, to prevent front-running attackers from exploiting the exchange-rate latency and profiting at the expense of users, the Tobin tax was implemented. For more information, see ["On swap fees: the greedy and the wise"](https://medium.com/daodiseomoney/on-swap-fees-the-greedy-and-the-wise-b967f0c8914e).
+[^1]: Initially, the ODISEO blockchain maintained a policy for zero-fee swaps. However, to prevent front-running attackers from exploiting the exchange-rate latency and profiting at the expense of users, the Tobin tax was implemented. For more information, see ["On swap fees: the greedy and the wise"](https://medium.com/ODISEOmoney/on-swap-fees-the-greedy-and-the-wise-b967f0c8914e).
 
-- [**Minimum spread**](#minspread) for Daodiseo<>Luna swaps
+- [**Minimum spread**](#minspread) for ODISEO<>Luna swaps
 
   The minimum spread is 0.5%. Using the same exchange rates as above, swapping 1 SDT will return 995 KRT worth of Luna (0.5% of 1000 is 5, which is taken as the swap fee). If you reverse the direction of the swap, 1 Luna would return 9.95 SDT (0.5% of 10 is 0.05), or 9,950 KRT (0.5% of 10,000 = 50).
 
 ### Market Making Algorithm
 
-Daodiseo uses a Constant Product market-making algorithm to ensure liquidity for Daodiseo<>Luna swaps. [^2]
+ODISEO uses a Constant Product market-making algorithm to ensure liquidity for ODISEO<>Luna swaps. [^2]
 
-[^2]: For a more in-depth treatment of our updated market-making algorithm, check [Nick Platias's SFBW 2019 presentation](https://agora.daodiseo.money/t/daodiseo-stability-swap-mechanism-deep-dive-at-sfbw/135).
+[^2]: For a more in-depth treatment of our updated market-making algorithm, check [Nick Platias's SFBW 2019 presentation](https://agora.ODISEO.money/t/ODISEO-stability-swap-mechanism-deep-dive-at-sfbw/135).
 
-With Constant Product, a value, $CP$, is set to the size of the Daodiseo pool multiplied by a set **fiat value of Luna**, and ensure our market-maker maintains it as invariant during any swaps by adjusting the spread.
+With Constant Product, a value, $CP$, is set to the size of the ODISEO pool multiplied by a set **fiat value of Luna**, and ensure our market-maker maintains it as invariant during any swaps by adjusting the spread.
 
 ::: {note}
-The Daodiseo blockchain's implementation of Constant Product diverges from Uniswap's, as the fiat value of Luna is used instead of the size of the Luna pool. This nuance means changes in the price of Luna does not affect the product, but rather the size of the Luna pool.
+The ODISEO blockchain's implementation of Constant Product diverges from Uniswap's, as the fiat value of Luna is used instead of the size of the Luna pool. This nuance means changes in the price of Luna does not affect the product, but rather the size of the Luna pool.
 :::
 
-$$CP = Pool_{Daodiseo} * Pool_{Luna} * (Price_{Luna}/Price_{SDR})$$
+$$CP = Pool_{ODISEO} * Pool_{Luna} * (Price_{Luna}/Price_{SDR})$$
 
-For example, start with equal pools of Daodiseo and Luna, both worth 1000 SDR total. The size of the Daodiseo pool is 1000 SDT, and assuming the price of Luna<>SDR is 0.5, the size of the Luna pool is 2000 Luna. A swap of 100 SDT for Luna would return around 90.91 SDR worth of Luna (≈ 181.82 Luna). The offer of 100 SDT is added to the Daodiseo pool, and the 90.91 SDT worth of Luna are taken out of the Luna pool.
+For example, start with equal pools of ODISEO and Luna, both worth 1000 SDR total. The size of the ODISEO pool is 1000 SDT, and assuming the price of Luna<>SDR is 0.5, the size of the Luna pool is 2000 Luna. A swap of 100 SDT for Luna would return around 90.91 SDR worth of Luna (≈ 181.82 Luna). The offer of 100 SDT is added to the ODISEO pool, and the 90.91 SDT worth of Luna are taken out of the Luna pool.
 
 ```
 CP = 1000000 SDR
@@ -52,18 +52,18 @@ The primary advantage of Constant-Product is that it offers “unbounded” liqu
 
 ### Virtual Liquidity Pools
 
-The market starts out with two liquidity pools of equal sizes, one representing all denominations of Daodiseo and another representing Luna. The parameter [`BasePool`](#basepool) defines the initial size, $Pool_{Base}$, of the Daodiseo and Luna liquidity pools.
+The market starts out with two liquidity pools of equal sizes, one representing all denominations of ODISEO and another representing Luna. The parameter [`BasePool`](#basepool) defines the initial size, $Pool_{Base}$, of the ODISEO and Luna liquidity pools.
 
-Rather than keeping track of the sizes of the two pools, this information is encoded in a number $\delta$, which the blockchain stores as `DaodiseoPoolDelta`. This represents the deviation of the Daodiseo pool from its base size in units µSDR.
+Rather than keeping track of the sizes of the two pools, this information is encoded in a number $\delta$, which the blockchain stores as `ODISEOPoolDelta`. This represents the deviation of the ODISEO pool from its base size in units µSDR.
 
-The size of the Daodiseo and Luna liquidity pools can be generated from $\delta$ using the following formulas:
+The size of the ODISEO and Luna liquidity pools can be generated from $\delta$ using the following formulas:
 
 $$Pool_{Terra} = Pool_{Base} + \delta$$
-$$Pool_{Luna} = ({Pool_{Base}})^2 / Pool_{Daodiseo}$$
+$$Pool_{Luna} = ({Pool_{Base}})^2 / Pool_{ODISEO}$$
 
-At the [end of each block](#end-block), the market module attempts to replenish the pools by decreasing the magnitude of $\delta$ between the Daodiseo and Luna pools. The rate at which the pools will be replenished toward equilibrium is set by the parameter [`PoolRecoveryPeriod`](#poolrecoveryperiod). Lower periods mean lower sensitivity to trades: previous trades are more quickly forgotten and the market is able to offer more liquidity.
+At the [end of each block](#end-block), the market module attempts to replenish the pools by decreasing the magnitude of $\delta$ between the ODISEO and Luna pools. The rate at which the pools will be replenished toward equilibrium is set by the parameter [`PoolRecoveryPeriod`](#poolrecoveryperiod). Lower periods mean lower sensitivity to trades: previous trades are more quickly forgotten and the market is able to offer more liquidity.
 
-This mechanism ensures liquidity and acts as a low-pass filter, allowing for the spread fee (which is a function of `DaodiseoPoolDelta`) to drop back down when there is a change in demand, causing a necessary change in supply which needs to be absorbed.
+This mechanism ensures liquidity and acts as a low-pass filter, allowing for the spread fee (which is a function of `ODISEOPoolDelta`) to drop back down when there is a change in demand, causing a necessary change in supply which needs to be absorbed.
 
 ### Swap Procedure
 
@@ -71,7 +71,7 @@ This mechanism ensures liquidity and acts as a low-pass filter, allowing for the
 
 2. Calculate exchange rate $ask$ and $spread$ using [`k.ComputeSwap()`](#functions).
 
-3. Update `DaodiseoPoolDelta` with [`k.ApplySwapToPool()`](#k-applyswaptopool).
+3. Update `ODISEOPoolDelta` with [`k.ApplySwapToPool()`](#k-applyswaptopool).
 
 4. Transfer `OfferCoin` from account to module using `supply.SendCoinsFromAccountToModule()`.
 
@@ -87,7 +87,7 @@ This mechanism ensures liquidity and acts as a low-pass filter, allowing for the
 
 If the trader's `Account` has insufficient balance to execute the swap, the swap transaction fails.
 
-Upon successful completion of Daodiseo<>Luna swaps, a portion of the coins to be credited to the user's account is withheld as the spread fee.
+Upon successful completion of ODISEO<>Luna swaps, a portion of the coins to be credited to the user's account is withheld as the spread fee.
 
 ### Seigniorage
 
@@ -97,21 +97,21 @@ Upon successful completion of Daodiseo<>Luna swaps, a portion of the coins to be
 Seigniorage used to be an important part of the protocol, but is no longer necessary. As of Columbus-5, all seigniorage is burned, and the community pool is no longer funded. Swap fees are used instead of seigniorage as ballot rewards for the exchange rate oracle. The following information is kept as reference:
 :::
 
-When Luna swaps into Daodiseo, the Luna recaptured by the protocol was called seigniorage -- the value generated from issuing new Daodiseo. The total seigniorage at the end of each epoch was calculated and reintroduced into the economy as ballot rewards for the exchange rate oracle and to the community pool by the Treasury module, described more fully [here](spec-treasury.md). As of Columbus-5, all seigniorage is burned, and the community pool is no longer funded. Swap fees are used as ballot rewards for the exchange rate oracle.
+When Luna swaps into ODISEO, the Luna recaptured by the protocol was called seigniorage -- the value generated from issuing new ODISEO. The total seigniorage at the end of each epoch was calculated and reintroduced into the economy as ballot rewards for the exchange rate oracle and to the community pool by the Treasury module, described more fully [here](spec-treasury.md). As of Columbus-5, all seigniorage is burned, and the community pool is no longer funded. Swap fees are used as ballot rewards for the exchange rate oracle.
 
 ## State
 
-### Daodiseo Pool Delta δ
+### ODISEO Pool Delta δ
 
 - type: `sdk.Dec`
 
- This represents the difference between the current Daodiseo pool size and its original base size, valued in µSDR.
+ This represents the difference between the current ODISEO pool size and its original base size, valued in µSDR.
 
 ## Message Types
 
 ### MsgSwap
 
-A `MsgSwap` transaction denotes the `Trader`'s intent to swap their balance of `OfferCoin` for a new denomination `AskDenom`. Daodiseo<>Daodiseo swaps incur gas and the Tobin tax, and Daodiseo<>Luna swaps incur gas and a spread fee.
+A `MsgSwap` transaction denotes the `Trader`'s intent to swap their balance of `OfferCoin` for a new denomination `AskDenom`. ODISEO<>ODISEO swaps incur gas and the Tobin tax, and ODISEO<>Luna swaps incur gas and a spread fee.
 
 ```go
 // MsgSwap contains a swap request
@@ -148,7 +148,7 @@ This function detects the swap type from the offer and ask denominations and ret
 
 1. The amount of asked coins that should be returned for a given `offerCoin`. This is achieved by first spot-converting `offerCoin` to µSDR and then from µSDR to the desired `askDenom` with the proper exchange rate reported by the Oracle.
 
-2. The spread percentage that should be taken as a swap fee given the swap type. Daodiseo<>Daodiseo swaps only have the Tobin Tax spread fee. Daodiseo<>Luna swaps use the `MinSpread` or the Constant Product pricing spread, whichever is greater.
+2. The spread percentage that should be taken as a swap fee given the swap type. ODISEO<>ODISEO swaps only have the Tobin Tax spread fee. ODISEO<>Luna swaps use the `MinSpread` or the Constant Product pricing spread, whichever is greater.
 
 If the `offerCoin`'s denomination is the same as `askDenom`, this will raise `ErrRecursiveSwap`.
 
@@ -162,20 +162,20 @@ If the `offerCoin`'s denomination is the same as `askDenom`, this will raise `Er
 func (k Keeper) ApplySwapToPool(ctx sdk.Context, offerCoin sdk.Coin, askCoin sdk.DecCoin) sdk.Error
 ```
 
-`k.ApplySwapToPools()` is called during the swap to update the blockchain's measure of $\delta$, `DaodiseoPoolDelta`, when the balances of the Daodiseo and Luna liquidity pools have changed.
+`k.ApplySwapToPools()` is called during the swap to update the blockchain's measure of $\delta$, `ODISEOPoolDelta`, when the balances of the ODISEO and Luna liquidity pools have changed.
 
-All Daodiseo stablecoins share the same liquidity pool, so `DaodiseoPoolDelta` remains unaltered during Daodiseo<>Daodiseo swaps.
+All ODISEO stablecoins share the same liquidity pool, so `ODISEOPoolDelta` remains unaltered during ODISEO<>ODISEO swaps.
 
-For Daodiseo<>Luna swaps, the relative sizes of the pools will be different after the swap, and $\delta$ will be updated with the following formulas:
+For ODISEO<>Luna swaps, the relative sizes of the pools will be different after the swap, and $\delta$ will be updated with the following formulas:
 
-- for Daodiseo to Luna, $\delta' = \delta + Offer_{\mu SDR}$
-- for Luna to Daodiseo, $\delta' = \delta - Ask_{\mu SDR}$
+- for ODISEO to Luna, $\delta' = \delta + Offer_{\mu SDR}$
+- for Luna to ODISEO, $\delta' = \delta - Ask_{\mu SDR}$
 
 ## Transitions
 
 ### End-Block
 
-The Market module calls `k.ReplenishPools()` at the end of every block, which decreases the value of `DaodiseoPoolDelta` (the difference between Daodiseo and Luna pools) depending on `PoolRecoveryPeriod`, $pr$.
+The Market module calls `k.ReplenishPools()` at the end of every block, which decreases the value of `ODISEOPoolDelta` (the difference between ODISEO and Luna pools) depending on `PoolRecoveryPeriod`, $pr$.
 
 This allows the network to sharply increase spread fees during acute price fluctuations. After some time, the spread automatically returns to normal for long term price changes.
 
@@ -197,25 +197,25 @@ type Params struct {
 - type: `int64`
 - default: `BlocksPerDay`
 
-The number of blocks it takes for the Daodiseo & Luna pools to naturally "reset" toward equilibrium ($\delta \to 0$) through automated pool replenishing.
+The number of blocks it takes for the ODISEO & Luna pools to naturally "reset" toward equilibrium ($\delta \to 0$) through automated pool replenishing.
 
 ### BasePool
 
 - type: `Dec`
 - default: 250,000 SDR (= 250,000,000,000 µSDR)
 
-The initial starting size of both Daodiseo and Luna liquidity pools.
+The initial starting size of both ODISEO and Luna liquidity pools.
 
 ### MinSpread
 
 - type: `Dec`
 - default: 0.5%
 
-The minimum spread charged on Daodiseo<>Luna swaps to prevent leaking value from front-running attacks.
+The minimum spread charged on ODISEO<>Luna swaps to prevent leaking value from front-running attacks.
 
 ### TobinTax
 
 - type: `Dec`
 - default: 0.35%
 
-An additional fee for swapping between Daodiseo currencies (spot-trading). The rate varies, depending on the denomination. For example, while the rate for most denominations is .35%, the rate for MNT is 2%. To see the rates, [query the oracle](https://lcd.daodiseo.dev/daodiseo/oracle/v1beta1/denoms/tobin_taxes).
+An additional fee for swapping between ODISEO currencies (spot-trading). The rate varies, depending on the denomination. For example, while the rate for most denominations is .35%, the rate for MNT is 2%. To see the rates, [query the oracle](https://lcd.ODISEO.dev/ODISEO/oracle/v1beta1/denoms/tobin_taxes).

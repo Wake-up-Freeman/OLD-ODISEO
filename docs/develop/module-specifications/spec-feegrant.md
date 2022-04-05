@@ -1,7 +1,7 @@
 # Fee grant
 
 :::{Important}
-Daodiseo's fee grant module inherits from the Cosmos SDK's [`feegrant`](https://docs.cosmos.network/master/modules/feegrant/) module. This document is a stub and explains mainly important Daodiseo-specific notes about how it is used.
+ODISEO's fee grant module inherits from the Cosmos SDK's [`feegrant`](https://docs.cosmos.network/master/modules/feegrant/) module. This document is a stub and explains mainly important ODISEO-specific notes about how it is used.
 :::
 
 This module allows an account, the granter, to permit another account, the grantee, to pay for fees from the granter's account balance. Grantees will not need to maintain their own balance for paying fees.
@@ -687,7 +687,7 @@ message Fee {
 The following example shows a CLI command with the `--fee-account` flag:
 
 ```
-./daodiseod tx gov submit-proposal --title="Test Proposal" --description="My awesome proposal" --type="Text" --from validator-key --fee-account=daodiseo1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n --chain-id=testnet --fees="10uluna"
+./ODISEOd tx gov submit-proposal --title="Test Proposal" --description="My awesome proposal" --type="Text" --from validator-key --fee-account=ODISEO1fmcjjt6yc9wqup2r06urnrd928jhrde6gcld6n --chain-id=testnet --fees="10uluna"
 ```
 
 ### Granted fee deductions

@@ -6,14 +6,14 @@ sidebarDepth: 2
 
 :::{admonition} Important
 :class: danger
-The treasury module logic is no longer effectively used by the Daodiseo protocol. On March 3rd, 2021, the Daodiseo community passed [governance proposal 43](https://station.daodiseo.money/proposal/43), updating the seigniorage reward weight to burn all seigniorage. On January 6th, 2022, the Daodiseo community passed [proposal 172](https://station.daodiseo.money/proposal/172), which changed the stability fee tax rate to zero. Neither seigniorage nor the tax rate are currently used. The information in this section is kept as reference. Although the rates and parameters used in this section no longer have any effect on the protocol or transactions, they are still calculated as their logic is intact. The effective rates of seigniorage and stability fees are calculated as zero.  
+The treasury module logic is no longer effectively used by the ODISEO protocol. On March 3rd, 2021, the DAODISEO community passed [governance proposal 43](https://station.ODISEO.money/proposal/43), updating the seigniorage reward weight to burn all seigniorage. On January 6th, 2022, the DAODISEO community passed [proposal 172](https://station.ODISEO.money/proposal/172), which changed the stability fee tax rate to zero. Neither seigniorage nor the tax rate are currently used. The information in this section is kept as reference. Although the rates and parameters used in this section no longer have any effect on the protocol or transactions, they are still calculated as their logic is intact. The effective rates of seigniorage and stability fees are calculated as zero.  
 :::
 
 
-The Treasury module acts as the "central bank" of the Daodiseo economy, measuring macroeconomic activity by [observing indicators](#observed-indicators) and adjusting [monetary policy levers](#monetary-policy-levers) to modulate miner incentives toward stable, long-term growth.
+The Treasury module acts as the "central bank" of the ODISEO economy, measuring macroeconomic activity by [observing indicators](#observed-indicators) and adjusting [monetary policy levers](#monetary-policy-levers) to modulate miner incentives toward stable, long-term growth.
 
 :::{Important}
-While the Treasury stabilizes miner demand by adjusting rewards, the [`market`](./spec-market.md) module is responsible for Daodiseo price stability through arbitrage and the market maker.
+While the Treasury stabilizes miner demand by adjusting rewards, the [`market`](./spec-market.md) module is responsible for ODISEO price stability through arbitrage and the market maker.
 :::
 
 ## Concepts
@@ -23,25 +23,25 @@ While the Treasury stabilizes miner demand by adjusting rewards, the [`market`](
 The treasury observes three macroeconomic indicators for each epoch and keeps [indicators](#indicators) of their values during previous epochs:
 
 - **Tax Rewards**: $T$, the income generated from transaction and stability fees during an epoch.
-- **Seigniorage Rewards**: $S$, the amount of seigniorage generated from Luna swaps to Daodiseo during an epoch which is destined for ballot rewards inside the `Oracle` rewards. As of Columbus-5, all seigniorage is burned.
+- **Seigniorage Rewards**: $S$, the amount of seigniorage generated from Luna swaps to ODISEO during an epoch which is destined for ballot rewards inside the `Oracle` rewards. As of Columbus-5, all seigniorage is burned.
 - **Total Staked Luna**: $\lambda$, the total amount of Luna staked by users and bonded to their delegated validators.
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 These indicators can be used to derive two other values, the **Tax Reward per unit Luna** represented by $\tau = T / \lambda$, used in [Updating Tax Rate](#kupdatetaxpolicy), and **total mining rewards** $R = T + S$: the sum of the Tax Rewards and the Seigniorage Rewards, used in [Updating Reward Weight](#kupdaterewardpolicy).
 
-The protocol can compute and compare the short-term ([`WindowShort`](#windowshort)) and the long-term ([`WindowLong`](#windowlong)) rolling averages of the above indicators to determine the relative direction and velocity of the Daodiseo economy.
+The protocol can compute and compare the short-term ([`WindowShort`](#windowshort)) and the long-term ([`WindowLong`](#windowlong)) rolling averages of the above indicators to determine the relative direction and velocity of the ODISEO economy.
 
 ### Monetary policy levers
 
-- **Tax Rate**: $r$, adjusts the amount of income gained from Daodiseo transactions, limited by [_tax cap_](#tax-caps).
+- **Tax Rate**: $r$, adjusts the amount of income gained from ODISEO transactions, limited by [_tax cap_](#tax-caps).
 
 ::: {admonition} Note
 :class: warning
-As of [proposal 172](https://station.daodiseo.money/proposal/172), the stability fee tax rate is zero.
+As of [proposal 172](https://station.ODISEO.money/proposal/172), the stability fee tax rate is zero.
 :::
 
 - **Reward Weight**: $w$, the portion of seigniorage allocated to the reward pool for [`Oracle`](spec-oracle.md) vote winners. This is given to validators who vote within the reward band of the weighted median exchange rate.
@@ -61,7 +61,7 @@ Both [Tax Rate](#tax-rate) and [Reward Weight](#reward-weight) are stored as val
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 ### Probation
 
@@ -74,7 +74,7 @@ A probationary period specified by the [`WindowProbation`](#windowprobation) pre
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 Policy updates from governance proposals and automatic calibration are constrained by the [`TaxPolicy`](#taxpolicy) and [`RewardPolicy`](#rewardpolicy) parameters, respectively. `PolicyConstraints` specifies the floor, ceiling, and max periodic changes for each variable.
@@ -118,7 +118,7 @@ func (pc PolicyConstraints) Clamp(prevRate sdk.Dec, newRate sdk.Dec) (clampedRat
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 The Treasury module defines special proposals which allow the [Tax Rate](#tax-rate) and [Reward Weight](#reward-weight) values in the `KVStore` to be voted on and changed accordingly, subject to the [policy constraints](#policy-constraints) imposed by `pc.Clamp()`.
@@ -135,7 +135,7 @@ type TaxRateUpdateProposal struct {
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ## State
@@ -150,7 +150,7 @@ The value of the tax rate policy lever for the current epoch.
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ### Reward Weight
@@ -170,7 +170,7 @@ For example, if a transaction's value is 100 SDT with a tax rate of 5% and a tax
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ### Tax Proceeds
@@ -189,7 +189,7 @@ Recording the initial issuance automatically uses the supply module to determine
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ### Indicators
@@ -204,7 +204,7 @@ The Tax Rewards $T$ for each `epoch`.
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 #### Seigniorage Rewards
@@ -215,7 +215,7 @@ The seigniorage rewards $S$ for each `epoch`.
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 #### Total Staked Luna
@@ -240,7 +240,7 @@ At the end of each epoch $t$, this function records the current values of tax re
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ### `k.UpdateTaxPolicy()`
@@ -265,7 +265,7 @@ When monthly tax revenues dip below the yearly average, the treasury increases t
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ### `k.UpdateRewardPolicy()`
@@ -303,7 +303,7 @@ For every denomination in circulation, the new Tax Cap for each denomination is 
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ### `k.SettleSeigniorage()`
@@ -316,7 +316,7 @@ This function is called at the end of an epoch to compute seigniorage and forwar
 
 1. The seigniorage $\Sigma$ of the current epoch is calculated by taking the difference between the Luna supply at the start of the epoch ([epoch initial issuance](#epoch-initial-issuance)) and the Luna supply at the time of calling.
 
-    $\Sigma > 0$ when the current Luna supply is lower than it was at the start of the epoch because the Luna had been burned from Luna swaps into Daodiseo. For more information, see [seigniorage](spec-market.md#seigniorage).
+    $\Sigma > 0$ when the current Luna supply is lower than it was at the start of the epoch because the Luna had been burned from Luna swaps into ODISEO. For more information, see [seigniorage](spec-market.md#seigniorage).
 
 2. The reward weight $w$ is the percentage of the seigniorage designated for ballot rewards. Amount $S$ of new Luna is minted, and the [oracle module](spec-oracle.md) receives $S = \Sigma * w$ of the seigniorage.
 
@@ -354,7 +354,7 @@ If the blockchain is at the final block of the epoch, the following procedure is
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ## Parameters
@@ -414,7 +414,7 @@ Multiplier specifying the portion of burden seigniorage needed to bear the overa
 
 ::: {admonition} Note
 :class: warning
-As of proposals [43](https://station.daodiseo.money/proposal/43) and [172](https://station.daodiseo.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
+As of proposals [43](https://station.ODISEO.money/proposal/43) and [172](https://station.ODISEO.money/proposal/172), all seigniorage is burned, and the stability fee tax rate is zero.   
 :::
 
 ### MiningIncrement

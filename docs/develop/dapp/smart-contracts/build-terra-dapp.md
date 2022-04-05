@@ -1,6 +1,6 @@
-# Build a simple Daodiseo dApp
+# Build a simple ODISEO dApp
 
-This tutorial is designed to acquaint you with everything you need to know to launch your own smart-contract powered applications on Daodiseo.
+This tutorial is designed to acquaint you with everything you need to know to launch your own smart-contract powered applications on ODISEO.
 
 Using CosmWasm's default template contract as an example, this tutorial walks through the necessary steps to go from an idea to execution.
 
@@ -13,6 +13,6 @@ In this guide, you will learn:
 ## Requirements
 
 - [Docker](https://www.docker.com/)
-- Basic familiarity with the Daodiseo ecosystem
+- Basic familiarity with the ODISEO ecosystem
 - Basic proficiency with [Rust](https://www.rust-lang.org/)
 - A desire to disrupt traditional finance

@@ -5,7 +5,7 @@
 
 <div align="center">
   <h4>
-    <a href="https://docs.daodiseo.money/">Documentation Website</a>
+    <a href="https://docs.DAODISEO.money/">Documentation Website</a>
   </h4>
 </div>
 
@@ -18,7 +18,7 @@
 If you are contributing to the repository, make sure to fork this repo, and then clone your own fork. You will need to do this to make creating pull requests easier.
 
 ```bash
-git clone https://github.com/<your-username>/daodiseo-docs
+git clone https://github.com/<your-username>/DAODISEO-docs
 ```
 
 ## Test locally with Docker
@@ -72,7 +72,7 @@ Each module should be documented with the following subheaders:
 
 1. Abstract (no header)
 
-   Maximum 2 paragraphs to explain, in broad terms, the general purpose of the module, to provide a "big-picture" perspective of how the module provides functionality and organization to the Daodiseo protocol, and how it interacts with other modules.
+   Maximum 2 paragraphs to explain, in broad terms, the general purpose of the module, to provide a "big-picture" perspective of how the module provides functionality and organization to the ODISEO protocol, and how it interacts with other modules.
 
 2. Concepts
 
@@ -114,13 +114,13 @@ Each module should be documented with the following subheaders:
 
 This software is licensed under the MIT license. See [LICENSE](./LICENSE) for full disclosure.
 
-© 2020 Daodiseoform Labs, PTE.
+© 2020 DAODISEOform Labs, PTE.
 
 <hr/>
 
 <p>&nbsp;</p>
 <p align="center">
-    <a href="https://www.daodiseo.money/"><img src="http://www.daodiseo.money/logos/daodiseo_logo.svg" align="center" width=200/></a>
+    <a href="https://www.DAODISEO.money/"><img src="http://www.DAODISEO.money/logos/DAODISEO_logo.svg" align="center" width=200/></a>
 </p>
 <div align="center">
   <sub><em>Powering the innovation of money.</em> </sub>

@@ -1,6 +1,6 @@
-# Using daodiseod
+# Using ODISEOd
 
-The following information explains the functions you can use from daodiseod, the command-line interface that connects to Daodiseo and enables you to interact with the Daodiseo blockchain. Every active validator and full node runs daodiseod and communicates with their node via daodiseod. In this relationship, daodiseod operates as both the client and the server. You can use daodiseod to interact with the Daodiseo blockchain by uploading contracts, querying data, managing staking activities, working with governance proposals, and more. For more general information at the command line, run `daodiseod --help`. For more information about a specific `daodiseod` command, append the `-h` or `--help` flag after the command, such as `daodiseod query --help`.
+The following information explains the functions you can use from ODISEOd, the command-line interface that connects to ODISEO and enables you to interact with the ODISEO blockchain. Every active validator and full node runs ODISEOd and communicates with their node via ODISEOd. In this relationship, ODISEOd operates as both the client and the server. You can use ODISEOd to interact with the ODISEO blockchain by uploading contracts, querying data, managing staking activities, working with governance proposals, and more. For more general information at the command line, run `ODISEOd --help`. For more information about a specific `ODISEOd` command, append the `-h` or `--help` flag after the command, such as `ODISEOd query --help`.
 
 ## Accessing a Node
 
@@ -8,7 +8,7 @@ To query the state and send transactions, you must connect to a node, which is t
 
 ### Running your own full node
 
-Running your own full node is the most secure option, but it comes with relatively high resource requirements. For more information about the requirements to run your own full node and a tutorial for installing `daodiseod`, see [installation](../../../full-node/run-a-full-daodiseo-node/build-daodiseo-core.md). For a tutorial that explains how to connect to an existing Daodiseo network, see [joining a network](../../../full-node/run-a-full-daodiseo-node/join-a-network.md).
+Running your own full node is the most secure option, but it comes with relatively high resource requirements. For more information about the requirements to run your own full node and a tutorial for installing `ODISEOd`, see [installation](../../../full-node/run-a-full-ODISEO-node/build-ODISEO-core.md). For a tutorial that explains how to connect to an existing ODISEO network, see [joining a network](../../../full-node/run-a-full-ODISEO-node/join-a-network.md).
 
 ### Connecting to a remote full node
 
@@ -16,21 +16,21 @@ If you don't want to run your own full node, you can connect to someone else's f
 
 To connect to the full-node, you need an address in the `https://<host>:<port>` format, for example `https://77.87.106.33:26657`. This address has to be communicated by the full-node operator you choose to trust. You will use this address in the following section.
 
-If you are not running a node yet would like to communicate through daodiseod, lists of public nodes can be found [here](https://docs.daodiseo.money/Reference/endpoints.html#private-rpc-endpoints).
+If you are not running a node yet would like to communicate through ODISEOd, lists of public nodes can be found [here](https://docs.ODISEO.money/Reference/endpoints.html#private-rpc-endpoints).
 
-## Configuring daodiseod
+## Configuring ODISEOd
 
-`daodiseod` enables you to interact with the node that runs on the Daodiseo network, whether you run it yourself or not. To configure `daodiseod`, edit the the `config.toml` file in the `~/.daodiseo/config/` directory.
+`ODISEOd` enables you to interact with the node that runs on the ODISEO network, whether you run it yourself or not. To configure `ODISEOd`, edit the the `config.toml` file in the `~/.ODISEO/config/` directory.
 
 ## Querying Blockchain State
 
-To query all relevant information from the blockchain, such as like account balances, amount of bonded tokens, outstanding rewards, and so on, use `daodiseod query`. The following list shows some of the most useful commands for delegators:
+To query all relevant information from the blockchain, such as like account balances, amount of bonded tokens, outstanding rewards, and so on, use `ODISEOd query`. The following list shows some of the most useful commands for delegators:
 
 ```bash
 # query account balances and other account-related information
 terrad query account <ACCOUNT_ADDRESS>
-# Account address is of the form daodiseo1rEXAMPLE9tEXAMPLEf9cvEXAMPLEss
-# you can find the one for your node by running `daodiseod keys list`
+# Account address is of the form ODISEO1rEXAMPLE9tEXAMPLEf9cvEXAMPLEss
+# you can find the one for your node by running `ODISEOd keys list`
 
 # query the list of validators
 terrad query staking validators
@@ -45,13 +45,13 @@ terrad query staking delegations <delegatorAddress>
 # query a specific delegation made from a delegator to a validator
 terrad query staking delegation <delegatorAddress> <validatorAddress>
 
-# query the rewards of a delegator given a delegator address (e.g. daodiseo10snjt8dmpr5my0h76xj48ty80uzwhraqalu4eg)
+# query the rewards of a delegator given a delegator address (e.g. ODISEO10snjt8dmpr5my0h76xj48ty80uzwhraqalu4eg)
 terrad query distr rewards <delegatorAddress>
 ```
 
 ## Sending Transactions
 
-To interact with the blockchain by sending transactions containing module messages with state-changing directives that get processed and included in blocks, use `daodiseod tx`. All of transaction-sending operations follow the form:
+To interact with the blockchain by sending transactions containing module messages with state-changing directives that get processed and included in blocks, use `ODISEOd tx`. All of transaction-sending operations follow the form:
 
 ```bash
 terrad tx ...
@@ -74,8 +74,8 @@ terrad tx bank send \
 ::: {dropdown} Example: simulate a KRW transfer:
 ```bash
 terrad tx bank send \
-    daodiseo1ru2ySENDER-EXAMPLEtf9cva9kp33h0jnsm9ss \  
-    daodiseo1rRECIPIENT-EXAMPLEtf9cva9kp33h0jnsm9ss \
+    ODISEO1ru2ySENDER-EXAMPLEtf9cva9kp33h0jnsm9ss \  
+    ODISEO1rRECIPIENT-EXAMPLEtf9cva9kp33h0jnsm9ss \
     1ukrw \
     --chain-id=bombay-12 \
     --dry-run
@@ -107,7 +107,7 @@ terrad tx sign \
 ```bash
 terrad tx sign \
     --chain-id=bombay-12 \
-    --from=daodiseo1EXAMPLEy09tEXAMPLEtf9EXAMPLE3h0EXAMPLEss unsignedTx.json
+    --from=ODISEO1EXAMPLEy09tEXAMPLEtf9EXAMPLE3h0EXAMPLEss unsignedTx.json
 ```
 A healthy response should looks simillar to the following:
 ```json
@@ -116,8 +116,8 @@ A healthy response should looks simillar to the following:
     "messages": [
       {
         "@type": "/cosmos.bank.v1beta1.MsgSend",
-        "from_address": "daodiseo1ru2ySENDER-EXAMPLEtf9cva9kp33h0jnsm9ss",
-        "to_address": "daodiseo1rRECIPIENT-EXAMPLEtf9cva9kp33h0jnsm9ss",
+        "from_address": "ODISEO1ru2ySENDER-EXAMPLEtf9cva9kp33h0jnsm9ss",
+        "to_address": "ODISEO1rRECIPIENT-EXAMPLEtf9cva9kp33h0jnsm9ss",
         "amount": [
           {
             "denom": "ukrw",
@@ -176,7 +176,7 @@ terrad tx broadcast --node=<node> signedSendTx.json
 
 ## Fees
 
-Transactions on the Daodiseo Protocol network need to include a transaction fee in order to be processed. This fee pays for the gas required to run the transaction. The formula is the following:
+Transactions on the ODISEO Protocol network need to include a transaction fee in order to be processed. This fee pays for the gas required to run the transaction. The formula is the following:
 
 $$fees = gas * gasPrices$$
 
@@ -210,7 +210,7 @@ terrad tx send ... --gas-prices=0.15uusd
 
 ### Taxes
 
-Taxes in Daodiseo must be included in the fee amount. Users can make transactions with existing methods without the `--fees` flag but with gas prices flag. This will automatically calculate the tax and return fees in addition to the existing gas fees.
+Taxes in ODISEO must be included in the fee amount. Users can make transactions with existing methods without the `--fees` flag but with gas prices flag. This will automatically calculate the tax and return fees in addition to the existing gas fees.
 
 ### Automatic Fee Estimation
 
@@ -220,7 +220,7 @@ Gas estimate might be inaccurate as state changes could occur in between the end
 
 The adjustment can be controlled via the `--gas-adjustment` flag, whose default value is 1.0.
 
-To get a direct fee estimation from `daodiseod`:
+To get a direct fee estimation from `ODISEOd`:
 
 ```bash
 terrad tx estimate-fee ...\
@@ -239,27 +239,27 @@ terrad tx send ... \
 
 ## Shell Autocompletion
 
-Auto-completion scripts for popular UNIX shell interpreters such as `bash` and `zsh` can be generated through the `completion` command, which is available for both `daodiseod` and `daodiseod`. This allows for a more convenient way to interact with the Daodiseo Core endpoints when using the command-line.
+Auto-completion scripts for popular UNIX shell interpreters such as `bash` and `zsh` can be generated through the `completion` command, which is available for both `ODISEOd` and `ODISEOd`. This allows for a more convenient way to interact with the ODISEO Core endpoints when using the command-line.
 
 If you want to generate `bash` completion scripts run the following command:
 
 ```bash
-daodiseod completion > daodiseod_completion
-daodiseod completion > daodiseod_completion
+ODISEOd completion > ODISEOd_completion
+ODISEOd completion > ODISEOd_completion
 ```
 
 If you want to generate `zsh` completion scripts run the following command:
 
 ```bash
-daodiseod completion --zsh > daodiseod_completion
-daodiseod completion --zsh > daodiseod_completion
+ODISEOd completion --zsh > ODISEOd_completion
+ODISEOd completion --zsh > ODISEOd_completion
 ```
 
 On most UNIX systems, such scripts may be loaded in `.bashrc` or `.bash_profile` to enable Bash autocompletion.
 
 ```bash
-echo '. daodiseod_completion' >> ~/.bashrc
-echo '. daodiseod_completion' >> ~/.bashrc
+echo '. ODISEOd_completion' >> ~/.bashrc
+echo '. ODISEOd_completion' >> ~/.bashrc
 ```
 
 Refer to the user's manual of your interpreter provided by your operating system for information on how to enable shell autocompletion.

@@ -1,12 +1,12 @@
-# Install `daodiseod` for M1 mac
+# Install `ODISEOd` for M1 mac
 
-1. Navigate to [https://github.com/daodiseomoney/core/tags](https://github.com/daodiseomoney/core/tags) and click on the latest release. 
+1. Navigate to [https://github.com/ODISEOmoney/core/tags](https://github.com/ODISEOmoney/core/tags) and click on the latest release. 
 2. Download the correct `.tar.gz` file for your computer's OS.
 3. Open terminal and navigate to the downloaded file: 
     
     
    ```bash
-   cd Downloads/daodiseo_0.5.1_Darwin_x86_64/
+   cd Downloads/ODISEO_0.5.1_Darwin_x86_64/
    ```
     
 4. Add `.dylib` to /lib:
@@ -40,10 +40,10 @@
 
     
 
-5. Run `./daodiseod`
+5. Run `./ODISEOd`
 
    ```sh
-   ./daodiseod
+   ./ODISEOd
    ```
     
    :::{admonition} If a security warning occurs:
@@ -51,18 +51,18 @@
     
    1. Navigate to system preferences→security & privacy. 
    2. Under the "General" tab, click "Allow anyway." 
-   3. Run `./daodiseod` again. 
+   3. Run `./ODISEOd` again. 
    4. When prompted, click "open." Repeat for other security errors. 
 
 
-6. Add `daodiseod` to your path:
+6. Add `ODISEOd` to your path:
 
    :::::{tab-set}
    
    ::::{tab-item} Intel-based
    
    ```sh
-   cp daodiseod /usr/local/bin
+   cp ODISEOd /usr/local/bin
    ```
    
    ::::
@@ -73,7 +73,7 @@
     
    mkdir bin
     
-   cp daodiseod /usr/local/bin
+   cp ODISEOd /usr/local/bin
    ```
    :::{Note}
    If you receive a `permission denied` message, add `sudo` before each command. 
@@ -83,8 +83,8 @@
    :::::
     
 
-7. Start `daodiseod`
+7. Start `ODISEOd`
 
    ```sh
-   daodiseod
+   ODISEOd
    ```

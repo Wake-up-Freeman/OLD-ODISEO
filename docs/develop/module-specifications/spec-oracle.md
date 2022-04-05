@@ -1,8 +1,8 @@
 # Oracle <img src="/img/Oracle.svg" height="40px">
 
-The Oracle module provides the Daodiseo blockchain with an up-to-date and accurate price feed of exchange rates of Luna against various Daodiseo pegs so that the [Market](spec-market.md) may provide fair exchanges between Daodiseo<>Daodiseo currency pairs, as well as Daodiseo<>Luna.
+The Oracle module provides the ODISEO blockchain with an up-to-date and accurate price feed of exchange rates of Luna against various ODISEO pegs so that the [Market](spec-market.md) may provide fair exchanges between ODISEO<>ODISEO currency pairs, as well as ODISEO<>Luna.
 
-As price information is extrinsic to the blockchain, the Daodiseo network relies on validators to periodically vote on the current Luna exchange rate, with the protocol tallying up the results once per `VotePeriod` and updating the on-chain exchange rate as the weighted median of the ballot converted Cross Exchange Rates using `ReferenceDaodiseo`.
+As price information is extrinsic to the blockchain, the ODISEO network relies on validators to periodically vote on the current Luna exchange rate, with the protocol tallying up the results once per `VotePeriod` and updating the on-chain exchange rate as the weighted median of the ballot converted Cross Exchange Rates using `ReferenceODISEO`.
 
 ::: {note}
 Since the Oracle service is powered by validators, you may find it interesting to look at the [Staking](spec-staking.md) module, which covers the logic for staking and validators.
@@ -20,7 +20,7 @@ Validators must first pre-commit to an exchange rate. In the subsequent `VotePer
 
 Let $P_t$ be the current time interval of duration defined by [`VotePeriod`](#voteperiod)(currently set to 5 blockchain blocks) during which validators must submit two messages:
 
-- A [`MsgExchangeRatePrevote`](#msgexchangerateprevote), containing the SHA256 hash of the exchange rate of Luna with respect to a Daodiseo peg. A separate prevote must be submitted for each different denomination on which to report a Luna exchange rate. Prevotes can be overwritten by submitting another rate prevote within the same vote period. 
+- A [`MsgExchangeRatePrevote`](#msgexchangerateprevote), containing the SHA256 hash of the exchange rate of Luna with respect to a ODISEO peg. A separate prevote must be submitted for each different denomination on which to report a Luna exchange rate. Prevotes can be overwritten by submitting another rate prevote within the same vote period. 
 
 - A [`MsgExchangeRateVote`](#msgexchangeratevote), containing the salt used to create the hash for the prevote submitted in the previous interval $P_{t-1}$.
 
@@ -35,14 +35,14 @@ For each denomination, if the total voting power of submitted votes exceeds 50%,
 
 Denominations receiving fewer than [`VoteThreshold`](#votethreshold) total voting power have their exchange rates deleted from the store, and no swaps can be made with it during the next `VotePeriod` $P_{t+1}$.
 
-Choose `ReferenceDaodiseo` with the highest voter turnout. If the voting power of the two denominations is the same, select reference Daodiseo in alphabetical order.
+Choose `ReferenceODISEO` with the highest voter turnout. If the voting power of the two denominations is the same, select reference ODISEO in alphabetical order.
 
-#### Compute Cross Exchange Rate using Reference Daodiseo
+#### Compute Cross Exchange Rate using Reference ODISEO
 
-1. Choose `ReferenceDaodiseo`
+1. Choose `ReferenceODISEO`
 
-   - Let `Vote_j = Vote_j_1 ... Vote_j_n` be the `uluna` exchange rate votes for each daodiseo for validator `Val_j` in a given `VotePeriod`. `n` = number of total daodiseo whitelist
-   - For all daodiseo whitelist  `w_1 ... w_n`, choose the index `r` with the highest voter turnout. If the vote turnout has multiple tie winners, a winner is chosen in alphabetical order. `w_r` is chosen as the `ReferenceDaodiseo` from which to compute cross exchange rates.
+   - Let `Vote_j = Vote_j_1 ... Vote_j_n` be the `uluna` exchange rate votes for each ODISEO for validator `Val_j` in a given `VotePeriod`. `n` = number of total ODISEO whitelist
+   - For all ODISEO whitelist  `w_1 ... w_n`, choose the index `r` with the highest voter turnout. If the vote turnout has multiple tie winners, a winner is chosen in alphabetical order. `w_r` is chosen as the `ReferenceODISEO` from which to compute cross exchange rates.
 
 2. Compute Oracle Exchange Rate
 
@@ -50,7 +50,7 @@ Choose `ReferenceDaodiseo` with the highest voter turnout. If the voting power o
      - for `i≠r`, `CER_j_i = Vote_j_r / Vote_j_i`
      - for `i=r`, `CER_j_i = Vote_j_r`
    - Calculate power weighted median(`PWM`, across all validators) for each cross exchange rates `CER_j_iMCER_i` = `PWM`(for all j)[`CER_j_i`]
-   - These `MCER_i`s can then be transformed into the original form uluna/daodiseo as below
+   - These `MCER_i`s can then be transformed into the original form uluna/ODISEO as below
      - for `i≠r`, `LunaRate_i = MCER_r / MCER_i`
      - for `i=r`, `LunaRate_i = MCER_r`
 
@@ -114,9 +114,9 @@ type MsgExchangeRatePrevote struct {
 
 The exchange rate used in the hash must be the open market exchange rate of Luna, with respect to the denomination matching `Denom`. For example, if `Denom` is `uusd` and the going exchange rate for Luna is 1 USD, then "1" must be used as the exchange rate, as `1 uluna` = `1 uusd`.
 
-`Feeder` (`daodiseo-` address) is used if the validator wishes to delegate oracle vote signing to a separate key (who "feeds" the price in lieu of the operator) to de-risk exposing their validator signing key.
+`Feeder` (`ODISEO-` address) is used if the validator wishes to delegate oracle vote signing to a separate key (who "feeds" the price in lieu of the operator) to de-risk exposing their validator signing key.
 
-`Validator` is the validator address (`daodiseovaloper-`) of the original validator.
+`Validator` is the validator address (`ODISEOvaloper-`) of the original validator.
 
 :::{note}
 Validators can overwrite a prevote by submitting another prevote before the end of the vote period. The last prevote submitted will be used. 
@@ -127,7 +127,7 @@ Validators can overwrite a prevote by submitting another prevote before the end 
 The `MsgExchangeRateVote` contains the actual exchange rate vote. The `Salt` parameter must match the salt used to create the prevote, otherwise the voter cannot be rewarded.
 
 ```go
-// MsgExchangeRateVote - struct for voting on the exchange rate of Luna denominated in various Daodiseo assets.
+// MsgExchangeRateVote - struct for voting on the exchange rate of Luna denominated in various ODISEO assets.
 // For example, if the validator believes that the effective exchange rate of Luna in USD is 10.39, that's
 // what the exchange rate field would be, and if 1213.34 for KRW, same.
 type MsgExchangeRateVote struct {
@@ -144,10 +144,10 @@ type MsgExchangeRateVote struct {
 Validators may also elect to delegate voting rights to another key to prevent the block signing key from being kept online. To do so, they must submit a `MsgDelegateFeedConsent`, delegating their oracle voting rights to a `Delegate` that sign `MsgExchangeRatePrevote` and `MsgExchangeRateVote` on behalf of the validator.
 
 ::: {danger}
-Delegate validators will likely require you to deposit some funds (in Daodiseo or Luna) which they can use to pay fees, sent in a separate `MsgSend`. This agreement is made off-chain and not enforced by the Daodiseo protocol.
+Delegate validators will likely require you to deposit some funds (in ODISEO or Luna) which they can use to pay fees, sent in a separate `MsgSend`. This agreement is made off-chain and not enforced by the ODISEO protocol.
 :::
 
-The `Operator` field contains the operator address of the validator (prefixed `daodiseovaloper-`). The `Delegate` field is the account address (prefixed `daodiseo-`) of the delegate account that will be submitting exchange rate related votes and prevotes on behalf of the `Operator`.
+The `Operator` field contains the operator address of the validator (prefixed `ODISEOvaloper-`). The `Delegate` field is the account address (prefixed `ODISEO-`) of the delegate account that will be submitting exchange rate related votes and prevotes on behalf of the `Operator`.
 
 ```go
 // MsgDelegateFeedConsent - struct for delegating oracle voting rights to another address.
@@ -268,11 +268,11 @@ At the end of every block, the Oracle module checks whether it's the last block 
 
    - Must appear in the permitted denominations in [`Whitelist`](#whitelist)
    - Ballot for denomination must have at least [`VoteThreshold`](#votethreshold) total vote power
-   - Choose `ReferenceDaodiseo` with the highest voter turnout
+   - Choose `ReferenceODISEO` with the highest voter turnout
 
 4. For each remaining `denom` with a passing ballot:
 
-   - Tally up votes with [`Compute Cross Exchange Rate using Reference Daodiseo`](#compute-cross-exchange-rate-using-reference-daodiseo) and find the weighted median exchange rate and winners with [`tally()`](#tally)
+   - Tally up votes with [`Compute Cross Exchange Rate using Reference ODISEO`](#compute-cross-exchange-rate-using-reference-ODISEO) and find the weighted median exchange rate and winners with [`tally()`](#tally)
    - Iterate through winners of the ballot and add their weight to their running total
    - Set the Luna exchange rate on the blockchain for that Luna<>`denom` with `k.SetLunaExchangeRate()`
    - Emit an `exchange_rate_update` event

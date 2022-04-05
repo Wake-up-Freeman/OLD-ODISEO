@@ -1,10 +1,10 @@
 # Bank
 
 :::{Important}
-Daodiseo's bank module inherits from the Cosmos SDK's [`bank`](https://docs.cosmos.network/master/modules/bank/) module. This document is a stub and covers mainly important Daodiseo-specific notes about how it is used.
+ODISEO's bank module inherits from the Cosmos SDK's [`bank`](https://docs.cosmos.network/master/modules/bank/) module. This document is a stub and covers mainly important ODISEO-specific notes about how it is used.
 :::
 
-The bank module is the base transactional layer of the Daodiseo blockchain. This module allows assets to be sent from one `Account` to another. The bank module defines the following types of send transactions: `MsgSend` and `MsgMultiSend`.
+The bank module is the base transactional layer of the ODISEO blockchain. This module allows assets to be sent from one `Account` to another. The bank module defines the following types of send transactions: `MsgSend` and `MsgMultiSend`.
 
 ## Message types
 
@@ -19,7 +19,7 @@ type MsgSend struct {
 }
 ```
 
-The Bank module is used to send coins from one Daodiseo account to another. `MsgSend` is constructed to facilitate the transfer. If the balance of coins in the sender `Account` is insufficient or the recipient `Account` is unable to receive the funds via the bank module, the transaction fails. Fees already paid through failed transactions are not refunded.
+The Bank module is used to send coins from one ODISEO account to another. `MsgSend` is constructed to facilitate the transfer. If the balance of coins in the sender `Account` is insufficient or the recipient `Account` is unable to receive the funds via the bank module, the transaction fails. Fees already paid through failed transactions are not refunded.
 
 ### MsgMultiSend
 

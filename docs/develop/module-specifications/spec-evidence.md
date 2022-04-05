@@ -1,7 +1,7 @@
 # Evidence
 
 :::{Important}
-Daodiseo's evidence module inherits from Cosmos SDK's [`evidence`](https://docs.cosmos.network/master/modules/evidence/) module. This document is a stub and covers mainly important Daodiseo-specific notes about how it is used.
+ODISEO's evidence module inherits from Cosmos SDK's [`evidence`](https://docs.cosmos.network/master/modules/evidence/) module. This document is a stub and covers mainly important ODISEO-specific notes about how it is used.
 :::
 
 The evidence module allows arbitrary evidence of misbehavior, such as equivocation and counterfactual signing, to be submitted and handled.

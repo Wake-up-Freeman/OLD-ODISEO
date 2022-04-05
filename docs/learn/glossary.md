@@ -1,6 +1,6 @@
 # Glossary
 
-Use this glossary to learn about terms specific to the Daodiseo Protocol.
+Use this glossary to learn about terms specific to the ODISEO Protocol.
 
 ## Active set
 
@@ -8,13 +8,13 @@ The top 130 [validators](#validator) that participate in consensus and receive r
 
 ## Air drops
 
-Additional rewards given to [delegators](#delegator) through certain [validators](#validator), separate from [staking rewards](#rewards). Airdrops come from protocols in the Daodiseo ecosystem to increase visibility. To claim an airdrop, visit the webpage of the protocol giving out the airdrop.
+Additional rewards given to [delegators](#delegator) through certain [validators](#validator), separate from [staking rewards](#rewards). Airdrops come from protocols in the ODISEO ecosystem to increase visibility. To claim an airdrop, visit the webpage of the protocol giving out the airdrop.
 
 ## Algorithmic stablecoin
 
 A cryptocurrency that tracks the price of any asset, usually currency. Algorithmic stablecoins maintain their price peg through a set of rules or software instead of an underlying asset.
 
-For more information on stablecoins created by the Daodiseo protocol, see [Daodiseo stablecoins](#daodiseo-stablecoins)
+For more information on stablecoins created by the ODISEO protocol, see [ODISEO stablecoins](#ODISEO-stablecoins)
 
 ## Arbitrage
 
@@ -28,9 +28,9 @@ An unchangeable ledger of transactions copied among a network of independent com
 
 Groups of information stored on a [blockchain](#blockchain). Each block contains transactions that are grouped, verified, and signed by validators.
 
-## bOdis
+## bODIS
 
-A token representing bonded Odis that can be traded freely or used as collateral on other protocols in the Daodiseo network, such as [Anchor](https://anchorprotocol.com/) and [Mirror](https://mirror.finance/). Bonded Odis takes 21 days to become unbonded.
+A token representing bonded ODIS that can be traded freely or used as collateral on other protocols in the ODISEO network, such as [Zeus](https://Zeusprotocol.com/) and [Mirror](https://mirror.finance/). Bonded ODIS takes 21 days to become unbonded.
 
 ## Bonded validator
 
@@ -38,19 +38,19 @@ A [validator](#validator) in the [active set](#active-set) participating in cons
 
 ## Bonding
 
-When a user [delegates](#delegate) or bonds Odis to a [validator](#validator) to receive [staking rewards](#rewards). Validators never have ownership of a delegator's [Odis](#Odis), even when bonded. Delegating, bonding, and staking generally refer to the same process.
+When a user [delegates](#delegate) or bonds ODIS to a [validator](#validator) to receive [staking rewards](#rewards). Validators never have ownership of a delegator's [ODIS](#ODIS), even when bonded. Delegating, bonding, and staking generally refer to the same process.
 
 ## Burn
 
-The destruction of coins. The Daodiseo protocol burns [Odis](#Odis) to mint [Daodiseo stablecoins](#daodiseo-stablecoins) and vice versa. Burned coins are destroyed.
+The destruction of coins. The ODISEO protocol burns [ODIS](#ODIS) to mint [ODISEO stablecoins](#ODISEO-stablecoins) and vice versa. Burned coins are destroyed.
 
 ## CHAI
 
-A mobile payments app powered by Daodiseo's blockchain network.
+A mobile payments app powered by ODISEO's blockchain network.
 
 ## Columbus-5
 
-The current version of the [Daodiseo mainnet](#daodiseo-mainnet).
+The current version of the [ODISEO mainnet](#ODISEO-mainnet).
 
 ## Commission
 
@@ -62,11 +62,11 @@ A special fund designated for funding community projects. Any community member c
 
 ## Consensus
 
-A system used by [validators](#validator) or miners to agree that each [block](#blocks) of transactions in a [blockchain](#blockchain) is correct. The Daodiseo blockchain uses the Tendermint consensus. Validators earn [rewards](#rewards) for participating in consensus. Visit the [Tendermint official documentation site](https://docs.tendermint.com/) for more information.
+A system used by [validators](#validator) or miners to agree that each [block](#blocks) of transactions in a [blockchain](#blockchain) is correct. The ODISEO blockchain uses the Tendermint consensus. Validators earn [rewards](#rewards) for participating in consensus. Visit the [Tendermint official documentation site](https://docs.tendermint.com/) for more information.
 
 ## Cosmos-SDK
 
-The open-source framework the Daodiseo blockchain is built on. For more information, check out the [Cosmos SDK Documentation](https://docs.cosmos.network/).
+The open-source framework the ODISEO blockchain is built on. For more information, check out the [Cosmos SDK Documentation](https://docs.cosmos.network/).
 
 ## dApp
 
@@ -82,12 +82,12 @@ Decentralized finance. A movement away from traditional finance and toward syste
 
 ## Delegate
 
-When users or delegators add their [Odis](#Odis) to a [validator's](#validator) stake in exchange for rewards. Delegated Odis is bonded to a validator. Validators never have ownership of a [delegator's](#delegator) Odis. Delegating, bonding, and staking generally refer to the same process.
+When users or delegators add their [ODIS](#ODIS) to a [validator's](#validator) stake in exchange for rewards. Delegated ODIS is bonded to a validator. Validators never have ownership of a [delegator's](#delegator) ODIS. Delegating, bonding, and staking generally refer to the same process.
 
 
 ## Delegator
 
-A user who [delegates](#delegate), bonds, or stakes [Odis](#Odis) to a [validator](#validator) to earn [rewards](#rewards). Delegating, bonding, and staking generally refer to the same process.
+A user who [delegates](#delegate), bonds, or stakes [ODIS](#ODIS) to a [validator](#validator) to earn [rewards](#rewards). Delegating, bonding, and staking generally refer to the same process.
 
 ## Epoch
 
@@ -97,11 +97,11 @@ A length of time measured in [blocks](#blocks). An epoch for the governance modu
 
 - **Gas**: Compute fees added on to all transactions to avoid spamming. [Validators](#validator) set minimum gas prices and reject transactions that have implied gas prices below this threshold.
 
-- **Spread fee**: A variable fee on any transaction between [Daodiseo](#daodiseo-stablecoins) and [Odis](#Odis).
+- **Spread fee**: A variable fee on any transaction between [ODISEO](#ODISEO-stablecoins) and [ODIS](#ODIS).
 
-- **Tobin tax**: A fee on any transaction between Daodiseo stablecoin denominations.
+- **Tobin tax**: A fee on any transaction between ODISEO stablecoin denominations.
 
-For more information on fees, visit [Fees on Daodiseo](fees.md).
+For more information on fees, visit [Fees on ODISEO](fees.md).
 
 ## Fiat currency
 
@@ -109,19 +109,19 @@ Currency issued by a government that is not backed by an underlying asset. USD i
 
 ## Full node
 
-A computer connected to the [Daodiseo mainnet](#daodiseo-mainnet) that is able to validate transactions and interact with the Daodiseo blockchain. All active [validators](#validator) run full nodes.
+A computer connected to the [ODISEO mainnet](#ODISEO-mainnet) that is able to validate transactions and interact with the ODISEO blockchain. All active [validators](#validator) run full nodes.
 
-## Odis
+## ODIS
 
-The native staking token of the Daodiseo protocol. Odis supply expands and contracts in order to maintain the prices of [Daodiseo stablecoins](#daodiseo-stablecoins). Odis is also used as a governance token. [Delegators](#delegator) can stake Odis to receive rewards.
+The native staking token of the ODISEO protocol. ODIS supply expands and contracts in order to maintain the prices of [ODISEO stablecoins](#ODISEO-stablecoins). ODIS is also used as a governance token. [Delegators](#delegator) can stake ODIS to receive rewards.
 
 ## Governance
 
-Governance is the democratic process that allows users and [validators](#validator) to make changes to the Daodiseo protocol. Community members submit, vote, and implement proposals. One staked [Odis](#Odis) is equal to one vote.
+Governance is the democratic process that allows users and [validators](#validator) to make changes to the ODISEO protocol. Community members submit, vote, and implement proposals. One staked [ODIS](#ODIS) is equal to one vote.
 
 ## Governance proposal
 
-A written submission for a change or addition to the [Daodiseo protocol](#the-daodiseo-protocol). Topics of proposals can vary from community pool spending, software changes, parameter changes, or any change pertaining to the Daodiseo protocol.
+A written submission for a change or addition to the [ODISEO protocol](#the-ODISEO-protocol). Topics of proposals can vary from community pool spending, software changes, parameter changes, or any change pertaining to the ODISEO protocol.
 
 ## IBC
 
@@ -137,19 +137,19 @@ Validators who misbehave are jailed or excluded from the [active set](#active-se
 
 ## Market swap
 
-A swap in Daodiseo Station that uses the Daodiseo protocol's market function. Market swaps occur between Daodiseo stablecoin denominations or between Daodiseo and Odis. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
+A swap in ODISEO Station that uses the ODISEO protocol's market function. Market swaps occur between ODISEO stablecoin denominations or between ODISEO and ODIS. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
 
 **Examples**
-- Swapping UST for KRT in Daodiseo Station will charge a Tobin tax and gas fees.
-- Swapping Odis for UST in Daodiseo Station will charge a spread fee and gas fees.
+- Swapping UST for KRT in ODISEO Station will charge a Tobin tax and gas fees.
+- Swapping ODIS for UST in ODISEO Station will charge a spread fee and gas fees.
 
-To learn how to use the market swap feature in Daodiseo station, visit [how to use Daodiseo Station](./daodiseo-station/swap.md).
+To learn how to use the market swap feature in ODISEO station, visit [how to use ODISEO Station](./ODISEO-station/swap.md).
 
-For more information on fees, visit [Fees on Daodiseo](fees.md).
+For more information on fees, visit [Fees on ODISEO](fees.md).
 
 ## Mint
 
-The creation of new coins. Minting is the opposite of burning. The Daodiseo protocol burns Odis to mint Daodiseo stablecoins and vice versa.
+The creation of new coins. Minting is the opposite of burning. The ODISEO protocol burns ODIS to mint ODISEO stablecoins and vice versa.
 
 ## Miss
 
@@ -157,7 +157,7 @@ When a vote fails to be included in consensus.
 
 ## Module
 
-A section of the Daodiseo core that represents a particular function of the Daodiseo protocol. Visit the [Daodiseo core module specifications](../develop/module-specifications/README.md) for more information.
+A section of the ODISEO core that represents a particular function of the ODISEO protocol. Visit the [ODISEO core module specifications](../develop/module-specifications/README.md) for more information.
 
 ## Oracle
 
@@ -179,7 +179,7 @@ Proof of Stake. A style of blockchain where validators are chosen to propose blo
 
 ## Redelegate
 
-When a delegator wants to transfer their bonded Odis to a different validator. Redelegating Odis is instant and does not require a 21-day unbonding period.
+When a delegator wants to transfer their bonded ODIS to a different validator. Redelegating ODIS is instant and does not require a 21-day unbonding period.
 
 ## Rewards
 
@@ -187,21 +187,21 @@ Revenue generated from fees given to validators and disbursed to delegators.
 
 ## SDR
 
-Special Drawing Rights. An international reserve asset and unit of account created by the IMF. SDR value is calculated daily using a basket of the world's largest economies. The Daodiseo protocol uses DaodiseoSDR or SDT as its base currency for calculations and to set standards.
+Special Drawing Rights. An international reserve asset and unit of account created by the IMF. SDR value is calculated daily using a basket of the world's largest economies. The ODISEO protocol uses ODISEOSDR or SDT as its base currency for calculations and to set standards.
 
 ## Seigniorage
 
-The value of a coin minus the cost of its production. In the Daodiseo protocol, the cost of minting is very small. All seigniorage in the Daodiseo protocol is burned.
+The value of a coin minus the cost of its production. In the ODISEO protocol, the cost of minting is very small. All seigniorage in the ODISEO protocol is burned.
 
 ## Self-delegation
 
-The amount of Odis a validator bonds to themselves. Also referred to as self-bond.
+The amount of ODIS a validator bonds to themselves. Also referred to as self-bond.
 
 ## Slashing
 
 Punishment for validators that misbehave. Validators lose part of their stake when they get slashed.
 
-For more information, see [slashing](protocol.md#slashing) in the description of the Daodiseo protocol.
+For more information, see [slashing](protocol.md#slashing) in the description of the ODISEO protocol.
 
 ## Slippage
 
@@ -209,69 +209,69 @@ The difference in a coin's price between the start and end of a transaction.
 
 ## Stake
 
-The amount of [Odis](#Odis) bonded to a validator.
+The amount of [ODIS](#ODIS) bonded to a validator.
 
 ## Staking
 
-When a user delegates or bonds their Odis to an active validator to receive rewards. Bonded Odis adds to a validator's stake. Validators provide their stakes as collateral to participate in the consensus process. Validators with larger stakes are chosen to participate more often. Validators receive staking rewards for their participation. A validator's stake can be slashed if the validator misbehaves. Validators never have ownership of a delegator's Odis, even when staking.
+When a user delegates or bonds their ODIS to an active validator to receive rewards. Bonded ODIS adds to a validator's stake. Validators provide their stakes as collateral to participate in the consensus process. Validators with larger stakes are chosen to participate more often. Validators receive staking rewards for their participation. A validator's stake can be slashed if the validator misbehaves. Validators never have ownership of a delegator's ODIS, even when staking.
 
 For more information on staking, visit the [concepts page](protocol.md#staking).
 
 ## Tendermint consensus
 
-The consensus procedure used by the Daodiseo protocol. First, a validator proposes a new block. Other validators vote on the block in two rounds. If a block receives a two-thirds majority or greater of yes votes in both rounds, it gets added to the blockchain. Validators get rewarded with the block's transaction fees. Proposers get rewarded extra. Each validator is chosen to propose based on their weight. Check out the [Tendermint official documentation](https://docs.tendermint.com/) for more information.
+The consensus procedure used by the ODISEO protocol. First, a validator proposes a new block. Other validators vote on the block in two rounds. If a block receives a two-thirds majority or greater of yes votes in both rounds, it gets added to the blockchain. Validators get rewarded with the block's transaction fees. Proposers get rewarded extra. Each validator is chosen to propose based on their weight. Check out the [Tendermint official documentation](https://docs.tendermint.com/) for more information.
 
-## Daodiseo core
+## ODISEO core
 
-The official source code for the Daodiseo protocol.
+The official source code for the ODISEO protocol.
 
-For more information on the Daodiseo core, see [Daodiseo core modules](../develop/module-specifications/README.md).
+For more information on the ODISEO core, see [ODISEO core modules](../develop/module-specifications/README.md).
 
-## Daodiseo mainnet
+## ODISEO mainnet
 
-The Daodiseo protocol's blockchain network where all transactions take place.
+The ODISEO protocol's blockchain network where all transactions take place.
 
-## Daodiseo stablecoins
+## ODISEO stablecoins
 
-Crypto assets that track the price of fiat currency enabled by the Daodiseo protocol. Users mint new Daodiseo stablecoins by burning Odis. Stablecoins are named for their fiat counterparts. For example, the base Daodiseo stablecoin tracks the price of the IMF’s SDR, named DaodiseoSDR, or SDT. Other stablecoin denominations include DaodiseoUSD or UST, and DaodiseoKRW or  KRT. All Daodiseo stablecoin denominations exist in the same pool.
+Crypto assets that track the price of fiat currency enabled by the ODISEO protocol. Users mint new ODISEO stablecoins by burning ODIS. Stablecoins are named for their fiat counterparts. For example, the base ODISEO stablecoin tracks the price of the IMF’s SDR, named ODISEOSDR, or SDT. Other stablecoin denominations include ODISEOUSD or UST, and ODISEOKRW or  KRT. All ODISEO stablecoin denominations exist in the same pool.
 
 For more information, see [stablecoins](protocol.md#stablecoins).
 
-## Daodiseo Station
+## ODISEO Station
 
-Daodiseo's native wallet and platform for swaps, governance, and staking. In Station, you can send, receive, swap, and stake Daodiseo coins. You can also participate in governance and vote on proposals.
+ODISEO's native wallet and platform for swaps, governance, and staking. In Station, you can send, receive, swap, and stake ODISEO coins. You can also participate in governance and vote on proposals.
 
-To learn how to install and get started using Daodiseo Station, visit the [Daodiseo Station tutorial](daodiseo-station/download/README.md).
+To learn how to install and get started using ODISEO Station, visit the [ODISEO Station tutorial](ODISEO-station/download/README.md).
 
-To learn how to use the advanced features of Daodiseo Station, visit the [Daodiseo Station how-to guide](./daodiseo-station/wallet.md).
+To learn how to use the advanced features of ODISEO Station, visit the [ODISEO Station how-to guide](./ODISEO-station/wallet.md).
 
-## daodiseod
+## ODISEOd
 
-The command line interface for interacting with a Daodiseo node.
+The command line interface for interacting with a ODISEO node.
 
-For more information on daodiseod, see [`daodiseod` guides](../develop/how-to/daodiseod/README.md).
+For more information on ODISEOd, see [`ODISEOd` guides](../develop/how-to/ODISEOd/README.md).
 
-## Daodiseovaloper address
+## ODISEOvaloper address
 
-A validator's public address beginning with `daodiseovaloper` followed by a string of characters.
+A validator's public address beginning with `ODISEOvaloper` followed by a string of characters.
 
 ## Testnet
 
 A version of the mainnet just for testing. The testnet does not use real coins. You can use the testnet to get familiar with transactions.
 
-## The Daodiseo ecosystem
+## The ODISEO ecosystem
 
-A quickly expanding network of decentralized applications built on the Daodiseo protocol.
+A quickly expanding network of decentralized applications built on the ODISEO protocol.
 
-## The Daodiseo protocol
+## The ODISEO protocol
 
-The leading decentralized and open-source public blockchain protocol for algorithmic stablecoins. Using a combination of open market arbitrage incentives and decentralized oracle voting, the Daodiseo protocol creates stablecoins that consistently track the price of any fiat currency.
+The leading decentralized and open-source public blockchain protocol for algorithmic stablecoins. Using a combination of open market arbitrage incentives and decentralized oracle voting, the ODISEO protocol creates stablecoins that consistently track the price of any fiat currency.
 
-For more information on how the Daodiseo protocol works, visit the [concepts page](./protocol.md)
+For more information on how the ODISEO protocol works, visit the [concepts page](./protocol.md)
 
 ## Tobin tax
 
-A fee added to every swap between Daodiseo stablecoins (spot-trading). The rate varies, depending on the denomination. For example, while the rate for most denominations is .35%, the rate for MNT is 2%. To see the rates, [query the oracle](https://lcd.daodiseo.dev/daodiseo/oracle/v1beta1/denoms/tobin_taxes).
+A fee added to every swap between ODISEO stablecoins (spot-trading). The rate varies, depending on the denomination. For example, while the rate for most denominations is .35%, the rate for MNT is 2%. To see the rates, [query the oracle](https://lcd.ODISEO.dev/ODISEO/oracle/v1beta1/denoms/tobin_taxes).
 
 ## Tombstone
 
@@ -279,7 +279,7 @@ To block a validator from participating in consensus or oracle voting. Tombstone
 
 ## Total stake
 
-The total amount of Odis bonded to a delegator, including self-bonded Odis.
+The total amount of ODIS bonded to a delegator, including self-bonded ODIS.
 
 ## Unbonded validator
 
@@ -289,21 +289,21 @@ A validator that is not in the active set and does not participate in consensus 
 
 A validator transitioning from the active set to the inactive set. An unbonding validator does not participate in consensus or earn rewards. The unbonding process takes 21 days.
 
-## Unbonded Odis
+## Unbonded ODIS
 
-Odis that can be freely traded and is not staked to a validator.
+ODIS that can be freely traded and is not staked to a validator.
 
 ## Unbonding
 
-When a delegator decides to undelegate their Odis from a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
+When a delegator decides to undelegate their ODIS from a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
 
-## Unbonding Odis
+## Unbonding ODIS
 
-[Odis](#Odis) that is transitioning from bonded to unbonded. Odis that is unbonding cannot be traded freely. The unbonding process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
+[ODIS](#ODIS) that is transitioning from bonded to unbonded. ODIS that is unbonding cannot be traded freely. The unbonding process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
 
 ## Undelegate
 
-When a [delegator](#delegator) no longer wants to have their Odis bonded to a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
+When a [delegator](#delegator) no longer wants to have their ODIS bonded to a validator. This process takes 21 days. No rewards accrue during this period. This action cannot be stopped once executed.
 
 ## Uptime
 
@@ -311,7 +311,7 @@ The amount of time a [validator](#validator) is active in a given timeframe. Val
 
 ## Validator
 
-A Daodiseo blockchain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and receive rewards. The top 130 validators with the highest total stake can participate in consensus.
+A ODISEO blockchain miner responsible for verifying transactions on the blockchain. Validators run programs called full nodes that allow them to participate in consensus, verify blocks, participate in governance, and receive rewards. The top 130 validators with the highest total stake can participate in consensus.
 
 For more information on validators, visit the [concepts page](./protocol.md#validators).
 

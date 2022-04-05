@@ -1,8 +1,8 @@
 # Guides
 
-Use these guides to learn about using and installing [`daodiseod`](daodiseod/README.md), the command line interface and node daemon for the Daodiseo network, and [LocalDaodiseo](localdaodiseo/README.md), a local testing environment.
+Use these guides to learn about using and installing [`ODISEOd`](ODISEOd/README.md), the command line interface and node daemon for the ODISEO network, and [LocalODISEO](localODISEO/README.md), a local testing environment.
 
-If this is your first time building on Daodiseo and you want to set up your environment, use the [quickstart guide](../dapp/quick-start/README.md).
+If this is your first time building on ODISEO and you want to set up your environment, use the [quickstart guide](../dapp/quick-start/README.md).
 
 ```{toctree}
 :hidden:
@@ -16,18 +16,18 @@ start-lcd
 :gutter: 3
 
 :::{grid-item-card}
-:link: daodiseod/README.html
+:link: ODISEOd/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Daodiseod.svg
+```{image} /img/ODISEOd.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **`terrad`**  
 :::
 
 :::{grid-item-card}
-:link: localdaodiseo/README.html
+:link: localODISEO/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalDaodiseo.svg
+```{image} /img/LocalODISEO.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **LocalTerra**  
@@ -70,18 +70,18 @@ start-lcd
 :::
 
 :::{grid-item-card}
-:link: ../sdks/daodiseo-js/README.html
+:link: ../sdks/ODISEO-js/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseo_js.svg
+```{image} /img/ODISEO_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.js**  
 :::
 
 :::{grid-item-card}
-:link: https://daodiseomoney.github.io/daodiseo.py/
+:link: https://ODISEOmoney.github.io/ODISEO.py/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseo_sdk.svg
+```{image} /img/ODISEO_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.py**  
@@ -89,7 +89,7 @@ start-lcd
 
 
 :::{grid-item-card}
-:link: https://faucet.daodiseo.money/
+:link: https://faucet.ODISEO.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Faucet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

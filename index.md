@@ -1,6 +1,6 @@
-# Daodiseo Docs
+# ODISEO Docs
 
-Welcome to the official documentation for Daodiseo, a decentralized financial infrastructure powering the innovation of money. Daodiseo provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.  
+Welcome to the official documentation for ODISEO, a decentralized financial infrastructure powering the innovation of money. ODISEO provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.  
 
 :::::::{grid} 2 2 2 3
 :gutter: 3
@@ -8,15 +8,15 @@ Welcome to the official documentation for Daodiseo, a decentralized financial in
 :::{grid-item-card}
 :link: docs/learn/protocol.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_daodiseo.svg
+```{image} /img/icon_ODISEO.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**What is Daodiseo?**  
-Learn about Daodiseo stablecoins, Odis, rewards, staking, and governance.
+**What is ODISEO?**  
+Learn about ODISEO stablecoins, Odis, rewards, staking, and governance.
 :::
 
 :::{grid-item-card}
-:link: docs/learn/daodiseo-station/README.html
+:link: docs/learn/ODISEO-station/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/wallets_station.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
@@ -26,13 +26,13 @@ Create a wallet and stake Odis for rewards.
 :::
 
 :::{grid-item-card}
-:link: docs/spacecamp/README.html
+:link: docs/hackaton/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/spacecamp_icon-01.svg
+```{image} /img/hackaton_icon.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Hack Week resources**  
-A helpful list for Spacecamp hackers.
+A helpful list for Hackaton hackers.
 :::
 
 :::{grid-item-card}
@@ -52,7 +52,7 @@ Set up your environment and start building.
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Explore the ecosystem**  
-Discover Daodiseo's vast network of dApps and exchanges.
+Discover ODISEO's vast network of dApps and exchanges.
 :::
 
 :::{grid-item-card}
@@ -61,12 +61,12 @@ Discover Daodiseo's vast network of dApps and exchanges.
 ```{image} /img/icon_core.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Unearth Daodiseo Core**  
+**Unearth ODISEO Core**  
 Learn about the modules at the heart of the protocol.
 :::
 
 :::{grid-item-card}
-:link: docs/full-node/run-a-full-daodiseo-node/README.html
+:link: docs/full-node/run-a-full-ODISEO-node/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -76,22 +76,22 @@ Contribute to the security of the network.
 :::
 
 :::{grid-item-card}
-:link: docs/develop/sdks/daodiseo-js/README.html
+:link: docs/develop/sdks/ODISEO-js/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseo_js.svg
+```{image} /img/ODISEO_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Terra.js**  
+**ODISEO.js**  
 Build with Javascript.
 :::
 
 :::{grid-item-card}
-:link: https://daodiseomoney.github.io/daodiseo.py/
+:link: https://ODISEOmoney.github.io/ODISEO.py/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseo_sdk.svg
+```{image} /img/ODISEO_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Terra.py**  
+**ODISEO.py**  
 Build with Python.
 :::
 :::::::
@@ -119,5 +119,5 @@ docs/ecosystem/README
 
 ```{toctree}
 :hidden:
-Spacecamp <docs/spacecamp/README.md>
+Hackaton <docs/hackaton/README.md>
 ```

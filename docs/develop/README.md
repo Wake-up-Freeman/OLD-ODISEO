@@ -1,6 +1,6 @@
 # Develop
 
-Welcome to the Daodiseo developer documentation. If this is your first time building on Daodiseo and you want to set up your environment, use the [quickstart guide](dapp/quick-start/README.md). Use the [how-to guides](how-to/README.md) to learn about using [`daodiseod`](how-to/daodiseod/README.md), the command line interface and node daemon for the Daodiseo network, and [LocalDaodiseo](how-to/localdaodiseo/README.md), a local testing environment. [Daodiseo.js](sdks/daodiseo-js/README.md) and [Daodiseo.py](https://daodiseomoney.github.io/daodiseo.py/) are the Javascript and Python SDKs for Daodiseo.
+Welcome to the ODISEO developer documentation. If this is your first time building on ODISEO and you want to set up your environment, use the [quickstart guide](dapp/quick-start/README.md). Use the [how-to guides](how-to/README.md) to learn about using [`ODISEOd`](how-to/ODISEOd/README.md), the command line interface and node daemon for the ODISEO network, and [LocalODISEO](how-to/localODISEO/README.md), a local testing environment. [ODISEO.js](sdks/ODISEO-js/README.md) and [ODISEO.py](https://ODISEOmoney.github.io/ODISEO.py/) are the Javascript and Python SDKs for ODISEO.
 
 ```{toctree}
 :hidden:
@@ -27,7 +27,7 @@ reference/README
 :::{grid-item-card}
 :link: dapp/quick-start/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseoin.svg
+```{image} /img/ODISEOin.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain**  
@@ -35,36 +35,36 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: how-to/daodiseod/README.html
+:link: how-to/ODISEOd/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Daodiseod.svg
+```{image} /img/ODISEOd.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **`terrad`**  
 :::
 
 :::{grid-item-card}
-:link: how-to/localdaodiseo/README.html
+:link: how-to/localODISEO/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalDaodiseo.svg
+```{image} /img/LocalODISEO.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **LocalTerra**  
 :::
 
 :::{grid-item-card}
-:link: sdks/daodiseo-js/README.html
+:link: sdks/ODISEO-js/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseo_js.svg
+```{image} /img/ODISEO_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.js**  
 :::
 
 :::{grid-item-card}
-:link: https://daodiseomoney.github.io/daodiseo.py/
+:link: https://ODISEOmoney.github.io/ODISEO.py/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseo_sdk.svg
+```{image} /img/ODISEO_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terra.py**  
@@ -89,7 +89,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: https://faucet.daodiseo.money/
+:link: https://faucet.ODISEO.money/
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Faucet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

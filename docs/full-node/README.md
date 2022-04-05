@@ -1,11 +1,11 @@
 # Full node
 
-Use this section to learn all about running a full node on the Daodiseo network. 
+Use this section to learn all about running a full node on the ODISEO network. 
 
 
 ```{toctree}
 :hidden:
-run-a-full-terra-node/README
+run-a-full-ODISEO-node/README
 manage-a-terra-validator/README
 reference/README
 ```
@@ -14,7 +14,7 @@ reference/README
 :gutter: 3
 
 :::{grid-item-card}
-:link: run-a-full-daodiseo-node/README.html
+:link: run-a-full-ODISEO-node/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -23,28 +23,28 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: run-a-full-daodiseo-node/build-daodiseo-core.html
+:link: run-a-full-ODISEO-node/build-ODISEO-core.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/icon_daodiseo.svg
+```{image} /img/icon_ODISEO.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Build Daodiseo Core**  
+**Build ODISEO Core**  
 
 :::
 
 :::{grid-item-card}
-:link: ../develop/how-to/daodiseod/README.html
+:link: ../develop/how-to/ODISEOd/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/Daodiseod.svg
+```{image} /img/ODISEOd.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **`terrad`**  
 :::
 
 :::{grid-item-card}
-:link: ../develop/how-to/localdaodiseo/README.html
+:link: ../develop/how-to/localODISEO/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalDaodiseo.svg
+```{image} /img/LocalODISEO.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **LocalTerra**  
@@ -60,7 +60,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: run-a-full-daodiseo-node/join-a-network.html
+:link: run-a-full-ODISEO-node/join-a-network.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_cubes.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -69,7 +69,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: manage-a-daodiseo-validator/faq.html
+:link: manage-a-ODISEO-validator/faq.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_troubleshooting.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -78,7 +78,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: manage-a-daodiseo-validator/set-up-oracle-feeder.html
+:link: manage-a-ODISEO-validator/set-up-oracle-feeder.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Oracle.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
@@ -87,7 +87,7 @@ reference/README
 :::
 
 :::{grid-item-card}
-:link: manage-a-daodiseo-validator/README.html
+:link: manage-a-ODISEO-validator/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/Build_a_validator.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

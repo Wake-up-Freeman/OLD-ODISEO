@@ -1,10 +1,10 @@
 # 5-minute quickstart guide
 
-Use this quickstart guide to get started building your dApp. Daodiseoin is a Daodiseo development environment for better smart contract development experience
+Use this quickstart guide to get started building your dApp. ODISEOin is a ODISEO development environment for better smart contract development experience
 
-This guide will walk you through setting up your environment, installing Daodiseoin, and using the testnet or LocalDaodiseo to interact with a network.
+This guide will walk you through setting up your environment, installing ODISEOin, and using the testnet or LocalODISEO to interact with a network.
 
-For more information on Daodiseoin, visit [Daodiseoin's readme](https://github.com/iboss-ptk/daodiseoin#readme).
+For more information on ODISEOin, visit [ODISEOin's readme](https://github.com/iboss-ptk/ODISEOin#readme).
 
 :::::::{grid}
 :gutter: 3
@@ -12,25 +12,25 @@ For more information on Daodiseoin, visit [Daodiseoin's readme](https://github.c
 :::{grid-item-card}
 :link: initial-setup.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/daodiseoin.svg
+```{image} /img/ODISEOin.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Terrain setup**  
-Use this tutorial to set up Daodiseoin in 5 minutes.
+Use this tutorial to set up ODISEOin in 5 minutes.
 :::
 
 :::{grid-item-card}
-:link: using-daodiseoin-localdaodiseo.html
+:link: using-ODISEOin-localODISEO.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/LocalDaodiseo.svg
+```{image} /img/LocalODISEO.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Daodiseoin and LocalDaodiseo**  
+**ODISEOin and LocalODISEO**  
 16+ GB of RAM recommended.
 :::
 
 :::{grid-item-card}
-:link: using-daodiseoin-testnet.html
+:link: using-ODISEOin-testnet.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_node.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2

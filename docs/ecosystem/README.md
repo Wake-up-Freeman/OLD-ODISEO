@@ -4,7 +4,7 @@
 :hidden:
 explore
 integrations
-dApps <https://www.daodiseo.money/ecosystem>
+dApps <https://www.ODISEO.money/ecosystem>
 ```
 
 :::::::{grid}
@@ -31,11 +31,11 @@ Block explorers, exchanges, and wallets.
 :::
 
 :::{grid-item-card}
-:link: https://www.daodiseo.money/ecosystem
+:link: https://www.ODISEO.money/ecosystem
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/icon_apps.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **dApps**  
-Discover new protocols building on Daodiseo.
+Discover new protocols building on ODISEO.
 :::

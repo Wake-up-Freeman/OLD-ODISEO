@@ -1,8 +1,8 @@
-# Daodiseo Docs Style guide
+# ODISEO Docs Style guide
 
-Use the following style guide to ensure the Daodiseo documentation is understandable, useful, consistent, and organized.
+Use the following style guide to ensure the ODISEO documentation is understandable, useful, consistent, and organized.
 
-Although the current Daodiseo documentation doesn't adhere to all of the following style guidelines, apply them when you revise the current content and write new content. Over time, the style guidelines will be applied throughout the documentation.
+Although the current ODISEO documentation doesn't adhere to all of the following style guidelines, apply them when you revise the current content and write new content. Over time, the style guidelines will be applied throughout the documentation.
 
 ## Basic principles
 
@@ -17,11 +17,11 @@ The following principles guide our content creation.
 
 ### Write clearly and accurately
 
-Use natural language, like a person. Always assume Daodiseo users are not experts, and simplify the content while maintaining technical accuracy. Avoid technical jargon.
+Use natural language, like a person. Always assume ODISEO users are not experts, and simplify the content while maintaining technical accuracy. Avoid technical jargon.
 
 ### Be aware of your audience
 
-Always consider Daodiseo users' needs and help them complete processes quickly and easily. Do this by including all steps in procedures, suggesting best practices, and including tips and other types of notes.
+Always consider ODISEO users' needs and help them complete processes quickly and easily. Do this by including all steps in procedures, suggesting best practices, and including tips and other types of notes.
 
 ### Get to the point
 
@@ -45,7 +45,7 @@ For more information, see the [Microsoft bias-free writing guidelines](https://d
 
 Generally, we abide by the [Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/) because it shares our goal of creating clear and useful content. However, we don't follow every rule, and, in some cases, we break the rules in favor of our own.
 
-Here are some of the more important guidelines we use. If you follow at least these guidelines, your content will begin to resemble other parts of the documentation, making a consistent experience for Daodiseo users.
+Here are some of the more important guidelines we use. If you follow at least these guidelines, your content will begin to resemble other parts of the documentation, making a consistent experience for ODISEO users.
 
 ### Acronyms
 
@@ -53,7 +53,7 @@ Use the spelled-out term followed by the acronym in parentheses, such as dynamic
 
 ### Audience knowledge levels
 
-Remember the two primary types of Daodiseo users: new and experienced.
+Remember the two primary types of ODISEO users: new and experienced.
 
 ### Contractions
 

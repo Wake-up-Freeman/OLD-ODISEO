@@ -1,14 +1,14 @@
 # Auth
 
 :::{Important}
-Daodiseo's auth module inherits from Cosmos SDK's [`auth`](https://docs.cosmos.network/master/modules/auth/) module. This document is a stub and covers mainly important Daodiseo-specific notes about how it is used.
+ODISEO's auth module inherits from Cosmos SDK's [`auth`](https://docs.cosmos.network/master/modules/auth/) module. This document is a stub and covers mainly important ODISEO-specific notes about how it is used.
 :::
 
 Terra's Auth module extends the functionality from Cosmos SDK's `auth` module with a modified ante handler, which applies basic transaction validity checks, such as signatures, nonces, and auxiliary fields. This module also defines a special vesting account type that handles the logic for token vesting from the Luna presale.
 
 ## Gas Fee
 
-Like all transactions on the Daodiseo blockchain, [`MsgSend`](spec-bank.md#msgsend) and [`MsgMultiSend`](spec-bank.md#msgmultisend) incur gas fees. These fees are determined by a validator's minimum gas price and the complexity of the transaction. More complex transactions incur higher fees. Gas fees are specified by the sender when a transaction is outbound. For more information on how gas is calculated, see [fees](../how-to/daodiseod/using-daodiseod.md#fees).
+Like all transactions on the ODISEO blockchain, [`MsgSend`](spec-bank.md#msgsend) and [`MsgMultiSend`](spec-bank.md#msgmultisend) incur gas fees. These fees are determined by a validator's minimum gas price and the complexity of the transaction. More complex transactions incur higher fees. Gas fees are specified by the sender when a transaction is outbound. For more information on how gas is calculated, see [fees](../how-to/ODISEOd/using-ODISEOd.md#fees).
 
 ## Parameters
 
