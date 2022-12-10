@@ -1,6 +1,6 @@
 # About the ODISEO Protocol
 
-The ODISEO protocol is the leading decentralized and open-source public blockchain protocol for [algorithmic stablecoins](./glossary.md#algorithmic-stablecoin). Using a combination of open market [arbitrage](./glossary.md#arbitrage) incentives and decentralized Oracle voting, the ODISEO protocol creates stablecoins that consistently track the price of any fiat currency. Users can spend, save, trade, or exchange ODISEO stablecoins instantly, all on the ODISEO blockchain. ODIS provides its holders with staking rewards and governance power. The ODISEO ecosystem is a quickly expanding network of decentralized applications, creating a stable demand for ODISEO and increasing the price of ODIS.
+The ODISEO protocol is the decentralized and open-source public blockchain protocol for [algorithmic stablecoins](./glossary.md#algorithmic-stablecoin). Using a combination of open market [arbitrage](./glossary.md#arbitrage) incentives and decentralized Oracle voting, the ODISEO protocol creates stablecoins that consistently track the price of any fiat currency. Users can spend, save, trade, or exchange ODISEO stablecoins instantly, all on the ODISEO blockchain. ODIS provides its holders with staking rewards and governance power. The ODISEO ecosystem is a quickly expanding network of decentralized applications, creating a stable demand for ODISEO and increasing the price of ODIS.
 
 ## ODISEO and ODIS
 
