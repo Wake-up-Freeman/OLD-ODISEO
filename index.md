@@ -1,6 +1,6 @@
 # ODISEO Docs
 
-Welcome to the official documentation for ODISEO, a decentralized financial infrastructure powering the innovation of money. ODISEO provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.  
+Welcome to the official documentation for DAODISEO, a decentralized financial infrastructure powering the innovation of money. ODISEO provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.  
 
 :::::::{grid} 2 2 2 3
 :gutter: 3

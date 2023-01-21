@@ -30,7 +30,7 @@ reference/README
 ```{image} /img/ODISEOin.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Terrain**  
+**ODISEOin**  
 
 :::
 
@@ -40,7 +40,7 @@ reference/README
 ```{image} /img/ODISEOd.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**`terrad`**  
+**ODISEOd**  
 :::
 
 :::{grid-item-card}
@@ -49,7 +49,7 @@ reference/README
 ```{image} /img/LocalODISEO.svg
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
-**LocalTerra**  
+**LocalODIEO**  
 :::
 
 :::{grid-item-card}
@@ -58,7 +58,7 @@ reference/README
 ```{image} /img/ODISEO_js.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Terra.js**  
+**ODISEO.js**  
 :::
 
 :::{grid-item-card}
@@ -67,7 +67,7 @@ reference/README
 ```{image} /img/ODISEO_sdk.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Terra.py**  
+**ODISEO.py**  
 :::
 
 :::{grid-item-card}

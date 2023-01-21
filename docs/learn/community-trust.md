@@ -1,4 +1,4 @@
-# DADAODISEO community Trust
+# DAODISEO community Trust
 
 ## FAQ
 
@@ -8,11 +8,11 @@
 
 - The trust instrument sets out the terms upon which the assets are to be held and enables all parties to know their rights and duties.
 
-### What assets are held and controlled by the DADAODISEO community Trust?
+### What assets are held and controlled by the DAODISEO community Trust?
 
-- The DADAODISEO community Trust holds all of the intellectual property rights to ODISEO, LUNA, and UST.
+- The DAODISEO community Trust holds all of the intellectual property rights to ODISEO, ODIS, and GAIA.
 
-### Who controls the DADAODISEO community Trust?
+### Who controls the DAODISEO community Trust?
 
 - Through community proposals, each member of the DAODISEO community Pool may direct the trustees as to the use of the assets held.
 
@@ -20,13 +20,13 @@
 
 - If directed by the community, the trust has the ability to buy and sell property and enter into contracts, among other rights and privileges.
 
-### What will be the purposes of the DADAODISEO community Trust?
+### What will be the purposes of the DAODISEO community Trust?
 
-- The DADAODISEO community Trust and its trustees must (i) execute and carry out community-approved proposals to the extent those proposals relate to the assets held by the trust, (ii) hold intellectual property and enter into agreements relating to such intellectual property with third parties for the benefit of the Community, and (iii) do all other acts and things that may be incidental to, or desirable to further the above purposes.
+- The DAODISEO community Trust and its trustees must (i) execute and carry out community-approved proposals to the extent those proposals relate to the assets held by the trust, (ii) hold intellectual property and enter into agreements relating to such intellectual property with third parties for the benefit of the Community, and (iii) do all other acts and things that may be incidental to, or desirable to further the above purposes.
 
-### Who are the trustees of the DADAODISEO community Trust?
+### Who are the trustees of the DAODISEO community Trust?
 
-- The initial trustees of the DADAODISEO community Trust are Ryan Moore and Remi Tetot, and the initial enforcer of the trust is Gabriel Shapiro; however, the community may vote to replace any one of these individuals at any time.
+- The initial trustees of the DAODISEO community Trust are Ryan Moore and Remi Tetot, and the initial enforcer of the trust is Gabriel Shapiro; however, the community may vote to replace any one of these individuals at any time.
 
 ### What is a fiduciary relationship?
 
@@ -34,6 +34,6 @@
 
 - The enforcer's duty is to ensure that the trustees administer the Trust in accordance with its purposes and the trustees must in turn "account" to the enforcer for their stewardship.
 
-### What will happen to the assets if the DADAODISEO community Trust is terminated?
+### What will happen to the assets if the DAODISEO community Trust is terminated?
 
-- The fate of the DADAODISEO community Trust and its assets are in the hands of the DAODISEO community Pool. If the community votes to terminate the trust, the trust will terminate, and the assets will be distributed as voted upon by the community.
+- The fate of the DAODISEO community Trust and its assets are in the hands of the DAODISEO community Pool. If the community votes to terminate the trust, the trust will terminate, and the assets will be distributed as voted upon by the community.

@@ -1,11 +1,10 @@
-# ODISEO Station
+# ODISEO MyRealEstateBackedWallet
 
-ODISEO station is the official wallet of the ODISEO blockchain. If this is your first time using Station, visit the [download tutorial](download/README.md) to create a wallet.
+ODISEO MyRealEstateBackedWallete official wallet of the ODISEO blockchain. If this is your first time usin MyRealEstateBackedWallett the [download tutorial](download/README.md) to create a wallet.
 
 ```{toctree}
 :hidden:
-:caption: ODISEO Station
-download/README
+:caption: ODISEO MyRealEstateBackedWalletoad/README
 wallet
 send
 staking
@@ -23,17 +22,14 @@ testnet
 :::{grid-item-card}
 :link: download/README.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/wallets_station.svg
-:class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
+```{image} /img/wallet MyRealEstateBackedWalletclass: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Download Station**  
-
-:::
+**Downloa MyRealEstateBackedWallet:::
 
 :::{grid-item-card}
 :link: wallet.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/StationWallet.svg
+```{image} /im MyRealEstateBackedWallet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Create a wallet**  
@@ -58,12 +54,12 @@ testnet
 :::
 
 :::{grid-item-card}
-:link: https://station.ODISEO.money
+:link: https: MyRealEstateBackedWalletO.money
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
 ```{image} /img/ODISEOd.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Station WebApp**  
+MyRealEstateBackedWalletp**  
 :::
 
 :::{grid-item-card}

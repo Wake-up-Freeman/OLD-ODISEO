@@ -1,62 +1,74 @@
 # About the ODISEO Protocol
 
-The ODISEO protocol is the decentralized and open-source blockchain protocol for [Real Estate backed Network](./glossary.md#algorithmic-stablecoin). Using a combination of open market [arbitrage](./glossary.md#arbitrage) incentives and decentralized Oracle voting, the ODISEO protocol creates stablecoins that consistently track the price of any fiat currency. Users can spend, save, trade, or exchange ODISEO stablecoins instantly, all on the ODISEO blockchain. ODIS provides its holders with staking rewards and governance power. The ODISEO ecosystem is a quickly expanding network of decentralized applications, creating a stable demand for ODISEO and increasing the price of ODIS.
+The ODISEO protocol is a decentralized and open-source blockchain that leverage Real Estate assets to build additional level of trust on the Network. ODISEO is a bulletproof blockchain platform secured by long term commitment of development companies who run validator nodes. Market participants enjoy unheard level of transparency into Real Estate developments and gain access to secured and reliable information about underlying assets for their decision making process. Using a combination of open market [arbitrage](./glossary.md#arbitrage) incentives and decentralized Oracle voting, the ODISEO protocol allow to participate in Real Estate development projects, build real estate assets as well as enjoy Liquid Real Estate swaps. Users can spend, save, trade, or exchange ODIS token, all on the ODISEO blockchain. ODIS provides its holders with staking rewards and governance power. The ODISEO ecosystem is an expanding network of decentralized real estate development projects that contribue to increasing the price of ODIS.
 
-## ODISEO and ODIS
+## ODIS and GAIA NFTs
 
-The protocol consists of two main tokens, ODISEO and ODIS.
+The protocol consists of two main tokens, ODIS and GAIA NFTs.
 
-- **ODISEO**: Stablecoins that track the price of [fiat currencies](glossary.md#fiat-currency). Users mint new ODISEO by [burning](glossary.md#burn) ODIS. Stablecoins are named for their fiat counterparts. For example, the base ODISEO stablecoin tracks the price of the [IMF’s SDR](glossary.md#sdr), named ODISEOSDR, or SDT. Other stablecoin denominations include ODISEOUSD or UST, and ODISEOKRW or  KRT. All ODISEO denominations exist in the same pool.
+- **ODIS**: The ODISEO protocol’s native [staking](glossary.md#staking) token that absorbs the price volatility. ODIS is used for [governance](#governance) and is also required to partcicipate in Liquid Real Estate protocol that allow to echange liquidity between real estate assets and cosmos native token ATOM. Users stake ODIS to Real Estate development projects (validators / SPV companies) and provid funds to develop real estate assets in exchange for yield. Validators record and verify transactions on the [blockchain](glossary.md#blockchain) in exchange for rewards from transaction fees and capital to develop new assets. Our Blockchain contains information about ALL Real Estate projects listed, such as Land Titles, Contracts, Budget Control, but also location, size, drawings, plans and other details of the development. ODIS is expected to inrcease in value as new assets are developed and new Validator are added to the system. The monetary policy and release of new coins is extrictely balanced with amount of Real Estate assets listed on ODISEO platform. 
 
-- **ODIS**: The ODISEO protocol’s native [staking](glossary.md#staking) token that absorbs the price volatility of ODISEO. ODIS is used for [governance](#governance) and in mining. Users stake ODIS to validators who record and verify transactions on the [blockchain](glossary.md#blockchain) in exchange for rewards from transaction fees. The more ODISEO is used, the more ODIS is worth.
+- **GAIA NFT Collections**: The NFT tokens known as GAIA represent ownership and the rights to utilize real estate assets. GAIA collections are electronic certificates of ownership for SPV shares, issued by independent SPV companies and made available on the market. The rights to a real estate asset and the responsibilities of SPV shareholders are determined by the SPV Share Class design, which is open to the public. Upon acquiring GAIA shares, the SPV opens a specific address within the SPV vault where the certificate is held until the underlying real estate asset is constructed. In the meantime, the electronic certificate can be traded on the platform. During the development process, decisions regarding the final use or disposal of the asset are made, and corresponding certificates are released to the owners. Shareholders who acquire SPV GAIA shares receive a predetermined amount of ODIS tokens, which can be staked within the SPV Validator Node to earn yield from the SPV development project. Each NFT/Share is a unique digital asset verified on the blockchain. GAIA NFT collections track the value of real estate assets and allow for betting against those shares. 
+
 
 ## How the ODISEO protocol works
 
-### Stablecoins
+### Liquid Real Estate protocol
 
-Stablecoins are the main feature of the ODISEO protocol: crypto assets that track the price of an underlying currency. As a digital form of currency, ODISEO stablecoins can be used just like [fiat currency](glossary.md#fiat-currency)  with [blockchain's](glossary.md#blockchain) added benefits: an unchangeable public ledger, instant transactions, faster settlement times, and fewer fees.
+The ODISEO protocol uses the basic market forces of supply and demand to maintain the price of ODIS. When the demand for ODIS is high and the supply is limited, the price of ODIS increases. When the demand for ODIS is low and the supply is too large, the price of ODIS decreases. Liquid Real Esate protocol ensures the supply and demand of ODIS is balanced, leading to a reasobably stable prices. New ODIS coins is extrictely balanced with amount of Real Estate assets listed on ODISEO platform. 
 
-Stablecoins are only valuable to users if they maintain their [price peg](glossary.md#peg). The ODISEO protocol uses the basic market forces of supply and demand to maintain the price of ODISEO. When the demand for ODISEO is high and the supply is limited, the price of ODISEO increases. When the demand for ODISEO is low and the supply is too large, the price of ODISEO decreases. The protocol ensures the supply and demand of ODISEO is always balanced, leading to a stable price.
+- **Expansion**: Incorporating a new Special Purpose Vehicle (SPV) company for real estate development is the first step before listing a new development project on the ODISO blockchain. This process involves the creation of a separate legal entity to handle the specific project, with its own assets and liabilities separate from other projects. Subsequently new Real estate development projects (SPVs) can submit proposals for listing on the blockchain through the DAODISEO Governance platform. 
 
-### Expansion and contraction
+The due diligence process for approving an SPV listing on the ODISEO blockchain include the following steps:
 
-Imagine the whole ODISEO economy as two pools: one for ODISEO and one for ODIS. To maintain the price of ODISEO, the ODIS supply pool adds to or subtracts from ODISEO’s supply. Users burn ODIS to mint ODISEO and burn ODISEO to mint ODIS, all incentivized by the protocol's algorithmic [market module](../develop/module-specifications/spec-market.md).
+1. Review of the company's financial statements: This includes reviewing the company's balance sheet, income statement, and cash flow statement to ensure that the company is financially sound and has the resources to complete the development project.
 
-- **Expansion**: When the price of ODISEO is high relative to its [peg](glossary.md#peg), supply is too small and demand is too high. The protocol incentivizes users to burn ODIS and mint ODISEO. The new supply of ODISEO makes its pool larger, balancing supply with demand. Users mint more ODISEO from burned ODIS until ODISEO reaches its target price. The ODIS pool gets smaller in this process, increasing the price of ODIS.
+2. Review of the company's legal and regulatory compliance: This includes verifying that the company is in compliance with all applicable laws and regulations, and that it has the necessary permits and licenses to conduct its business.
 
-- **Contraction**: When the price of ODISEO is too low relative to its peg, supply is too large and demand is too low. The protocol incentives users to burn ODISEO and mint ODIS. The decrease in ODISEO’s supply causes scarcity, and the price of ODISEO increases. More ODIS is minted from burned ODISEO until ODISEO reaches its target price. The ODIS pool increases and lowers in price.
+3. Review of the company's business plan: This includes reviewing the company's plans for developing the real estate assets, including timelines, budgets, and expected returns on investment.
 
-ODIS is the variable counterpart to the stable asset ODISEO. By modulating supply, ODIS's price increases as the demand for stablecoins increases.
+4. Review of the company's management team: This includes verifying the qualifications and experience of the company's management team, and assessing their ability to successfully execute the business plan.
+
+5. Review of the company's assets: This includes verifying the ownership and condition of the real estate assets that the company plans to develop, and assessing their potential for appreciation.
+
+6. Review of the company's NFT issuance plan: This includes reviewing the issuance plan of the NFTs representing the ownership of the SPV shares, and assessing the compliance with the regulations and standards of the ODISEO blockchain.
+
+After completing the due diligence process, the ODISEO Governance can make an informed decision on whether to approve the SPV listing and allow the company to set up a new node and issue NFTs representing the ownership of the shares.If the proposal is approved, the system will mint a new GAIA NFTs that represents the rights to the real estate assets held by SPV. The GAIA NFTs will be parked in the ODISEO SPV Vault as collateral until asset is fully developed.
+
+In exchange for the GAIA NFTs, the system will mint a corresponding amount of ODIS tokens and allocate them to the project developer (SPV). The issuance rate will be based on the approved budget for the project and may be adjusted over time as the project progresses and as market conditions change.
+
+The ODIS tokens issued to the project developer can be sold to ODISEO users and used to stake to the newly created validator node. At the same time provide access to revenue stream from yield as well as provide ability to participate in DAODISEO Governance.
+
+- **Contraction**: When a real estate development project is sold or disposed of outside of the ODISEO protocol, the GAIA NFTs representing the rights to the asset will be removed from the DAODISEO Vault and destroyed.
+
+In exchange for the GAIA NFTs, the system will contract the corresponding amount of ODIS tokens that were issued to the project developer. The contraction rate will be based on the approved budget for the project and may be adjusted over time as market conditions change.
+
+The ODIS tokens that are contracted will be permanently removed from circulation, reducing the overall supply of ODIS tokens in the system.
+
+Overall, this approach could provide a transparent and fair mechanism for contracting the ODIS supply in a controlled and orderly manner, while also aligning the interests of stakeholders and promoting the overall health and stability of the system. It may be helpful to seek the advice of legal and financial professionals with expertise in real estate and token issuance in order to ensure compliance with all applicable laws and regulations.
+
 
 ### The market module and arbitrage
 
-The price stability of ODISEO is achieved by the protocol's algorithmic [market module](../develop/module-specifications/spec-market.md), which incentivizes the minting or burning of ODISEO through arbitrage opportunities. [Arbitrage](glossary.md#arbitrage) occurs when a user profits from price differences between markets.
+The price stability of ODIS is achieved by the DAO Governance [market module](../develop/module-specifications/spec-market.md), which incentivizes the minting or burning of ODIS through arbitrage opportunities. [Arbitrage](glossary.md#arbitrage) occurs when a user profits from price differences between markets.
 
-The ODISEO protocol's market module enables users to always trade 1 USD worth of ODIS for 1 UST, and vice versa, incentivizing users to maintain the price of ODISEO. This same principle is true for all ODISEO stablecoin denominations.
+The Liquid Real Estate ODISEO protocol enables users to always trade ODIS for ATOM, and vice versa, incentivizing users to maintain the price of ODIS. 
 
-Users can access the mint and burn function of the market module by performing [market swaps](./glossary.md#market-swap) in [ODISEO Station](./glossary.md#ODISEO-station).
+Users can access the Liquid Real Estate ODISEO protocol by performing [market swaps](./glossary.md#market-swap) in [ODISEO Station](./glossary.md#ODISEO-station).
 To learn how to use the market swap feature of ODISEO Station, visit the [ODISEO Station market swap guide](./ODISEO-station/swap.md#market-swap).
 
-- **Example**  
-  If 1 UST is trading at 1.01 USD, users can use the market swap feature of ODISEO Station to trade 1 USD of ODIS for 1 UST. The market burns 1 USD of ODIS and mints 1 UST. Users can then sell their 1 UST for 1.01 USD, profiting .01 USD through arbitrage, adding to the UST pool. This arbitrage continues until UST price falls back to match the price of USD, maintaining ODISEO's [peg](glossary.md#peg).
-
-The same arbitrage mechanism works in reverse for contraction.
-
-- **Example**  
-  If 1 UST is trading at .99 USD, users can buy 1 UST for .99 USD. Users then utilize ODISEO Station's [market swap](./glossary.md#market-swap) function to trade 1 UST for 1 USD of ODIS. The swap burns 1 UST and mints 1 USD of ODIS. Users profit .01 UST from the swap. This arbitrage continues, and UST is burned to mint ODIS until the price of UST rises back to 1 USD.
 
 ### Scalability
 
-The ODISEO protocol is scalable: it is designed to maintain ODISEO's price stability regardless of market size, volatility, or demand. The monetary policies encoded into the protocol ensure its durability and resilience in all market fluctuations.
+The ODISEO protocol is scalable: New development project are expected to join DAODISEO. We are envisioning highly decentralized blockchain network that grow organically across multiple jurisdications. Protocol is designed to maintain ODIS price stability regardless of market size, volatility, or demand. The monetary policies encoded into the protocol ensure its durability and resilience in all market fluctuations.
 
 ### Seigniorage and deflation
 
-[Seigniorage](glossary.md#seigniorage) is the value of a coin minus the cost of its production. In early versions of the ODISEO protocol, seigniorage was diverted to fund various community projects. While seigniorage can create enormous value, it also creates inflation in the system.
-All seigniorage in the ODISEO protocol is [burned](glossary.md#burn), making ODIS deflationary in nature.
+[Seigniorage](glossary.md#seigniorage) is the value of a coin minus the cost of its production. In early versions of the ODISEO protocol, seigniorage will be diverted to fund various community projects. While seigniorage can create enormous value, it also creates inflation in the system. We expect in the future that all seigniorage in the ODISEO protocol is [burned](glossary.md#burn), making ODIS deflationary in nature.
 
 ## Validators
 
-Validators are the miners of the ODISEO [blockchain](./glossary.md#blockchain). They are responsible for securing the ODISEO blockchain and ensuring its accuracy. Validators run programs called full nodes which allow them to verify each transaction made on the ODISEO network. Validators propose blocks, vote on their validity, and add each new block to the chain in exchange for staking rewards from transaction fees. Users can stake their ODIS to validators in exchange for staking rewards. Validators also play an important role in the governance of the ODISEO protocol.
+Validators are SPVs that carry out Real Estate development projects on ODISEO [blockchain](./glossary.md#blockchain). They are responsible for securing the ODISEO blockchain and ensuring its accuracy. Validators run programs called full nodes which allow them to verify each transaction made on the ODISEO network. Validators propose blocks, vote on their validity, and add each new block to the chain in exchange for staking rewards from transaction fees. Users can stake their ODIS to validators in exchange for staking rewards. Validators also play an important role in the governance of the ODISEO protocol.
 
 For more information on validators, visit the [Validator FAQ](../full-node/manage-a-ODISEO-validator/faq.md).
 
@@ -77,7 +89,7 @@ This process repeats, adding new blocks of transactions to the chain. Each valid
 
 Staking is the process of bonding ODIS to a validator in exchange for staking rewards.
 
-The ODISEO protocol only allows the top 130 validators to participate in consensus. A validator's rank is determined by their stake or the total amount of ODIS bonded to them. Although validators can bond ODIS to themselves, they mainly amass larger stakes from delegators. Validators with larger stakes get chosen more often to propose new blocks and earn proportionally more rewards.
+The ODISEO protocol currenlty only allows the top 8 validators to participate in consensus. A validator's rank is determined by their stake or the total amount of ODIS bonded to them. Although validators can bond ODIS to themselves, they mainly amass larger stakes from delegators. Validators with larger stakes get chosen more often to propose new blocks and earn proportionally more rewards.
 
 To learn how to stake your ODIS and earn staking rewards, visit the [ODISEO Station staking guide](ODISEO-station/staking.md)
 
