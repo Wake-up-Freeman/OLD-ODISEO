@@ -26,7 +26,7 @@
 
 ### Who are the trustees of the DAODISEO community Trust?
 
-- The initial trustees of the DAODISEO community Trust are Ryan Moore and Remi Tetot, and the initial enforcer of the trust is Gabriel Shapiro; however, the community may vote to replace any one of these individuals at any time.
+- The initial trustees of the DAODISEO community Trust are 5 elected members, and the initial enforcer of the trust is XXXXXXXXXXX; however, the community may vote to replace any one of these individuals at any time.
 
 ### What is a fiduciary relationship?
 

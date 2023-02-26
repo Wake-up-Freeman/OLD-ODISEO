@@ -2,21 +2,32 @@
 
 Use this glossary to learn about terms specific to the ODISEO Protocol.
 
-## Active set
+## Active Real Estate Validation nodes
 
-The top 130 [validators](#validator) that participate in consensus and receive rewards.
+The top 100 [validators](#validator) that participate in consensus and receive rewards.
 
 ## Air drops
 
 Additional rewards given to [delegators](#delegator) through certain [validators](#validator), separate from [staking rewards](#rewards). Airdrops come from protocols in the ODISEO ecosystem to increase visibility. To claim an airdrop, visit the webpage of the protocol giving out the airdrop.
 
-## Algorithmic stablecoin
+## Liquid ODIS Briks & Real Estate Smart Contracts Sets
 
-A cryptocurrency that tracks the price of any asset, usually currency. Algorithmic stablecoins maintain their price peg through a set of rules or software instead of an underlying asset.
+The nodes on our blockchain represent the investment in a real estate development project.
 
-For more information on stablecoins created by the ODISEO protocol, see [ODISEO stablecoins](#ODISEO-stablecoins)
+Our Blockchain contains information about ALL Real Estate projects listed, such as Land Titles, Contracts, Budget Control, but also location, size, drawings, plans and other details of the development.   
 
-## Arbitrage
+The GAIA NFT collections will represent the ownership and therefore the rights to real estate assets. Each NFT would be a unique digital asset that is verified on the blockchain and represents the right to specific real estate asset for ever, and ultimately represent the corresponding SPV share owned.
+
+Each SPV / Development Project / ODISEO Node might decide to sell ALL its NFTs to the "world outside of ODISEO Network ", therefore also write them off from their Financial books together with corresponding assets. In such case their digital version represented on the ODISEO Network will burned.
+Any SPV / Development Project / ODISEO Node can also decide to continue running operations leveraging ODISEO Facility Management service. In such case corresponding ODISEO Node will continue running, with adjusted yield as it corresponds to the Facility Management contract.
+In any case Real Estate Development project that once ran on ODISEO Network are expected to acquire back ODIS tokens to continue their Real Estate Development Business on our blockchain.
+To purchase fractional rights to a real estate asset, a user would need to have sufficient fungible utility tokens ODIS in their wallet. They could then use these tokens to purchase a GAIA NFT token representing the partial ownership of real estate asset. In case transaction is done in FIAT, SPV will be responsible for ODIS buy back.
+
+The change of ownership of a real estate asset will be recorded on the blockchain, and the specific NFT token will be transferred to the new owner during swap process. The transaction will be recorded on the blockchain, ensuring the security and transparency of the process.
+
+The fungible utility tokens could be exchanged for ATOMs using our Liquid Real Estate Swap facility, allowing users to exchange as they would any other digital asset. The NFT tokens, on the other hand, will represent SPV corresponding shares class as per SPV contract agreement accessible from our Network. Those share class assets can be swapped for ODIS fungible token at any time also using our Liquid Real Estate Swap facility.
+
+ ## Arbitrage
 
 To profit from price differences across different markets. Arbitrageurs buy coins in one market and sell them on another market for a higher price.
 
@@ -28,9 +39,9 @@ An unchangeable ledger of transactions copied among a network of independent com
 
 Groups of information stored on a [blockchain](#blockchain). Each block contains transactions that are grouped, verified, and signed by validators.
 
-## bODIS
+## ODIS
 
-A token representing bonded ODIS that can be traded freely or used as collateral on other protocols in the ODISEO network, such as [Zeus](https://Zeusprotocol.com/) and [Mirror](https://mirror.finance/). Bonded ODIS takes 21 days to become unbonded.
+A token can be traded freely or used as collateral on other protocols in the ODISEO network, such as [Zeus](https://Zeusprotocol.com/). Bonded ODIS takes 21 days to become unbonded.
 
 ## Bonded validator
 
@@ -44,17 +55,17 @@ When a user [delegates](#delegate) or bonds ODIS to a [validator](#validator) to
 
 The destruction of coins. The ODISEO protocol burns [ODIS](#ODIS) to mint [ODISEO stablecoins](#ODISEO-stablecoins) and vice versa. Burned coins are destroyed.
 
-## CHAI
+## Mobile ODISEO app
 
-A mobile payments app powered by ODISEO's blockchain network.
+A mobile app powered by ODISEO's blockchain network.
 
-## Columbus-5
+## ODISEO 500BC
 
 The current version of the [ODISEO mainnet](#ODISEO-mainnet).
 
 ## Commission
 
-The percentage of [staking rewards](#rewards) a [validator](#validator) keeps before distributing the rest of the rewards to [delegators](#delegator). Commission is a validator’s income. Validators set their own commission rates.
+The percentage of [staking rewards](#rewards) a [validator](#validator) keeps before distributing the rest of the rewards to [delegators](#delegator). Commission is a validator’s income. Validators (Real Estate Development companies) set their own commission rates for each Development Project.
 
 ## Community pool
 
@@ -137,11 +148,11 @@ Validators who misbehave are jailed or excluded from the [active set](#active-se
 
 ## Market swap
 
-A swap in ODISEO Station that uses the ODISEO protocol's market function. Market swaps occur between ODISEO stablecoin denominations or between ODISEO and ODIS. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
+A swap in ODISEO Station that uses the ODISEO protocol's market function. Market swaps occur between Real Estate Assets and ODIS, or between ODIS and ATOM. Market swaps spend [gas](#fees) and incur either a [Tobin tax](#fees) or a [Spread fee](#fees).
 
 **Examples**
-- Swapping UST for KRT in ODISEO Station will charge a Tobin tax and gas fees.
-- Swapping ODIS for UST in ODISEO Station will charge a spread fee and gas fees.
+- Swapping GAIA Real Estate Certificated in ODISEO Station will charge a Tobin tax and gas fees.
+- Swapping ODIS and ATOM will charge a spread fee and gas fees.
 
 To learn how to use the market swap feature in ODISEO station, visit [how to use ODISEO Station](./ODISEO-station/swap.md).
 
@@ -149,7 +160,7 @@ For more information on fees, visit [Fees on ODISEO](fees.md).
 
 ## Mint
 
-The creation of new coins. Minting is the opposite of burning. The ODISEO protocol burns ODIS to mint ODISEO stablecoins and vice versa.
+The creation of new coins. Minting is the opposite of burning. The ODISEO protocol is minting new ODIS tokens when new Assetss own by SPV Legal Entity are listed on ODISEO Network and burns ODIS when assetss are sold outside of the Network (This exit strategy must be allowed for good of all parties).
 
 ## Miss
 

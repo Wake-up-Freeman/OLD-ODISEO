@@ -1,10 +1,10 @@
-# ODISEO MyRealEstateBackedWallet
+# ODISEO station
 
-ODISEO MyRealEstateBackedWallete official wallet of the ODISEO blockchain. If this is your first time usin MyRealEstateBackedWallett the [download tutorial](download/README.md) to create a wallet.
+ODISEO station official wallet of the ODISEO blockchain. If this is your first time using ODISEO station [download tutorial](download/README.md) to create a wallet.
 
 ```{toctree}
 :hidden:
-:caption: ODISEO MyRealEstateBackedWalletoad/README
+:caption: ODISEO-station/README
 wallet
 send
 staking
@@ -20,16 +20,9 @@ testnet
 :gutter: 3
 
 :::{grid-item-card}
-:link: download/README.html
-:class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /img/wallet MyRealEstateBackedWalletclass: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
-```
-**Downloa MyRealEstateBackedWallet:::
-
-:::{grid-item-card}
 :link: wallet.html
 :class-card: sd-text-center sd-shadow-md sd-rounded-3
-```{image} /im MyRealEstateBackedWallet.svg
+```{image} /img/wallets_station.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Create a wallet**  
@@ -96,7 +89,4 @@ MyRealEstateBackedWalletp**
 ```{image} /img/Faucet.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Faucet**  
-:::
-
 :::::::

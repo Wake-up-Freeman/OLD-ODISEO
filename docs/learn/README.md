@@ -4,7 +4,7 @@ Discover [how the ODISEO protocol works](protocol.md) and learn about [validator
 
 ```{toctree}
 :hidden:
-terra-station/README
+odiseo-station/README
 protocol
 fees
 glossary

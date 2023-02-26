@@ -1,6 +1,6 @@
 # ODISEO Docs
 
-Welcome to the official documentation for DAODISEO, a decentralized financial infrastructure powering the innovation of money. ODISEO provides the foundational building blocks for a new digital economy with its stablecoin protocol, oracle system, smart contracts, and plan for mass-user adoption.  
+Welcome to the official documentation for DAODISEO, a decentralized financial infrastructure powering the innovation of money. DAODISEO provides the foundational building blocks for a new real estate digital economy with its network of existing real estate development projects that leverage the DAODISEO Open Ledger to interact with their customers. They do so by creating a fully trusted and transparent environment where all parties can access reliable information about the assets under development, while contributing to the security of the network by running DAODISEO validation nodes. 
 
 :::::::{grid} 2 2 2 3
 :gutter: 3
@@ -12,7 +12,7 @@ Welcome to the official documentation for DAODISEO, a decentralized financial in
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **What is ODISEO?**  
-Learn about ODISEO stablecoins, Odis, rewards, staking, and governance.
+Learn about ODISEO Liquid Real Estate protocol.
 :::
 
 :::{grid-item-card}
@@ -22,7 +22,7 @@ Learn about ODISEO stablecoins, Odis, rewards, staking, and governance.
 :class: sd-width-auto sd-pb-2 sd-animate-grow50-rot20
 ```
 **Get started with Station**  
-Create a wallet and stake Odis for rewards.
+Create a wallet and stake ODIS for rewards.
 :::
 
 :::{grid-item-card}
@@ -52,7 +52,7 @@ Set up your environment and start building.
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
 **Explore the ecosystem**  
-Discover ODISEO's vast network of dApps and exchanges.
+Discover ODISEO's dApps and projects under development.
 :::
 
 :::{grid-item-card}
@@ -61,7 +61,7 @@ Discover ODISEO's vast network of dApps and exchanges.
 ```{image} /img/icon_core.svg
 :class: sd-width-auto sd-animate-grow50-rot20 sd-pb-2
 ```
-**Unearth ODISEO Core**  
+**ODISEO Core**  
 Learn about the modules at the heart of the protocol.
 :::
 

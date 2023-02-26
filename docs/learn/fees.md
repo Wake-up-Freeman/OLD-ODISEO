@@ -4,8 +4,8 @@ On the ODISEO network, all transactions incur a gas fee. Transactions involving 
 
 |                                                                        | [Gas](#gas) | [Tobin](#tobin-tax) | [Spread](#spread-fee) |
 |------------------------------------------------------------------------|-------------|---------------------|-----------------------|
-| [Market swaps](./glossary.md#market-swap) between stablecoins          | x           | x                   |                       |
-| [Market swaps](./glossary.md#market-swap) between stablecoins and ODIS | x           |                     | x                     |
+| [Market swaps](./glossary.md#market-swap) between ODIS & ATOM          | x           | x                   |                       |
+| [Market swaps](./glossary.md#market-swap) between Real Estate GAIA Certificates and ODIS | x           |                     | x                     |
 
 All other transactions only incur the gas fee.
 ODISEOswap or other dApps may charge their own transaction fees on top of ODISEO network fees.
